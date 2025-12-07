@@ -177,7 +177,7 @@ export default function ContextoPage() {
                   <BookOpen className="w-4 h-4" />
                   <span className="text-sm">Asignatura</span>
                 </div>
-                <p className="font-semibold">Análisis Actuarial del Riesgo</p>
+                <p className="font-semibold">Administración Actuarial del Riesgo</p>
                 <p className="text-sm text-white/70">Semestre 2026-1</p>
               </div>
               <div className="bg-white/10 rounded-xl p-4">
