@@ -1,0 +1,42 @@
+REPORTE DE CLASIFICACIÓN - FASE 2
+================================================================================
+Fecha: 2025-12-06 15:04:20
+
+=== RESUMEN GENERAL ===
+Total causas únicas: 9,409
+Clasificadas manualmente (Fase 1): 1,500
+Clasificadas por modelo (Fase 2): 7,909
+Cobertura de siniestros: 100.00%
+
+=== DISTRIBUCIÓN POR NIVEL ===
+Nivel 1: 4,174.0 causas (44.4%) | 2,353,670 siniestros (49.9%)
+Nivel 2: 2,978.0 causas (31.7%) | 1,736,686 siniestros (36.8%)
+Nivel 3: 2,257.0 causas (24.0%) | 622,829 siniestros (13.2%)
+
+=== CONFIANZA DEL MODELO ===
+Alta (≥60%): 1,613 causas (20.4%)
+Media (40-60%): 5,513 causas (69.7%)
+Baja (<40%): 783 causas (9.9%)
+
+=== TOP 10 CAUSAS POR NIVEL ===
+
+Nivel 1:
+  [manual] 409,300: OTRAS ENFERMEDADES DE LOS TEJIDOS DUROS DE LOS DIENTES
+  [40%] 245,759: DESCONOCIDO
+  [manual] 122,070: CARIES DENTAL
+  [manual] 110,304: ALTERACIONES DE LA VISION
+  [manual] 75,148: EMBARAZO CONFIRMADO
+
+Nivel 2:
+  [manual] 80,050: PARTO POR CESÁREA ELECTIVA
+  [manual] 74,348: DESVIACIÓN DEL TABIQUE NASAL
+  [manual] 72,207: COVID-19, VIRUS IDENTIFICADO
+  [manual] 55,556: CÁLCULO DE LA VESÍCULA BILIAR CON COLECISTITIS AGUDA
+  [manual] 47,828: PARTO POR CESÁREA, SIN OTRA ESPECIFICACIÓN
+
+Nivel 3:
+  [manual] 32,008: APENDICITIS AGUDA CON PERITONITIS GENERALIZADA
+  [manual] 27,050: DIABETES MELLITUS TIPO 2, CON COMA
+  [manual] 25,066: TUMOR MALIGNO DEL PEZÓN Y ARÉOLA MAMARIA
+  [manual] 24,129: TRASTORNOS DE DISCOS INTERVERTEBRALES LUMBARES Y OTROS, CON 
+  [manual] 14,406: TUMOR MALIGNO DE LA MAMA, PARTE NO ESPECIFICADA

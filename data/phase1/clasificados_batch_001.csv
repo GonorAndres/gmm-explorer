@@ -1,0 +1,151 @@
+causa,nivel,justificacion_medica,cie10,confianza
+OTRAS ENFERMEDADES DE LOS TEJIDOS DUROS DE LOS DIENTES,1,Patología dental que requiere atención odontológica ambulatoria sin hospitalización,K03,alta
+CARIES DENTAL,1,Enfermedad dental de manejo ambulatorio con tratamientos odontológicos conservadores o restaurativos,K02,alta
+ALTERACIONES DE LA VISION,1,Trastornos refractivos o visuales que requieren evaluación oftalmológica ambulatoria y corrección con lentes o tratamiento menor,H53,alta
+PARTO POR CESÁREA ELECTIVA,2,Cirugía obstétrica programada con hospitalización típica de 2-4 días,O82.0,alta
+EMBARAZO CONFIRMADO,1,Diagnóstico confirmatorio que requiere consulta prenatal ambulatoria sin intervención,Z32.1,alta
+DESVIACIÓN DEL TABIQUE NASAL,2,Condición que frecuentemente requiere septoplastia quirúrgica programada con hospitalización breve,J34.2,alta
+"COVID-19, VIRUS IDENTIFICADO",2,"Infección que puede requerir hospitalización según severidad, clasificación media por espectro variable de presentación",U07.1,media
+CÁLCULO DE LA VESÍCULA BILIAR CON COLECISTITIS AGUDA,2,Urgencia quirúrgica que requiere colecistectomía con hospitalización de 2-4 días,K80.0,alta
+"PARTO POR CESÁREA, SIN OTRA ESPECIFICACIÓN",2,Cirugía obstétrica con hospitalización estándar de 2-4 días,O82.9,alta
+EXAMEN GENERAL E INVESTIGACION DE PERSONAS SIN QUEJAS O SIN DIAGNOSTICO INFORMADO,1,Examen preventivo o chequeo médico general realizado de forma ambulatoria,Z00.0,alta
+HIPERTENSIÓN ESENCIAL (PRIMARIA),1,Enfermedad crónica de manejo ambulatorio con seguimiento y tratamiento farmacológico,I10,alta
+CÁLCULO DEL RIÑÓN,2,Litiasis renal que puede requerir procedimientos urológicos mínimamente invasivos o cirugía con hospitalización breve,N20.0,alta
+MENISCO QUÍSTICO,2,Patología de rodilla que requiere artroscopia programada con hospitalización menor a 24 horas o ambulatoria,M23.0,alta
+LEIOMIOMA SUBMUCOSO DEL ÚTERO,2,Mioma uterino que frecuentemente requiere resección quirúrgica programada vía histeroscópica o laparoscópica,D25.0,alta
+EXAMEN MÉDICO GENERAL,1,Consulta preventiva o de valoración inicial realizada de manera ambulatoria,Z00.0,alta
+ENFERMEDAD DEL REFLUJO GASTROESOFÁGICO CON ESOFAGITIS,1,"Patología digestiva de manejo ambulatorio con tratamiento médico, estudios endoscópicos pueden ser ambulatorios",K21.0,alta
+OTRAS GASTROENTERITIS Y COLITIS DE ORIGEN INFECCIOSO,1,Cuadro gastrointestinal agudo generalmente de manejo ambulatorio con hidratación y tratamiento sintomático,A09,alta
+"TRASTORNOS DE DISCO LUMBAR Y OTROS, CON RADICULOPATÍA",2,Hernia discal que puede requerir cirugía de columna programada con hospitalización de 2-5 días,M51.1,alta
+APENDICITIS AGUDA CON PERITONITIS GENERALIZADA,3,"Emergencia quirúrgica abdominal grave que requiere apendicectomía urgente, UCI y hospitalización prolongada por complicación séptica",K35.2,alta
+"DIABETES MELLITUS TIPO 2, CON COMA",3,Emergencia endocrinológica grave que requiere manejo en UCI por descompensación metabólica severa,E11.0,alta
+"LEIOMIOMA DEL ÚTERO, SIN OTRA ESPECIFICACIÓN",2,Tumor benigno uterino que frecuentemente requiere miomectomía o histerectomía programada,D25.9,alta
+COLECISTITIS AGUDA,2,Inflamación vesicular aguda que requiere colecistectomía con hospitalización de 2-4 días,K81.0,alta
+TUMOR MALIGNO DEL PEZÓN Y ARÉOLA MAMARIA,3,"Cáncer de mama que requiere tratamiento oncológico complejo con cirugía, quimioterapia y radioterapia",C50.0,alta
+"TRASTORNOS DE DISCOS INTERVERTEBRALES LUMBARES Y OTROS, CON MIELOPATÍA",3,Compresión medular que requiere cirugía urgente de columna con hospitalización prolongada y manejo neurológico especializado,M51.0,alta
+ENFERMEDADES DE LA PULPA Y DE LOS TEJIDOS PERIAPICALES,1,Patología endodóntica dental de manejo odontológico ambulatorio con tratamiento de conductos o extracción,K04,alta
+"PARTO ÚNICO ESPONTÁNEO, PRESENTACIÓN CEFÁLICA DE VÉRTICE",2,Parto vaginal normal que requiere hospitalización obstétrica de 1-2 días,O80.0,alta
+CÁLCULO DEL URÉTER,2,Litiasis ureteral que puede requerir ureteroscopia o litotricia con hospitalización breve,N20.1,alta
+ESGUINCES Y TORCEDURAS DEL TOBILLO,1,Lesión musculoesquelética de manejo ambulatorio con inmovilización y rehabilitación,S93.4,alta
+"INFECCIÓN DE VÍAS URINARIAS, SITIO NO ESPECIFICADO",1,Infección urinaria generalmente de manejo ambulatorio con antibióticos orales,N39.0,alta
+"NACIDO VIVO, ÚNICO",1,Recién nacido sano producto de parto sin complicaciones que requiere observación hospitalaria rutinaria de 1-2 días,Z38.0,alta
+"APENDICITIS AGUDA, NO ESPECIFICADA",2,Urgencia quirúrgica abdominal que requiere apendicectomía con hospitalización de 2-3 días,K35.9,alta
+GASTRITIS AGUDA HEMORRÁGICA,2,Sangrado digestivo alto que requiere hospitalización para endoscopia urgente y manejo hemodinámico,K29.0,alta
+INSUFICIENCIA VENOSA (CRÓNICA) (PERIFÉRICA),1,"Enfermedad vascular crónica de manejo ambulatorio con medias de compresión y seguimiento, cirugía programada si requiere",I87.2,alta
+ASTIGMATISMO,1,Defecto refractivo que requiere consulta oftalmológica ambulatoria y corrección con lentes,H52.2,alta
+"HERNIA INGUINAL BILATERAL CON OBSTRUCCIÓN, SIN GANGRENA",2,Hernia complicada que requiere cirugía urgente bilateral con hospitalización de 2-4 días,K40.3,alta
+HIPERPLASIA DE LA PRÓSTATA,1,"Condición urológica benigna de manejo ambulatorio, cirugía programada si indicada (RTU) con hospitalización breve",N40,media
+"TUMOR MALIGNO DE LA MAMA, PARTE NO ESPECIFICADA",3,"Cáncer de mama que requiere tratamiento oncológico complejo con cirugía, quimioterapia y radioterapia",C50.9,alta
+HERNIA UMBILICAL SIN OBSTRUCCIÓN NI GANGRENA,2,Hernia no complicada que requiere hernioplastia programada con hospitalización de 1-2 días,K42.9,alta
+LUMBAGO NO ESPECIFICADO,1,"Dolor lumbar de manejo ambulatorio con analgésicos, fisioterapia y medidas conservadoras",M54.5,alta
+CONTUSIÓN DE LA RODILLA,1,Traumatismo cerrado de manejo ambulatorio con analgesia y reposo,S80.0,alta
+DIARREA Y GASTROENTERITIS DE PRESUNTO ORIGEN INFECCIOSO,1,Cuadro gastrointestinal agudo generalmente de manejo ambulatorio con hidratación oral,A09,alta
+"PARTO ÚNICO ESPONTÁNEO, SIN OTRA ESPECIFICACIÓN",2,Parto vaginal que requiere hospitalización obstétrica de 1-2 días,O80.9,alta
+CÁLCULO DEL RIÑÓN CON CÁLCULO DEL URÉTER,2,Litiasis renal y ureteral que puede requerir ureteroscopia o nefrolitotomía con hospitalización breve,N20.2,alta
+TUMOR DE COMPORTAMIENTO INCIERTO O DESCONOCIDO DEL OVARIO,2,Masa ovárica que requiere cirugía ginecológica programada con estudio histopatológico y hospitalización,D39.1,alta
+TUMOR DE COMPORTAMIENTO INCIERTO O DESCONOCIDO DE LA MAMA,2,Lesión mamaria que requiere biopsia excisional o resección quirúrgica programada para diagnóstico definitivo,D48.6,alta
+OTROS TRASTORNOS DE LOS MENISCOS,2,Lesión meniscal que requiere artroscopia de rodilla programada con hospitalización menor a 24 horas,M23.8,alta
+OTROS QUISTES OVÁRICOS Y LOS NO ESPECIFICADOS,2,Quiste ovárico que puede requerir cistectomía laparoscópica programada con hospitalización de 1-2 días,N83.2,alta
+EPILEPSIA Y SÍNDROMES EPILÉPTICOS IDIOPÁTICOS RELACIONADOS CON LOCALIZACIONES (FOCALES)(PARCIALES) Y CON ATAQUES DE INICIO LOCALIZADO,1,"Epilepsia focal de manejo neurológico ambulatorio con anticonvulsivantes, hospitalización solo en crisis refractarias",G40.0,media
+FRACTURA DE LA RÓTULA,2,Fractura que frecuentemente requiere reducción quirúrgica abierta con osteosíntesis y hospitalización de 2-4 días,S82.0,alta
+HIPERMETROPÍA,1,Defecto refractivo que requiere consulta oftalmológica ambulatoria y corrección con lentes,H52.0,alta
+OTRAS ENFERMEDADES INFECCIOSAS Y LAS NO ESPECIFICADAS,1,"Infecciones generalmente de manejo ambulatorio, clasificación depende de severidad no especificada",B99,baja
+ESGUINCES Y TORCEDURAS QUE COMPROMETEN EL LIGAMENTO CRUZADO (ANTERIOR) (POSTERIOR) DE LA RODILLA,2,Lesión ligamentaria que puede requerir reconstrucción artroscópica de LCA con hospitalización de 1-2 días,S83.5,alta
+HEMORROIDES INTERNAS TROMBOSADAS,2,Complicación hemorroidal que puede requerir hemorroidectomía urgente o programada con hospitalización breve,K64.0,alta
+PARTO UNICO POR CESAREA,2,Cirugía obstétrica con hospitalización estándar de 2-4 días,O82,alta
+CONSULTA PARA ATENCIÓN Y SUPERVISIÓN DE LA SALUD DE OTROS NIÑOS O LACTANTES SANOS,1,Control pediátrico de niño sano realizado de forma ambulatoria,Z76.2,alta
+"DESGARRO DE MENISCOS, PRESENTE",2,Lesión meniscal que requiere artroscopia de rodilla programada con hospitalización menor a 24 horas,M23.2,alta
+PRUEBA Y AJUSTE DE ANTEOJOS Y LENTES DE CONTACTO,1,Procedimiento optométrico ambulatorio para adaptación de corrección visual,Z46.0,alta
+MIOPÍA,1,Defecto refractivo que requiere consulta oftalmológica ambulatoria y corrección con lentes,H52.1,alta
+OTROS TRASTORNOS INTERNOS DE LA RODILLA,2,Patología articular de rodilla que puede requerir artroscopia diagnóstica o terapéutica programada,M23.8,media
+OTROS RECIÉN NACIDOS PRETÉRMINO,3,Prematurez que requiere manejo neonatal en UCI con hospitalización prolongada y cuidados intensivos,P07.3,alta
+PRESENCIA DE ANTEOJOS Y LENTES DE CONTACTO,1,"Estado que indica uso de corrección óptica, no requiere atención médica activa",Z97.3,alta
+OTRAS CONSULTAS ESPECIFICADAS,1,Consulta ambulatoria de seguimiento o valoración sin especificar patología,Z71.8,baja
+VÁRICES ESCROTALES,2,Varicocele que puede requerir varicocelectomía programada con hospitalización de 1 día,I86.1,alta
+"HERNIA INGUINAL UNILATERAL O NO ESPECIFICADA, SIN OBSTRUCCIÓN NI GANGRENA",2,Hernia no complicada que requiere hernioplastia programada con hospitalización de 1-2 días,K40.9,alta
+"HERNIA UMBILICAL CON OBSTRUCCIÓN, SIN GANGRENA",2,Hernia complicada que requiere cirugía urgente con hospitalización de 2-3 días,K42.0,alta
+EXAMEN DE LABORATORIO,1,Estudios de laboratorio clínico realizados de forma ambulatoria,Z01.7,alta
+EMBARAZO ABDOMINAL,3,Embarazo ectópico abdominal que requiere cirugía ginecológica de emergencia con manejo en UCI por riesgo de sangrado masivo,O00.0,alta
+DIENTES INCLUIDOS E IMPACTADOS,2,"Condición dental que requiere extracción quirúrgica programada, puede ser ambulatoria o con hospitalización breve según complejidad",K01,media
+FRACTURA DE LOS HUESOS DE LA NARIZ,1,Fractura nasal que generalmente requiere reducción cerrada ambulatoria sin hospitalización,S02.2,alta
+"INFECCIÓN DEBIDA A CORONAVIRUS, DE SITIO NO ESPECIFICADO",2,Infección por coronavirus que puede requerir hospitalización según severidad del cuadro clínico,B34.2,media
+TRAUMATISMO DE ESTRUCTURAS MÚLTIPLES DE LA RODILLA,2,Trauma complejo de rodilla que frecuentemente requiere cirugía reparadora artroscópica o abierta con hospitalización,S89.7,alta
+CARDIOMIOPATÍA ISQUÉMICA,3,"Enfermedad coronaria crónica grave que requiere manejo cardiológico especializado, procedimientos intervencionistas o cirugía de revascularización",I25.5,alta
+FRACTURA DE LA CLAVÍCULA,2,Fractura que puede requerir reducción abierta con fijación interna programada y hospitalización de 1-2 días,S42.0,alta
+LUXACIÓN DE LA ARTICULACIÓN DEL TOBILLO,2,Luxación que requiere reducción cerrada bajo sedación o reducción abierta quirúrgica con hospitalización breve,S93.0,alta
+INFARTO TRANSMURAL AGUDO DEL MIOCARDIO DE LA PARED ANTERIOR,3,"Emergencia cardiovascular que requiere manejo en UCI con cateterismo urgente, hospitalización prolongada y cuidados intensivos",I21.0,alta
+"CONSULTA, NO ESPECIFICADA",1,Consulta ambulatoria sin especificar motivo o patología,Z71.9,baja
+OTRAS RINITIS ALÉRGICAS,1,Rinitis alérgica de manejo ambulatorio con antihistamínicos y medidas de control ambiental,J30.3,alta
+RINITIS VASOMOTORA,1,Rinitis no alérgica de manejo ambulatorio con tratamiento sintomático,J30.0,alta
+CÁLCULO DE LA VESÍCULA BILIAR CON OTRA COLECISTITIS,2,Colecistitis calculosa que requiere colecistectomía programada con hospitalización de 2-3 días,K80.1,alta
+COLECISTITIS CRÓNICA,2,Inflamación vesicular crónica que requiere colecistectomía programada con hospitalización de 2-3 días,K81.1,alta
+"PREPUCIO REDUNDANTE, FIMOSIS Y PARAFIMOSIS",2,Condición urológica que requiere circuncisión programada con hospitalización de 1 día o ambulatoria,N47,alta
+"GASTRITIS, NO ESPECIFICADA",1,Gastritis de manejo ambulatorio con inhibidores de bomba de protones y endoscopia diagnóstica ambulatoria,K29.7,alta
+ANGINA INESTABLE,3,Síndrome coronario agudo que requiere hospitalización urgente en UCI con cateterismo y posible revascularización,I20.0,alta
+OTROS TRASTORNOS ESPECIFICADOS DE LA NARIZ Y DE LOS SENOS PARANASALES,1,"Patología nasosinusal generalmente de manejo ambulatorio, cirugía programada si requiere",J34.8,media
+OTRAS GASTRITIS AGUDAS,1,"Gastritis aguda generalmente de manejo ambulatorio con tratamiento médico, endoscopia si sangrado",K29.1,media
+CATARATA SENIL INCIPIENTE,2,Catarata que requiere facoemulsificación programada con hospitalización ambulatoria o de 1 día,H25.0,alta
+OTROS TRASTORNOS DE LA REFRACCIÓN,1,Defectos refractivos que requieren consulta oftalmológica ambulatoria y corrección óptica,H52.6,alta
+"ARTRITIS REUMATOIDE, NO ESPECIFICADA",1,"Enfermedad autoinmune de manejo reumatológico ambulatorio con tratamiento inmunosupresor, hospitalización solo en complicaciones",M06.9,media
+QUISTE FOLICULAR DEL OVARIO,2,Quiste ovárico que puede requerir cistectomía laparoscópica programada si persistente o sintomático,N83.0,alta
+"HERNIA INGUINAL BILATERAL, SIN OBSTRUCCIÓN NI GANGRENA",2,Hernia no complicada que requiere hernioplastia bilateral programada con hospitalización de 1-2 días,K40.2,alta
+FRACTURA DE LA EPÍFISIS INFERIOR DEL RADIO,2,Fractura distal de radio que frecuentemente requiere reducción cerrada o abierta con fijación y hospitalización breve,S52.5,alta
+"TRAUMATISMO, NO ESPECIFICADO",1,"Trauma inespecífico que generalmente se maneja de forma ambulatoria, clasificación depende de severidad no especificada",T14.9,baja
+"RINITIS ALÉRGICA, NO ESPECIFICADA",1,Rinitis alérgica de manejo ambulatorio con antihistamínicos,J30.4,alta
+INSUFICIENCIA RENAL TERMINAL,3,"Enfermedad renal crónica en estadio final que requiere hemodiálisis o diálisis peritoneal en unidad especializada, trasplante renal",N18.0,alta
+"DIABETES MELLITUS NO ESPECIFICADA, CON COMA",3,Emergencia metabólica grave que requiere manejo en UCI por descompensación diabética severa,E14.0,alta
+SUFRIMIENTO MATERNO DURANTE EL TRABAJO DE PARTO Y EL PARTO,2,"Complicación obstétrica que requiere atención hospitalaria urgente, posible cesárea de emergencia",O75,alta
+ENFERMEDAD DIVERTICULAR DEL INTESTINO DELGADO CON PERFORACIÓN Y ABSCESO,3,"Complicación quirúrgica abdominal grave que requiere cirugía de emergencia, UCI y hospitalización prolongada por sepsis",K57.0,alta
+LEIOMIOMA DEL UTERO,2,Mioma uterino que puede requerir miomectomía o histerectomía programada con hospitalización,D25,alta
+FRACTURA DE OTRO DEDO DE LA MANO,1,Fractura digital que generalmente requiere reducción cerrada e inmovilización ambulatoria,S62.6,alta
+"TRASTORNO INTERNO DE LA RODILLA, NO ESPECIFICADO",2,Patología articular de rodilla que puede requerir artroscopia diagnóstica o terapéutica programada,M23.9,media
+AMIGDALITIS CRÓNICA,2,Amigdalitis recurrente que requiere amigdalectomía programada con hospitalización de 1-2 días,J35.0,alta
+ENFERMEDAD DEL REFLUJO GASTROESOFÁGICO SIN ESOFAGITIS,1,ERGE de manejo ambulatorio con inhibidores de bomba de protones y medidas higiénico-dietéticas,K21.9,alta
+"NEUMONÍA, NO ESPECIFICADA",2,Neumonía que puede requerir hospitalización para antibióticos intravenosos según severidad del cuadro,J18.9,media
+"HIPOTIROIDISMO, NO ESPECIFICADO",1,Enfermedad endocrina de manejo ambulatorio con levotiroxina y seguimiento clínico,E03.9,alta
+HERNIA DIAFRAGMÁTICA SIN OBSTRUCCIÓN NI GANGRENA,2,Hernia hiatal o diafragmática que puede requerir reparación quirúrgica programada con hospitalización,K44.9,alta
+PTERIGIÓN,2,"Lesión conjuntival que requiere resección quirúrgica oftalmológica programada, generalmente ambulatoria",H11.0,alta
+"TRAUMATISMOS SUPERFICIALES MÚLTIPLES, NO ESPECIFICADOS",1,Heridas o contusiones superficiales de manejo ambulatorio con curación local,T00.9,alta
+FRACTURA DE LA DIÁFISIS DEL RADIO,2,Fractura de radio que requiere reducción cerrada o abierta con fijación interna y hospitalización de 1-2 días,S52.3,alta
+"DIABETES MELLITUS TIPO 1, CON COMA",3,Emergencia metabólica grave que requiere manejo en UCI por cetoacidosis diabética severa,E10.0,alta
+TRASTORNO INTERNO DE LA RODILLA,2,Patología articular de rodilla que puede requerir artroscopia programada con hospitalización breve,M23,media
+TUMOR MALIGNO DE LA GLÁNDULA TIROIDES,3,"Cáncer de tiroides que requiere tiroidectomía oncológica, yodo radioactivo y seguimiento endocrinológico especializado",C73,alta
+OTRAS GASTRITIS,1,Gastritis de manejo ambulatorio con tratamiento médico y endoscopia diagnóstica si requiere,K29.6,media
+"CATARATA INFANTIL, JUVENIL Y PRESENIL",2,Catarata que requiere facoemulsificación programada con hospitalización ambulatoria o de 1 día,H26,alta
+OTRAS LESIONES DEL HOMBRO,2,Lesión del hombro que puede requerir reparación artroscópica programada con hospitalización breve,S49.8,media
+APENDICITIS AGUDA,2,Urgencia quirúrgica abdominal que requiere apendicectomía con hospitalización de 2-3 días,K35,alta
+FRACTURA DEL HUESO ESCAFOIDES [NAVICULAR] DE LA MANO,2,Fractura escafoidea que puede requerir reducción abierta con fijación interna y hospitalización breve,S62.0,alta
+ASMA PREDOMINANTEMENTE ALÉRGICA,1,"Asma de manejo ambulatorio con broncodilatadores y corticoides inhalados, hospitalización solo en crisis severas",J45.0,media
+OTROS TRASTORNOS DE LA NARIZ Y DE LOS SENOS PARANASALES,1,"Patología nasosinusal generalmente de manejo ambulatorio, cirugía programada si requiere",J34.8,media
+PÓLIPO DEL CUERPO DEL ÚTERO,2,Pólipo endometrial que requiere resección histeroscópica programada con hospitalización ambulatoria o de 1 día,N84.0,alta
+ESGUINCES Y TORCEDURAS DE LA COLUMNA CERVICAL,1,"Lesión cervical de manejo ambulatorio con inmovilización, analgésicos y fisioterapia",S13.4,alta
+SÍNDROME DEL MANGUITO ROTATORIO,2,Lesión del manguito rotador que puede requerir reparación artroscópica programada con hospitalización de 1 día,M75.1,alta
+"TRASTORNOS DEL METABOLISMO DE LAS PROTEÍNAS PLASMÁTICAS, NO CLASIFICADOS EN OTRA PARTE",1,Trastorno metabólico generalmente de manejo ambulatorio con seguimiento clínico y tratamiento médico,E88.0,media
+TRASTORNO DE DISCO CERVICAL CON RADICULOPATÍA,2,Hernia discal cervical que puede requerir cirugía de columna programada con hospitalización de 2-4 días,M50.1,alta
+"HERIDA DE DEDO(S) DE LA MANO, SIN DAÑO DE LA(S) UÑA(S)",1,Herida digital que requiere sutura y curación ambulatoria,S61.0,alta
+ESCLEROSIS MÚLTIPLE,3,"Enfermedad neurológica autoinmune crónica que requiere manejo neurológico especializado con inmunomoduladores, hospitalización en brotes severos",G35,alta
+TUMOR MALIGNO DE LA PRÓSTATA,3,"Cáncer de próstata que requiere tratamiento oncológico complejo con prostatectomía radical, radioterapia y hormonoterapia",C61,alta
+"ABSCESO, FURÚNCULO Y CARBUNCO DE LA NARIZ",1,Infección cutánea nasal de manejo ambulatorio con antibióticos orales y drenaje si requiere,J34.0,alta
+FRACTURA DE LA EPÍFISIS SUPERIOR DEL CÚBITO,2,Fractura de olécranon que requiere reducción abierta con fijación interna y hospitalización de 1-2 días,S52.0,alta
+ENDOMETRIOSIS DEL ÚTERO,2,Adenomiosis que puede requerir cirugía ginecológica programada (histerectomía) con hospitalización,N80.0,alta
+SÍNDROME DEL COLON IRRITABLE SIN DIARREA,1,Trastorno funcional digestivo de manejo ambulatorio con tratamiento sintomático y modificación dietética,K58.9,alta
+LUXACIÓN DE LA ARTICULACIÓN DEL HOMBRO,2,Luxación que requiere reducción cerrada bajo sedación o reducción abierta con hospitalización breve,S43.0,alta
+"OTRAS NEUMONÍAS, DE MICROORGANISMO NO ESPECIFICADO",2,Neumonía que puede requerir hospitalización para antibióticos intravenosos según severidad,J18.8,media
+TROMBOSIS CORONARIA QUE NO RESULTA EN INFARTO DEL MIOCARDIO,3,Síndrome coronario agudo que requiere hospitalización en UCI con cateterismo urgente y manejo cardiológico especializado,I24.0,alta
+QUERATOCONO,2,"Degeneración corneal que puede requerir crosslinking corneal, anillos intracorneales o trasplante de córnea programado",H18.6,alta
+CARCINOMA IN SITU LOBULAR,3,Lesión premaligna mamaria que requiere cirugía oncológica programada y seguimiento oncológico estricto,D05.0,alta
+TRAUMATISMO DEL TENDÓN DE AQUILES,2,Ruptura del tendón de Aquiles que requiere reparación quirúrgica programada con hospitalización de 1-2 días,S86.0,alta
+MIGRAÑA SIN AURA [MIGRAÑA COMÚN],1,Cefalea primaria de manejo neurológico ambulatorio con analgésicos y tratamiento profiláctico,G43.0,alta
+"DIABETES MELLITUS TIPO 2, SIN MENCIÓN DE COMPLICACIÓN",1,Diabetes de manejo ambulatorio con hipoglucemiantes orales o insulina y seguimiento clínico,E11.9,alta
+HIPERTROFIA DE LAS AMÍGDALAS CON HIPERTROFIA DE LAS ADENOIDES,2,Hipertrofia adenoamigdalina que requiere adenoamigdalectomía programada con hospitalización de 1-2 días,J35.3,alta
+"GONARTROSIS PRIMARIA, BILATERAL",2,Artrosis de rodilla bilateral que puede requerir artroplastia total de rodilla bilateral programada con hospitalización prolongada,M17.0,media
+CAPSULITIS ADHESIVA DEL HOMBRO,1,"Hombro congelado de manejo ambulatorio con fisioterapia, infiltraciones y analgésicos, rara vez requiere artroscopia",M75.0,alta
+LUXACIÓN DE LA RÓTULA,2,Luxación patelar que puede requerir reducción cerrada o cirugía estabilizadora artroscópica programada,S83.0,alta
+"CATARATA, NO ESPECIFICADA",2,Catarata que requiere facoemulsificación programada con hospitalización ambulatoria o de 1 día,H26.9,alta
+ATRICIÓN EXCESIVA DE LOS DIENTES,1,Desgaste dental que requiere manejo odontológico ambulatorio con restauraciones o guardas oclusales,K03.0,alta
+OTROS TRASTORNOS DEL DESARROLLO Y CRECIMIENTO ÓSEO,1,"Trastorno del desarrollo óseo generalmente de manejo ambulatorio ortopédico, cirugía programada si requiere corrección",M89.2,media
+EXAMEN DE OJOS Y DE LA VISIÓN,1,Examen oftalmológico preventivo o diagnóstico realizado de forma ambulatoria,Z01.0,alta
+LEUCEMIA LINFOBLÁSTICA AGUDA [LLA],3,Cáncer hematológico agudo que requiere quimioterapia intensiva en UCI oncológica con hospitalización prolongada y trasplante de médula ósea,C91.0,alta
+CAMBIOS POSTERUPTIVOS DEL COLOR DE LOS TEJIDOS DENTALES DUROS,1,Cambios de coloración dental que requieren manejo odontológico ambulatorio estético con blanqueamiento o restauraciones,K03.7,alta
+HALLUX VALGUS (ADQUIRIDO),2,Juanete que puede requerir osteotomía correctora programada (cirugía de hallux valgus) con hospitalización de 1 día,M20.1,alta
+"TRASTORNO DE DISCO LUMBAR Y OTROS, CON RADICULOPATIA",2,Hernia discal lumbar que puede requerir cirugía de columna programada con hospitalización de 2-5 días,M51.1,alta

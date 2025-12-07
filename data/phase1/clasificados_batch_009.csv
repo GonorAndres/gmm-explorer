@@ -1,0 +1,151 @@
+causa,nivel,justificacion_medica,cie10,confianza
+PERICARDITIS CONSTRICTIVA CRÓNICA,3,"Enfermedad cardiovascular crónica grave que requiere manejo en alta especialidad, monitoreo intensivo y potencial intervención quirúrgica compleja",I31.1,alta
+OTRAS GONARTROSIS POSTRAUMÁTICAS,2,"Artrosis de rodilla secundaria a trauma que puede requerir cirugía artroscópica o reemplazo articular programado",M17.3,alta
+OTRAS ARTROSIS,2,"Enfermedad degenerativa articular que frecuentemente requiere manejo quirúrgico ortopédico programado",M19.9,media
+TRASTORNO DE ANSIEDAD ORGÁNICO,2,"Trastorno psiquiátrico con causa orgánica que requiere hospitalización para estabilización y tratamiento",F06.4,alta
+CONTRACTURA ARTICULAR,2,"Limitación articular que generalmente requiere procedimientos quirúrgicos o terapia intensiva hospitalaria",M24.5,media
+DERRAME PLEURAL EN AFECCIONES CLASIFICADAS EN OTRA PARTE,3,"Complicación pulmonar grave que requiere hospitalización prolongada, toracocentesis o drenaje en especialidad",J91,alta
+ESTADO DE ARTRODESIS,2,"Seguimiento postquirúrgico de fusión articular, procedimiento ortopédico mayor",M96.0,alta
+OTRAS MALFORMACIONES CONGÉNITAS DE LOS BRONQUIOS,3,"Malformación congénita respiratoria que requiere manejo especializado y posible cirugía torácica",Q32.4,alta
+ENCEFALOPATÍA HIPERTENSIVA,3,"Emergencia neurológica por crisis hipertensiva que requiere UCI y manejo intensivo",I67.4,alta
+ESTENOSIS AÓRTICA REUMÁTICA,3,"Valvulopatía grave que requiere cirugía cardiovascular y manejo en alta especialidad",I06.0,alta
+EFECTO TÓXICO DEL VENENO DE SERPIENTE,3,"Intoxicación grave que requiere UCI, antiveneno y manejo de emergencia",T63.0,alta
+HERIDA DE LA PARED ABDOMINAL,2,"Traumatismo que puede requerir cirugía de exploración y cierre quirúrgico en hospitalización",S31.1,alta
+FISURA DEL PALADAR DURO CON LABIO LEPORINO UNILATERAL,3,"Malformación congénita compleja que requiere cirugía reconstructiva especializada por cirugía maxilofacial",Q37.1,alta
+TRAUMATISMOS NO ESPECIFICADOS DEL ANTEBRAZO,2,"Trauma que puede incluir fracturas o lesiones que requieren hospitalización y posible cirugía",S59.9,media
+EMBOLIA Y TROMBOSIS DE ARTERIAS DE LOS MIEMBROS SUPERIORES,3,"Emergencia vascular que requiere UCI, anticoagulación intensiva o cirugía vascular de urgencia",I74.2,alta
+SÍNDROME DE DIFICULTAD RESPIRATORIA DEL ADULTO,3,"Falla respiratoria aguda grave que requiere UCI, ventilación mecánica y manejo intensivo",J80,alta
+ABSCESO DE GLÁNDULA SALIVAL,2,"Infección que generalmente requiere drenaje quirúrgico y hospitalización para antibióticos IV",K11.3,alta
+TUMOR DE COMPORTAMIENTO INCIERTO O DESCONOCIDO DE LOS ORGANOS URINARIOS,3,"Neoplasia que requiere estudio histopatológico especializado, posible cirugía oncológica",D41.9,alta
+TRASTORNO INFLAMATORIO DE ÓRGANO GENITAL MASCULINO NO ESPECIFICADO,2,"Proceso inflamatorio que puede requerir hospitalización para tratamiento o drenaje quirúrgico",N49.9,media
+ATEROSCLEROSIS GENERALIZADA Y LA NO ESPECIFICADA,2,"Enfermedad cardiovascular crónica que puede requerir procedimientos vasculares programados",I70.9,media
+TRAUMATISMO DEL TENDÓN Y MÚSCULO DEL EXTENSOR LARGO DEL DEDO A NIVEL DEL PIE Y DEL TOBILLO,2,"Lesión tendinosa que frecuentemente requiere reparación quirúrgica y hospitalización",S96.1,alta
+OTRAS MALFORMACIONES CONGÉNITAS DEL OJO ESPECIFICADAS,2,"Malformación ocular que puede requerir cirugía oftalmológica especializada programada",Q15.8,alta
+ESTENOSIS DE LA AORTA,3,"Valvulopatía grave que requiere cirugía cardiovascular mayor y manejo en alta especialidad",I35.0,alta
+LIQUEN PLANO HIPERTRÓFICO,1,"Dermatosis inflamatoria crónica manejable ambulatoriamente con tratamiento tópico o sistémico",L43.0,alta
+EPIDERMÓLISIS BULLOSA SIMPLE,2,"Enfermedad cutánea ampollosa que puede requerir hospitalizaciones por infecciones secundarias",Q81.0,alta
+OTRAS COXARTROSIS SECUNDARIAS,2,"Artrosis de cadera que frecuentemente requiere reemplazo articular programado",M16.5,alta
+OTROS TRASTORNOS DE LA DENSIDAD Y DE LA ESTRUCTURA OSEAS,2,"Patología ósea que puede requerir cirugía ortopédica o manejo hospitalario por fracturas",M85.9,media
+FÍSTULA DEL INTESTINO,3,"Complicación gastrointestinal grave que requiere cirugía mayor y hospitalización prolongada",K63.2,alta
+TRAUMATISMO DE MÚLTIPLES TENDONES Y MÚSCULOS A NIVEL DE LA PIERNA,2,"Politraumatismo que requiere cirugía reparadora y hospitalización",S86.7,alta
+BALANITIS XEROTICA OBLITERANTE,2,"Lesión inflamatoria genital que puede requerir cirugía urológica",N48.6,alta
+MENINGOENCEFALITIS Y MENINGOMIELITIS BACTERIANAS NO CLASIFICADAS EN OTRA PARTE,3,"Infección del SNC grave que requiere UCI, antibióticos IV y manejo intensivo",G04.2,alta
+TUMOR BENIGNO DE ÓRGANO GENITAL FEMENINO SITIO NO ESPECIFICADO,2,"Neoplasia benigna que generalmente requiere cirugía ginecológica programada",D28.9,alta
+TUMOR BENIGNO DE LA LENGUA,2,"Tumor que puede requerir resección quirúrgica en otorrinolaringología",D10.1,alta
+FRACTURA DEL ESTERNÓN,2,"Fractura torácica que requiere hospitalización para manejo del dolor y vigilancia de complicaciones",S22.2,alta
+LESIÓN DE SITIOS CONTIGUOS DEL PALADAR,2,"Lesión oral que puede requerir cirugía maxilofacial o manejo hospitalario",C05.8,media
+HERIDA DE MIEMBRO INFERIOR NIVEL NO ESPECIFICADO,2,"Traumatismo que puede requerir cirugía de exploración, cierre y hospitalización",S81.9,media
+OTROS TRAUMATISMOS MÚLTIPLES DE LA MUÑECA Y DE LA MANO,2,"Politraumatismo que puede requerir cirugía ortopédica y hospitalización",S69.8,alta
+OTROS TRAUMATISMOS ESPECIFICADOS DEL ANTEBRAZO,2,"Trauma que puede incluir lesiones que requieren cirugía y hospitalización",S59.8,media
+TUMOR MALIGNO DE LA CORTEZA DE LA GLÁNDULA SUPRARRENAL,3,"Cáncer endocrinológico que requiere cirugía oncológica mayor y tratamiento especializado",C74.0,alta
+LINFOMA LINFOBLÁSTICO DIFUSO,3,"Neoplasia hematológica maligna que requiere quimioterapia intensiva y manejo oncológico especializado",C83.5,alta
+ATENCION POR EL USO DE PROCEDIMIENTOS DE REHABILITACION,1,"Seguimiento ambulatorio de rehabilitación física o funcional",Z50.9,alta
+DEFORMIDAD ADQUIRIDA DE COSTILLAS Y TÓRAX,2,"Deformidad que puede requerir cirugía torácica reconstructiva programada",M95.4,alta
+LABIO LEPORINO UNILATERAL,2,"Malformación congénita que requiere cirugía plástica reconstructiva programada",Q36.9,alta
+LUXACIONES MÚLTIPLES DEL CUELLO,3,"Politraumatismo cervical grave que requiere manejo en urgencias, posible cirugía y UCI",S13.3,alta
+TUMOR MALIGNO DE LA PIEL DEL PÁRPADO INCLUIDA LA COMISURA PALPEBRAL,3,"Cáncer dermatológico que requiere cirugía oncológica especializada y posible tratamiento adyuvante",C44.1,alta
+SINUSITIS ESFENOIDAL CRÓNICA,1,"Sinusitis crónica manejable ambulatoriamente con antibióticos y descongestionantes",J32.3,alta
+OTROS TRASTORNOS ESPECIFICADOS DEL CRISTALINO,2,"Patología ocular que puede requerir cirugía oftalmológica programada como facoemulsificación",H27.8,alta
+AGRESIÓN CON OBJETO CORTANTE VIVIENDA,2,"Traumatismo penetrante que requiere cirugía de exploración y cierre en hospitalización",X99.0,alta
+ULCERA PEPTICA DE SITIO NO ESPECIFICADO,2,"Patología gastrointestinal que puede requerir hospitalización por sangrado o perforación",K27.9,alta
+OTRAS OSTEOPOROSIS CON FRACTURA PATOLÓGICA,2,"Fractura osteoporótica que requiere hospitalización y posible cirugía ortopédica",M80.8,alta
+COMPLICACIÓN MECÁNICA DE PRÓTESIS ARTICULAR INTERNA,3,"Falla de implante que requiere cirugía de revisión compleja y hospitalización prolongada",T84.0,alta
+LEUCEMIA LINFOCITICA CRONICA,3,"Neoplasia hematológica maligna que requiere tratamiento oncohematológico especializado",C91.1,alta
+TUMOR MALIGNO DE LA VÍAS RESPIRATORIA SUPERIORES PARTE NO ESPECIFICADA,3,"Cáncer de vías respiratorias que requiere cirugía oncológica y tratamiento multidisciplinario",C39.9,alta
+OTRAS MONONEUROPATÍAS DEL MIEMBRO SUPERIOR,2,"Neuropatía que puede requerir cirugía de descompresión nerviosa programada",G56.8,media
+FRACTURAS MÚLTIPLES DE LA COLUMNA LUMBAR Y DE LA PELVIS,3,"Politraumatismo grave que requiere UCI, cirugía ortopédica mayor y manejo intensivo",S32.7,alta
+OTROS SÍNTOMAS Y SIGNOS ESPECIFICADOS QUE INVOLUCRAN EL SISTEMA DIGESTIVO Y EL ABDOMEN,1,"Síntomas gastrointestinales inespecíficos generalmente manejables ambulatoriamente",R19.8,media
+INTOLERANCIA A LA LACTOSA NO ESPECIFICADA,1,"Trastorno digestivo funcional manejable ambulatoriamente con dieta",E73.9,alta
+OTRAS ARTROSIS SECUNDARIAS,2,"Enfermedad degenerativa articular que frecuentemente requiere cirugía ortopédica programada",M19.2,media
+EXAMEN Y OBSERVACION POR OTRAS RAZONES,1,"Consulta médica preventiva o de seguimiento ambulatorio",Z04.8,media
+OTRAS APNEAS DEL RECIÉN NACIDO,3,"Patología neonatal grave que requiere UCI neonatal y monitoreo intensivo",P28.4,alta
+SECUELAS DE TRAUMATISMO DE TENDÓN Y MÚSCULO DE MIEMBRO INFERIOR,2,"Secuela que puede requerir cirugía reconstructiva o procedimientos de rehabilitación",T93.6,media
+TUMOR BENIGNO DE LAS MENINGES RAQUÍDEAS,3,"Tumor del SNC que requiere neurocirugía especializada",D32.1,alta
+TRASTORNO MENOPÁUSICO Y PERIMENOPÁUSICO NO ESPECIFICADO,1,"Síntomas menopáusicos manejables ambulatoriamente con terapia hormonal",N95.9,alta
+OTRAS MALFORMACIONES CONGÉNITAS DE LOS TABIQUES CARDÍACOS,3,"Cardiopatía congénita que requiere cirugía cardiovascular especializada",Q21.8,alta
+ENFERMEDAD POR VIH RESULTANTE EN SARCOMA DE KAPOSI,3,"Complicación oncológica del VIH que requiere tratamiento antirretroviral y oncológico especializado",B21.0,alta
+TUMOR BENIGNO DEL TIMO,2,"Tumor mediastinal que puede requerir cirugía torácica programada",D15.0,alta
+ENFERMEDAD TÓXICA DEL HÍGADO CON HEPATITIS CRÓNICA LOBULAR,3,"Hepatopatía grave que requiere manejo especializado en gastroenterología",K71.4,alta
+HELMINTIASIS INTESTINAL SIN OTRA ESPECIFICACIÓN,1,"Parasitosis intestinal manejable ambulatoriamente con antiparasitarios",B82.0,alta
+FIEBRES TIFOIDEA Y PARATIFOIDEA,2,"Infección bacteriana sistémica que requiere hospitalización para antibióticos IV",A01.0,alta
+INFECCIÓN NO ESPECIFICADA DE LAS VÍAS URINARIAS EN EL EMBARAZO,2,"Infección urinaria en embarazo que puede requerir hospitalización para tratamiento IV",O23.9,alta
+TUMOR BENIGNO DEL RECTO,2,"Tumor que generalmente requiere resección endoscópica o quirúrgica programada",D12.8,alta
+MIELOFIBROSIS AGUDA,3,"Neoplasia hematológica grave que requiere tratamiento oncohematológico especializado",C94.4,alta
+AUSENCIA CONGÉNITA DE OVARIO,2,"Malformación congénita que puede requerir manejo endocrinológico y cirugía ginecológica",Q50.0,alta
+OLIGOHIDRAMNIOS,2,"Complicación obstétrica que requiere hospitalización y monitoreo fetal intensivo",O41.0,alta
+TRASTORNOS DE LA PUBERTAD NO CLASIFICADOS EN OTRA PARTE,1,"Trastorno endocrinológico generalmente manejable ambulatoriamente",E30.9,media
+NEVO MELANOCÍTICO DEL LABIO,1,"Lesión dermatológica benigna manejable ambulatoriamente con escisión simple",D22.0,alta
+AFECCIÓN RESPIRATORIA NO ESPECIFICADA DEL RECIÉN NACIDO,3,"Patología respiratoria neonatal que requiere UCI neonatal y soporte ventilatorio",P28.9,media
+SÍNDROME NEFRÓTICO LESIONES GLOMERULARES FOCALES Y SEGMENTARIAS,3,"Enfermedad renal grave que requiere manejo nefrológico especializado y posible diálisis",N04.1,alta
+OCLUSIÓN Y ESTENOSIS DE ARTERIA CEREBRAL NO ESPECIFICADA,3,"Evento cerebrovascular agudo que requiere UCI neurológica y manejo intensivo",I66.9,alta
+EOSINOFILIA,1,"Hallazgo de laboratorio que requiere estudio ambulatorio para identificar causa",D72.1,media
+TUMOR BENIGNO DEL ENCEFALO Y DE OTRAS PARTES DEL SISTEMA NERVIOSO CENTRAL,3,"Tumor del SNC que requiere neurocirugía especializada",D33.2,alta
+EFECTOS DE LA CORRIENTE ELÉCTRICA,3,"Traumatismo por electrocución que requiere manejo en urgencias, UCI y vigilancia cardiaca",T75.4,alta
+TUMOR BENIGNO DE LA VAGINA,2,"Tumor que puede requerir resección quirúrgica ginecológica programada",D28.1,alta
+PERICONDRITIS DEL OÍDO EXTERNO,1,"Infección del oído manejable ambulatoriamente con antibióticos",H61.0,alta
+OTRAS ENFERMEDADES DEL SISTEMA DIGESTIVO,1,"Patología gastrointestinal inespecífica generalmente manejable ambulatoriamente",K92.9,media
+RETARDO DEL CRECIMIENTO FETAL NO ESPECIFICADO,2,"Complicación obstétrica que requiere hospitalización y monitoreo fetal intensivo",O36.5,alta
+OTROS TRASTORNOS ESPECIFICADOS DE LA CONJUNTIVA,1,"Patología oftalmológica menor manejable ambulatoriamente",H11.8,media
+OTROS SÍNDROMES MIELODISPLÁSICOS,3,"Trastorno hematológico premaligno que requiere manejo oncohematológico especializado",D46.9,alta
+TUMOR DE COMPORTAMIENTO INCIERTO O DESCONOCIDO DE LOS NERVIOS CRANEALES,3,"Tumor neurológico que requiere estudio especializado y posible neurocirugía",D43.3,alta
+TRASTORNOS DE LA ROTULA,2,"Patología ortopédica que puede requerir cirugía artroscópica programada",M22.9,media
+TUBERCULOSIS DE PULMÓN SIN MENCIÓN DE CONFIRMACIÓN BACTERIOLÓGICA O HISTOLÓGICA,2,"Infección pulmonar que requiere hospitalización para tratamiento antituberculoso",A16.2,alta
+TUMOR MALIGNO SECUNDARIO DEL PERITONEO Y DEL RETROPERITONEO,3,"Metástasis abdominal que requiere tratamiento oncológico especializado",C78.6,alta
+OTRAS ENFERMEDADES INTESTINALES DEBIDAS A PROTOZOARIOS,2,"Parasitosis intestinal severa que puede requerir hospitalización",A07.8,media
+TRASTORNO QUE AFECTA AL MECANISMO DE LA INMUNIDAD NO ESPECIFICADO,2,"Inmunodeficiencia que requiere estudio y manejo especializado inmunológico",D84.9,media
+HERPES ZOSTER CON OTROS COMPROMISOS DEL SISTEMA NERVIOSO,3,"Complicación neurológica del herpes zoster que requiere hospitalización y antivirales IV",B02.8,alta
+OTRAS ENFERMEDADES DE LA VÁLVULA MITRAL,3,"Valvulopatía que puede requerir cirugía cardiovascular especializada",I34.8,alta
+ESTOMATITIS VESICULAR ENTEROVIRAL CON EXANTEMA,1,"Infección viral benigna manejable ambulatoriamente con tratamiento sintomático",B08.4,alta
+TUMOR MALIGNO DE LOS HUESOS DE LA PELVIS SACRO Y CÓCCIX,3,"Cáncer óseo que requiere cirugía oncológica mayor y tratamiento multidisciplinario",C41.4,alta
+PLASMOCITOMA EXTRAMEDULAR,3,"Neoplasia hematológica que requiere tratamiento oncohematológico especializado",C90.2,alta
+HERIDAS MÚLTIPLES DE LA PIERNA,2,"Politraumatismo que requiere cirugía de exploración, cierre y hospitalización",S81.7,alta
+HERIDA DE DEDO DEL PIE SIN DAÑO DE LA UÑA,2,"Traumatismo que puede requerir sutura quirúrgica y hospitalización breve",S91.1,media
+TRAUMATISMO DE MÚLTIPLES TENDONES Y MÚSCULOS A NIVEL DEL PIE Y DEL TOBILLO,2,"Politraumatismo que requiere cirugía reparadora y hospitalización",S96.7,alta
+OTROS TRAUMATISMOS ESPECIFICADOS DE LA MUÑECA Y DE LA MANO,2,"Trauma que puede requerir cirugía ortopédica y hospitalización",S69.8,media
+ENCEFALITIS AGUDA DISEMINADA,3,"Infección del SNC grave que requiere UCI neurológica y manejo intensivo",G04.0,alta
+AMPUTACIÓN TRAUMÁTICA DEL PULGAR COMPLETA PARCIAL,3,"Trauma grave que requiere cirugía reconstructiva de urgencia y hospitalización prolongada",S68.0,alta
+NEFROPATÍA DE LOS BALCANES,3,"Enfermedad renal crónica grave que requiere manejo nefrológico especializado",N15.0,alta
+NECESIDAD DE INMUNIZACIÓN SÓLO CONTRA EL CÓLERA,1,"Consulta preventiva ambulatoria para vacunación",Z23.1,alta
+HIPOACUSIA NEUROSENSORIAL BILATERAL,2,"Pérdida auditiva que puede requerir implante coclear u otros procedimientos especializados",H90.3,alta
+OTROS TRAUMATISMOS DE LA PIERNA ESPECIFICADOS,2,"Trauma que puede requerir cirugía y hospitalización",S89.8,media
+SALPINGITIS Y OOFORITIS NO ESPECIFICADAS,2,"Infección pélvica que puede requerir hospitalización para antibióticos IV",N70.9,alta
+OTRAS ENTERITIS VIRALES,1,"Gastroenteritis viral manejable ambulatoriamente con hidratación oral",A08.4,alta
+CÁLCULO DE LAS VÍAS URINARIAS EN OTRAS ENFERMEDADES CLASIFICADAS EN OTRA PARTE,2,"Litiasis urinaria que puede requerir procedimiento urológico programado o de urgencia",N22.8,alta
+OTRA REACCIÓN ADVERSA A ALIMENTOS NO CLASIFICADA EN OTRA PARTE,1,"Reacción alérgica alimentaria generalmente manejable ambulatoriamente",T78.1,media
+LESIÓN DE SITIOS CONTIGUOS DE LOS ÓRGANOS GENITALES MASCULINOS,2,"Lesión traumática o neoplásica que puede requerir cirugía urológica",C63.8,media
+AMPUTACIÓN TRAUMÁTICA DE DOS O MÁS DEDOS SOLAMENTE COMPLETA PARCIAL,3,"Trauma grave que requiere cirugía reconstructiva de urgencia y hospitalización prolongada",S68.1,alta
+TUMOR MALIGNO DEL HÍGADO NO ESPECIFICADO,3,"Cáncer hepático que requiere cirugía oncológica mayor o trasplante",C22.9,alta
+ENTESOPATÍA VERTEBRAL,2,"Patología musculoesquelética espinal que puede requerir cirugía o manejo hospitalario",M46.0,alta
+TRAUMATISMO DEL OJO Y DE LA ORBITA,2,"Trauma ocular que puede requerir cirugía oftalmológica de urgencia",S05.9,alta
+FRACTURA DEL ACETÁBULO,2,"Fractura pélvica que requiere cirugía ortopédica y hospitalización",S32.4,alta
+TRAUMATISMOS MÚLTIPLES DE LA CABEZA,3,"Politraumatismo craneal grave que requiere UCI neurológica y manejo intensivo",S09.7,alta
+ARTROPATÍA PSORIÁSICA INTERFALÁNGICA DISTAL,1,"Artritis inflamatoria crónica manejable ambulatoriamente con inmunomoduladores",L40.5,alta
+PUBERTAD RETARDADA,1,"Trastorno endocrinológico generalmente manejable ambulatoriamente",E30.0,alta
+ENFERMEDAD TÓXICA DEL HÍGADO CON CIRROSIS Y FIBROSIS DEL HÍGADO,3,"Hepatopatía crónica grave que requiere manejo especializado y posible trasplante",K71.7,alta
+ECZEMA HERPÉTICO,2,"Infección cutánea viral grave que puede requerir hospitalización para antivirales IV",B00.0,alta
+TUMOR MALIGNO DEL COLON DESCENDENTE,3,"Cáncer colorrectal que requiere cirugía oncológica mayor y tratamiento multidisciplinario",C18.6,alta
+PULPITIS,1,"Inflamación dental manejable ambulatoriamente con endodoncia",K04.0,alta
+HIPERHIDROSIS LOCALIZADA,1,"Trastorno sudomotor manejable ambulatoriamente con tratamiento tópico o toxina botulínica",L74.5,alta
+DEFORMIDADES ADQUIRIDAS DE LOS DEDOS DE LA MANO Y DEL PIE,2,"Deformidad que puede requerir cirugía ortopédica reconstructiva programada",M20.0,media
+OTRAS ENFERMEDADES ESPECIFICADAS DE LA SANGRE Y DE LOS ÓRGANOS HEMATOPOYÉTICOS,2,"Trastorno hematológico que requiere estudio y manejo especializado",D75.8,media
+TENDINITIS CALCIFICADA,2,"Patología tendinosa que puede requerir cirugía ortopédica o procedimientos intervencionistas",M65.2,alta
+TUMEFACCIÓN MASA O PROMINENCIA INTRAABDOMINAL Y PÉLVICA,2,"Hallazgo que requiere estudio con imagenología y posible cirugía exploradora",R19.0,media
+CONCUSIÓN Y EDEMA DE LA MÉDULA ESPINAL LUMBAR,3,"Trauma medular grave que requiere UCI neurológica y manejo neuroquirúrgico",S34.1,alta
+OTROS TRASTORNOS DEL CARTÍLAGO ARTICULAR,2,"Patología articular que puede requerir cirugía artroscópica programada",M24.1,media
+DISFAGIA,2,"Trastorno deglutorio que puede requerir hospitalización para estudio endoscópico",R13,media
+INFECCIONES AGUDAS DE LAS VIAS RESPIRATORIAS SUPERIORES DE SITIOS MULTIPLES O NO ESPECIFICADOS,1,"Infección respiratoria alta manejable ambulatoriamente con antibióticos",J06.9,alta
+PLACENTA PREVIA CON HEMORRAGIA,3,"Emergencia obstétrica que requiere UCI, cesárea de urgencia y transfusión",O44.1,alta
+TRASTORNO ENDOCRINO NO ESPECIFICADO,1,"Patología endocrina inespecífica generalmente manejable ambulatoriamente",E34.9,media
+FÍSTULA DE LA URETRA,2,"Patología urológica que requiere cirugía reconstructiva programada",N36.0,alta
+POLINEUROPATÍA INFLAMATORIA NO ESPECIFICADA,3,"Neuropatía grave que puede requerir hospitalización para inmunoglobulina IV",G61.9,alta
+LESIÓN DEL NERVIO CUBITAL,2,"Neuropatía que puede requerir cirugía de descompresión nerviosa programada",S54.0,alta
+OTRAS ESTRECHECES URETRALES,2,"Estenosis uretral que requiere procedimiento urológico programado o repetido",N35.8,alta
+LESIÓN DE SITIOS CONTIGUOS DE OTRAS PARTES Y DE LAS NO ESPECIFICADAS DE LA BOCA,2,"Lesión oral que puede requerir cirugía maxilofacial",C06.8,media
+TUMOR BENIGNO DE LA GLÁNDULA PARATIROIDES,2,"Tumor endocrinológico que requiere cirugía especializada programada",D35.1,alta
+VÁRICES ESOFÁGICAS CON HEMORRAGIA,3,"Emergencia gastrointestinal grave que requiere UCI, endoscopia urgente y transfusión",I85.0,alta
+GINGIVOESTOMATITIS Y FARINGOAMIGDALITIS HERPÉTICA,1,"Infección viral orofaríngea manejable ambulatoriamente con antivirales",B00.2,alta
+ESTRABISMO CONCOMITANTE CONVERGENTE,2,"Trastorno ocular que puede requerir cirugía oftalmológica programada",H50.0,alta
+HIDRADENITIS SUPURATIVA,2,"Infección cutánea crónica que puede requerir drenaje quirúrgico y hospitalización",L73.2,alta
+OTROS TRASTORNOS NO INFLAMATORIOS DEL OVARIO DE LA TROMPA DE FALOPIO Y DEL LIGAMENTO ANCHO,2,"Patología ginecológica que puede requerir cirugía programada",N83.8,media
+ARTRITIS PIÓGENA NO ESPECIFICADA,2,"Infección articular grave que requiere hospitalización, drenaje quirúrgico y antibióticos IV",M00.9,alta
+PIE PLANO CONGÉNITO,1,"Deformidad podológica generalmente manejable ambulatoriamente con ortesis",Q66.5,alta

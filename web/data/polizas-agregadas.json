@@ -1,0 +1,4142 @@
+[
+  {
+    "anio": 2020,
+    "edad": 25,
+    "sexo": "Femenino",
+    "num_asegurados": 195296,
+    "prima_emitida": 271600060.77,
+    "suma_asegurada": 1302869658403,
+    "prima_promedio": 1390.71
+  },
+  {
+    "anio": 2020,
+    "edad": 25,
+    "sexo": "Masculino",
+    "num_asegurados": 262510,
+    "prima_emitida": 328282094.48,
+    "suma_asegurada": 3306036358308,
+    "prima_promedio": 1250.55
+  },
+  {
+    "anio": 2020,
+    "edad": 26,
+    "sexo": "Femenino",
+    "num_asegurados": 199879,
+    "prima_emitida": 304239963.84,
+    "suma_asegurada": 1337369486859,
+    "prima_promedio": 1522.12
+  },
+  {
+    "anio": 2020,
+    "edad": 26,
+    "sexo": "Masculino",
+    "num_asegurados": 270898,
+    "prima_emitida": 358209887.51,
+    "suma_asegurada": 3192718910729,
+    "prima_promedio": 1322.31
+  },
+  {
+    "anio": 2020,
+    "edad": 27,
+    "sexo": "Femenino",
+    "num_asegurados": 208290,
+    "prima_emitida": 325544831.32,
+    "suma_asegurada": 1399290916445,
+    "prima_promedio": 1562.94
+  },
+  {
+    "anio": 2020,
+    "edad": 27,
+    "sexo": "Masculino",
+    "num_asegurados": 273288,
+    "prima_emitida": 383137385.69,
+    "suma_asegurada": 3148886890187,
+    "prima_promedio": 1401.95
+  },
+  {
+    "anio": 2020,
+    "edad": 28,
+    "sexo": "Femenino",
+    "num_asegurados": 222823,
+    "prima_emitida": 350006052.31,
+    "suma_asegurada": 1478206277684,
+    "prima_promedio": 1570.78
+  },
+  {
+    "anio": 2020,
+    "edad": 28,
+    "sexo": "Masculino",
+    "num_asegurados": 291522,
+    "prima_emitida": 406099271.9,
+    "suma_asegurada": 3386469438963,
+    "prima_promedio": 1393.03
+  },
+  {
+    "anio": 2020,
+    "edad": 29,
+    "sexo": "Femenino",
+    "num_asegurados": 233404,
+    "prima_emitida": 374303781.17,
+    "suma_asegurada": 1595429126484,
+    "prima_promedio": 1603.67
+  },
+  {
+    "anio": 2020,
+    "edad": 29,
+    "sexo": "Masculino",
+    "num_asegurados": 298763,
+    "prima_emitida": 429425584.52,
+    "suma_asegurada": 3594552942556,
+    "prima_promedio": 1437.35
+  },
+  {
+    "anio": 2020,
+    "edad": 30,
+    "sexo": "Femenino",
+    "num_asegurados": 250546,
+    "prima_emitida": 434092905.48,
+    "suma_asegurada": 1705663342914,
+    "prima_promedio": 1732.59
+  },
+  {
+    "anio": 2020,
+    "edad": 30,
+    "sexo": "Masculino",
+    "num_asegurados": 313870,
+    "prima_emitida": 492494337.24,
+    "suma_asegurada": 4007092101498,
+    "prima_promedio": 1569.1
+  },
+  {
+    "anio": 2020,
+    "edad": 31,
+    "sexo": "Femenino",
+    "num_asegurados": 252979,
+    "prima_emitida": 459880455.33,
+    "suma_asegurada": 1715797540690,
+    "prima_promedio": 1817.86
+  },
+  {
+    "anio": 2020,
+    "edad": 31,
+    "sexo": "Masculino",
+    "num_asegurados": 309572,
+    "prima_emitida": 510118416.41,
+    "suma_asegurada": 3860966913334,
+    "prima_promedio": 1647.82
+  },
+  {
+    "anio": 2020,
+    "edad": 32,
+    "sexo": "Femenino",
+    "num_asegurados": 251598,
+    "prima_emitida": 465343193.32,
+    "suma_asegurada": 1701131195369,
+    "prima_promedio": 1849.55
+  },
+  {
+    "anio": 2020,
+    "edad": 32,
+    "sexo": "Masculino",
+    "num_asegurados": 308349,
+    "prima_emitida": 517846280.41,
+    "suma_asegurada": 3989043907009,
+    "prima_promedio": 1679.42
+  },
+  {
+    "anio": 2020,
+    "edad": 33,
+    "sexo": "Femenino",
+    "num_asegurados": 251062,
+    "prima_emitida": 463116281.86,
+    "suma_asegurada": 1686731884205,
+    "prima_promedio": 1844.63
+  },
+  {
+    "anio": 2020,
+    "edad": 33,
+    "sexo": "Masculino",
+    "num_asegurados": 302242,
+    "prima_emitida": 509840248.33,
+    "suma_asegurada": 3824952301385,
+    "prima_promedio": 1686.86
+  },
+  {
+    "anio": 2020,
+    "edad": 34,
+    "sexo": "Femenino",
+    "num_asegurados": 262926,
+    "prima_emitida": 473065818.55,
+    "suma_asegurada": 1704090307614,
+    "prima_promedio": 1799.24
+  },
+  {
+    "anio": 2020,
+    "edad": 34,
+    "sexo": "Masculino",
+    "num_asegurados": 308121,
+    "prima_emitida": 517412242.87,
+    "suma_asegurada": 4023772223989,
+    "prima_promedio": 1679.25
+  },
+  {
+    "anio": 2020,
+    "edad": 35,
+    "sexo": "Femenino",
+    "num_asegurados": 248597,
+    "prima_emitida": 488578447.97,
+    "suma_asegurada": 1700476210282,
+    "prima_promedio": 1965.34
+  },
+  {
+    "anio": 2020,
+    "edad": 35,
+    "sexo": "Masculino",
+    "num_asegurados": 296925,
+    "prima_emitida": 472581866.16,
+    "suma_asegurada": 4063827115987,
+    "prima_promedio": 1591.59
+  },
+  {
+    "anio": 2020,
+    "edad": 36,
+    "sexo": "Femenino",
+    "num_asegurados": 247571,
+    "prima_emitida": 512835440.98,
+    "suma_asegurada": 1622355235624,
+    "prima_promedio": 2071.47
+  },
+  {
+    "anio": 2020,
+    "edad": 36,
+    "sexo": "Masculino",
+    "num_asegurados": 293799,
+    "prima_emitida": 573760358.31,
+    "suma_asegurada": 4072791429564,
+    "prima_promedio": 1952.9
+  },
+  {
+    "anio": 2020,
+    "edad": 37,
+    "sexo": "Femenino",
+    "num_asegurados": 245309,
+    "prima_emitida": 523819451.11,
+    "suma_asegurada": 1636570474227,
+    "prima_promedio": 2135.35
+  },
+  {
+    "anio": 2020,
+    "edad": 37,
+    "sexo": "Masculino",
+    "num_asegurados": 290223,
+    "prima_emitida": 584895169.03,
+    "suma_asegurada": 4032435616551,
+    "prima_promedio": 2015.33
+  },
+  {
+    "anio": 2020,
+    "edad": 38,
+    "sexo": "Femenino",
+    "num_asegurados": 239690,
+    "prima_emitida": 506218615.59,
+    "suma_asegurada": 1636258559311,
+    "prima_promedio": 2111.97
+  },
+  {
+    "anio": 2020,
+    "edad": 38,
+    "sexo": "Masculino",
+    "num_asegurados": 285537,
+    "prima_emitida": 567694883.15,
+    "suma_asegurada": 3905162054211,
+    "prima_promedio": 1988.17
+  },
+  {
+    "anio": 2020,
+    "edad": 39,
+    "sexo": "Femenino",
+    "num_asegurados": 227300,
+    "prima_emitida": 483772273.47,
+    "suma_asegurada": 1532470262561,
+    "prima_promedio": 2128.34
+  },
+  {
+    "anio": 2020,
+    "edad": 39,
+    "sexo": "Masculino",
+    "num_asegurados": 275682,
+    "prima_emitida": 559228538.15,
+    "suma_asegurada": 3733061929705,
+    "prima_promedio": 2028.53
+  },
+  {
+    "anio": 2020,
+    "edad": 40,
+    "sexo": "Femenino",
+    "num_asegurados": 220196,
+    "prima_emitida": 492451194.81,
+    "suma_asegurada": 1443856572735,
+    "prima_promedio": 2236.42
+  },
+  {
+    "anio": 2020,
+    "edad": 40,
+    "sexo": "Masculino",
+    "num_asegurados": 264307,
+    "prima_emitida": 578553977.48,
+    "suma_asegurada": 3560556965724,
+    "prima_promedio": 2188.95
+  },
+  {
+    "anio": 2020,
+    "edad": 41,
+    "sexo": "Femenino",
+    "num_asegurados": 202048,
+    "prima_emitida": 478391356.83,
+    "suma_asegurada": 1351669695856,
+    "prima_promedio": 2367.71
+  },
+  {
+    "anio": 2020,
+    "edad": 41,
+    "sexo": "Masculino",
+    "num_asegurados": 240046,
+    "prima_emitida": 573203672.74,
+    "suma_asegurada": 3437972645592,
+    "prima_promedio": 2387.89
+  },
+  {
+    "anio": 2020,
+    "edad": 42,
+    "sexo": "Femenino",
+    "num_asegurados": 196096,
+    "prima_emitida": 471438156.52,
+    "suma_asegurada": 1302675615789,
+    "prima_promedio": 2404.12
+  },
+  {
+    "anio": 2020,
+    "edad": 42,
+    "sexo": "Masculino",
+    "num_asegurados": 228578,
+    "prima_emitida": 550275978.12,
+    "suma_asegurada": 3294122662822,
+    "prima_promedio": 2407.39
+  },
+  {
+    "anio": 2020,
+    "edad": 43,
+    "sexo": "Femenino",
+    "num_asegurados": 189898,
+    "prima_emitida": 456216701.41,
+    "suma_asegurada": 1292585712288,
+    "prima_promedio": 2402.43
+  },
+  {
+    "anio": 2020,
+    "edad": 43,
+    "sexo": "Masculino",
+    "num_asegurados": 223331,
+    "prima_emitida": 540962771.25,
+    "suma_asegurada": 3136757578645,
+    "prima_promedio": 2422.25
+  },
+  {
+    "anio": 2020,
+    "edad": 44,
+    "sexo": "Femenino",
+    "num_asegurados": 181744,
+    "prima_emitida": 439430084.14,
+    "suma_asegurada": 1258855084540,
+    "prima_promedio": 2417.85
+  },
+  {
+    "anio": 2020,
+    "edad": 44,
+    "sexo": "Masculino",
+    "num_asegurados": 213949,
+    "prima_emitida": 527928429.69,
+    "suma_asegurada": 3116064155681,
+    "prima_promedio": 2467.54
+  },
+  {
+    "anio": 2020,
+    "edad": 45,
+    "sexo": "Femenino",
+    "num_asegurados": 178342,
+    "prima_emitida": 453189920.49,
+    "suma_asegurada": 1214994404660,
+    "prima_promedio": 2541.13
+  },
+  {
+    "anio": 2020,
+    "edad": 45,
+    "sexo": "Masculino",
+    "num_asegurados": 208546,
+    "prima_emitida": 557747412.83,
+    "suma_asegurada": 3179497013122,
+    "prima_promedio": 2674.46
+  },
+  {
+    "anio": 2020,
+    "edad": 46,
+    "sexo": "Femenino",
+    "num_asegurados": 178095,
+    "prima_emitida": 471538387.14,
+    "suma_asegurada": 1260098067209,
+    "prima_promedio": 2647.68
+  },
+  {
+    "anio": 2020,
+    "edad": 46,
+    "sexo": "Masculino",
+    "num_asegurados": 206212,
+    "prima_emitida": 600744764.97,
+    "suma_asegurada": 3378357440650,
+    "prima_promedio": 2913.24
+  },
+  {
+    "anio": 2020,
+    "edad": 47,
+    "sexo": "Femenino",
+    "num_asegurados": 167679,
+    "prima_emitida": 444565720.12,
+    "suma_asegurada": 1195435042526,
+    "prima_promedio": 2651.29
+  },
+  {
+    "anio": 2020,
+    "edad": 47,
+    "sexo": "Masculino",
+    "num_asegurados": 197514,
+    "prima_emitida": 582911452.55,
+    "suma_asegurada": 3164426740529,
+    "prima_promedio": 2951.24
+  },
+  {
+    "anio": 2020,
+    "edad": 48,
+    "sexo": "Femenino",
+    "num_asegurados": 160948,
+    "prima_emitida": 419239209.97,
+    "suma_asegurada": 1143282958502,
+    "prima_promedio": 2604.81
+  },
+  {
+    "anio": 2020,
+    "edad": 48,
+    "sexo": "Masculino",
+    "num_asegurados": 184985,
+    "prima_emitida": 546683961.57,
+    "suma_asegurada": 2907426510525,
+    "prima_promedio": 2955.29
+  },
+  {
+    "anio": 2020,
+    "edad": 49,
+    "sexo": "Femenino",
+    "num_asegurados": 149668,
+    "prima_emitida": 393143085.21,
+    "suma_asegurada": 985199173399,
+    "prima_promedio": 2626.77
+  },
+  {
+    "anio": 2020,
+    "edad": 49,
+    "sexo": "Masculino",
+    "num_asegurados": 170838,
+    "prima_emitida": 515029296.34,
+    "suma_asegurada": 2661344705578,
+    "prima_promedio": 3014.72
+  },
+  {
+    "anio": 2020,
+    "edad": 50,
+    "sexo": "Femenino",
+    "num_asegurados": 136135,
+    "prima_emitida": 378110848.37,
+    "suma_asegurada": 910252078744,
+    "prima_promedio": 2777.47
+  },
+  {
+    "anio": 2020,
+    "edad": 50,
+    "sexo": "Masculino",
+    "num_asegurados": 157242,
+    "prima_emitida": 515381047.09,
+    "suma_asegurada": 2534651092475,
+    "prima_promedio": 3277.63
+  },
+  {
+    "anio": 2020,
+    "edad": 51,
+    "sexo": "Femenino",
+    "num_asegurados": 123860,
+    "prima_emitida": 365393212.44,
+    "suma_asegurada": 814582134964,
+    "prima_promedio": 2950.05
+  },
+  {
+    "anio": 2020,
+    "edad": 51,
+    "sexo": "Masculino",
+    "num_asegurados": 141456,
+    "prima_emitida": 509217432.22,
+    "suma_asegurada": 2154113892566,
+    "prima_promedio": 3599.83
+  },
+  {
+    "anio": 2020,
+    "edad": 52,
+    "sexo": "Femenino",
+    "num_asegurados": 113137,
+    "prima_emitida": 334655354.6,
+    "suma_asegurada": 746637833511,
+    "prima_promedio": 2957.97
+  },
+  {
+    "anio": 2020,
+    "edad": 52,
+    "sexo": "Masculino",
+    "num_asegurados": 129272,
+    "prima_emitida": 477592477.79,
+    "suma_asegurada": 2324279463408,
+    "prima_promedio": 3694.48
+  },
+  {
+    "anio": 2020,
+    "edad": 53,
+    "sexo": "Femenino",
+    "num_asegurados": 101692,
+    "prima_emitida": 293922036.7,
+    "suma_asegurada": 691107751247,
+    "prima_promedio": 2890.32
+  },
+  {
+    "anio": 2020,
+    "edad": 53,
+    "sexo": "Masculino",
+    "num_asegurados": 117090,
+    "prima_emitida": 437001909.31,
+    "suma_asegurada": 1842081453345,
+    "prima_promedio": 3732.19
+  },
+  {
+    "anio": 2020,
+    "edad": 54,
+    "sexo": "Femenino",
+    "num_asegurados": 94004,
+    "prima_emitida": 271982717.47,
+    "suma_asegurada": 581017173674,
+    "prima_promedio": 2893.31
+  },
+  {
+    "anio": 2020,
+    "edad": 54,
+    "sexo": "Masculino",
+    "num_asegurados": 106439,
+    "prima_emitida": 401685132.53,
+    "suma_asegurada": 1984557324344,
+    "prima_promedio": 3773.85
+  },
+  {
+    "anio": 2020,
+    "edad": 55,
+    "sexo": "Femenino",
+    "num_asegurados": 85781,
+    "prima_emitida": 263952275.79,
+    "suma_asegurada": 509712535377,
+    "prima_promedio": 3077.05
+  },
+  {
+    "anio": 2020,
+    "edad": 55,
+    "sexo": "Masculino",
+    "num_asegurados": 98702,
+    "prima_emitida": 412373362.46,
+    "suma_asegurada": 1525324520750,
+    "prima_promedio": 4177.96
+  },
+  {
+    "anio": 2020,
+    "edad": 56,
+    "sexo": "Femenino",
+    "num_asegurados": 80867,
+    "prima_emitida": 251186620.49,
+    "suma_asegurada": 493226321661,
+    "prima_promedio": 3106.17
+  },
+  {
+    "anio": 2020,
+    "edad": 56,
+    "sexo": "Masculino",
+    "num_asegurados": 91332,
+    "prima_emitida": 416033031.96,
+    "suma_asegurada": 1470255636585,
+    "prima_promedio": 4555.17
+  },
+  {
+    "anio": 2020,
+    "edad": 57,
+    "sexo": "Femenino",
+    "num_asegurados": 72180,
+    "prima_emitida": 220719286.83,
+    "suma_asegurada": 389138414539,
+    "prima_promedio": 3057.9
+  },
+  {
+    "anio": 2020,
+    "edad": 57,
+    "sexo": "Masculino",
+    "num_asegurados": 80292,
+    "prima_emitida": 375258927.99,
+    "suma_asegurada": 1340642481392,
+    "prima_promedio": 4673.68
+  },
+  {
+    "anio": 2020,
+    "edad": 58,
+    "sexo": "Femenino",
+    "num_asegurados": 63370,
+    "prima_emitida": 188552330.69,
+    "suma_asegurada": 340716661920,
+    "prima_promedio": 2975.42
+  },
+  {
+    "anio": 2020,
+    "edad": 58,
+    "sexo": "Masculino",
+    "num_asegurados": 71563,
+    "prima_emitida": 335938318.62,
+    "suma_asegurada": 1135766807283,
+    "prima_promedio": 4694.3
+  },
+  {
+    "anio": 2020,
+    "edad": 59,
+    "sexo": "Femenino",
+    "num_asegurados": 58364,
+    "prima_emitida": 183931417.51,
+    "suma_asegurada": 284381411545,
+    "prima_promedio": 3151.45
+  },
+  {
+    "anio": 2020,
+    "edad": 59,
+    "sexo": "Masculino",
+    "num_asegurados": 63901,
+    "prima_emitida": 316641620.04,
+    "suma_asegurada": 1163885417044,
+    "prima_promedio": 4955.19
+  },
+  {
+    "anio": 2020,
+    "edad": 60,
+    "sexo": "Femenino",
+    "num_asegurados": 52895,
+    "prima_emitida": 176531758.85,
+    "suma_asegurada": 251068516219,
+    "prima_promedio": 3337.4
+  },
+  {
+    "anio": 2020,
+    "edad": 60,
+    "sexo": "Masculino",
+    "num_asegurados": 57101,
+    "prima_emitida": 316182663.35,
+    "suma_asegurada": 969277493810,
+    "prima_promedio": 5537.25
+  },
+  {
+    "anio": 2020,
+    "edad": 61,
+    "sexo": "Femenino",
+    "num_asegurados": 43061,
+    "prima_emitida": 152492652.54,
+    "suma_asegurada": 198799866159,
+    "prima_promedio": 3541.32
+  },
+  {
+    "anio": 2020,
+    "edad": 61,
+    "sexo": "Masculino",
+    "num_asegurados": 47539,
+    "prima_emitida": 287451788.04,
+    "suma_asegurada": 824500313082,
+    "prima_promedio": 6046.65
+  },
+  {
+    "anio": 2020,
+    "edad": 62,
+    "sexo": "Femenino",
+    "num_asegurados": 31291,
+    "prima_emitida": 133918807.45,
+    "suma_asegurada": 169066460616,
+    "prima_promedio": 4279.79
+  },
+  {
+    "anio": 2020,
+    "edad": 62,
+    "sexo": "Masculino",
+    "num_asegurados": 38684,
+    "prima_emitida": 243019307.17,
+    "suma_asegurada": 573083634416,
+    "prima_promedio": 6282.17
+  },
+  {
+    "anio": 2020,
+    "edad": 63,
+    "sexo": "Femenino",
+    "num_asegurados": 26168,
+    "prima_emitida": 126205551.79,
+    "suma_asegurada": 153831750586,
+    "prima_promedio": 4822.9
+  },
+  {
+    "anio": 2020,
+    "edad": 63,
+    "sexo": "Masculino",
+    "num_asegurados": 33595,
+    "prima_emitida": 216363482.35,
+    "suma_asegurada": 423844034976,
+    "prima_promedio": 6440.35
+  },
+  {
+    "anio": 2020,
+    "edad": 64,
+    "sexo": "Femenino",
+    "num_asegurados": 22158,
+    "prima_emitida": 110914869.02,
+    "suma_asegurada": 113640779879,
+    "prima_promedio": 5005.64
+  },
+  {
+    "anio": 2020,
+    "edad": 64,
+    "sexo": "Masculino",
+    "num_asegurados": 28531,
+    "prima_emitida": 198135502.15,
+    "suma_asegurada": 383634303485,
+    "prima_promedio": 6944.57
+  },
+  {
+    "anio": 2020,
+    "edad": 65,
+    "sexo": "Femenino",
+    "num_asegurados": 19436,
+    "prima_emitida": 108789727.23,
+    "suma_asegurada": 108027011474,
+    "prima_promedio": 5597.33
+  },
+  {
+    "anio": 2020,
+    "edad": 65,
+    "sexo": "Masculino",
+    "num_asegurados": 25259,
+    "prima_emitida": 203833155.97,
+    "suma_asegurada": 320941613426,
+    "prima_promedio": 8069.72
+  },
+  {
+    "anio": 2020,
+    "edad": 66,
+    "sexo": "Femenino",
+    "num_asegurados": 16821,
+    "prima_emitida": 99803899.61,
+    "suma_asegurada": 85678885565,
+    "prima_promedio": 5933.29
+  },
+  {
+    "anio": 2020,
+    "edad": 66,
+    "sexo": "Masculino",
+    "num_asegurados": 21488,
+    "prima_emitida": 182470729.76,
+    "suma_asegurada": 244169343378,
+    "prima_promedio": 8491.75
+  },
+  {
+    "anio": 2020,
+    "edad": 67,
+    "sexo": "Femenino",
+    "num_asegurados": 14589,
+    "prima_emitida": 89478058.98,
+    "suma_asegurada": 67353751654,
+    "prima_promedio": 6133.26
+  },
+  {
+    "anio": 2020,
+    "edad": 67,
+    "sexo": "Masculino",
+    "num_asegurados": 18545,
+    "prima_emitida": 165448930.44,
+    "suma_asegurada": 195170254266,
+    "prima_promedio": 8921.48
+  },
+  {
+    "anio": 2020,
+    "edad": 68,
+    "sexo": "Femenino",
+    "num_asegurados": 12615,
+    "prima_emitida": 73407724.51,
+    "suma_asegurada": 55014697238,
+    "prima_promedio": 5819.08
+  },
+  {
+    "anio": 2020,
+    "edad": 68,
+    "sexo": "Masculino",
+    "num_asegurados": 15821,
+    "prima_emitida": 142108840.44,
+    "suma_asegurada": 155008331281,
+    "prima_promedio": 8982.29
+  },
+  {
+    "anio": 2020,
+    "edad": 69,
+    "sexo": "Femenino",
+    "num_asegurados": 11132,
+    "prima_emitida": 67258891.25,
+    "suma_asegurada": 45845908087,
+    "prima_promedio": 6041.94
+  },
+  {
+    "anio": 2020,
+    "edad": 69,
+    "sexo": "Masculino",
+    "num_asegurados": 14175,
+    "prima_emitida": 121599632.35,
+    "suma_asegurada": 157842118405,
+    "prima_promedio": 8578.46
+  },
+  {
+    "anio": 2020,
+    "edad": 70,
+    "sexo": "Femenino",
+    "num_asegurados": 10304,
+    "prima_emitida": 67647992.05,
+    "suma_asegurada": 36810965092,
+    "prima_promedio": 6565.22
+  },
+  {
+    "anio": 2020,
+    "edad": 70,
+    "sexo": "Masculino",
+    "num_asegurados": 12828,
+    "prima_emitida": 152807819.57,
+    "suma_asegurada": 111332645427,
+    "prima_promedio": 11912.05
+  },
+  {
+    "anio": 2021,
+    "edad": 25,
+    "sexo": "Femenino",
+    "num_asegurados": 257684,
+    "prima_emitida": 382786012.33,
+    "suma_asegurada": 3642376885499,
+    "prima_promedio": 1485.49
+  },
+  {
+    "anio": 2021,
+    "edad": 25,
+    "sexo": "Masculino",
+    "num_asegurados": 339013,
+    "prima_emitida": 416872851.79,
+    "suma_asegurada": 5709157523382,
+    "prima_promedio": 1229.67
+  },
+  {
+    "anio": 2021,
+    "edad": 26,
+    "sexo": "Femenino",
+    "num_asegurados": 247440,
+    "prima_emitida": 420437861.46,
+    "suma_asegurada": 2496915235715,
+    "prima_promedio": 1699.15
+  },
+  {
+    "anio": 2021,
+    "edad": 26,
+    "sexo": "Masculino",
+    "num_asegurados": 335924,
+    "prima_emitida": 450452765.86,
+    "suma_asegurada": 5421107930340,
+    "prima_promedio": 1340.94
+  },
+  {
+    "anio": 2021,
+    "edad": 27,
+    "sexo": "Femenino",
+    "num_asegurados": 262199,
+    "prima_emitida": 476270920.26,
+    "suma_asegurada": 2779609530688,
+    "prima_promedio": 1816.45
+  },
+  {
+    "anio": 2021,
+    "edad": 27,
+    "sexo": "Masculino",
+    "num_asegurados": 353753,
+    "prima_emitida": 507975401.79,
+    "suma_asegurada": 5382966165419,
+    "prima_promedio": 1435.96
+  },
+  {
+    "anio": 2021,
+    "edad": 28,
+    "sexo": "Femenino",
+    "num_asegurados": 284078,
+    "prima_emitida": 513942172.79,
+    "suma_asegurada": 2609677395163,
+    "prima_promedio": 1809.16
+  },
+  {
+    "anio": 2021,
+    "edad": 28,
+    "sexo": "Masculino",
+    "num_asegurados": 384346,
+    "prima_emitida": 553537158.46,
+    "suma_asegurada": 5632279542670,
+    "prima_promedio": 1440.21
+  },
+  {
+    "anio": 2021,
+    "edad": 29,
+    "sexo": "Femenino",
+    "num_asegurados": 295568,
+    "prima_emitida": 543578658.11,
+    "suma_asegurada": 2923133308729,
+    "prima_promedio": 1839.1
+  },
+  {
+    "anio": 2021,
+    "edad": 29,
+    "sexo": "Masculino",
+    "num_asegurados": 389068,
+    "prima_emitida": 566255981.65,
+    "suma_asegurada": 5492000289258,
+    "prima_promedio": 1455.42
+  },
+  {
+    "anio": 2021,
+    "edad": 30,
+    "sexo": "Femenino",
+    "num_asegurados": 310260,
+    "prima_emitida": 596992932.52,
+    "suma_asegurada": 2993470954906,
+    "prima_promedio": 1924.17
+  },
+  {
+    "anio": 2021,
+    "edad": 30,
+    "sexo": "Masculino",
+    "num_asegurados": 410234,
+    "prima_emitida": 631575427.1,
+    "suma_asegurada": 6216378310717,
+    "prima_promedio": 1539.55
+  },
+  {
+    "anio": 2021,
+    "edad": 31,
+    "sexo": "Femenino",
+    "num_asegurados": 311119,
+    "prima_emitida": 632256635.83,
+    "suma_asegurada": 2876038947590,
+    "prima_promedio": 2032.2
+  },
+  {
+    "anio": 2021,
+    "edad": 31,
+    "sexo": "Masculino",
+    "num_asegurados": 411382,
+    "prima_emitida": 684133471.86,
+    "suma_asegurada": 5871274142225,
+    "prima_promedio": 1663.01
+  },
+  {
+    "anio": 2021,
+    "edad": 32,
+    "sexo": "Femenino",
+    "num_asegurados": 324521,
+    "prima_emitida": 680310174.56,
+    "suma_asegurada": 3399772055741,
+    "prima_promedio": 2096.35
+  },
+  {
+    "anio": 2021,
+    "edad": 32,
+    "sexo": "Masculino",
+    "num_asegurados": 431893,
+    "prima_emitida": 709084339.37,
+    "suma_asegurada": 6343533445360,
+    "prima_promedio": 1641.81
+  },
+  {
+    "anio": 2021,
+    "edad": 33,
+    "sexo": "Femenino",
+    "num_asegurados": 321667,
+    "prima_emitida": 675414854.29,
+    "suma_asegurada": 3082451057681,
+    "prima_promedio": 2099.73
+  },
+  {
+    "anio": 2021,
+    "edad": 33,
+    "sexo": "Masculino",
+    "num_asegurados": 419386,
+    "prima_emitida": 733810586.22,
+    "suma_asegurada": 6319053365499,
+    "prima_promedio": 1749.73
+  },
+  {
+    "anio": 2021,
+    "edad": 34,
+    "sexo": "Femenino",
+    "num_asegurados": 313730,
+    "prima_emitida": 665629407.47,
+    "suma_asegurada": 3058712593307,
+    "prima_promedio": 2121.66
+  },
+  {
+    "anio": 2021,
+    "edad": 34,
+    "sexo": "Masculino",
+    "num_asegurados": 405941,
+    "prima_emitida": 726423041.42,
+    "suma_asegurada": 6287474231403,
+    "prima_promedio": 1789.48
+  },
+  {
+    "anio": 2021,
+    "edad": 35,
+    "sexo": "Femenino",
+    "num_asegurados": 309090,
+    "prima_emitida": 658476325.21,
+    "suma_asegurada": 3034762277221,
+    "prima_promedio": 2130.37
+  },
+  {
+    "anio": 2021,
+    "edad": 35,
+    "sexo": "Masculino",
+    "num_asegurados": 393073,
+    "prima_emitida": 528605555.17,
+    "suma_asegurada": 6165079696849,
+    "prima_promedio": 1344.8
+  },
+  {
+    "anio": 2021,
+    "edad": 36,
+    "sexo": "Femenino",
+    "num_asegurados": 309210,
+    "prima_emitida": 695643498.49,
+    "suma_asegurada": 2975571402536,
+    "prima_promedio": 2249.74
+  },
+  {
+    "anio": 2021,
+    "edad": 36,
+    "sexo": "Masculino",
+    "num_asegurados": 382048,
+    "prima_emitida": 760228118.92,
+    "suma_asegurada": 6437847882354,
+    "prima_promedio": 1989.88
+  },
+  {
+    "anio": 2021,
+    "edad": 37,
+    "sexo": "Femenino",
+    "num_asegurados": 296580,
+    "prima_emitida": 680058362.32,
+    "suma_asegurada": 2879516048889,
+    "prima_promedio": 2293.0
+  },
+  {
+    "anio": 2021,
+    "edad": 37,
+    "sexo": "Masculino",
+    "num_asegurados": 372037,
+    "prima_emitida": 763523314.14,
+    "suma_asegurada": 6123658058410,
+    "prima_promedio": 2052.28
+  },
+  {
+    "anio": 2021,
+    "edad": 38,
+    "sexo": "Femenino",
+    "num_asegurados": 294760,
+    "prima_emitida": 671460718.34,
+    "suma_asegurada": 2825437873276,
+    "prima_promedio": 2277.99
+  },
+  {
+    "anio": 2021,
+    "edad": 38,
+    "sexo": "Masculino",
+    "num_asegurados": 365704,
+    "prima_emitida": 749787763.48,
+    "suma_asegurada": 6131137906207,
+    "prima_promedio": 2050.26
+  },
+  {
+    "anio": 2021,
+    "edad": 39,
+    "sexo": "Femenino",
+    "num_asegurados": 289658,
+    "prima_emitida": 665234936.98,
+    "suma_asegurada": 2787404060341,
+    "prima_promedio": 2296.62
+  },
+  {
+    "anio": 2021,
+    "edad": 39,
+    "sexo": "Masculino",
+    "num_asegurados": 358334,
+    "prima_emitida": 744307132.1,
+    "suma_asegurada": 5920028143863,
+    "prima_promedio": 2077.13
+  },
+  {
+    "anio": 2021,
+    "edad": 40,
+    "sexo": "Femenino",
+    "num_asegurados": 276713,
+    "prima_emitida": 648246512.68,
+    "suma_asegurada": 2951338264352,
+    "prima_promedio": 2342.67
+  },
+  {
+    "anio": 2021,
+    "edad": 40,
+    "sexo": "Masculino",
+    "num_asegurados": 346648,
+    "prima_emitida": 758949202.5,
+    "suma_asegurada": 5916581827402,
+    "prima_promedio": 2189.39
+  },
+  {
+    "anio": 2021,
+    "edad": 41,
+    "sexo": "Femenino",
+    "num_asegurados": 260202,
+    "prima_emitida": 637659239.99,
+    "suma_asegurada": 2499868255711,
+    "prima_promedio": 2450.63
+  },
+  {
+    "anio": 2021,
+    "edad": 41,
+    "sexo": "Masculino",
+    "num_asegurados": 327645,
+    "prima_emitida": 777811717.54,
+    "suma_asegurada": 5472616246904,
+    "prima_promedio": 2373.95
+  },
+  {
+    "anio": 2021,
+    "edad": 42,
+    "sexo": "Femenino",
+    "num_asegurados": 252181,
+    "prima_emitida": 612311861.47,
+    "suma_asegurada": 2407196559238,
+    "prima_promedio": 2428.07
+  },
+  {
+    "anio": 2021,
+    "edad": 42,
+    "sexo": "Masculino",
+    "num_asegurados": 314168,
+    "prima_emitida": 768333603.45,
+    "suma_asegurada": 5241348719512,
+    "prima_promedio": 2445.61
+  },
+  {
+    "anio": 2021,
+    "edad": 43,
+    "sexo": "Femenino",
+    "num_asegurados": 232442,
+    "prima_emitida": 573136803.91,
+    "suma_asegurada": 2336134936208,
+    "prima_promedio": 2465.72
+  },
+  {
+    "anio": 2021,
+    "edad": 43,
+    "sexo": "Masculino",
+    "num_asegurados": 287789,
+    "prima_emitida": 707923050.16,
+    "suma_asegurada": 5126271772684,
+    "prima_promedio": 2459.87
+  },
+  {
+    "anio": 2021,
+    "edad": 44,
+    "sexo": "Femenino",
+    "num_asegurados": 222902,
+    "prima_emitida": 542195356.13,
+    "suma_asegurada": 2713595435522,
+    "prima_promedio": 2432.44
+  },
+  {
+    "anio": 2021,
+    "edad": 44,
+    "sexo": "Masculino",
+    "num_asegurados": 273710,
+    "prima_emitida": 662089485.35,
+    "suma_asegurada": 4715745745147,
+    "prima_promedio": 2418.95
+  },
+  {
+    "anio": 2021,
+    "edad": 45,
+    "sexo": "Femenino",
+    "num_asegurados": 214433,
+    "prima_emitida": 537678273.32,
+    "suma_asegurada": 2838316561946,
+    "prima_promedio": 2507.44
+  },
+  {
+    "anio": 2021,
+    "edad": 45,
+    "sexo": "Masculino",
+    "num_asegurados": 265162,
+    "prima_emitida": 687854410.95,
+    "suma_asegurada": 4985737564826,
+    "prima_promedio": 2594.09
+  },
+  {
+    "anio": 2021,
+    "edad": 46,
+    "sexo": "Femenino",
+    "num_asegurados": 206212,
+    "prima_emitida": 536930178.41,
+    "suma_asegurada": 2607266501185,
+    "prima_promedio": 2603.78
+  },
+  {
+    "anio": 2021,
+    "edad": 46,
+    "sexo": "Masculino",
+    "num_asegurados": 252315,
+    "prima_emitida": 705029023.64,
+    "suma_asegurada": 5024951212603,
+    "prima_promedio": 2794.24
+  },
+  {
+    "anio": 2021,
+    "edad": 47,
+    "sexo": "Femenino",
+    "num_asegurados": 201253,
+    "prima_emitida": 525867432.68,
+    "suma_asegurada": 2507294837221,
+    "prima_promedio": 2612.97
+  },
+  {
+    "anio": 2021,
+    "edad": 47,
+    "sexo": "Masculino",
+    "num_asegurados": 245529,
+    "prima_emitida": 700549131.2,
+    "suma_asegurada": 5242702262779,
+    "prima_promedio": 2853.22
+  },
+  {
+    "anio": 2021,
+    "edad": 48,
+    "sexo": "Femenino",
+    "num_asegurados": 200248,
+    "prima_emitida": 526494982.62,
+    "suma_asegurada": 1937818274676,
+    "prima_promedio": 2629.21
+  },
+  {
+    "anio": 2021,
+    "edad": 48,
+    "sexo": "Masculino",
+    "num_asegurados": 241352,
+    "prima_emitida": 691126463.19,
+    "suma_asegurada": 4802308016742,
+    "prima_promedio": 2863.56
+  },
+  {
+    "anio": 2021,
+    "edad": 49,
+    "sexo": "Femenino",
+    "num_asegurados": 188214,
+    "prima_emitida": 489593581.98,
+    "suma_asegurada": 2112538033736,
+    "prima_promedio": 2601.26
+  },
+  {
+    "anio": 2021,
+    "edad": 49,
+    "sexo": "Masculino",
+    "num_asegurados": 230263,
+    "prima_emitida": 662122778.48,
+    "suma_asegurada": 4877383915493,
+    "prima_promedio": 2875.51
+  },
+  {
+    "anio": 2021,
+    "edad": 50,
+    "sexo": "Femenino",
+    "num_asegurados": 175547,
+    "prima_emitida": 470825265.5,
+    "suma_asegurada": 2374572189751,
+    "prima_promedio": 2682.05
+  },
+  {
+    "anio": 2021,
+    "edad": 50,
+    "sexo": "Masculino",
+    "num_asegurados": 213500,
+    "prima_emitida": 647429318.57,
+    "suma_asegurada": 5850092585300,
+    "prima_promedio": 3032.46
+  },
+  {
+    "anio": 2021,
+    "edad": 51,
+    "sexo": "Femenino",
+    "num_asegurados": 164458,
+    "prima_emitida": 466604213.15,
+    "suma_asegurada": 1688686038710,
+    "prima_promedio": 2837.22
+  },
+  {
+    "anio": 2021,
+    "edad": 51,
+    "sexo": "Masculino",
+    "num_asegurados": 196959,
+    "prima_emitida": 657033063.64,
+    "suma_asegurada": 3678101156244,
+    "prima_promedio": 3335.89
+  },
+  {
+    "anio": 2021,
+    "edad": 52,
+    "sexo": "Femenino",
+    "num_asegurados": 147457,
+    "prima_emitida": 417495766.23,
+    "suma_asegurada": 1532349013506,
+    "prima_promedio": 2831.31
+  },
+  {
+    "anio": 2021,
+    "edad": 52,
+    "sexo": "Masculino",
+    "num_asegurados": 179016,
+    "prima_emitida": 609949476.87,
+    "suma_asegurada": 4125145683409,
+    "prima_promedio": 3407.23
+  },
+  {
+    "anio": 2021,
+    "edad": 53,
+    "sexo": "Femenino",
+    "num_asegurados": 134457,
+    "prima_emitida": 375224017.22,
+    "suma_asegurada": 1229286066986,
+    "prima_promedio": 2790.66
+  },
+  {
+    "anio": 2021,
+    "edad": 53,
+    "sexo": "Masculino",
+    "num_asegurados": 160166,
+    "prima_emitida": 545001930.71,
+    "suma_asegurada": 2957442466289,
+    "prima_promedio": 3402.73
+  },
+  {
+    "anio": 2021,
+    "edad": 54,
+    "sexo": "Femenino",
+    "num_asegurados": 120630,
+    "prima_emitida": 332909708.22,
+    "suma_asegurada": 1849174760459,
+    "prima_promedio": 2759.76
+  },
+  {
+    "anio": 2021,
+    "edad": 54,
+    "sexo": "Masculino",
+    "num_asegurados": 144972,
+    "prima_emitida": 496551787.81,
+    "suma_asegurada": 3008324437286,
+    "prima_promedio": 3425.16
+  },
+  {
+    "anio": 2021,
+    "edad": 55,
+    "sexo": "Femenino",
+    "num_asegurados": 106916,
+    "prima_emitida": 304144649.79,
+    "suma_asegurada": 928995584048,
+    "prima_promedio": 2844.71
+  },
+  {
+    "anio": 2021,
+    "edad": 55,
+    "sexo": "Masculino",
+    "num_asegurados": 130297,
+    "prima_emitida": 481465879.21,
+    "suma_asegurada": 2383649514736,
+    "prima_promedio": 3695.14
+  },
+  {
+    "anio": 2021,
+    "edad": 56,
+    "sexo": "Femenino",
+    "num_asegurados": 96100,
+    "prima_emitida": 290867931.0,
+    "suma_asegurada": 842045562258,
+    "prima_promedio": 3026.72
+  },
+  {
+    "anio": 2021,
+    "edad": 56,
+    "sexo": "Masculino",
+    "num_asegurados": 117424,
+    "prima_emitida": 466894368.93,
+    "suma_asegurada": 2373029074294,
+    "prima_promedio": 3976.14
+  },
+  {
+    "anio": 2021,
+    "edad": 57,
+    "sexo": "Femenino",
+    "num_asegurados": 84123,
+    "prima_emitida": 254696858.29,
+    "suma_asegurada": 730420605701,
+    "prima_promedio": 3027.67
+  },
+  {
+    "anio": 2021,
+    "edad": 57,
+    "sexo": "Masculino",
+    "num_asegurados": 106492,
+    "prima_emitida": 433267345.93,
+    "suma_asegurada": 2024158649449,
+    "prima_promedio": 4068.54
+  },
+  {
+    "anio": 2021,
+    "edad": 58,
+    "sexo": "Femenino",
+    "num_asegurados": 76301,
+    "prima_emitida": 230744116.38,
+    "suma_asegurada": 784829407015,
+    "prima_promedio": 3024.13
+  },
+  {
+    "anio": 2021,
+    "edad": 58,
+    "sexo": "Masculino",
+    "num_asegurados": 96884,
+    "prima_emitida": 391510149.47,
+    "suma_asegurada": 1963431374494,
+    "prima_promedio": 4041.02
+  },
+  {
+    "anio": 2021,
+    "edad": 59,
+    "sexo": "Femenino",
+    "num_asegurados": 68790,
+    "prima_emitida": 209186692.46,
+    "suma_asegurada": 578858556502,
+    "prima_promedio": 3040.95
+  },
+  {
+    "anio": 2021,
+    "edad": 59,
+    "sexo": "Masculino",
+    "num_asegurados": 86471,
+    "prima_emitida": 350979540.11,
+    "suma_asegurada": 1708775711485,
+    "prima_promedio": 4058.93
+  },
+  {
+    "anio": 2021,
+    "edad": 60,
+    "sexo": "Femenino",
+    "num_asegurados": 58755,
+    "prima_emitida": 184980532.22,
+    "suma_asegurada": 459085050956,
+    "prima_promedio": 3148.34
+  },
+  {
+    "anio": 2021,
+    "edad": 60,
+    "sexo": "Masculino",
+    "num_asegurados": 74004,
+    "prima_emitida": 335018649.16,
+    "suma_asegurada": 1495382610102,
+    "prima_promedio": 4527.03
+  },
+  {
+    "anio": 2021,
+    "edad": 61,
+    "sexo": "Femenino",
+    "num_asegurados": 50569,
+    "prima_emitida": 179846616.0,
+    "suma_asegurada": 395150937203,
+    "prima_promedio": 3556.46
+  },
+  {
+    "anio": 2021,
+    "edad": 61,
+    "sexo": "Masculino",
+    "num_asegurados": 61942,
+    "prima_emitida": 310500120.29,
+    "suma_asegurada": 1184526015109,
+    "prima_promedio": 5012.76
+  },
+  {
+    "anio": 2021,
+    "edad": 62,
+    "sexo": "Femenino",
+    "num_asegurados": 39806,
+    "prima_emitida": 164450231.64,
+    "suma_asegurada": 358097044623,
+    "prima_promedio": 4131.29
+  },
+  {
+    "anio": 2021,
+    "edad": 62,
+    "sexo": "Masculino",
+    "num_asegurados": 51899,
+    "prima_emitida": 271105553.84,
+    "suma_asegurada": 970981554726,
+    "prima_promedio": 5223.71
+  },
+  {
+    "anio": 2021,
+    "edad": 63,
+    "sexo": "Femenino",
+    "num_asegurados": 30415,
+    "prima_emitida": 128901705.59,
+    "suma_asegurada": 267771330040,
+    "prima_promedio": 4238.1
+  },
+  {
+    "anio": 2021,
+    "edad": 63,
+    "sexo": "Masculino",
+    "num_asegurados": 43297,
+    "prima_emitida": 232324206.34,
+    "suma_asegurada": 862359116774,
+    "prima_promedio": 5365.83
+  },
+  {
+    "anio": 2021,
+    "edad": 64,
+    "sexo": "Femenino",
+    "num_asegurados": 25792,
+    "prima_emitida": 114183906.56,
+    "suma_asegurada": 226621563923,
+    "prima_promedio": 4427.11
+  },
+  {
+    "anio": 2021,
+    "edad": 64,
+    "sexo": "Masculino",
+    "num_asegurados": 36559,
+    "prima_emitida": 192520407.03,
+    "suma_asegurada": 626878573007,
+    "prima_promedio": 5266.02
+  },
+  {
+    "anio": 2021,
+    "edad": 65,
+    "sexo": "Femenino",
+    "num_asegurados": 23531,
+    "prima_emitida": 116301482.46,
+    "suma_asegurada": 212111481310,
+    "prima_promedio": 4942.48
+  },
+  {
+    "anio": 2021,
+    "edad": 65,
+    "sexo": "Masculino",
+    "num_asegurados": 32102,
+    "prima_emitida": 187182978.0,
+    "suma_asegurada": 504321257531,
+    "prima_promedio": 5830.88
+  },
+  {
+    "anio": 2021,
+    "edad": 66,
+    "sexo": "Femenino",
+    "num_asegurados": 20629,
+    "prima_emitida": 107498104.46,
+    "suma_asegurada": 165483921402,
+    "prima_promedio": 5211.02
+  },
+  {
+    "anio": 2021,
+    "edad": 66,
+    "sexo": "Masculino",
+    "num_asegurados": 27106,
+    "prima_emitida": 175459343.94,
+    "suma_asegurada": 577486981998,
+    "prima_promedio": 6473.08
+  },
+  {
+    "anio": 2021,
+    "edad": 67,
+    "sexo": "Femenino",
+    "num_asegurados": 17693,
+    "prima_emitida": 91514026.24,
+    "suma_asegurada": 128116878496,
+    "prima_promedio": 5172.33
+  },
+  {
+    "anio": 2021,
+    "edad": 67,
+    "sexo": "Masculino",
+    "num_asegurados": 23572,
+    "prima_emitida": 159119538.22,
+    "suma_asegurada": 346154855997,
+    "prima_promedio": 6750.36
+  },
+  {
+    "anio": 2021,
+    "edad": 68,
+    "sexo": "Femenino",
+    "num_asegurados": 15481,
+    "prima_emitida": 82471098.14,
+    "suma_asegurada": 272040384790,
+    "prima_promedio": 5327.25
+  },
+  {
+    "anio": 2021,
+    "edad": 68,
+    "sexo": "Masculino",
+    "num_asegurados": 20154,
+    "prima_emitida": 137383173.08,
+    "suma_asegurada": 285871305834,
+    "prima_promedio": 6816.67
+  },
+  {
+    "anio": 2021,
+    "edad": 69,
+    "sexo": "Femenino",
+    "num_asegurados": 13939,
+    "prima_emitida": 73838518.63,
+    "suma_asegurada": 101402329534,
+    "prima_promedio": 5297.26
+  },
+  {
+    "anio": 2021,
+    "edad": 69,
+    "sexo": "Masculino",
+    "num_asegurados": 17957,
+    "prima_emitida": 126402188.78,
+    "suma_asegurada": 227269340854,
+    "prima_promedio": 7039.16
+  },
+  {
+    "anio": 2021,
+    "edad": 70,
+    "sexo": "Femenino",
+    "num_asegurados": 11863,
+    "prima_emitida": 71727641.57,
+    "suma_asegurada": 76376266574,
+    "prima_promedio": 6046.33
+  },
+  {
+    "anio": 2021,
+    "edad": 70,
+    "sexo": "Masculino",
+    "num_asegurados": 14813,
+    "prima_emitida": 116180897.11,
+    "suma_asegurada": 182753162636,
+    "prima_promedio": 7843.17
+  },
+  {
+    "anio": 2022,
+    "edad": 25,
+    "sexo": "Femenino",
+    "num_asegurados": 246666,
+    "prima_emitida": 426926871.18,
+    "suma_asegurada": 11222949749985,
+    "prima_promedio": 1730.79
+  },
+  {
+    "anio": 2022,
+    "edad": 25,
+    "sexo": "Masculino",
+    "num_asegurados": 325745,
+    "prima_emitida": 508750579.64,
+    "suma_asegurada": 13550802811275,
+    "prima_promedio": 1561.81
+  },
+  {
+    "anio": 2022,
+    "edad": 26,
+    "sexo": "Femenino",
+    "num_asegurados": 258543,
+    "prima_emitida": 471977353.61,
+    "suma_asegurada": 13805078563274,
+    "prima_promedio": 1825.53
+  },
+  {
+    "anio": 2022,
+    "edad": 26,
+    "sexo": "Masculino",
+    "num_asegurados": 338248,
+    "prima_emitida": 532129204.4,
+    "suma_asegurada": 14143482605629,
+    "prima_promedio": 1573.19
+  },
+  {
+    "anio": 2022,
+    "edad": 27,
+    "sexo": "Femenino",
+    "num_asegurados": 251812,
+    "prima_emitida": 497187030.17,
+    "suma_asegurada": 10376204391256,
+    "prima_promedio": 1974.44
+  },
+  {
+    "anio": 2022,
+    "edad": 27,
+    "sexo": "Masculino",
+    "num_asegurados": 337925,
+    "prima_emitida": 573154604.31,
+    "suma_asegurada": 13168696027699,
+    "prima_promedio": 1696.1
+  },
+  {
+    "anio": 2022,
+    "edad": 28,
+    "sexo": "Femenino",
+    "num_asegurados": 274205,
+    "prima_emitida": 549311068.14,
+    "suma_asegurada": 11976851486673,
+    "prima_promedio": 2003.29
+  },
+  {
+    "anio": 2022,
+    "edad": 28,
+    "sexo": "Masculino",
+    "num_asegurados": 364731,
+    "prima_emitida": 624992747.82,
+    "suma_asegurada": 14007965103153,
+    "prima_promedio": 1713.57
+  },
+  {
+    "anio": 2022,
+    "edad": 29,
+    "sexo": "Femenino",
+    "num_asegurados": 294434,
+    "prima_emitida": 593105897.11,
+    "suma_asegurada": 11368105221105,
+    "prima_promedio": 2014.39
+  },
+  {
+    "anio": 2022,
+    "edad": 29,
+    "sexo": "Masculino",
+    "num_asegurados": 392833,
+    "prima_emitida": 666911389.72,
+    "suma_asegurada": 15128885663583,
+    "prima_promedio": 1697.7
+  },
+  {
+    "anio": 2022,
+    "edad": 30,
+    "sexo": "Femenino",
+    "num_asegurados": 300929,
+    "prima_emitida": 648518118.31,
+    "suma_asegurada": 12536002024643,
+    "prima_promedio": 2155.05
+  },
+  {
+    "anio": 2022,
+    "edad": 30,
+    "sexo": "Masculino",
+    "num_asegurados": 394063,
+    "prima_emitida": 734689718.83,
+    "suma_asegurada": 15802715312395,
+    "prima_promedio": 1864.4
+  },
+  {
+    "anio": 2022,
+    "edad": 31,
+    "sexo": "Femenino",
+    "num_asegurados": 307755,
+    "prima_emitida": 712034767.45,
+    "suma_asegurada": 13011006248591,
+    "prima_promedio": 2313.64
+  },
+  {
+    "anio": 2022,
+    "edad": 31,
+    "sexo": "Masculino",
+    "num_asegurados": 409616,
+    "prima_emitida": 786521462.76,
+    "suma_asegurada": 16943176787321,
+    "prima_promedio": 1920.14
+  },
+  {
+    "anio": 2022,
+    "edad": 32,
+    "sexo": "Femenino",
+    "num_asegurados": 311489,
+    "prima_emitida": 738277135.74,
+    "suma_asegurada": 12409925423194,
+    "prima_promedio": 2370.15
+  },
+  {
+    "anio": 2022,
+    "edad": 32,
+    "sexo": "Masculino",
+    "num_asegurados": 410399,
+    "prima_emitida": 796522521.57,
+    "suma_asegurada": 15542911488409,
+    "prima_promedio": 1940.85
+  },
+  {
+    "anio": 2022,
+    "edad": 33,
+    "sexo": "Femenino",
+    "num_asegurados": 328161,
+    "prima_emitida": 782550069.49,
+    "suma_asegurada": 14312257909658,
+    "prima_promedio": 2384.65
+  },
+  {
+    "anio": 2022,
+    "edad": 33,
+    "sexo": "Masculino",
+    "num_asegurados": 423231,
+    "prima_emitida": 830917918.21,
+    "suma_asegurada": 17122123032510,
+    "prima_promedio": 1963.27
+  },
+  {
+    "anio": 2022,
+    "edad": 34,
+    "sexo": "Femenino",
+    "num_asegurados": 322793,
+    "prima_emitida": 764854961.32,
+    "suma_asegurada": 14357513714896,
+    "prima_promedio": 2369.49
+  },
+  {
+    "anio": 2022,
+    "edad": 34,
+    "sexo": "Masculino",
+    "num_asegurados": 416419,
+    "prima_emitida": 811447333.71,
+    "suma_asegurada": 16940712972562,
+    "prima_promedio": 1948.63
+  },
+  {
+    "anio": 2022,
+    "edad": 35,
+    "sexo": "Femenino",
+    "num_asegurados": 313122,
+    "prima_emitida": 780654472.79,
+    "suma_asegurada": 14204528922693,
+    "prima_promedio": 2493.13
+  },
+  {
+    "anio": 2022,
+    "edad": 35,
+    "sexo": "Masculino",
+    "num_asegurados": 412904,
+    "prima_emitida": 1077249956.29,
+    "suma_asegurada": 16573443170283,
+    "prima_promedio": 2608.96
+  },
+  {
+    "anio": 2022,
+    "edad": 36,
+    "sexo": "Femenino",
+    "num_asegurados": 304843,
+    "prima_emitida": 814115497.25,
+    "suma_asegurada": 14282164924728,
+    "prima_promedio": 2670.61
+  },
+  {
+    "anio": 2022,
+    "edad": 36,
+    "sexo": "Masculino",
+    "num_asegurados": 389754,
+    "prima_emitida": 862915197.66,
+    "suma_asegurada": 16130925218442,
+    "prima_promedio": 2214.0
+  },
+  {
+    "anio": 2022,
+    "edad": 37,
+    "sexo": "Femenino",
+    "num_asegurados": 302217,
+    "prima_emitida": 808459942.83,
+    "suma_asegurada": 14732017166516,
+    "prima_promedio": 2675.1
+  },
+  {
+    "anio": 2022,
+    "edad": 37,
+    "sexo": "Masculino",
+    "num_asegurados": 378996,
+    "prima_emitida": 858709868.68,
+    "suma_asegurada": 17216937016285,
+    "prima_promedio": 2265.75
+  },
+  {
+    "anio": 2022,
+    "edad": 38,
+    "sexo": "Femenino",
+    "num_asegurados": 291352,
+    "prima_emitida": 782487395.11,
+    "suma_asegurada": 13525191879637,
+    "prima_promedio": 2685.71
+  },
+  {
+    "anio": 2022,
+    "edad": 38,
+    "sexo": "Masculino",
+    "num_asegurados": 367788,
+    "prima_emitida": 843647912.07,
+    "suma_asegurada": 18037843852442,
+    "prima_promedio": 2293.84
+  },
+  {
+    "anio": 2022,
+    "edad": 39,
+    "sexo": "Femenino",
+    "num_asegurados": 290175,
+    "prima_emitida": 763802366.37,
+    "suma_asegurada": 13725335710983,
+    "prima_promedio": 2632.21
+  },
+  {
+    "anio": 2022,
+    "edad": 39,
+    "sexo": "Masculino",
+    "num_asegurados": 362766,
+    "prima_emitida": 830441677.07,
+    "suma_asegurada": 15925790827043,
+    "prima_promedio": 2289.19
+  },
+  {
+    "anio": 2022,
+    "edad": 40,
+    "sexo": "Femenino",
+    "num_asegurados": 282273,
+    "prima_emitida": 777101571.59,
+    "suma_asegurada": 13503264430599,
+    "prima_promedio": 2753.01
+  },
+  {
+    "anio": 2022,
+    "edad": 40,
+    "sexo": "Masculino",
+    "num_asegurados": 353038,
+    "prima_emitida": 858699854.38,
+    "suma_asegurada": 15703108887421,
+    "prima_promedio": 2432.32
+  },
+  {
+    "anio": 2022,
+    "edad": 41,
+    "sexo": "Femenino",
+    "num_asegurados": 269502,
+    "prima_emitida": 790640684.75,
+    "suma_asegurada": 12818924465929,
+    "prima_promedio": 2933.71
+  },
+  {
+    "anio": 2022,
+    "edad": 41,
+    "sexo": "Masculino",
+    "num_asegurados": 340371,
+    "prima_emitida": 899327075.21,
+    "suma_asegurada": 15742123316196,
+    "prima_promedio": 2642.2
+  },
+  {
+    "anio": 2022,
+    "edad": 42,
+    "sexo": "Femenino",
+    "num_asegurados": 255065,
+    "prima_emitida": 746376001.38,
+    "suma_asegurada": 12748074330110,
+    "prima_promedio": 2926.22
+  },
+  {
+    "anio": 2022,
+    "edad": 42,
+    "sexo": "Masculino",
+    "num_asegurados": 321855,
+    "prima_emitida": 858695459.07,
+    "suma_asegurada": 14514386799439,
+    "prima_promedio": 2667.96
+  },
+  {
+    "anio": 2022,
+    "edad": 43,
+    "sexo": "Femenino",
+    "num_asegurados": 246147,
+    "prima_emitida": 726457315.34,
+    "suma_asegurada": 12764839347190,
+    "prima_promedio": 2951.31
+  },
+  {
+    "anio": 2022,
+    "edad": 43,
+    "sexo": "Masculino",
+    "num_asegurados": 308607,
+    "prima_emitida": 838906626.79,
+    "suma_asegurada": 14834044693065,
+    "prima_promedio": 2718.37
+  },
+  {
+    "anio": 2022,
+    "edad": 44,
+    "sexo": "Femenino",
+    "num_asegurados": 231284,
+    "prima_emitida": 668872081.76,
+    "suma_asegurada": 10737793859958,
+    "prima_promedio": 2891.99
+  },
+  {
+    "anio": 2022,
+    "edad": 44,
+    "sexo": "Masculino",
+    "num_asegurados": 286738,
+    "prima_emitida": 773506064.19,
+    "suma_asegurada": 12536825441145,
+    "prima_promedio": 2697.61
+  },
+  {
+    "anio": 2022,
+    "edad": 45,
+    "sexo": "Femenino",
+    "num_asegurados": 222000,
+    "prima_emitida": 673240582.69,
+    "suma_asegurada": 9991476444950,
+    "prima_promedio": 3032.62
+  },
+  {
+    "anio": 2022,
+    "edad": 45,
+    "sexo": "Masculino",
+    "num_asegurados": 271494,
+    "prima_emitida": 775281471.91,
+    "suma_asegurada": 11769446227369,
+    "prima_promedio": 2855.61
+  },
+  {
+    "anio": 2022,
+    "edad": 46,
+    "sexo": "Femenino",
+    "num_asegurados": 211149,
+    "prima_emitida": 684685855.68,
+    "suma_asegurada": 10465843762567,
+    "prima_promedio": 3242.67
+  },
+  {
+    "anio": 2022,
+    "edad": 46,
+    "sexo": "Masculino",
+    "num_asegurados": 262009,
+    "prima_emitida": 826741298.59,
+    "suma_asegurada": 11501732163545,
+    "prima_promedio": 3155.39
+  },
+  {
+    "anio": 2022,
+    "edad": 47,
+    "sexo": "Femenino",
+    "num_asegurados": 204431,
+    "prima_emitida": 659579479.79,
+    "suma_asegurada": 11285722270083,
+    "prima_promedio": 3226.42
+  },
+  {
+    "anio": 2022,
+    "edad": 47,
+    "sexo": "Masculino",
+    "num_asegurados": 250131,
+    "prima_emitida": 809836873.85,
+    "suma_asegurada": 13007370417928,
+    "prima_promedio": 3237.65
+  },
+  {
+    "anio": 2022,
+    "edad": 48,
+    "sexo": "Femenino",
+    "num_asegurados": 199158,
+    "prima_emitida": 642968326.77,
+    "suma_asegurada": 9859760550371,
+    "prima_promedio": 3228.43
+  },
+  {
+    "anio": 2022,
+    "edad": 48,
+    "sexo": "Masculino",
+    "num_asegurados": 245807,
+    "prima_emitida": 789211175.65,
+    "suma_asegurada": 13591014700936,
+    "prima_promedio": 3210.69
+  },
+  {
+    "anio": 2022,
+    "edad": 49,
+    "sexo": "Femenino",
+    "num_asegurados": 194782,
+    "prima_emitida": 633814379.77,
+    "suma_asegurada": 8853556118874,
+    "prima_promedio": 3253.97
+  },
+  {
+    "anio": 2022,
+    "edad": 49,
+    "sexo": "Masculino",
+    "num_asegurados": 237467,
+    "prima_emitida": 778606087.25,
+    "suma_asegurada": 11929323845197,
+    "prima_promedio": 3278.8
+  },
+  {
+    "anio": 2022,
+    "edad": 50,
+    "sexo": "Femenino",
+    "num_asegurados": 183527,
+    "prima_emitida": 611647591.68,
+    "suma_asegurada": 9300139903249,
+    "prima_promedio": 3332.74
+  },
+  {
+    "anio": 2022,
+    "edad": 50,
+    "sexo": "Masculino",
+    "num_asegurados": 226875,
+    "prima_emitida": 798536000.11,
+    "suma_asegurada": 11668255114009,
+    "prima_promedio": 3519.72
+  },
+  {
+    "anio": 2022,
+    "edad": 51,
+    "sexo": "Femenino",
+    "num_asegurados": 171408,
+    "prima_emitida": 615470831.26,
+    "suma_asegurada": 8452040862379,
+    "prima_promedio": 3590.68
+  },
+  {
+    "anio": 2022,
+    "edad": 51,
+    "sexo": "Masculino",
+    "num_asegurados": 211666,
+    "prima_emitida": 841597220.71,
+    "suma_asegurada": 11756764698690,
+    "prima_promedio": 3976.06
+  },
+  {
+    "anio": 2022,
+    "edad": 52,
+    "sexo": "Femenino",
+    "num_asegurados": 162626,
+    "prima_emitida": 592296424.87,
+    "suma_asegurada": 7757560951488,
+    "prima_promedio": 3642.08
+  },
+  {
+    "anio": 2022,
+    "edad": 52,
+    "sexo": "Masculino",
+    "num_asegurados": 197648,
+    "prima_emitida": 788404530.8,
+    "suma_asegurada": 8707249891832,
+    "prima_promedio": 3988.93
+  },
+  {
+    "anio": 2022,
+    "edad": 53,
+    "sexo": "Femenino",
+    "num_asegurados": 145726,
+    "prima_emitida": 530943636.65,
+    "suma_asegurada": 6248440917593,
+    "prima_promedio": 3643.44
+  },
+  {
+    "anio": 2022,
+    "edad": 53,
+    "sexo": "Masculino",
+    "num_asegurados": 180687,
+    "prima_emitida": 711953292.13,
+    "suma_asegurada": 9033818305480,
+    "prima_promedio": 3940.26
+  },
+  {
+    "anio": 2022,
+    "edad": 54,
+    "sexo": "Femenino",
+    "num_asegurados": 133910,
+    "prima_emitida": 478425498.57,
+    "suma_asegurada": 5866518414615,
+    "prima_promedio": 3572.74
+  },
+  {
+    "anio": 2022,
+    "edad": 54,
+    "sexo": "Masculino",
+    "num_asegurados": 162713,
+    "prima_emitida": 660358658.77,
+    "suma_asegurada": 7136500276266,
+    "prima_promedio": 4058.43
+  },
+  {
+    "anio": 2022,
+    "edad": 55,
+    "sexo": "Femenino",
+    "num_asegurados": 122621,
+    "prima_emitida": 443756057.09,
+    "suma_asegurada": 5816601556020,
+    "prima_promedio": 3618.92
+  },
+  {
+    "anio": 2022,
+    "edad": 55,
+    "sexo": "Masculino",
+    "num_asegurados": 148249,
+    "prima_emitida": 640117178.63,
+    "suma_asegurada": 6915439313408,
+    "prima_promedio": 4317.85
+  },
+  {
+    "anio": 2022,
+    "edad": 56,
+    "sexo": "Femenino",
+    "num_asegurados": 106605,
+    "prima_emitida": 401511954.71,
+    "suma_asegurada": 4564423905566,
+    "prima_promedio": 3766.35
+  },
+  {
+    "anio": 2022,
+    "edad": 56,
+    "sexo": "Masculino",
+    "num_asegurados": 134015,
+    "prima_emitida": 632916162.72,
+    "suma_asegurada": 5842300043254,
+    "prima_promedio": 4722.73
+  },
+  {
+    "anio": 2022,
+    "edad": 57,
+    "sexo": "Femenino",
+    "num_asegurados": 95880,
+    "prima_emitida": 361806605.78,
+    "suma_asegurada": 4186276305720,
+    "prima_promedio": 3773.54
+  },
+  {
+    "anio": 2022,
+    "edad": 57,
+    "sexo": "Masculino",
+    "num_asegurados": 121558,
+    "prima_emitida": 576156588.35,
+    "suma_asegurada": 5940142696643,
+    "prima_promedio": 4739.77
+  },
+  {
+    "anio": 2022,
+    "edad": 58,
+    "sexo": "Femenino",
+    "num_asegurados": 86573,
+    "prima_emitida": 318712134.21,
+    "suma_asegurada": 3265508652600,
+    "prima_promedio": 3681.43
+  },
+  {
+    "anio": 2022,
+    "edad": 58,
+    "sexo": "Masculino",
+    "num_asegurados": 111947,
+    "prima_emitida": 522362637.62,
+    "suma_asegurada": 5005818631181,
+    "prima_promedio": 4666.16
+  },
+  {
+    "anio": 2022,
+    "edad": 59,
+    "sexo": "Femenino",
+    "num_asegurados": 79292,
+    "prima_emitida": 288185207.05,
+    "suma_asegurada": 3043892346377,
+    "prima_promedio": 3634.48
+  },
+  {
+    "anio": 2022,
+    "edad": 59,
+    "sexo": "Masculino",
+    "num_asegurados": 101677,
+    "prima_emitida": 472774066.31,
+    "suma_asegurada": 4743238531525,
+    "prima_promedio": 4649.76
+  },
+  {
+    "anio": 2022,
+    "edad": 60,
+    "sexo": "Femenino",
+    "num_asegurados": 60721,
+    "prima_emitida": 250421698.89,
+    "suma_asegurada": 2408565727686,
+    "prima_promedio": 4124.14
+  },
+  {
+    "anio": 2022,
+    "edad": 60,
+    "sexo": "Masculino",
+    "num_asegurados": 79556,
+    "prima_emitida": 428748912.76,
+    "suma_asegurada": 4011675716959,
+    "prima_promedio": 5389.27
+  },
+  {
+    "anio": 2022,
+    "edad": 61,
+    "sexo": "Femenino",
+    "num_asegurados": 50334,
+    "prima_emitida": 226996656.77,
+    "suma_asegurada": 1964207134384,
+    "prima_promedio": 4509.81
+  },
+  {
+    "anio": 2022,
+    "edad": 61,
+    "sexo": "Masculino",
+    "num_asegurados": 65467,
+    "prima_emitida": 391179540.86,
+    "suma_asegurada": 2896565869621,
+    "prima_promedio": 5975.22
+  },
+  {
+    "anio": 2022,
+    "edad": 62,
+    "sexo": "Femenino",
+    "num_asegurados": 41656,
+    "prima_emitida": 207682968.87,
+    "suma_asegurada": 1685044041981,
+    "prima_promedio": 4985.67
+  },
+  {
+    "anio": 2022,
+    "edad": 62,
+    "sexo": "Masculino",
+    "num_asegurados": 54256,
+    "prima_emitida": 335563273.14,
+    "suma_asegurada": 2763492035544,
+    "prima_promedio": 6184.81
+  },
+  {
+    "anio": 2022,
+    "edad": 63,
+    "sexo": "Femenino",
+    "num_asegurados": 34337,
+    "prima_emitida": 179588247.57,
+    "suma_asegurada": 1842056287280,
+    "prima_promedio": 5230.17
+  },
+  {
+    "anio": 2022,
+    "edad": 63,
+    "sexo": "Masculino",
+    "num_asegurados": 47809,
+    "prima_emitida": 299802423.31,
+    "suma_asegurada": 2455276318892,
+    "prima_promedio": 6270.84
+  },
+  {
+    "anio": 2022,
+    "edad": 64,
+    "sexo": "Femenino",
+    "num_asegurados": 29383,
+    "prima_emitida": 152949801.32,
+    "suma_asegurada": 1650550334858,
+    "prima_promedio": 5205.38
+  },
+  {
+    "anio": 2022,
+    "edad": 64,
+    "sexo": "Masculino",
+    "num_asegurados": 40304,
+    "prima_emitida": 260269352.66,
+    "suma_asegurada": 1635711399080,
+    "prima_promedio": 6457.66
+  },
+  {
+    "anio": 2022,
+    "edad": 65,
+    "sexo": "Femenino",
+    "num_asegurados": 25520,
+    "prima_emitida": 145172561.43,
+    "suma_asegurada": 1072410726854,
+    "prima_promedio": 5688.58
+  },
+  {
+    "anio": 2022,
+    "edad": 65,
+    "sexo": "Masculino",
+    "num_asegurados": 34611,
+    "prima_emitida": 238040652.26,
+    "suma_asegurada": 1537333905877,
+    "prima_promedio": 6877.6
+  },
+  {
+    "anio": 2022,
+    "edad": 66,
+    "sexo": "Femenino",
+    "num_asegurados": 23674,
+    "prima_emitida": 146393616.47,
+    "suma_asegurada": 937182353818,
+    "prima_promedio": 6183.73
+  },
+  {
+    "anio": 2022,
+    "edad": 66,
+    "sexo": "Masculino",
+    "num_asegurados": 29923,
+    "prima_emitida": 233999277.55,
+    "suma_asegurada": 1148179729629,
+    "prima_promedio": 7820.05
+  },
+  {
+    "anio": 2022,
+    "edad": 67,
+    "sexo": "Femenino",
+    "num_asegurados": 20727,
+    "prima_emitida": 126341788.32,
+    "suma_asegurada": 999866160788,
+    "prima_promedio": 6095.52
+  },
+  {
+    "anio": 2022,
+    "edad": 67,
+    "sexo": "Masculino",
+    "num_asegurados": 25470,
+    "prima_emitida": 204200237.62,
+    "suma_asegurada": 1274255998066,
+    "prima_promedio": 8017.28
+  },
+  {
+    "anio": 2022,
+    "edad": 68,
+    "sexo": "Femenino",
+    "num_asegurados": 18481,
+    "prima_emitida": 114522705.46,
+    "suma_asegurada": 747342680330,
+    "prima_promedio": 6196.78
+  },
+  {
+    "anio": 2022,
+    "edad": 68,
+    "sexo": "Masculino",
+    "num_asegurados": 22701,
+    "prima_emitida": 187188903.97,
+    "suma_asegurada": 893731915404,
+    "prima_promedio": 8245.84
+  },
+  {
+    "anio": 2022,
+    "edad": 69,
+    "sexo": "Femenino",
+    "num_asegurados": 16640,
+    "prima_emitida": 105874302.17,
+    "suma_asegurada": 796682883362,
+    "prima_promedio": 6362.64
+  },
+  {
+    "anio": 2022,
+    "edad": 69,
+    "sexo": "Masculino",
+    "num_asegurados": 20286,
+    "prima_emitida": 161196633.62,
+    "suma_asegurada": 807827084913,
+    "prima_promedio": 7946.2
+  },
+  {
+    "anio": 2022,
+    "edad": 70,
+    "sexo": "Femenino",
+    "num_asegurados": 14341,
+    "prima_emitida": 96026221.9,
+    "suma_asegurada": 687852360175,
+    "prima_promedio": 6695.92
+  },
+  {
+    "anio": 2022,
+    "edad": 70,
+    "sexo": "Masculino",
+    "num_asegurados": 17052,
+    "prima_emitida": 165016939.39,
+    "suma_asegurada": 777266008368,
+    "prima_promedio": 9677.28
+  },
+  {
+    "anio": 2023,
+    "edad": 25,
+    "sexo": "Femenino",
+    "num_asegurados": 263629,
+    "prima_emitida": 497504173.63,
+    "suma_asegurada": 3686483123898,
+    "prima_promedio": 1887.14
+  },
+  {
+    "anio": 2023,
+    "edad": 25,
+    "sexo": "Masculino",
+    "num_asegurados": 349688,
+    "prima_emitida": 575521540.76,
+    "suma_asegurada": 5164747867442,
+    "prima_promedio": 1645.81
+  },
+  {
+    "anio": 2023,
+    "edad": 26,
+    "sexo": "Femenino",
+    "num_asegurados": 265152,
+    "prima_emitida": 553658598.03,
+    "suma_asegurada": 4725116912818,
+    "prima_promedio": 2088.08
+  },
+  {
+    "anio": 2023,
+    "edad": 26,
+    "sexo": "Masculino",
+    "num_asegurados": 356194,
+    "prima_emitida": 608956966.41,
+    "suma_asegurada": 5890996890412,
+    "prima_promedio": 1709.62
+  },
+  {
+    "anio": 2023,
+    "edad": 27,
+    "sexo": "Femenino",
+    "num_asegurados": 273162,
+    "prima_emitida": 595016781.66,
+    "suma_asegurada": 6611948295640,
+    "prima_promedio": 2178.26
+  },
+  {
+    "anio": 2023,
+    "edad": 27,
+    "sexo": "Masculino",
+    "num_asegurados": 366374,
+    "prima_emitida": 694573561.95,
+    "suma_asegurada": 7185512352068,
+    "prima_promedio": 1895.8
+  },
+  {
+    "anio": 2023,
+    "edad": 28,
+    "sexo": "Femenino",
+    "num_asegurados": 288803,
+    "prima_emitida": 649925484.15,
+    "suma_asegurada": 3761832845644,
+    "prima_promedio": 2250.41
+  },
+  {
+    "anio": 2023,
+    "edad": 28,
+    "sexo": "Masculino",
+    "num_asegurados": 386217,
+    "prima_emitida": 704777572.12,
+    "suma_asegurada": 6793891841741,
+    "prima_promedio": 1824.82
+  },
+  {
+    "anio": 2023,
+    "edad": 29,
+    "sexo": "Femenino",
+    "num_asegurados": 311233,
+    "prima_emitida": 707955341.8,
+    "suma_asegurada": 4433164828044,
+    "prima_promedio": 2274.68
+  },
+  {
+    "anio": 2023,
+    "edad": 29,
+    "sexo": "Masculino",
+    "num_asegurados": 413466,
+    "prima_emitida": 773109217.57,
+    "suma_asegurada": 6634480077986,
+    "prima_promedio": 1869.83
+  },
+  {
+    "anio": 2023,
+    "edad": 30,
+    "sexo": "Femenino",
+    "num_asegurados": 328641,
+    "prima_emitida": 794334865.16,
+    "suma_asegurada": 4262909653481,
+    "prima_promedio": 2417.03
+  },
+  {
+    "anio": 2023,
+    "edad": 30,
+    "sexo": "Masculino",
+    "num_asegurados": 481757,
+    "prima_emitida": 1396695914.04,
+    "suma_asegurada": 7405018487041,
+    "prima_promedio": 2899.17
+  },
+  {
+    "anio": 2023,
+    "edad": 31,
+    "sexo": "Femenino",
+    "num_asegurados": 333065,
+    "prima_emitida": 876159463.8,
+    "suma_asegurada": 4669585816122,
+    "prima_promedio": 2630.6
+  },
+  {
+    "anio": 2023,
+    "edad": 31,
+    "sexo": "Masculino",
+    "num_asegurados": 436444,
+    "prima_emitida": 912630082.45,
+    "suma_asegurada": 7394646013732,
+    "prima_promedio": 2091.06
+  },
+  {
+    "anio": 2023,
+    "edad": 32,
+    "sexo": "Femenino",
+    "num_asegurados": 338584,
+    "prima_emitida": 896815847.1,
+    "suma_asegurada": 4740484771571,
+    "prima_promedio": 2648.72
+  },
+  {
+    "anio": 2023,
+    "edad": 32,
+    "sexo": "Masculino",
+    "num_asegurados": 450674,
+    "prima_emitida": 945545702.65,
+    "suma_asegurada": 7546827016800,
+    "prima_promedio": 2098.07
+  },
+  {
+    "anio": 2023,
+    "edad": 33,
+    "sexo": "Femenino",
+    "num_asegurados": 340268,
+    "prima_emitida": 877913459.76,
+    "suma_asegurada": 5319308770980,
+    "prima_promedio": 2580.06
+  },
+  {
+    "anio": 2023,
+    "edad": 33,
+    "sexo": "Masculino",
+    "num_asegurados": 446272,
+    "prima_emitida": 932566726.9,
+    "suma_asegurada": 6997653924677,
+    "prima_promedio": 2089.68
+  },
+  {
+    "anio": 2023,
+    "edad": 34,
+    "sexo": "Femenino",
+    "num_asegurados": 348163,
+    "prima_emitida": 904781093.8,
+    "suma_asegurada": 5910886319938,
+    "prima_promedio": 2598.73
+  },
+  {
+    "anio": 2023,
+    "edad": 34,
+    "sexo": "Masculino",
+    "num_asegurados": 454122,
+    "prima_emitida": 1000021247.38,
+    "suma_asegurada": 7418096578563,
+    "prima_promedio": 2202.1
+  },
+  {
+    "anio": 2023,
+    "edad": 35,
+    "sexo": "Femenino",
+    "num_asegurados": 340068,
+    "prima_emitida": 922624313.41,
+    "suma_asegurada": 5170351879300,
+    "prima_promedio": 2713.06
+  },
+  {
+    "anio": 2023,
+    "edad": 35,
+    "sexo": "Masculino",
+    "num_asegurados": 444889,
+    "prima_emitida": 1706389165.99,
+    "suma_asegurada": 7714042635725,
+    "prima_promedio": 3835.54
+  },
+  {
+    "anio": 2023,
+    "edad": 36,
+    "sexo": "Femenino",
+    "num_asegurados": 329802,
+    "prima_emitida": 960250071.15,
+    "suma_asegurada": 4866798059359,
+    "prima_promedio": 2911.6
+  },
+  {
+    "anio": 2023,
+    "edad": 36,
+    "sexo": "Masculino",
+    "num_asegurados": 434754,
+    "prima_emitida": 957166369.01,
+    "suma_asegurada": 6853425327803,
+    "prima_promedio": 2201.63
+  },
+  {
+    "anio": 2023,
+    "edad": 37,
+    "sexo": "Femenino",
+    "num_asegurados": 318945,
+    "prima_emitida": 930591514.18,
+    "suma_asegurada": 4825777408995,
+    "prima_promedio": 2917.72
+  },
+  {
+    "anio": 2023,
+    "edad": 37,
+    "sexo": "Masculino",
+    "num_asegurados": 410536,
+    "prima_emitida": 968471437.11,
+    "suma_asegurada": 7332772254568,
+    "prima_promedio": 2359.04
+  },
+  {
+    "anio": 2023,
+    "edad": 38,
+    "sexo": "Femenino",
+    "num_asegurados": 316801,
+    "prima_emitida": 906692264.14,
+    "suma_asegurada": 4910262313932,
+    "prima_promedio": 2862.02
+  },
+  {
+    "anio": 2023,
+    "edad": 38,
+    "sexo": "Masculino",
+    "num_asegurados": 400643,
+    "prima_emitida": 965979147.0,
+    "suma_asegurada": 8035415552971,
+    "prima_promedio": 2411.07
+  },
+  {
+    "anio": 2023,
+    "edad": 39,
+    "sexo": "Femenino",
+    "num_asegurados": 304483,
+    "prima_emitida": 866500330.75,
+    "suma_asegurada": 5063006417863,
+    "prima_promedio": 2845.81
+  },
+  {
+    "anio": 2023,
+    "edad": 39,
+    "sexo": "Masculino",
+    "num_asegurados": 389758,
+    "prima_emitida": 942884473.77,
+    "suma_asegurada": 7601725460414,
+    "prima_promedio": 2419.15
+  },
+  {
+    "anio": 2023,
+    "edad": 40,
+    "sexo": "Femenino",
+    "num_asegurados": 300955,
+    "prima_emitida": 888410776.24,
+    "suma_asegurada": 4610383825450,
+    "prima_promedio": 2951.97
+  },
+  {
+    "anio": 2023,
+    "edad": 40,
+    "sexo": "Masculino",
+    "num_asegurados": 382991,
+    "prima_emitida": 1028603395.92,
+    "suma_asegurada": 7455851111014,
+    "prima_promedio": 2685.71
+  },
+  {
+    "anio": 2023,
+    "edad": 41,
+    "sexo": "Femenino",
+    "num_asegurados": 296031,
+    "prima_emitida": 947811174.45,
+    "suma_asegurada": 4607968397694,
+    "prima_promedio": 3201.73
+  },
+  {
+    "anio": 2023,
+    "edad": 41,
+    "sexo": "Masculino",
+    "num_asegurados": 373518,
+    "prima_emitida": 1037569290.96,
+    "suma_asegurada": 6964655850207,
+    "prima_promedio": 2777.83
+  },
+  {
+    "anio": 2023,
+    "edad": 42,
+    "sexo": "Femenino",
+    "num_asegurados": 281857,
+    "prima_emitida": 879348615.94,
+    "suma_asegurada": 3996572626370,
+    "prima_promedio": 3119.84
+  },
+  {
+    "anio": 2023,
+    "edad": 42,
+    "sexo": "Masculino",
+    "num_asegurados": 360839,
+    "prima_emitida": 991046912.07,
+    "suma_asegurada": 6431203726413,
+    "prima_promedio": 2746.51
+  },
+  {
+    "anio": 2023,
+    "edad": 43,
+    "sexo": "Femenino",
+    "num_asegurados": 266143,
+    "prima_emitida": 811776967.61,
+    "suma_asegurada": 3880613058965,
+    "prima_promedio": 3050.15
+  },
+  {
+    "anio": 2023,
+    "edad": 43,
+    "sexo": "Masculino",
+    "num_asegurados": 338379,
+    "prima_emitida": 966893770.23,
+    "suma_asegurada": 5816969375268,
+    "prima_promedio": 2857.43
+  },
+  {
+    "anio": 2023,
+    "edad": 44,
+    "sexo": "Femenino",
+    "num_asegurados": 257151,
+    "prima_emitida": 784072887.07,
+    "suma_asegurada": 3816362751892,
+    "prima_promedio": 3049.08
+  },
+  {
+    "anio": 2023,
+    "edad": 44,
+    "sexo": "Masculino",
+    "num_asegurados": 324192,
+    "prima_emitida": 909578319.14,
+    "suma_asegurada": 6094495363426,
+    "prima_promedio": 2805.68
+  },
+  {
+    "anio": 2023,
+    "edad": 45,
+    "sexo": "Femenino",
+    "num_asegurados": 241729,
+    "prima_emitida": 774561170.62,
+    "suma_asegurada": 3486880129458,
+    "prima_promedio": 3204.25
+  },
+  {
+    "anio": 2023,
+    "edad": 45,
+    "sexo": "Masculino",
+    "num_asegurados": 302709,
+    "prima_emitida": 905030584.73,
+    "suma_asegurada": 4987121382897,
+    "prima_promedio": 2989.77
+  },
+  {
+    "anio": 2023,
+    "edad": 46,
+    "sexo": "Femenino",
+    "num_asegurados": 231589,
+    "prima_emitida": 781163524.3,
+    "suma_asegurada": 3267089119415,
+    "prima_promedio": 3373.06
+  },
+  {
+    "anio": 2023,
+    "edad": 46,
+    "sexo": "Masculino",
+    "num_asegurados": 284894,
+    "prima_emitida": 919279733.89,
+    "suma_asegurada": 4862448336917,
+    "prima_promedio": 3226.74
+  },
+  {
+    "anio": 2023,
+    "edad": 47,
+    "sexo": "Femenino",
+    "num_asegurados": 221361,
+    "prima_emitida": 750700405.89,
+    "suma_asegurada": 3341772952641,
+    "prima_promedio": 3391.29
+  },
+  {
+    "anio": 2023,
+    "edad": 47,
+    "sexo": "Masculino",
+    "num_asegurados": 275282,
+    "prima_emitida": 932988325.51,
+    "suma_asegurada": 4918853623610,
+    "prima_promedio": 3389.21
+  },
+  {
+    "anio": 2023,
+    "edad": 48,
+    "sexo": "Femenino",
+    "num_asegurados": 214748,
+    "prima_emitida": 708737545.75,
+    "suma_asegurada": 3899666578689,
+    "prima_promedio": 3300.32
+  },
+  {
+    "anio": 2023,
+    "edad": 48,
+    "sexo": "Masculino",
+    "num_asegurados": 262704,
+    "prima_emitida": 866523412.11,
+    "suma_asegurada": 5004552392867,
+    "prima_promedio": 3298.48
+  },
+  {
+    "anio": 2023,
+    "edad": 49,
+    "sexo": "Femenino",
+    "num_asegurados": 210021,
+    "prima_emitida": 679066467.22,
+    "suma_asegurada": 3164267495283,
+    "prima_promedio": 3233.33
+  },
+  {
+    "anio": 2023,
+    "edad": 49,
+    "sexo": "Masculino",
+    "num_asegurados": 257058,
+    "prima_emitida": 836955791.97,
+    "suma_asegurada": 5287920615998,
+    "prima_promedio": 3255.9
+  },
+  {
+    "anio": 2023,
+    "edad": 50,
+    "sexo": "Femenino",
+    "num_asegurados": 207674,
+    "prima_emitida": 709902914.71,
+    "suma_asegurada": 2982097790181,
+    "prima_promedio": 3418.35
+  },
+  {
+    "anio": 2023,
+    "edad": 50,
+    "sexo": "Masculino",
+    "num_asegurados": 251118,
+    "prima_emitida": 900162048.96,
+    "suma_asegurada": 5060677857595,
+    "prima_promedio": 3584.62
+  },
+  {
+    "anio": 2023,
+    "edad": 51,
+    "sexo": "Femenino",
+    "num_asegurados": 196155,
+    "prima_emitida": 720558369.04,
+    "suma_asegurada": 3204872596369,
+    "prima_promedio": 3673.41
+  },
+  {
+    "anio": 2023,
+    "edad": 51,
+    "sexo": "Masculino",
+    "num_asegurados": 240168,
+    "prima_emitida": 965781551.14,
+    "suma_asegurada": 4255507809291,
+    "prima_promedio": 4021.27
+  },
+  {
+    "anio": 2023,
+    "edad": 52,
+    "sexo": "Femenino",
+    "num_asegurados": 183899,
+    "prima_emitida": 677881178.9,
+    "suma_asegurada": 2768578072555,
+    "prima_promedio": 3686.16
+  },
+  {
+    "anio": 2023,
+    "edad": 52,
+    "sexo": "Masculino",
+    "num_asegurados": 224297,
+    "prima_emitida": 905194924.41,
+    "suma_asegurada": 3819178429896,
+    "prima_promedio": 4035.7
+  },
+  {
+    "anio": 2023,
+    "edad": 53,
+    "sexo": "Femenino",
+    "num_asegurados": 173300,
+    "prima_emitida": 614200576.76,
+    "suma_asegurada": 2727291570791,
+    "prima_promedio": 3544.15
+  },
+  {
+    "anio": 2023,
+    "edad": 53,
+    "sexo": "Masculino",
+    "num_asegurados": 208528,
+    "prima_emitida": 835851372.79,
+    "suma_asegurada": 3562184699852,
+    "prima_promedio": 4008.34
+  },
+  {
+    "anio": 2023,
+    "edad": 54,
+    "sexo": "Femenino",
+    "num_asegurados": 156651,
+    "prima_emitida": 551681887.54,
+    "suma_asegurada": 2084958862344,
+    "prima_promedio": 3521.73
+  },
+  {
+    "anio": 2023,
+    "edad": 54,
+    "sexo": "Masculino",
+    "num_asegurados": 192066,
+    "prima_emitida": 770281798.88,
+    "suma_asegurada": 3275077662211,
+    "prima_promedio": 4010.51
+  },
+  {
+    "anio": 2023,
+    "edad": 55,
+    "sexo": "Femenino",
+    "num_asegurados": 144181,
+    "prima_emitida": 506972250.36,
+    "suma_asegurada": 1838596117685,
+    "prima_promedio": 3516.22
+  },
+  {
+    "anio": 2023,
+    "edad": 55,
+    "sexo": "Masculino",
+    "num_asegurados": 172813,
+    "prima_emitida": 735010030.25,
+    "suma_asegurada": 3632814051915,
+    "prima_promedio": 4253.21
+  },
+  {
+    "anio": 2023,
+    "edad": 56,
+    "sexo": "Femenino",
+    "num_asegurados": 130089,
+    "prima_emitida": 470201280.16,
+    "suma_asegurada": 1680810400146,
+    "prima_promedio": 3614.46
+  },
+  {
+    "anio": 2023,
+    "edad": 56,
+    "sexo": "Masculino",
+    "num_asegurados": 157280,
+    "prima_emitida": 732179046.83,
+    "suma_asegurada": 2558352797159,
+    "prima_promedio": 4655.26
+  },
+  {
+    "anio": 2023,
+    "edad": 57,
+    "sexo": "Femenino",
+    "num_asegurados": 110586,
+    "prima_emitida": 403261585.32,
+    "suma_asegurada": 1465736642434,
+    "prima_promedio": 3646.59
+  },
+  {
+    "anio": 2023,
+    "edad": 57,
+    "sexo": "Masculino",
+    "num_asegurados": 142265,
+    "prima_emitida": 643922862.34,
+    "suma_asegurada": 2338302159291,
+    "prima_promedio": 4526.22
+  },
+  {
+    "anio": 2023,
+    "edad": 58,
+    "sexo": "Femenino",
+    "num_asegurados": 99018,
+    "prima_emitida": 352292477.24,
+    "suma_asegurada": 1217438753713,
+    "prima_promedio": 3557.86
+  },
+  {
+    "anio": 2023,
+    "edad": 58,
+    "sexo": "Masculino",
+    "num_asegurados": 129278,
+    "prima_emitida": 566675682.72,
+    "suma_asegurada": 2116773206249,
+    "prima_promedio": 4383.39
+  },
+  {
+    "anio": 2023,
+    "edad": 59,
+    "sexo": "Femenino",
+    "num_asegurados": 89298,
+    "prima_emitida": 306354587.15,
+    "suma_asegurada": 1065829902210,
+    "prima_promedio": 3430.7
+  },
+  {
+    "anio": 2023,
+    "edad": 59,
+    "sexo": "Masculino",
+    "num_asegurados": 117860,
+    "prima_emitida": 508219247.46,
+    "suma_asegurada": 1825917529647,
+    "prima_promedio": 4312.06
+  },
+  {
+    "anio": 2023,
+    "edad": 60,
+    "sexo": "Femenino",
+    "num_asegurados": 81664,
+    "prima_emitida": 296248609.89,
+    "suma_asegurada": 977652060157,
+    "prima_promedio": 3627.65
+  },
+  {
+    "anio": 2023,
+    "edad": 60,
+    "sexo": "Masculino",
+    "num_asegurados": 107014,
+    "prima_emitida": 491627522.54,
+    "suma_asegurada": 1633769936736,
+    "prima_promedio": 4594.05
+  },
+  {
+    "anio": 2023,
+    "edad": 61,
+    "sexo": "Femenino",
+    "num_asegurados": 66744,
+    "prima_emitida": 286210919.36,
+    "suma_asegurada": 778271072632,
+    "prima_promedio": 4288.19
+  },
+  {
+    "anio": 2023,
+    "edad": 61,
+    "sexo": "Masculino",
+    "num_asegurados": 85448,
+    "prima_emitida": 458909486.06,
+    "suma_asegurada": 1339172881110,
+    "prima_promedio": 5370.63
+  },
+  {
+    "anio": 2023,
+    "edad": 62,
+    "sexo": "Femenino",
+    "num_asegurados": 52826,
+    "prima_emitida": 227832735.22,
+    "suma_asegurada": 855676443227,
+    "prima_promedio": 4312.89
+  },
+  {
+    "anio": 2023,
+    "edad": 62,
+    "sexo": "Masculino",
+    "num_asegurados": 71501,
+    "prima_emitida": 374952066.69,
+    "suma_asegurada": 1027466075482,
+    "prima_promedio": 5244.01
+  },
+  {
+    "anio": 2023,
+    "edad": 63,
+    "sexo": "Femenino",
+    "num_asegurados": 46175,
+    "prima_emitida": 211864873.19,
+    "suma_asegurada": 565106153786,
+    "prima_promedio": 4588.3
+  },
+  {
+    "anio": 2023,
+    "edad": 63,
+    "sexo": "Masculino",
+    "num_asegurados": 62737,
+    "prima_emitida": 328521721.74,
+    "suma_asegurada": 862533291758,
+    "prima_promedio": 5236.49
+  },
+  {
+    "anio": 2023,
+    "edad": 64,
+    "sexo": "Femenino",
+    "num_asegurados": 42284,
+    "prima_emitida": 184745330.29,
+    "suma_asegurada": 547816004472,
+    "prima_promedio": 4369.15
+  },
+  {
+    "anio": 2023,
+    "edad": 64,
+    "sexo": "Masculino",
+    "num_asegurados": 57514,
+    "prima_emitida": 293925892.06,
+    "suma_asegurada": 790281318590,
+    "prima_promedio": 5110.51
+  },
+  {
+    "anio": 2023,
+    "edad": 65,
+    "sexo": "Femenino",
+    "num_asegurados": 37238,
+    "prima_emitida": 172900296.42,
+    "suma_asegurada": 480404586348,
+    "prima_promedio": 4643.11
+  },
+  {
+    "anio": 2023,
+    "edad": 65,
+    "sexo": "Masculino",
+    "num_asegurados": 50119,
+    "prima_emitida": 289970109.35,
+    "suma_asegurada": 645141959310,
+    "prima_promedio": 5785.63
+  },
+  {
+    "anio": 2023,
+    "edad": 66,
+    "sexo": "Femenino",
+    "num_asegurados": 32828,
+    "prima_emitida": 168601450.23,
+    "suma_asegurada": 348931723518,
+    "prima_promedio": 5135.9
+  },
+  {
+    "anio": 2023,
+    "edad": 66,
+    "sexo": "Masculino",
+    "num_asegurados": 44240,
+    "prima_emitida": 273551690.78,
+    "suma_asegurada": 533810118485,
+    "prima_promedio": 6183.36
+  },
+  {
+    "anio": 2023,
+    "edad": 67,
+    "sexo": "Femenino",
+    "num_asegurados": 31336,
+    "prima_emitida": 153293765.71,
+    "suma_asegurada": 346377729082,
+    "prima_promedio": 4891.94
+  },
+  {
+    "anio": 2023,
+    "edad": 67,
+    "sexo": "Masculino",
+    "num_asegurados": 39835,
+    "prima_emitida": 240799012.0,
+    "suma_asegurada": 597722060484,
+    "prima_promedio": 6044.91
+  },
+  {
+    "anio": 2023,
+    "edad": 68,
+    "sexo": "Femenino",
+    "num_asegurados": 28084,
+    "prima_emitida": 140724271.65,
+    "suma_asegurada": 296809828375,
+    "prima_promedio": 5010.83
+  },
+  {
+    "anio": 2023,
+    "edad": 68,
+    "sexo": "Masculino",
+    "num_asegurados": 36233,
+    "prima_emitida": 221846428.45,
+    "suma_asegurada": 412848189864,
+    "prima_promedio": 6122.77
+  },
+  {
+    "anio": 2023,
+    "edad": 69,
+    "sexo": "Femenino",
+    "num_asegurados": 25834,
+    "prima_emitida": 127156667.52,
+    "suma_asegurada": 264345945552,
+    "prima_promedio": 4922.07
+  },
+  {
+    "anio": 2023,
+    "edad": 69,
+    "sexo": "Masculino",
+    "num_asegurados": 33246,
+    "prima_emitida": 202666726.57,
+    "suma_asegurada": 337301079307,
+    "prima_promedio": 6095.97
+  },
+  {
+    "anio": 2023,
+    "edad": 70,
+    "sexo": "Femenino",
+    "num_asegurados": 23977,
+    "prima_emitida": 130935656.44,
+    "suma_asegurada": 229477743211,
+    "prima_promedio": 5460.89
+  },
+  {
+    "anio": 2023,
+    "edad": 70,
+    "sexo": "Masculino",
+    "num_asegurados": 30994,
+    "prima_emitida": 196695155.34,
+    "suma_asegurada": 316153423923,
+    "prima_promedio": 6346.23
+  },
+  {
+    "anio": 2024,
+    "edad": 25,
+    "sexo": "Femenino",
+    "num_asegurados": 301678,
+    "prima_emitida": 305626482.58,
+    "suma_asegurada": 5017655795335,
+    "prima_promedio": 1013.09
+  },
+  {
+    "anio": 2024,
+    "edad": 25,
+    "sexo": "Masculino",
+    "num_asegurados": 406614,
+    "prima_emitida": 351412439.65,
+    "suma_asegurada": 9134279040384,
+    "prima_promedio": 864.24
+  },
+  {
+    "anio": 2024,
+    "edad": 26,
+    "sexo": "Femenino",
+    "num_asegurados": 316353,
+    "prima_emitida": 353770052.57,
+    "suma_asegurada": 6170687398352,
+    "prima_promedio": 1118.28
+  },
+  {
+    "anio": 2024,
+    "edad": 26,
+    "sexo": "Masculino",
+    "num_asegurados": 427300,
+    "prima_emitida": 397667195.94,
+    "suma_asegurada": 9004108474069,
+    "prima_promedio": 930.65
+  },
+  {
+    "anio": 2024,
+    "edad": 27,
+    "sexo": "Femenino",
+    "num_asegurados": 337992,
+    "prima_emitida": 376873313.87,
+    "suma_asegurada": 5849548767976,
+    "prima_promedio": 1115.04
+  },
+  {
+    "anio": 2024,
+    "edad": 27,
+    "sexo": "Masculino",
+    "num_asegurados": 454632,
+    "prima_emitida": 436031750.9,
+    "suma_asegurada": 8483179387488,
+    "prima_promedio": 959.09
+  },
+  {
+    "anio": 2024,
+    "edad": 28,
+    "sexo": "Femenino",
+    "num_asegurados": 359189,
+    "prima_emitida": 404493305.22,
+    "suma_asegurada": 6430195706706,
+    "prima_promedio": 1126.13
+  },
+  {
+    "anio": 2024,
+    "edad": 28,
+    "sexo": "Masculino",
+    "num_asegurados": 467443,
+    "prima_emitida": 458509067.59,
+    "suma_asegurada": 10790247448212,
+    "prima_promedio": 980.89
+  },
+  {
+    "anio": 2024,
+    "edad": 29,
+    "sexo": "Femenino",
+    "num_asegurados": 382993,
+    "prima_emitida": 434845701.33,
+    "suma_asegurada": 6839805515740,
+    "prima_promedio": 1135.39
+  },
+  {
+    "anio": 2024,
+    "edad": 29,
+    "sexo": "Masculino",
+    "num_asegurados": 499704,
+    "prima_emitida": 487963475.48,
+    "suma_asegurada": 10043196095208,
+    "prima_promedio": 976.51
+  },
+  {
+    "anio": 2024,
+    "edad": 30,
+    "sexo": "Femenino",
+    "num_asegurados": 391337,
+    "prima_emitida": 466073417.78,
+    "suma_asegurada": 6801681094709,
+    "prima_promedio": 1190.98
+  },
+  {
+    "anio": 2024,
+    "edad": 30,
+    "sexo": "Masculino",
+    "num_asegurados": 505328,
+    "prima_emitida": 524115276.56,
+    "suma_asegurada": 10731555013711,
+    "prima_promedio": 1037.18
+  },
+  {
+    "anio": 2024,
+    "edad": 31,
+    "sexo": "Femenino",
+    "num_asegurados": 414118,
+    "prima_emitida": 522098492.79,
+    "suma_asegurada": 7835261729286,
+    "prima_promedio": 1260.75
+  },
+  {
+    "anio": 2024,
+    "edad": 31,
+    "sexo": "Masculino",
+    "num_asegurados": 531885,
+    "prima_emitida": 578663486.1,
+    "suma_asegurada": 12025797031052,
+    "prima_promedio": 1087.95
+  },
+  {
+    "anio": 2024,
+    "edad": 32,
+    "sexo": "Femenino",
+    "num_asegurados": 413225,
+    "prima_emitida": 526560292.19,
+    "suma_asegurada": 6968899725310,
+    "prima_promedio": 1274.27
+  },
+  {
+    "anio": 2024,
+    "edad": 32,
+    "sexo": "Masculino",
+    "num_asegurados": 515214,
+    "prima_emitida": 637772958.4,
+    "suma_asegurada": 11252009043236,
+    "prima_promedio": 1237.88
+  },
+  {
+    "anio": 2024,
+    "edad": 33,
+    "sexo": "Femenino",
+    "num_asegurados": 411464,
+    "prima_emitida": 551708876.55,
+    "suma_asegurada": 7240273096630,
+    "prima_promedio": 1340.84
+  },
+  {
+    "anio": 2024,
+    "edad": 33,
+    "sexo": "Masculino",
+    "num_asegurados": 506659,
+    "prima_emitida": 592989009.5,
+    "suma_asegurada": 11126421918891,
+    "prima_promedio": 1170.39
+  },
+  {
+    "anio": 2024,
+    "edad": 34,
+    "sexo": "Femenino",
+    "num_asegurados": 401389,
+    "prima_emitida": 514827313.87,
+    "suma_asegurada": 7091141267647,
+    "prima_promedio": 1282.61
+  },
+  {
+    "anio": 2024,
+    "edad": 34,
+    "sexo": "Masculino",
+    "num_asegurados": 489468,
+    "prima_emitida": 567271344.37,
+    "suma_asegurada": 11412326960273,
+    "prima_promedio": 1158.95
+  },
+  {
+    "anio": 2024,
+    "edad": 35,
+    "sexo": "Femenino",
+    "num_asegurados": 405152,
+    "prima_emitida": 548041252.6,
+    "suma_asegurada": 8666679750397,
+    "prima_promedio": 1352.68
+  },
+  {
+    "anio": 2024,
+    "edad": 35,
+    "sexo": "Masculino",
+    "num_asegurados": 483167,
+    "prima_emitida": 806798034.21,
+    "suma_asegurada": 11108426884236,
+    "prima_promedio": 1669.81
+  },
+  {
+    "anio": 2024,
+    "edad": 36,
+    "sexo": "Femenino",
+    "num_asegurados": 391865,
+    "prima_emitida": 559305591.48,
+    "suma_asegurada": 7176393904213,
+    "prima_promedio": 1427.29
+  },
+  {
+    "anio": 2024,
+    "edad": 36,
+    "sexo": "Masculino",
+    "num_asegurados": 472939,
+    "prima_emitida": 626910176.31,
+    "suma_asegurada": 11635709204150,
+    "prima_promedio": 1325.56
+  },
+  {
+    "anio": 2024,
+    "edad": 37,
+    "sexo": "Femenino",
+    "num_asegurados": 387197,
+    "prima_emitida": 558835739.12,
+    "suma_asegurada": 7437174275009,
+    "prima_promedio": 1443.29
+  },
+  {
+    "anio": 2024,
+    "edad": 37,
+    "sexo": "Masculino",
+    "num_asegurados": 464295,
+    "prima_emitida": 628509944.07,
+    "suma_asegurada": 11104047068168,
+    "prima_promedio": 1353.69
+  },
+  {
+    "anio": 2024,
+    "edad": 38,
+    "sexo": "Femenino",
+    "num_asegurados": 382503,
+    "prima_emitida": 557486666.03,
+    "suma_asegurada": 7147515117137,
+    "prima_promedio": 1457.47
+  },
+  {
+    "anio": 2024,
+    "edad": 38,
+    "sexo": "Masculino",
+    "num_asegurados": 456944,
+    "prima_emitida": 628506300.48,
+    "suma_asegurada": 12255005168889,
+    "prima_promedio": 1375.46
+  },
+  {
+    "anio": 2024,
+    "edad": 39,
+    "sexo": "Femenino",
+    "num_asegurados": 367141,
+    "prima_emitida": 527693868.51,
+    "suma_asegurada": 7475238625825,
+    "prima_promedio": 1437.31
+  },
+  {
+    "anio": 2024,
+    "edad": 39,
+    "sexo": "Masculino",
+    "num_asegurados": 443549,
+    "prima_emitida": 607149124.88,
+    "suma_asegurada": 10334585598593,
+    "prima_promedio": 1368.84
+  },
+  {
+    "anio": 2024,
+    "edad": 40,
+    "sexo": "Femenino",
+    "num_asegurados": 342863,
+    "prima_emitida": 526800886.67,
+    "suma_asegurada": 5707396088183,
+    "prima_promedio": 1536.48
+  },
+  {
+    "anio": 2024,
+    "edad": 40,
+    "sexo": "Masculino",
+    "num_asegurados": 421935,
+    "prima_emitida": 619357527.9,
+    "suma_asegurada": 10901039123934,
+    "prima_promedio": 1467.9
+  },
+  {
+    "anio": 2024,
+    "edad": 41,
+    "sexo": "Femenino",
+    "num_asegurados": 333686,
+    "prima_emitida": 533002010.95,
+    "suma_asegurada": 6129887847731,
+    "prima_promedio": 1597.32
+  },
+  {
+    "anio": 2024,
+    "edad": 41,
+    "sexo": "Masculino",
+    "num_asegurados": 403670,
+    "prima_emitida": 645607019.04,
+    "suma_asegurada": 10508630041203,
+    "prima_promedio": 1599.34
+  },
+  {
+    "anio": 2024,
+    "edad": 42,
+    "sexo": "Femenino",
+    "num_asegurados": 306765,
+    "prima_emitida": 496864262.13,
+    "suma_asegurada": 5875212127801,
+    "prima_promedio": 1619.69
+  },
+  {
+    "anio": 2024,
+    "edad": 42,
+    "sexo": "Masculino",
+    "num_asegurados": 369125,
+    "prima_emitida": 602368696.31,
+    "suma_asegurada": 9550108713909,
+    "prima_promedio": 1631.88
+  },
+  {
+    "anio": 2024,
+    "edad": 43,
+    "sexo": "Femenino",
+    "num_asegurados": 296943,
+    "prima_emitida": 482530085.16,
+    "suma_asegurada": 5557606440213,
+    "prima_promedio": 1624.99
+  },
+  {
+    "anio": 2024,
+    "edad": 43,
+    "sexo": "Masculino",
+    "num_asegurados": 349984,
+    "prima_emitida": 573951834.6,
+    "suma_asegurada": 9167514904135,
+    "prima_promedio": 1639.94
+  },
+  {
+    "anio": 2024,
+    "edad": 44,
+    "sexo": "Femenino",
+    "num_asegurados": 284994,
+    "prima_emitida": 461859688.19,
+    "suma_asegurada": 4532595675825,
+    "prima_promedio": 1620.59
+  },
+  {
+    "anio": 2024,
+    "edad": 44,
+    "sexo": "Masculino",
+    "num_asegurados": 340068,
+    "prima_emitida": 562396141.58,
+    "suma_asegurada": 8640601081548,
+    "prima_promedio": 1653.78
+  },
+  {
+    "anio": 2024,
+    "edad": 45,
+    "sexo": "Femenino",
+    "num_asegurados": 273466,
+    "prima_emitida": 461336624.16,
+    "suma_asegurada": 4658137942228,
+    "prima_promedio": 1687.0
+  },
+  {
+    "anio": 2024,
+    "edad": 45,
+    "sexo": "Masculino",
+    "num_asegurados": 323970,
+    "prima_emitida": 575509822.78,
+    "suma_asegurada": 8422977490697,
+    "prima_promedio": 1776.43
+  },
+  {
+    "anio": 2024,
+    "edad": 46,
+    "sexo": "Femenino",
+    "num_asegurados": 267994,
+    "prima_emitida": 471784329.23,
+    "suma_asegurada": 5029824665898,
+    "prima_promedio": 1760.43
+  },
+  {
+    "anio": 2024,
+    "edad": 46,
+    "sexo": "Masculino",
+    "num_asegurados": 313770,
+    "prima_emitida": 612535495.14,
+    "suma_asegurada": 8701226141953,
+    "prima_promedio": 1952.18
+  },
+  {
+    "anio": 2024,
+    "edad": 47,
+    "sexo": "Femenino",
+    "num_asegurados": 265186,
+    "prima_emitida": 477306319.91,
+    "suma_asegurada": 4750742852782,
+    "prima_promedio": 1799.89
+  },
+  {
+    "anio": 2024,
+    "edad": 47,
+    "sexo": "Masculino",
+    "num_asegurados": 309420,
+    "prima_emitida": 614141957.39,
+    "suma_asegurada": 8690424554323,
+    "prima_promedio": 1984.82
+  },
+  {
+    "anio": 2024,
+    "edad": 48,
+    "sexo": "Femenino",
+    "num_asegurados": 248953,
+    "prima_emitida": 445554861.88,
+    "suma_asegurada": 4179092023648,
+    "prima_promedio": 1789.71
+  },
+  {
+    "anio": 2024,
+    "edad": 48,
+    "sexo": "Masculino",
+    "num_asegurados": 295542,
+    "prima_emitida": 588815168.12,
+    "suma_asegurada": 8256324241407,
+    "prima_promedio": 1992.32
+  },
+  {
+    "anio": 2024,
+    "edad": 49,
+    "sexo": "Femenino",
+    "num_asegurados": 232829,
+    "prima_emitida": 414524699.71,
+    "suma_asegurada": 3938255922776,
+    "prima_promedio": 1780.38
+  },
+  {
+    "anio": 2024,
+    "edad": 49,
+    "sexo": "Masculino",
+    "num_asegurados": 275240,
+    "prima_emitida": 547042444.22,
+    "suma_asegurada": 7876495723762,
+    "prima_promedio": 1987.51
+  },
+  {
+    "anio": 2024,
+    "edad": 50,
+    "sexo": "Femenino",
+    "num_asegurados": 217650,
+    "prima_emitida": 398475061.08,
+    "suma_asegurada": 3871312778142,
+    "prima_promedio": 1830.81
+  },
+  {
+    "anio": 2024,
+    "edad": 50,
+    "sexo": "Masculino",
+    "num_asegurados": 252301,
+    "prima_emitida": 544898069.33,
+    "suma_asegurada": 6671819315157,
+    "prima_promedio": 2159.71
+  },
+  {
+    "anio": 2024,
+    "edad": 51,
+    "sexo": "Femenino",
+    "num_asegurados": 196346,
+    "prima_emitida": 378581523.92,
+    "suma_asegurada": 3565002137263,
+    "prima_promedio": 1928.13
+  },
+  {
+    "anio": 2024,
+    "edad": 51,
+    "sexo": "Masculino",
+    "num_asegurados": 229712,
+    "prima_emitida": 552616289.21,
+    "suma_asegurada": 5956447456790,
+    "prima_promedio": 2405.69
+  },
+  {
+    "anio": 2024,
+    "edad": 52,
+    "sexo": "Femenino",
+    "num_asegurados": 178755,
+    "prima_emitida": 346404077.86,
+    "suma_asegurada": 3154276982710,
+    "prima_promedio": 1937.87
+  },
+  {
+    "anio": 2024,
+    "edad": 52,
+    "sexo": "Masculino",
+    "num_asegurados": 206016,
+    "prima_emitida": 503833047.62,
+    "suma_asegurada": 5732226842360,
+    "prima_promedio": 2445.6
+  },
+  {
+    "anio": 2024,
+    "edad": 53,
+    "sexo": "Femenino",
+    "num_asegurados": 159816,
+    "prima_emitida": 307341062.95,
+    "suma_asegurada": 3153600599515,
+    "prima_promedio": 1923.09
+  },
+  {
+    "anio": 2024,
+    "edad": 53,
+    "sexo": "Masculino",
+    "num_asegurados": 185381,
+    "prima_emitida": 456422570.95,
+    "suma_asegurada": 5526849223750,
+    "prima_promedio": 2462.08
+  },
+  {
+    "anio": 2024,
+    "edad": 54,
+    "sexo": "Femenino",
+    "num_asegurados": 141883,
+    "prima_emitida": 266931208.27,
+    "suma_asegurada": 2282063624825,
+    "prima_promedio": 1881.35
+  },
+  {
+    "anio": 2024,
+    "edad": 54,
+    "sexo": "Masculino",
+    "num_asegurados": 167208,
+    "prima_emitida": 419611642.7,
+    "suma_asegurada": 4209748169929,
+    "prima_promedio": 2509.52
+  },
+  {
+    "anio": 2024,
+    "edad": 55,
+    "sexo": "Femenino",
+    "num_asegurados": 128625,
+    "prima_emitida": 256417633.24,
+    "suma_asegurada": 2315246263415,
+    "prima_promedio": 1993.53
+  },
+  {
+    "anio": 2024,
+    "edad": 55,
+    "sexo": "Masculino",
+    "num_asegurados": 150833,
+    "prima_emitida": 410932155.27,
+    "suma_asegurada": 4403913499737,
+    "prima_promedio": 2724.42
+  },
+  {
+    "anio": 2024,
+    "edad": 56,
+    "sexo": "Femenino",
+    "num_asegurados": 111697,
+    "prima_emitida": 248250478.76,
+    "suma_asegurada": 1524057596758,
+    "prima_promedio": 2222.53
+  },
+  {
+    "anio": 2024,
+    "edad": 56,
+    "sexo": "Masculino",
+    "num_asegurados": 136772,
+    "prima_emitida": 422277987.18,
+    "suma_asegurada": 3571279471088,
+    "prima_promedio": 3087.46
+  },
+  {
+    "anio": 2024,
+    "edad": 57,
+    "sexo": "Femenino",
+    "num_asegurados": 100031,
+    "prima_emitida": 224772971.39,
+    "suma_asegurada": 1579060261875,
+    "prima_promedio": 2247.03
+  },
+  {
+    "anio": 2024,
+    "edad": 57,
+    "sexo": "Masculino",
+    "num_asegurados": 125652,
+    "prima_emitida": 382732972.39,
+    "suma_asegurada": 3290911015917,
+    "prima_promedio": 3045.98
+  },
+  {
+    "anio": 2024,
+    "edad": 58,
+    "sexo": "Femenino",
+    "num_asegurados": 90924,
+    "prima_emitida": 203155716.64,
+    "suma_asegurada": 1198379135016,
+    "prima_promedio": 2234.35
+  },
+  {
+    "anio": 2024,
+    "edad": 58,
+    "sexo": "Masculino",
+    "num_asegurados": 112145,
+    "prima_emitida": 354605154.62,
+    "suma_asegurada": 2981809344773,
+    "prima_promedio": 3162.02
+  },
+  {
+    "anio": 2024,
+    "edad": 59,
+    "sexo": "Femenino",
+    "num_asegurados": 77511,
+    "prima_emitida": 176625802.55,
+    "suma_asegurada": 1149607972005,
+    "prima_promedio": 2278.72
+  },
+  {
+    "anio": 2024,
+    "edad": 59,
+    "sexo": "Masculino",
+    "num_asegurados": 98333,
+    "prima_emitida": 314823947.49,
+    "suma_asegurada": 3117913051290,
+    "prima_promedio": 3201.61
+  },
+  {
+    "anio": 2024,
+    "edad": 60,
+    "sexo": "Femenino",
+    "num_asegurados": 69639,
+    "prima_emitida": 177345400.75,
+    "suma_asegurada": 1088687413114,
+    "prima_promedio": 2546.64
+  },
+  {
+    "anio": 2024,
+    "edad": 60,
+    "sexo": "Masculino",
+    "num_asegurados": 85312,
+    "prima_emitida": 309898150.21,
+    "suma_asegurada": 2557479949386,
+    "prima_promedio": 3632.53
+  },
+  {
+    "anio": 2024,
+    "edad": 61,
+    "sexo": "Femenino",
+    "num_asegurados": 57987,
+    "prima_emitida": 166751410.95,
+    "suma_asegurada": 1017787930351,
+    "prima_promedio": 2875.67
+  },
+  {
+    "anio": 2024,
+    "edad": 61,
+    "sexo": "Masculino",
+    "num_asegurados": 71963,
+    "prima_emitida": 300856233.69,
+    "suma_asegurada": 1949878949161,
+    "prima_promedio": 4180.71
+  },
+  {
+    "anio": 2024,
+    "edad": 62,
+    "sexo": "Femenino",
+    "num_asegurados": 43207,
+    "prima_emitida": 138260448.68,
+    "suma_asegurada": 637999356699,
+    "prima_promedio": 3199.95
+  },
+  {
+    "anio": 2024,
+    "edad": 62,
+    "sexo": "Masculino",
+    "num_asegurados": 57691,
+    "prima_emitida": 250499711.64,
+    "suma_asegurada": 1647025422589,
+    "prima_promedio": 4342.09
+  },
+  {
+    "anio": 2024,
+    "edad": 63,
+    "sexo": "Femenino",
+    "num_asegurados": 32669,
+    "prima_emitida": 125221932.41,
+    "suma_asegurada": 524703961328,
+    "prima_promedio": 3833.05
+  },
+  {
+    "anio": 2024,
+    "edad": 63,
+    "sexo": "Masculino",
+    "num_asegurados": 47169,
+    "prima_emitida": 214861614.25,
+    "suma_asegurada": 1182793170600,
+    "prima_promedio": 4555.14
+  },
+  {
+    "anio": 2024,
+    "edad": 64,
+    "sexo": "Femenino",
+    "num_asegurados": 29191,
+    "prima_emitida": 114113712.79,
+    "suma_asegurada": 500912171055,
+    "prima_promedio": 3909.21
+  },
+  {
+    "anio": 2024,
+    "edad": 64,
+    "sexo": "Masculino",
+    "num_asegurados": 40427,
+    "prima_emitida": 187509901.07,
+    "suma_asegurada": 900821966747,
+    "prima_promedio": 4638.23
+  },
+  {
+    "anio": 2024,
+    "edad": 65,
+    "sexo": "Femenino",
+    "num_asegurados": 25411,
+    "prima_emitida": 103773864.2,
+    "suma_asegurada": 416268076037,
+    "prima_promedio": 4083.82
+  },
+  {
+    "anio": 2024,
+    "edad": 65,
+    "sexo": "Masculino",
+    "num_asegurados": 34746,
+    "prima_emitida": 184002258.47,
+    "suma_asegurada": 844152326205,
+    "prima_promedio": 5295.64
+  },
+  {
+    "anio": 2024,
+    "edad": 66,
+    "sexo": "Femenino",
+    "num_asegurados": 21165,
+    "prima_emitida": 100630366.45,
+    "suma_asegurada": 312986506827,
+    "prima_promedio": 4754.56
+  },
+  {
+    "anio": 2024,
+    "edad": 66,
+    "sexo": "Masculino",
+    "num_asegurados": 29795,
+    "prima_emitida": 180948688.67,
+    "suma_asegurada": 708157342627,
+    "prima_promedio": 6073.12
+  },
+  {
+    "anio": 2024,
+    "edad": 67,
+    "sexo": "Femenino",
+    "num_asegurados": 18282,
+    "prima_emitida": 85054954.18,
+    "suma_asegurada": 312204047980,
+    "prima_promedio": 4652.39
+  },
+  {
+    "anio": 2024,
+    "edad": 67,
+    "sexo": "Masculino",
+    "num_asegurados": 24874,
+    "prima_emitida": 148961089.66,
+    "suma_asegurada": 580592593821,
+    "prima_promedio": 5988.63
+  },
+  {
+    "anio": 2024,
+    "edad": 68,
+    "sexo": "Femenino",
+    "num_asegurados": 15939,
+    "prima_emitida": 78164526.28,
+    "suma_asegurada": 258925678348,
+    "prima_promedio": 4903.98
+  },
+  {
+    "anio": 2024,
+    "edad": 68,
+    "sexo": "Masculino",
+    "num_asegurados": 21264,
+    "prima_emitida": 132730503.3,
+    "suma_asegurada": 424499191343,
+    "prima_promedio": 6242.03
+  },
+  {
+    "anio": 2024,
+    "edad": 69,
+    "sexo": "Femenino",
+    "num_asegurados": 13723,
+    "prima_emitida": 64164184.28,
+    "suma_asegurada": 193717161933,
+    "prima_promedio": 4675.67
+  },
+  {
+    "anio": 2024,
+    "edad": 69,
+    "sexo": "Masculino",
+    "num_asegurados": 18150,
+    "prima_emitida": 120421104.86,
+    "suma_asegurada": 361654072007,
+    "prima_promedio": 6634.77
+  },
+  {
+    "anio": 2024,
+    "edad": 70,
+    "sexo": "Femenino",
+    "num_asegurados": 12385,
+    "prima_emitida": 58172890.31,
+    "suma_asegurada": 174310174254,
+    "prima_promedio": 4697.04
+  },
+  {
+    "anio": 2024,
+    "edad": 70,
+    "sexo": "Masculino",
+    "num_asegurados": 15937,
+    "prima_emitida": 94679254.38,
+    "suma_asegurada": 372804209245,
+    "prima_promedio": 5940.85
+  }
+]

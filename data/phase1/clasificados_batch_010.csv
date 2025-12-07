@@ -1,0 +1,151 @@
+causa,nivel,justificacion_medica,cie10,confianza
+"TUMOR DE COMPORTAMIENTO INCIERTO O DESCONOCIDO DE ÓRGANOS RESPIRATORIOS, SITIO NO ESPECIFICADO",3,"Tumor de comportamiento incierto requiere seguimiento oncológico especializado, estudios de imagen avanzados y posible biopsia en alta especialidad",D38.1,alta
+"OTROS TRASTORNOS ESPECIFICADOS DEL OJO EN ENFERMEDADES CLASIFICADAS EN OTRA PARTE",2,"Trastornos oculares secundarios que requieren evaluación oftalmológica especializada y posible tratamiento hospitalario",H58.8,media
+"OSTEOPOROSIS NO ESPECIFICADA, CON FRACTURA PATOLÓGICA",2,"Fractura patológica por osteoporosis requiere hospitalización para estabilización, tratamiento y rehabilitación",M80.9,alta
+"ESCOLIOSIS, NO ESPECIFICADA",2,"Escoliosis puede requerir tratamiento ortopédico, fisioterapia especializada o cirugía programada según severidad",M41.9,media
+"OTRAS CISTITIS CRÓNICAS",1,"Infección urinaria crónica manejable ambulatoriamente con antibióticos y seguimiento urológico",N30.8,alta
+"OTRAS OTITIS MEDIAS CRÓNICAS SUPURATIVAS",2,"Otitis media crónica supurativa requiere tratamiento otorrinolaringológico especializado, posible cirugía",H66.3,alta
+"ESGUINCES Y TORCEDURAS DE LA MUÐECA",1,"Lesión menor de tejidos blandos manejable ambulatoriamente con inmovilización y analgésicos",S63.5,alta
+"TIROIDITIS, NO ESPECIFICADA",1,"Proceso inflamatorio tiroideo manejable ambulatoriamente con medicación y monitoreo hormonal",E06.9,alta
+"SINDROME POSTFLEBITICO",2,"Complicación de trombosis venosa profunda que requiere manejo especializado vascular",I87.0,alta
+"HIDROPESÍA DE LA VESÍCULA BILIAR",2,"Distensión vesicular que requiere evaluación quirúrgica, probable colecistectomía programada",K82.1,alta
+"HIPEREMESIS GRAVÍDICA LEVE",1,"Náusea y vómito excesivo del embarazo leve manejable ambulatoriamente con hidratación y antieméticos",O21.0,alta
+"SÍNDROME DE CEFALEA EN RACIMOS",1,"Cefalea primaria severa pero manejable ambulatoriamente con tratamiento neurológico especializado",G44.0,alta
+"TRASTORNO ESPECÍFICO DEL DESARROLLO DE LA FUNCIÓN MOTRIZ",1,"Trastorno del neurodesarrollo que requiere terapia física y ocupacional ambulatoria",F82,alta
+"OTRAS DEFORMIDADES CONGÉNITAS DEL CRÁNEO, DE LA CARA Y DE LA MANDÍBULA",2,"Malformaciones craneofaciales que pueden requerir cirugía reconstructiva programada en alta especialidad",Q67.4,media
+"HERNIA VENTRAL SIN OBSTRUCCION NI GANGRENA",2,"Hernia abdominal no complicada que requiere reparación quirúrgica programada",K43.9,alta
+"ARTRITIS, NO ESPECIFICADA",1,"Proceso inflamatorio articular manejable ambulatoriamente con antiinflamatorios y seguimiento reumatológico",M13.9,alta
+"INFECCIONES DIRECTAS DE LA ARTICULACION EN ENFERMEDADES INFECCIOSAS Y PARASITARIAS CLASIFICADAS EN OTRA PARTE",3,"Artritis séptica requiere hospitalización urgente, antibioticoterapia intravenosa y drenaje quirúrgico",M01.3,alta
+"AGRESIÓN CON DISPARO DE OTRAS ARMAS DE FUEGO, Y LAS NO ESPECIFICADAS, VIVIENDA",3,"Trauma por arma de fuego requiere atención de emergencia, cirugía urgente y manejo en UCI",X95.9,alta
+"DISNEA",1,"Síntoma de dificultad respiratoria que requiere evaluación ambulatoria para determinar causa",R06.0,media
+"HEPATITIS CRÓNICA, NO ESPECIFICADA",2,"Inflamación hepática crónica requiere seguimiento gastroenterológico especializado y estudios de función hepática",K73.9,alta
+"OTRAS ENFERMEDADES ESPECIFICADAS DE LA MÉDULA ESPINAL",3,"Patología medular requiere neurología/neurocirugía especializada, estudios de imagen avanzados",G95.8,alta
+"TUMOR BENIGNO DE LOS TESTÍCULOS",2,"Masa testicular requiere evaluación urológica especializada, estudios de imagen y probable cirugía",D29.2,alta
+"OTRO SÍNDROME DE INTESTINO IRRITABLE Y EL NO ESPECIFICADO",1,"Trastorno funcional gastrointestinal manejable ambulatoriamente con dieta y medicación",K58.9,alta
+"TRASTORNO SINOVIAL Y TENDINOSO, NO ESPECIFICADO",1,"Patología de tejidos blandos periarticulares manejable ambulatoriamente con fisioterapia",M67.9,media
+"OTROS TRASTORNOS GENERALIZADOS DEL DESARROLLO",1,"Trastorno del neurodesarrollo que requiere terapia conductual y seguimiento psiquiátrico ambulatorio",F84.8,alta
+"QUISTE TRICODÉRMICO",1,"Lesión cutánea benigna que puede requerir escisión ambulatoria menor",L72.1,alta
+"DISPLASIA MAMARIA BENIGNA",1,"Cambios fibroquísticos benignos de mama manejables ambulatoriamente con seguimiento clínico",N60.9,alta
+"PARÁLISIS DE LAS CUERDAS VOCALES Y DE LA LARINGE",2,"Parálisis laríngea requiere evaluación otorrinolaringológica especializada, posible cirugía o terapia",J38.0,alta
+"OTROS TUMORES BENIGNOS DEL TEJIDO CONJUNTIVO Y DE LOS TEJIDOS BLANDOS",1,"Tumores benignos de partes blandas manejables con escisión ambulatoria o seguimiento",D21.9,media
+"CUERPO EXTRAÑO EN SENO PARANASAL",2,"Cuerpo extraño sinusal requiere extracción otorrinolaringológica, posiblemente endoscópica",T17.0,alta
+"HIPERPARATIROIDISMO, SIN OTRA ESPECIFICACIÓN",2,"Trastorno endocrino que requiere estudios especializados y posible paratiroidectomía",E21.3,alta
+"ENFERMEDAD CARDÍACA HIPERTENSIVA SIN INSUFICIENCIA CARDÍACA (CONGESTIVA)",2,"Cardiopatía hipertensiva requiere seguimiento cardiológico especializado y control estricto de presión",I11.9,alta
+"OTRAS FORMAS DE ESCLEROSIS SISTÉMICA",3,"Enfermedad autoinmune sistémica requiere manejo reumatológico de alta especialidad",M34.8,alta
+"TRASTORNO GENERALIZADO DEL DESARROLLO NO ESPECIFICADO",1,"Trastorno del espectro autista que requiere terapia conductual y seguimiento psiquiátrico ambulatorio",F84.9,alta
+"HEMORRAGIA SUBARACNOIDEA TRAUMÁTICA",3,"Sangrado intracraneal postraumático requiere atención en UCI, neurocirugía y monitoreo intensivo",S06.6,alta
+"OTROS TRASTORNOS DE LA PUBERTAD",1,"Alteraciones del desarrollo puberal manejables ambulatoriamente con endocrinología pediátrica",E30.8,alta
+"INSUFICIENCIA CARDIACA",3,"Falla cardíaca requiere hospitalización, manejo especializado y monitoreo hemodinámico",I50.9,alta
+"OTROS TRASTORNOS DE LA CONDUCCION",2,"Alteraciones del sistema de conducción cardíaca requieren evaluación cardiológica especializada",I45.8,alta
+"HERIDAS MÚLTIPLES DEL TOBILLO Y DEL PIE",2,"Trauma múltiple de extremidad requiere evaluación quirúrgica, sutura y posible hospitalización",S99.7,alta
+"RIÑÓN POLIQUÍSTICO, AUTOSÓMICO DOMINANTE",3,"Enfermedad renal genética progresiva requiere seguimiento nefrológico de alta especialidad",Q61.2,alta
+"OTRAS INFECCIONES INTESTINALES BACTERIANAS ESPECIFICADAS",1,"Gastroenteritis bacteriana manejable ambulatoriamente con hidratación y antibióticos",A04.8,alta
+"QUEMADURA DEL TOBILLO Y DEL PIE, DE SEGUNDO GRADO",2,"Quemadura de segundo grado requiere manejo especializado, curaciones y posible hospitalización",T25.2,alta
+"OTROS TRAUMATISMOS SUPERFICIALES DE LA MUÑECA Y DE LA MANO",1,"Lesiones menores de tejidos superficiales manejables ambulatoriamente",S60.8,alta
+"HERIDA DE OTRAS PARTES DEL ANTEBRAZO",2,"Herida profunda de antebrazo requiere evaluación quirúrgica, sutura y valoración neurovascular",S51.8,alta
+"TUMOR MALIGNO DEL CORAZÓN",3,"Cáncer cardíaco primario requiere oncología/cardiología de alta especialidad, cirugía y quimioterapia",C38.0,alta
+"CHOQUE ANAFILÁCTICO, NO ESPECIFICADO",3,"Reacción alérgica grave requiere atención de emergencia, UCI y manejo intensivo",T78.2,alta
+"OTRA HIPERLIPIDEMIA",1,"Dislipidemia manejable ambulatoriamente con dieta, estatinas y seguimiento",E78.4,alta
+"TIROTOXICOSIS [HIPERTIROIDISMO]",2,"Hipertiroidismo requiere manejo endocrinológico especializado, medicación y posible tratamiento definitivo",E05.9,alta
+"ENFERMEDADES DE LOS VASOS CAPILARES",1,"Patología microvascular manejable ambulatoriamente con seguimiento",I78.9,media
+"FRACTURA DEL CRÁNEO Y DE LOS HUESOS DE LA CARA, PARTE NO ESPECIFICADA",3,"Trauma craneoencefálico requiere atención de emergencia, neurocirugía y hospitalización",S02.9,alta
+"CONTUSIÓN DE DEDO(S) DEL PIE CON DAÑO DE LA(S) UÑA(S)",1,"Contusión menor manejable ambulatoriamente con analgésicos y cuidados locales",S90.2,alta
+"MELANOMA MALIGNO DE SITIOS CONTIGUOS DE LA PIEL",3,"Cáncer de piel agresivo requiere oncología de alta especialidad, cirugía amplia y quimioterapia",C43.8,alta
+"ENFERMEDAD INFLAMATORIA DEL HÍGADO, NO ESPECIFICADA",2,"Hepatopatía inflamatoria requiere seguimiento gastroenterológico especializado",K75.9,alta
+"ENFERMEDAD DESMIELINIZANTE DEL SISTEMA NERVIOSO CENTRAL, NO ESPECIFICADA",3,"Patología desmielinizante (tipo esclerosis múltiple) requiere neurología de alta especialidad",G37.9,alta
+"BRONQUITIS AGUDA DEBIDA A VIRUS SINCITIAL RESPIRATORIO",1,"Infección respiratoria viral manejable ambulatoriamente, salvo lactantes que pueden requerir hospitalización",J20.5,alta
+"LESIÓN DE SITIOS CONTIGUOS DE LA MAMA",2,"Trauma mamario requiere evaluación quirúrgica especializada y estudios de imagen",S20.0,media
+"OCLUSIÓN Y ESTENOSIS DE ARTERIA CARÓTIDA",3,"Enfermedad cerebrovascular grave requiere neurología/cirugía vascular de alta especialidad",I65.2,alta
+"OTROS TRASTORNOS ESPECIFICADOS DE ARTERIAS Y ARTERIOLAS",2,"Enfermedad arterial requiere evaluación vascular especializada",I77.8,media
+"OTROS QUISTES DE LA REGIÓN BUCAL, NO CLASIFICADOS EN OTRA PARTE",1,"Quistes orales manejables con cirugía maxilofacial ambulatoria",K09.8,alta
+"TUMOR MALIGNO DEL CUADRANTE INFERIOR EXTERNO DE LA MAMA",3,"Cáncer de mama requiere oncología de alta especialidad, cirugía, quimioterapia y radioterapia",C50.5,alta
+"RIÑÓN POLIQUÍSTICO, TIPO NO ESPECIFICADO",3,"Enfermedad renal genética progresiva requiere seguimiento nefrológico de alta especialidad",Q61.3,alta
+"OTROS TIPOS DE NEUMOTÓRAX ESPONTÁNEO",2,"Colapso pulmonar requiere hospitalización, posible toracostomía y manejo respiratorio",J93.8,alta
+"OTROS TRASTORNOS DEL PULMÓN",2,"Patología pulmonar no especificada requiere evaluación neumológica especializada",J98.4,media
+"TUMOR MALIGNO DEL TEJIDO CONJUNTIVO Y TEJIDO BLANDO DEL TÓRAX",3,"Sarcoma torácico requiere oncología de alta especialidad, cirugía y quimioterapia",C49.3,alta
+"OTRAS ENFERMEDADES INFLAMATORIAS DEL HÍGADO, ESPECIFICADAS",2,"Hepatopatía inflamatoria requiere seguimiento gastroenterológico especializado",K75.8,alta
+"COMPLICACIÓN RELACIONADA CON EL EMBARAZO, NO ESPECIFICADA",2,"Complicación obstétrica requiere evaluación y manejo especializado",O26.9,media
+"QUEMADURA DE LA MUÑECA Y DE LA MANO, DE SEGUNDO GRADO",2,"Quemadura de segundo grado requiere manejo especializado, curaciones y posible hospitalización",T23.2,alta
+"SARCOMA MIELOIDE",3,"Neoplasia hematológica maligna requiere hematología/oncología de alta especialidad y quimioterapia",C92.3,alta
+"VÁRICES EN OTROS SITIOS ESPECIFICADOS",1,"Várices atípicas manejables ambulatoriamente con cirugía vascular menor o escleroterapia",I86.8,alta
+"NEUROPATÍA AUTÓNOMA PERIFÉRICA IDIOPÁTICA",2,"Neuropatía del sistema nervioso autónomo requiere neurología especializada",G90.0,alta
+"TRASTORNOS RELACIONADOS CON DURACION CORTA DE LA GESTACION Y CON BAJO PESO AL NACER, NO CLASIFICADOS EN OTRA PARTE",3,"Prematuridad y bajo peso requieren UCIN, soporte respiratorio y monitoreo intensivo neonatal",P07.3,alta
+"TRASTORNO DEL METABOLISMO DE LA BILIRRUBINA, NO ESPECIFICADO",1,"Hiperbilirrubinemia manejable ambulatoriamente con fototerapia en casos leves",E80.7,media
+"TUMOR BENIGNO DEL TEJIDO CONJUNTIVO Y DE OTROS TEJIDOS BLANDOS DEL MIEMBRO SUPERIOR, INCLUIDO EL HOMBRO",1,"Tumor benigno de partes blandas manejable con escisión ambulatoria",D21.1,alta
+"COMPRESIÓN MEDULAR, NO ESPECIFICADA",3,"Compresión de médula espinal requiere neurocirugía urgente y manejo en UCI",G95.2,alta
+"OTRAS ENFERMEDADES ESPECIFICADAS DE LAS VÍAS BILIARES",2,"Enfermedad biliar requiere evaluación gastroenterológica/quirúrgica especializada",K83.8,alta
+"QUISTE ÓSEO SOLITARIO",2,"Lesión ósea benigna que puede requerir seguimiento ortopédico o cirugía programada",M85.4,alta
+"SÍNDROMES EPILÉPTICOS ESPECIALES",2,"Epilepsia especial requiere neurología especializada, estudios neurofisiológicos y manejo farmacológico",G40.5,alta
+"PÓLIPO DE LA CAVIDAD NASAL",1,"Pólipo nasal manejable con cirugía otorrinolaringológica ambulatoria o endoscópica",J33.0,alta
+"CONJUNTIVITIS MUCOPURULENTA",1,"Infección ocular manejable ambulatoriamente con antibióticos tópicos",H10.0,alta
+"LEUCEMIA AGUDA, CÉLULAS DE TIPO NO ESPECIFICADO",3,"Cáncer hematológico agudo requiere hematología/oncología de alta especialidad, quimioterapia y hospitalización",C95.0,alta
+"CELULITIS Y ABSCESO DE BOCA",2,"Infección profunda oral requiere cirugía maxilofacial, drenaje y antibioticoterapia intravenosa",K12.2,alta
+"OTROS TRASTORNOS ESPECIFICADOS DE LA VEJIGA",2,"Patología vesical requiere evaluación urológica especializada",N32.8,media
+"HERIDAS DE OTRAS PARTES DE LA MUÐECA Y DE LA MANO",2,"Herida profunda requiere evaluación quirúrgica, sutura y valoración neurovascular",S61.8,alta
+"VENAS VARICOSAS DE LOS MIEMBROS INFERIORES CON INFLAMACIÓN",2,"Varicoflebitis requiere manejo vascular especializado, posible anticoagulación",I83.1,alta
+"ICTERICIA NEONATAL ASOCIADA CON EL PARTO ANTES DE TÉRMINO",2,"Hiperbilirrubinemia neonatal en prematuro requiere hospitalización y fototerapia intensiva",P59.0,alta
+"OTRAS DEFORMIDADES (ADQUIRIDAS) DEL (DE LOS) DEDO(S) DEL PIE",1,"Deformidades podálicas manejables con ortopedia ambulatoria o cirugía menor programada",M20.5,alta
+"TRASTORNOS INFLAMATORIOS DE LA MAMA",2,"Mastitis o absceso mamario requiere evaluación quirúrgica, antibióticos y posible drenaje",N61,alta
+"QUEMADURA DE LA CABEZA Y DEL CUELLO, GRADO NO ESPECIFICADO",2,"Quemadura cráneo-cervical requiere manejo especializado, evaluación de vía aérea",T20.0,alta
+"ENCEFALITIS, MIELITIS Y ENCEFALOMIELITIS EN OTRAS ENFERMEDADES INFECCIOSAS Y PARASITARIAS CLASIFICADAS EN OTRA PARTE",3,"Infección del sistema nervioso central requiere UCI, neurología y antibioticoterapia intravenosa",G05.8,alta
+"CUERPO EXTRAÑO DEL OÍDO",1,"Cuerpo extraño ótico manejable con extracción otorrinolaringológica ambulatoria",T16,alta
+"ENFERMEDAD CARDIACA HIPERTENSIVA",2,"Cardiopatía hipertensiva requiere seguimiento cardiológico especializado y control estricto",I11.9,alta
+"CUERPO EXTRAÑO EN EL TUBO DIGESTIVO, PARTE NO ESPECIFICADA",2,"Cuerpo extraño gastrointestinal puede requerir endoscopia urgente o cirugía",T18.9,alta
+"TUMOR BENIGNO DE LA PIEL DEL CUERO CABELLUDO Y DEL CUELLO",1,"Tumor cutáneo benigno manejable con escisión dermatológica ambulatoria",D23.4,alta
+"DEFORMIDAD EN VARO, NO CLASIFICADA EN OTRA PARTE",2,"Deformidad angular de extremidades puede requerir ortopedia especializada o cirugía correctiva",M21.1,alta
+"DISECCIÓN DE ARTERIAS CEREBRALES, SIN RUPTURA",3,"Disección arterial cerebral requiere neurología/neurocirugía de alta especialidad y anticoagulación",I67.0,alta
+"TUMOR DE COMPORTAMIENTO INCIERTO O DESCONOCIDO DEL PERITONEO",3,"Tumor peritoneal de comportamiento incierto requiere oncología, cirugía y estudios especializados",D48.1,alta
+"OTROS SÍNTOMAS Y SIGNOS GENERALES ESPECIFICADOS",1,"Síntomas generales requieren evaluación ambulatoria para determinar etiología",R68.8,baja
+"TRAUMATISMOS POR APLASTAMIENTO QUE AFECTAN LA CABEZA CON EL CUELLO",3,"Politraumatismo craneoencefálico requiere atención de emergencia, UCI y cirugía",S17.8,alta
+"CAIDA NO ESPECIFICADA",1,"Caída simple sin especificación requiere evaluación ambulatoria de lesiones",W19,media
+"ABSCESO RECTAL",2,"Absceso anorrectal requiere drenaje quirúrgico y antibioticoterapia",K61.1,alta
+"TERMINACION DEL EMBARAZO, QUE AFECTA AL FETO Y AL RECIEN NACIDO",2,"Complicación neonatal por interrupción del embarazo requiere valoración pediátrica especializada",P96.4,alta
+"ENFERMEDAD POR VIRUS DE LA INMUNODEFICIENCIA HUMANA [VIH], SIN OTRA ESPECIFICACIÓN",3,"VIH/SIDA requiere infectología de alta especialidad, terapia antirretroviral y seguimiento inmunológico",B24,alta
+"FRACTURA DE LOS HUESOS DEL DEDO GORDO DEL PIE",2,"Fractura de falange requiere inmovilización, analgesia y seguimiento ortopédico",S92.4,alta
+"DISPLASIA CERVICAL SEVERA, NO CLASIFICADA EN OTRA PARTE",2,"Displasia cervical severa requiere ginecología oncológica, colposcopía y conización",N87.9,alta
+"CONTUSIÓN DE DEDO(S) DE LA MANO CON DAÑO DE LA(S) UÑA(S)",1,"Contusión menor manejable ambulatoriamente con analgésicos y cuidados locales",S60.1,alta
+"OSTEOPOROSIS NO ESPECIFICADA, SIN FRACTURA PATOLÓGICA",1,"Osteoporosis no complicada manejable ambulatoriamente con suplementación y bifosfonatos",M81.9,alta
+"ABSCESO CUTÁNEO, FURÚNCULO Y ÁNTRAX DE GLÚTEOS",1,"Infección cutánea superficial manejable ambulatoriamente con drenaje menor y antibióticos",L02.3,alta
+"ENFERMEDAD CEREBROVASCULAR, NO ESPECIFICADA",3,"Evento vascular cerebral requiere neurología de alta especialidad, UCI y rehabilitación",I67.9,alta
+"ESTADOS MENOPÁUSICOS Y CLIMATÉRICOS FEMENINOS",1,"Síndrome climatérico manejable ambulatoriamente con terapia hormonal y seguimiento ginecológico",N95.1,alta
+"ACNÉ VULGAR",1,"Acné común manejable ambulatoriamente con dermatología y tratamiento tópico/sistémico",L70.0,alta
+"CONSULTA PARA ATENCION Y SUPERVISION DE LA SALUD D",1,"Consulta preventiva de rutina manejable ambulatoriamente",Z00.0,media
+"OTROS VÉRTIGOS PERIFÉRICOS",1,"Vértigo periférico (no central) manejable ambulatoriamente con neurología/otorrinolaringología",H81.3,alta
+"VENAS VARICOSAS DE LOS MIEMBROS INFERIORES CON ÚLCERA",2,"Insuficiencia venosa con úlcera requiere cirugía vascular especializada y curaciones",I83.0,alta
+"OTROS DESGARROS (NO TRAUMÁTICOS) DEL MÚSCULO",2,"Ruptura muscular espontánea requiere evaluación ortopédica, inmovilización y posible cirugía",M62.1,alta
+"LUXACIÓN DE DEDOS DE LA MANO",2,"Luxación articular requiere reducción cerrada, analgesia y seguimiento ortopédico",S63.1,alta
+"OTRAS INFECCIONES AGUDAS DE SITIOS MÚLTIPLES DE LAS VÍAS RESPIRATORIAS SUPERIORES",1,"Infección respiratoria alta múltiple manejable ambulatoriamente con sintomáticos",J06.8,alta
+"ANEURISMA CEREBRAL, SIN RUPTURA",3,"Aneurisma intracraneal no roto requiere neurocirugía de alta especialidad y vigilancia",I67.1,alta
+"TORSIÓN DEL TESTÍCULO",3,"Emergencia urológica que requiere cirugía urgente inmediata para salvar testículo",N44,alta
+"OTROS TRASTORNOS ESPECIFICADOS DEL RIÑÓN Y DEL URÉTER",2,"Patología renal/ureteral requiere evaluación urológica especializada",N28.8,media
+"MIGRAÑA COMPLICADA",2,"Migraña con aura o complicaciones requiere neurología especializada y posible hospitalización",G43.1,alta
+"PREECLAMPSIA, NO ESPECIFICADA",3,"Hipertensión del embarazo requiere hospitalización, monitoreo materno-fetal intensivo",O14.9,alta
+"ABSCESO DEL HÍGADO",3,"Absceso hepático requiere gastroenterología/cirugía de alta especialidad, drenaje y antibióticos",K75.0,alta
+"OTROS TRAUMATISMOS INTRACRANEALES",3,"Trauma craneoencefálico requiere neurocirugía, UCI y monitoreo neurológico intensivo",S06.8,alta
+"ENFERMEDADES CRONICAS DE LAS AMIGDALAS Y DE LAS ADENOIDES",1,"Amigdalitis crónica manejable ambulatoriamente, posible amigdalectomía programada",J35.0,alta
+"TRASTORNO DE LOS DISCOS INTERVERTEBRALES, NO ESPECIFICADO",2,"Patología discal puede requerir neurocirugía/ortopedia especializada según severidad",M51.9,media
+"FRACTURA DEL PULGAR",2,"Fractura de falange requiere inmovilización, analgesia y seguimiento ortopédico",S62.5,alta
+"DISPLASIA DEL CUELLO DEL ÚTERO, NO ESPECIFICADA",2,"Displasia cervical requiere ginecología oncológica, colposcopía y posible conización",N87.9,alta
+"TUMOR BENIGNO DE SITIO NO ESPECIFICADO",1,"Tumor benigno sin localización requiere estudios ambulatorios para caracterización",D36.9,baja
+"SINUSITIS AGUDA, NO ESPECIFICADA",1,"Sinusitis aguda manejable ambulatoriamente con antibióticos y descongestionantes",J01.9,alta
+"EXAMEN ODONTOLÓGICO",1,"Consulta dental preventiva o diagnóstica ambulatoria",Z01.2,alta
+"TROMBOCITOPENIA NO ESPECIFICADA",2,"Disminución de plaquetas requiere hematología especializada y estudios de coagulación",D69.6,alta
+"MIASTENIA GRAVIS",3,"Enfermedad autoinmune neuromuscular requiere neurología de alta especialidad e inmunosupresores",G70.0,alta
+"INSUFICIENCIA RENAL AGUDA, NO ESPECIFICADA",3,"Falla renal aguda requiere nefrología de alta especialidad, posible diálisis y UCI",N17.9,alta
+"PÓLIPO DEL CUELLO DEL ÚTERO",1,"Pólipo cervical manejable con polipectomía ginecológica ambulatoria",N84.1,alta
+"OTRAS CATARATAS SENILES",2,"Catarata senil requiere cirugía oftalmológica programada (facoemulsificación)",H25.8,alta
+"TUMOR DE COMPORTAMIENTO INCIERTO O DESCONOCIDO DEL MEDIASTINO",3,"Tumor mediastinal de comportamiento incierto requiere oncología/cirugía torácica de alta especialidad",D38.3,alta
+"HEMANGIOMA, DE CUALQUIER SITIO",1,"Tumor vascular benigno manejable ambulatoriamente con seguimiento o escisión menor",D18.0,alta
+"HERIDA DEL TOBILLO",2,"Herida profunda de tobillo requiere evaluación quirúrgica, sutura y valoración neurovascular",S91.0,alta
+"HIPERPROLACTINEMIA",1,"Elevación de prolactina manejable ambulatoriamente con endocrinología y agonistas dopaminérgicos",E22.1,alta
+"OTITIS MEDIA AGUDA SEROSA",1,"Otitis media con derrame manejable ambulatoriamente con antibióticos",H65.0,alta
+"FRACTURA DEL PIE, NO ESPECIFICADA",2,"Fractura del pie requiere inmovilización, analgesia y seguimiento ortopédico",S92.9,alta
+"QUISTE PILONIDAL SIN ABSCESO",1,"Quiste sacrococcígeo no complicado manejable con escisión ambulatoria programada",L05.9,alta
+"HERNIA DIAFRAGMATICA",2,"Hernia diafragmática requiere cirugía torácica/abdominal programada",K44.9,alta
+"HEMORRAGIA SUBARACNOIDEA DE SIFÓN Y BIFURCACIÓN CAROTÍDEA",3,"Sangrado intracraneal requiere neurocirugía de alta especialidad, UCI y monitoreo intensivo",I60.0,alta
+"OTRAS DEGENERACIONES ESPECIFICADAS DE DISCO INTERVERTEBRAL",2,"Degeneración discal avanzada puede requerir neurocirugía/ortopedia especializada",M51.3,alta
+"EMBARAZO DOBLE",2,"Embarazo gemelar requiere obstetricia de alto riesgo y seguimiento especializado",O30.0,alta
+"PÓLIPO DE LAS CUERDAS VOCALES Y DE LA LARINGE",2,"Pólipo laríngeo requiere cirugía otorrinolaringológica (microcirugía laríngea)",J38.1,alta
+"CONTUSIÓN DE OTRAS PARTES Y DE LAS NO ESPECIFICADAS DEL PIE",1,"Contusión menor manejable ambulatoriamente con analgésicos y reposo",S90.3,alta
+"EPICONDILITIS LATERAL",1,"Codo de tenista manejable ambulatoriamente con fisioterapia, antiinflamatorios e infiltraciones",M77.1,alta
+"EPICONDILITIS MEDIA",1,"Codo de golfista manejable ambulatoriamente con fisioterapia, antiinflamatorios e infiltraciones",M77.0,alta

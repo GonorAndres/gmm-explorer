@@ -1,0 +1,43 @@
+{
+  "total_siniestros": 3628487,
+  "monto_total": 213244843409.0,
+  "monto_promedio": 58770.0,
+  "distribucion_nivel": [
+    {
+      "nivel": 1,
+      "descripcion": "Ambulatorio",
+      "siniestros": 1725847,
+      "monto": 49412423519.8121,
+      "pct_siniestros": 47.6,
+      "pct_monto": 23.2
+    },
+    {
+      "nivel": 2,
+      "descripcion": "Hospitalario",
+      "siniestros": 1416908,
+      "monto": 109994815622.4473,
+      "pct_siniestros": 39.0,
+      "pct_monto": 51.6
+    },
+    {
+      "nivel": 3,
+      "descripcion": "Alta Especialidad",
+      "siniestros": 485732,
+      "monto": 53837604266.9782,
+      "pct_siniestros": 13.4,
+      "pct_monto": 25.2
+    }
+  ],
+  "anios_disponibles": [
+    2020,
+    2021,
+    2022,
+    2023,
+    2024
+  ],
+  "rango_edad": {
+    "min": 25,
+    "max": 70
+  },
+  "generado": "2025-12-06T16:15:45.716008"
+}

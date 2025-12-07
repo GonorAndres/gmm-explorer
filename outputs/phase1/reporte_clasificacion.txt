@@ -1,0 +1,36 @@
+REPORTE DE CLASIFICACIÓN - FASE 1
+================================================================================
+
+Archivo: /mnt/c/Users/andre/OneDrive/Documentos/NotasalPie/Semestre 2026-01/AAR/Proyecto/version_final/data/labeled/training_set.csv
+Fecha: 2025-12-06 14:47:58
+
+--- DISTRIBUCIÓN POR NIVEL ---
+Nivel 1: 502 causas (33.5%)
+Nivel 2: 588 causas (39.2%)
+Nivel 3: 410 causas (27.3%)
+
+--- DISTRIBUCIÓN POR CONFIANZA ---
+Alta: 1,220 causas (81.3%)
+Media: 253 causas (16.9%)
+Baja: 27 causas (1.8%)
+
+--- DISTRIBUCIÓN POR ORIGEN ---
+top_500: 500 causas (33.3%)
+sample_1000: 962 causas (64.1%)
+unknown: 38 causas (2.5%)
+
+--- COBERTURA ---
+% de siniestros cubiertos: 77.92%
+Causas clasificadas: 1,500 de 9,371 totales
+
+--- TOP 10 CAUSAS CLASIFICADAS ---
+Nivel 1 | 409,300.0 (8.68%) | OTRAS ENFERMEDADES DE LOS TEJIDOS DUROS DE LOS DIENTES
+Nivel 1 | 122,070.0 (2.59%) | CARIES DENTAL
+Nivel 1 | 110,304.0 (2.34%) | ALTERACIONES DE LA VISION
+Nivel 2 | 80,050.0 (1.70%) | PARTO POR CESÁREA ELECTIVA
+Nivel 1 | 75,148.0 (1.59%) | EMBARAZO CONFIRMADO
+Nivel 2 | 74,348.0 (1.58%) | DESVIACIÓN DEL TABIQUE NASAL
+Nivel 2 | 72,207.0 (1.53%) | COVID-19, VIRUS IDENTIFICADO
+Nivel 2 | 55,556.0 (1.18%) | CÁLCULO DE LA VESÍCULA BILIAR CON COLECISTITIS AGUDA
+Nivel 2 | 47,828.0 (1.01%) | PARTO POR CESÁREA, SIN OTRA ESPECIFICACIÓN
+Nivel 1 | 44,472.0 (0.94%) | EXAMEN GENERAL E INVESTIGACION DE PERSONAS SIN QUEJAS O SIN 

@@ -1,0 +1,32 @@
+[
+  {
+    "anio": 2020,
+    "num_asegurados": 14442306,
+    "prima_emitida": 34126490817.18,
+    "suma_asegurada": 153061932443915
+  },
+  {
+    "anio": 2021,
+    "num_asegurados": 18537919,
+    "prima_emitida": 43228662468.73,
+    "suma_asegurada": 262672451606466
+  },
+  {
+    "anio": 2022,
+    "num_asegurados": 18975674,
+    "prima_emitida": 52630922300.35,
+    "suma_asegurada": 850484185291499
+  },
+  {
+    "anio": 2023,
+    "num_asegurados": 21021133,
+    "prima_emitida": 61776697859.71,
+    "suma_asegurada": 342490884950945
+  },
+  {
+    "anio": 2024,
+    "num_asegurados": 22899657,
+    "prima_emitida": 36758531400.9,
+    "suma_asegurada": 491887026124760
+  }
+]

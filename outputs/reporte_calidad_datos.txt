@@ -1,0 +1,95 @@
+======================================================================
+REPORTE DE CALIDAD - DATOS CONSOLIDADOS
+======================================================================
+
+----------------------------------------
+SINIESTROS CONSOLIDADOS
+----------------------------------------
+Total filas: 1,974,160
+Total siniestros (suma NUM_SINIESTROS): 4,713,185
+Total MONTO_PAGADO: $223,004,852,198.34
+
+Por año:
+  2020: 284,017 filas, 667,644 siniestros, $33,605,895,151.84
+  2021: 401,100 filas, 1,156,230 siniestros, $42,037,920,773.10
+  2022: 409,032 filas, 816,882 siniestros, $49,334,648,428.59
+  2023: 479,304 filas, 937,661 siniestros, $58,926,744,833.18
+  2024: 400,707 filas, 1,134,768 siniestros, $39,099,643,011.63
+
+----------------------------------------
+ANÁLISIS DE CAUSAS
+----------------------------------------
+Total causas únicas (todos los años): 13,012
+
+Causas únicas por año:
+  2020: 6,474
+  2021: 6,953
+  2022: 7,217
+  2023: 7,387
+  2024: 6,856
+
+Distribución de causas por presencia en años:
+  (Cuántas causas aparecen en 1, 2, 3, 4 o 5 años)
+  En solo 1 año: 5,322 causas (posibles errores de captura, casos raros)
+  En 2 años: 1,047 causas
+  En 3 años: 1,020 causas
+  En 4 años: 3,704 causas
+  En los 5 años: 1,919 causas (causas consistentes)
+
+----------------------------------------
+NUM_SINIESTROS vs NUM_RECLAMACIONES
+----------------------------------------
+NUM_SINIESTROS (usado para frecuencia en prima de riesgo):
+  2020: nulls=0, suma=667,644 ✓
+  2021: nulls=0, suma=1,156,230 ✓
+  2022: nulls=0, suma=816,882 ✓
+  2023: nulls=0, suma=937,661 ✓
+  2024: nulls=0, suma=1,134,768 ✓
+
+NUM_RECLAMACIONES (métrica separada, NO afecta prima de riesgo):
+  2020: nulls=0 (0%), suma=1,381,720
+  2021: nulls=401,100 (100%) - SIN DATOS
+  2022: nulls=0 (0%), suma=1,314,366
+  2023: nulls=0 (0%), suma=1,573,835
+  2024: nulls=400,707 (100%) - SIN DATOS
+
+Nota: Prima de Riesgo = Frecuencia × Severidad
+  Frecuencia = NUM_SINIESTROS / NUM_ASEGURADOS (completo ✓)
+  Severidad = MONTO_PAGADO / NUM_SINIESTROS (completo ✓)
+  NUM_RECLAMACIONES no se usa en el cálculo.
+
+----------------------------------------
+VALORES NULOS POR COLUMNA (SINIESTROS)
+----------------------------------------
+  TIPO DE SEGURO: 284,017 (14.4%)
+  SUBTIPO: 284,017 (14.4%)
+  TPO DE PAGO: 284,017 (14.4%)
+  NUM_RECLAMACIONES: 801,807 (40.6%)
+  MONTO_REASEGURO: 284,017 (14.4%)
+
+----------------------------------------
+POLIZAS CONSOLIDADAS
+----------------------------------------
+Total filas: 925,946
+Total asegurados (suma NUM_ASEGURADOS): 142,216,514
+Total PRIMA_EMITIDA: $295,589,527,739.65
+
+Por año:
+  2020: 104,539 filas, 21,794,012 asegurados, $44,129,846,153.20
+  2021: 225,649 filas, 27,536,233 asegurados, $56,133,893,457.37
+  2022: 178,217 filas, 28,132,849 asegurados, $68,068,827,934.18
+  2023: 193,865 filas, 30,162,150 asegurados, $79,102,045,441.23
+  2024: 223,676 filas, 34,591,270 asegurados, $48,154,914,753.67
+
+----------------------------------------
+VALORES NULOS POR COLUMNA (POLIZAS)
+----------------------------------------
+  COBERTURA: 104,539 (11.3%)
+  TIPO DE SEGURO: 104,539 (11.3%)
+  SUBTIPO: 104,539 (11.3%)
+  PRIMA_EMITIDA: 1 (0.0%)
+  PRIMA_DEVENGADA: 104,539 (11.3%)
+
+======================================================================
+FIN DEL REPORTE
+======================================================================

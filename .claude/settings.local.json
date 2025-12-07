@@ -1,0 +1,27 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python3:*)",
+      "Bash(pip3 show:*)",
+      "Bash(mkdir:*)",
+      "Bash(pip3 install:*)",
+      "Bash(ls:*)",
+      "WebSearch",
+      "Bash(npm run build:*)",
+      "Bash(npm run dev:*)",
+      "Bash(curl:*)",
+      "Bash(find:*)",
+      "Bash(cat:*)",
+      "Bash(du -sh:*)",
+      "Bash(git init:*)",
+      "Bash(git branch:*)",
+      "Bash(git add:*)",
+      "Bash(git config:*)",
+      "Bash(git commit -m \"$(cat <<''EOF''\nInitial commit: GMM Explorer - Sistema de Clasificación y Tarificación\n\nSistema integral para clasificación y tarificación de siniestros de\nGastos Médicos Mayores (GMM) con datos CNSF 2020-2024.\n\nIncluye:\n- Scripts Python para procesamiento y ML (Random Forest)\n- Aplicación web Next.js con visualizaciones interactivas\n- Datos procesados en formato Parquet\n- Documentación técnica y metodológica\n\nProyecto académico AAR 2026-1 - UNAM Facultad de Ciencias\n\n🎓 Equipo: Ximena, Daniela, Lisset, Andrés, Taydeé, Elias\nEOF\n)\")",
+      "Bash(gh --version:*)"
+    ],
+    "deny": [],
+    "ask": []
+  },
+  "outputStyle": "Explanatory"
+}

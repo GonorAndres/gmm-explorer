@@ -1,0 +1,32 @@
+[
+  {
+    "banda_edad": "25-34",
+    "num_asegurados": 34553034,
+    "prima_emitida": 58380317396.3,
+    "pct_asegurados": 36.0
+  },
+  {
+    "banda_edad": "35-44",
+    "num_asegurados": 31862037,
+    "prima_emitida": 71275922992.18,
+    "pct_asegurados": 33.2
+  },
+  {
+    "banda_edad": "45-54",
+    "num_asegurados": 20257900,
+    "prima_emitida": 59145775263.15,
+    "pct_asegurados": 21.1
+  },
+  {
+    "banda_edad": "55-64",
+    "num_asegurados": 7836804,
+    "prima_emitida": 31204736046.79,
+    "pct_asegurados": 8.2
+  },
+  {
+    "banda_edad": "65-70",
+    "num_asegurados": 1366914,
+    "prima_emitida": 8514553148.45,
+    "pct_asegurados": 1.4
+  }
+]

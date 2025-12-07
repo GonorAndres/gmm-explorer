@@ -1,0 +1,1244 @@
+[
+  {
+    "nivel": 1,
+    "edad": 25,
+    "frecuencia": 0.0141579360242399,
+    "severidad": 22411.0,
+    "prima_anual": 317.29,
+    "prima_mensual": 27.9,
+    "descripcion": "Ambulatorio"
+  },
+  {
+    "nivel": 2,
+    "edad": 25,
+    "frecuencia": 0.0092246185632603,
+    "severidad": 65441.0,
+    "prima_anual": 603.66,
+    "prima_mensual": 53.07,
+    "descripcion": "Hospitalario"
+  },
+  {
+    "nivel": 3,
+    "edad": 25,
+    "frecuencia": 0.001648961191756,
+    "severidad": 101606.0,
+    "prima_anual": 167.54,
+    "prima_mensual": 14.73,
+    "descripcion": "Alta Especialidad"
+  },
+  {
+    "nivel": 1,
+    "edad": 26,
+    "frecuencia": 0.0150358214428645,
+    "severidad": 20286.0,
+    "prima_anual": 305.02,
+    "prima_mensual": 26.82,
+    "descripcion": "Ambulatorio"
+  },
+  {
+    "nivel": 2,
+    "edad": 26,
+    "frecuencia": 0.0097764172986716,
+    "severidad": 63137.0,
+    "prima_anual": 617.26,
+    "prima_mensual": 54.27,
+    "descripcion": "Hospitalario"
+  },
+  {
+    "nivel": 3,
+    "edad": 26,
+    "frecuencia": 0.0016313370564512,
+    "severidad": 96823.0,
+    "prima_anual": 157.95,
+    "prima_mensual": 13.89,
+    "descripcion": "Alta Especialidad"
+  },
+  {
+    "nivel": 1,
+    "edad": 27,
+    "frecuencia": 0.0162773483719926,
+    "severidad": 21382.0,
+    "prima_anual": 348.05,
+    "prima_mensual": 30.6,
+    "descripcion": "Ambulatorio"
+  },
+  {
+    "nivel": 2,
+    "edad": 27,
+    "frecuencia": 0.0109385473678339,
+    "severidad": 63991.0,
+    "prima_anual": 699.97,
+    "prima_mensual": 61.54,
+    "descripcion": "Hospitalario"
+  },
+  {
+    "nivel": 3,
+    "edad": 27,
+    "frecuencia": 0.0017198671422668,
+    "severidad": 92900.0,
+    "prima_anual": 159.78,
+    "prima_mensual": 14.05,
+    "descripcion": "Alta Especialidad"
+  },
+  {
+    "nivel": 1,
+    "edad": 28,
+    "frecuencia": 0.0169918549225978,
+    "severidad": 21116.0,
+    "prima_anual": 358.79,
+    "prima_mensual": 31.54,
+    "descripcion": "Ambulatorio"
+  },
+  {
+    "nivel": 2,
+    "edad": 28,
+    "frecuencia": 0.0118705273011596,
+    "severidad": 64019.0,
+    "prima_anual": 759.94,
+    "prima_mensual": 66.81,
+    "descripcion": "Hospitalario"
+  },
+  {
+    "nivel": 3,
+    "edad": 28,
+    "frecuencia": 0.0019760140123375,
+    "severidad": 87605.0,
+    "prima_anual": 173.11,
+    "prima_mensual": 15.22,
+    "descripcion": "Alta Especialidad"
+  },
+  {
+    "nivel": 1,
+    "edad": 29,
+    "frecuencia": 0.0175137677539808,
+    "severidad": 20995.0,
+    "prima_anual": 367.71,
+    "prima_mensual": 32.33,
+    "descripcion": "Ambulatorio"
+  },
+  {
+    "nivel": 2,
+    "edad": 29,
+    "frecuencia": 0.0125970178836987,
+    "severidad": 63084.0,
+    "prima_anual": 794.67,
+    "prima_mensual": 69.86,
+    "descripcion": "Hospitalario"
+  },
+  {
+    "nivel": 3,
+    "edad": 29,
+    "frecuencia": 0.0022617334184639,
+    "severidad": 95130.0,
+    "prima_anual": 215.16,
+    "prima_mensual": 18.92,
+    "descripcion": "Alta Especialidad"
+  },
+  {
+    "nivel": 1,
+    "edad": 30,
+    "frecuencia": 0.0175987567009722,
+    "severidad": 21831.0,
+    "prima_anual": 384.2,
+    "prima_mensual": 33.78,
+    "descripcion": "Ambulatorio"
+  },
+  {
+    "nivel": 2,
+    "edad": 30,
+    "frecuencia": 0.0131924224938397,
+    "severidad": 64695.0,
+    "prima_anual": 853.49,
+    "prima_mensual": 75.03,
+    "descripcion": "Hospitalario"
+  },
+  {
+    "nivel": 3,
+    "edad": 30,
+    "frecuencia": 0.0022994522595142,
+    "severidad": 96491.0,
+    "prima_anual": 221.88,
+    "prima_mensual": 19.51,
+    "descripcion": "Alta Especialidad"
+  },
+  {
+    "nivel": 1,
+    "edad": 31,
+    "frecuencia": 0.0180430803658482,
+    "severidad": 22535.0,
+    "prima_anual": 406.6,
+    "prima_mensual": 35.75,
+    "descripcion": "Ambulatorio"
+  },
+  {
+    "nivel": 2,
+    "edad": 31,
+    "frecuencia": 0.0137312782498887,
+    "severidad": 65742.0,
+    "prima_anual": 902.73,
+    "prima_mensual": 79.36,
+    "descripcion": "Hospitalario"
+  },
+  {
+    "nivel": 3,
+    "edad": 31,
+    "frecuencia": 0.0025301679561369,
+    "severidad": 100914.0,
+    "prima_anual": 255.33,
+    "prima_mensual": 22.45,
+    "descripcion": "Alta Especialidad"
+  },
+  {
+    "nivel": 1,
+    "edad": 32,
+    "frecuencia": 0.0181235299975026,
+    "severidad": 22079.0,
+    "prima_anual": 400.15,
+    "prima_mensual": 35.18,
+    "descripcion": "Ambulatorio"
+  },
+  {
+    "nivel": 2,
+    "edad": 32,
+    "frecuencia": 0.0143082461781931,
+    "severidad": 65362.0,
+    "prima_anual": 935.22,
+    "prima_mensual": 82.22,
+    "descripcion": "Hospitalario"
+  },
+  {
+    "nivel": 3,
+    "edad": 32,
+    "frecuencia": 0.002695991901907,
+    "severidad": 97390.0,
+    "prima_anual": 262.56,
+    "prima_mensual": 23.08,
+    "descripcion": "Alta Especialidad"
+  },
+  {
+    "nivel": 1,
+    "edad": 33,
+    "frecuencia": 0.017984690748643,
+    "severidad": 23162.0,
+    "prima_anual": 416.57,
+    "prima_mensual": 36.62,
+    "descripcion": "Ambulatorio"
+  },
+  {
+    "nivel": 2,
+    "edad": 33,
+    "frecuencia": 0.0143528231031683,
+    "severidad": 67216.0,
+    "prima_anual": 964.75,
+    "prima_mensual": 84.82,
+    "descripcion": "Hospitalario"
+  },
+  {
+    "nivel": 3,
+    "edad": 33,
+    "frecuencia": 0.002798359220267,
+    "severidad": 98881.0,
+    "prima_anual": 276.7,
+    "prima_mensual": 24.33,
+    "descripcion": "Alta Especialidad"
+  },
+  {
+    "nivel": 1,
+    "edad": 34,
+    "frecuencia": 0.0179236394031595,
+    "severidad": 23643.0,
+    "prima_anual": 423.77,
+    "prima_mensual": 37.26,
+    "descripcion": "Ambulatorio"
+  },
+  {
+    "nivel": 2,
+    "edad": 34,
+    "frecuencia": 0.014361527254912,
+    "severidad": 67520.0,
+    "prima_anual": 969.69,
+    "prima_mensual": 85.25,
+    "descripcion": "Hospitalario"
+  },
+  {
+    "nivel": 3,
+    "edad": 34,
+    "frecuencia": 0.0029561609337665,
+    "severidad": 102064.0,
+    "prima_anual": 301.72,
+    "prima_mensual": 26.53,
+    "descripcion": "Alta Especialidad"
+  },
+  {
+    "nivel": 1,
+    "edad": 35,
+    "frecuencia": 0.018301683005725,
+    "severidad": 24613.0,
+    "prima_anual": 450.45,
+    "prima_mensual": 39.6,
+    "descripcion": "Ambulatorio"
+  },
+  {
+    "nivel": 2,
+    "edad": 35,
+    "frecuencia": 0.0151741698009891,
+    "severidad": 68750.0,
+    "prima_anual": 1043.23,
+    "prima_mensual": 91.72,
+    "descripcion": "Hospitalario"
+  },
+  {
+    "nivel": 3,
+    "edad": 35,
+    "frecuencia": 0.0038960928569254,
+    "severidad": 91637.0,
+    "prima_anual": 357.03,
+    "prima_mensual": 31.39,
+    "descripcion": "Alta Especialidad"
+  },
+  {
+    "nivel": 1,
+    "edad": 36,
+    "frecuencia": 0.0177456745726588,
+    "severidad": 24621.0,
+    "prima_anual": 436.91,
+    "prima_mensual": 38.41,
+    "descripcion": "Ambulatorio"
+  },
+  {
+    "nivel": 2,
+    "edad": 36,
+    "frecuencia": 0.0144973338188177,
+    "severidad": 71156.0,
+    "prima_anual": 1031.57,
+    "prima_mensual": 90.69,
+    "descripcion": "Hospitalario"
+  },
+  {
+    "nivel": 3,
+    "edad": 36,
+    "frecuencia": 0.0031384038340149,
+    "severidad": 102865.0,
+    "prima_anual": 322.83,
+    "prima_mensual": 28.38,
+    "descripcion": "Alta Especialidad"
+  },
+  {
+    "nivel": 1,
+    "edad": 37,
+    "frecuencia": 0.0175023475803694,
+    "severidad": 24815.0,
+    "prima_anual": 434.32,
+    "prima_mensual": 38.18,
+    "descripcion": "Ambulatorio"
+  },
+  {
+    "nivel": 2,
+    "edad": 37,
+    "frecuencia": 0.0143947425739289,
+    "severidad": 71807.0,
+    "prima_anual": 1033.64,
+    "prima_mensual": 90.87,
+    "descripcion": "Hospitalario"
+  },
+  {
+    "nivel": 3,
+    "edad": 37,
+    "frecuencia": 0.0033461855244804,
+    "severidad": 104703.0,
+    "prima_anual": 350.36,
+    "prima_mensual": 30.8,
+    "descripcion": "Alta Especialidad"
+  },
+  {
+    "nivel": 1,
+    "edad": 38,
+    "frecuencia": 0.0172794837438215,
+    "severidad": 25123.0,
+    "prima_anual": 434.12,
+    "prima_mensual": 38.17,
+    "descripcion": "Ambulatorio"
+  },
+  {
+    "nivel": 2,
+    "edad": 38,
+    "frecuencia": 0.0143245097629965,
+    "severidad": 74227.0,
+    "prima_anual": 1063.27,
+    "prima_mensual": 93.48,
+    "descripcion": "Hospitalario"
+  },
+  {
+    "nivel": 3,
+    "edad": 38,
+    "frecuencia": 0.0035011679378855,
+    "severidad": 106031.0,
+    "prima_anual": 371.23,
+    "prima_mensual": 32.64,
+    "descripcion": "Alta Especialidad"
+  },
+  {
+    "nivel": 1,
+    "edad": 39,
+    "frecuencia": 0.0167484373706119,
+    "severidad": 26568.0,
+    "prima_anual": 444.96,
+    "prima_mensual": 39.12,
+    "descripcion": "Ambulatorio"
+  },
+  {
+    "nivel": 2,
+    "edad": 39,
+    "frecuencia": 0.0142835296656296,
+    "severidad": 76141.0,
+    "prima_anual": 1087.56,
+    "prima_mensual": 95.61,
+    "descripcion": "Hospitalario"
+  },
+  {
+    "nivel": 3,
+    "edad": 39,
+    "frecuencia": 0.0036701617421904,
+    "severidad": 116623.0,
+    "prima_anual": 428.03,
+    "prima_mensual": 37.63,
+    "descripcion": "Alta Especialidad"
+  },
+  {
+    "nivel": 1,
+    "edad": 40,
+    "frecuencia": 0.0166310611265511,
+    "severidad": 25906.0,
+    "prima_anual": 430.85,
+    "prima_mensual": 37.88,
+    "descripcion": "Ambulatorio"
+  },
+  {
+    "nivel": 2,
+    "edad": 40,
+    "frecuencia": 0.0139749786883689,
+    "severidad": 76807.0,
+    "prima_anual": 1073.37,
+    "prima_mensual": 94.37,
+    "descripcion": "Hospitalario"
+  },
+  {
+    "nivel": 3,
+    "edad": 40,
+    "frecuencia": 0.003906740741228,
+    "severidad": 113791.0,
+    "prima_anual": 444.55,
+    "prima_mensual": 39.08,
+    "descripcion": "Alta Especialidad"
+  },
+  {
+    "nivel": 1,
+    "edad": 41,
+    "frecuencia": 0.0166257538026972,
+    "severidad": 26495.0,
+    "prima_anual": 440.49,
+    "prima_mensual": 38.73,
+    "descripcion": "Ambulatorio"
+  },
+  {
+    "nivel": 2,
+    "edad": 41,
+    "frecuencia": 0.0141690126329339,
+    "severidad": 78068.0,
+    "prima_anual": 1106.15,
+    "prima_mensual": 97.25,
+    "descripcion": "Hospitalario"
+  },
+  {
+    "nivel": 3,
+    "edad": 41,
+    "frecuencia": 0.0041090103813315,
+    "severidad": 112063.0,
+    "prima_anual": 460.47,
+    "prima_mensual": 40.48,
+    "descripcion": "Alta Especialidad"
+  },
+  {
+    "nivel": 1,
+    "edad": 42,
+    "frecuencia": 0.0166081823532692,
+    "severidad": 27303.0,
+    "prima_anual": 453.46,
+    "prima_mensual": 39.87,
+    "descripcion": "Ambulatorio"
+  },
+  {
+    "nivel": 2,
+    "edad": 42,
+    "frecuencia": 0.0141464021321109,
+    "severidad": 80790.0,
+    "prima_anual": 1142.88,
+    "prima_mensual": 100.48,
+    "descripcion": "Hospitalario"
+  },
+  {
+    "nivel": 3,
+    "edad": 42,
+    "frecuencia": 0.004284730899984,
+    "severidad": 113531.0,
+    "prima_anual": 486.45,
+    "prima_mensual": 42.77,
+    "descripcion": "Alta Especialidad"
+  },
+  {
+    "nivel": 1,
+    "edad": 43,
+    "frecuencia": 0.0164261078826118,
+    "severidad": 27814.0,
+    "prima_anual": 456.88,
+    "prima_mensual": 40.17,
+    "descripcion": "Ambulatorio"
+  },
+  {
+    "nivel": 2,
+    "edad": 43,
+    "frecuencia": 0.0140057372019843,
+    "severidad": 81082.0,
+    "prima_anual": 1135.61,
+    "prima_mensual": 99.84,
+    "descripcion": "Hospitalario"
+  },
+  {
+    "nivel": 3,
+    "edad": 43,
+    "frecuencia": 0.0047951153116277,
+    "severidad": 112644.0,
+    "prima_anual": 540.14,
+    "prima_mensual": 47.49,
+    "descripcion": "Alta Especialidad"
+  },
+  {
+    "nivel": 1,
+    "edad": 44,
+    "frecuencia": 0.0164491434353995,
+    "severidad": 29558.0,
+    "prima_anual": 486.2,
+    "prima_mensual": 42.74,
+    "descripcion": "Ambulatorio"
+  },
+  {
+    "nivel": 2,
+    "edad": 44,
+    "frecuencia": 0.0140278026179218,
+    "severidad": 84899.0,
+    "prima_anual": 1190.95,
+    "prima_mensual": 104.7,
+    "descripcion": "Hospitalario"
+  },
+  {
+    "nivel": 3,
+    "edad": 44,
+    "frecuencia": 0.0048373314500682,
+    "severidad": 118989.0,
+    "prima_anual": 575.59,
+    "prima_mensual": 50.6,
+    "descripcion": "Alta Especialidad"
+  },
+  {
+    "nivel": 1,
+    "edad": 45,
+    "frecuencia": 0.016656867255484,
+    "severidad": 29348.0,
+    "prima_anual": 488.85,
+    "prima_mensual": 42.98,
+    "descripcion": "Ambulatorio"
+  },
+  {
+    "nivel": 2,
+    "edad": 45,
+    "frecuencia": 0.0145128546823931,
+    "severidad": 83549.0,
+    "prima_anual": 1212.54,
+    "prima_mensual": 106.6,
+    "descripcion": "Hospitalario"
+  },
+  {
+    "nivel": 3,
+    "edad": 45,
+    "frecuencia": 0.0050818374075834,
+    "severidad": 121012.0,
+    "prima_anual": 614.97,
+    "prima_mensual": 54.07,
+    "descripcion": "Alta Especialidad"
+  },
+  {
+    "nivel": 1,
+    "edad": 46,
+    "frecuencia": 0.0167261816249344,
+    "severidad": 29993.0,
+    "prima_anual": 501.67,
+    "prima_mensual": 44.1,
+    "descripcion": "Ambulatorio"
+  },
+  {
+    "nivel": 2,
+    "edad": 46,
+    "frecuencia": 0.0150805284812315,
+    "severidad": 86438.0,
+    "prima_anual": 1303.53,
+    "prima_mensual": 114.6,
+    "descripcion": "Hospitalario"
+  },
+  {
+    "nivel": 3,
+    "edad": 46,
+    "frecuencia": 0.0055760842236414,
+    "severidad": 116236.0,
+    "prima_anual": 648.14,
+    "prima_mensual": 56.98,
+    "descripcion": "Alta Especialidad"
+  },
+  {
+    "nivel": 1,
+    "edad": 47,
+    "frecuencia": 0.0170747023038036,
+    "severidad": 31907.0,
+    "prima_anual": 544.81,
+    "prima_mensual": 47.9,
+    "descripcion": "Ambulatorio"
+  },
+  {
+    "nivel": 2,
+    "edad": 47,
+    "frecuencia": 0.0154000408933922,
+    "severidad": 85794.0,
+    "prima_anual": 1321.23,
+    "prima_mensual": 116.16,
+    "descripcion": "Hospitalario"
+  },
+  {
+    "nivel": 3,
+    "edad": 47,
+    "frecuencia": 0.005994132910369,
+    "severidad": 117876.0,
+    "prima_anual": 706.57,
+    "prima_mensual": 62.12,
+    "descripcion": "Alta Especialidad"
+  },
+  {
+    "nivel": 1,
+    "edad": 48,
+    "frecuencia": 0.0174681573513658,
+    "severidad": 32001.0,
+    "prima_anual": 559.0,
+    "prima_mensual": 49.15,
+    "descripcion": "Ambulatorio"
+  },
+  {
+    "nivel": 2,
+    "edad": 48,
+    "frecuencia": 0.0156854569528198,
+    "severidad": 88234.0,
+    "prima_anual": 1383.99,
+    "prima_mensual": 121.67,
+    "descripcion": "Hospitalario"
+  },
+  {
+    "nivel": 3,
+    "edad": 48,
+    "frecuencia": 0.0064148825985996,
+    "severidad": 112437.0,
+    "prima_anual": 721.27,
+    "prima_mensual": 63.41,
+    "descripcion": "Alta Especialidad"
+  },
+  {
+    "nivel": 1,
+    "edad": 49,
+    "frecuencia": 0.0181435719676851,
+    "severidad": 33121.0,
+    "prima_anual": 600.94,
+    "prima_mensual": 52.83,
+    "descripcion": "Ambulatorio"
+  },
+  {
+    "nivel": 2,
+    "edad": 49,
+    "frecuencia": 0.0159897129119727,
+    "severidad": 88581.0,
+    "prima_anual": 1416.38,
+    "prima_mensual": 124.52,
+    "descripcion": "Hospitalario"
+  },
+  {
+    "nivel": 3,
+    "edad": 49,
+    "frecuencia": 0.0068310364427547,
+    "severidad": 109750.0,
+    "prima_anual": 749.71,
+    "prima_mensual": 65.91,
+    "descripcion": "Alta Especialidad"
+  },
+  {
+    "nivel": 1,
+    "edad": 50,
+    "frecuencia": 0.0182699675351175,
+    "severidad": 33429.0,
+    "prima_anual": 610.74,
+    "prima_mensual": 53.69,
+    "descripcion": "Ambulatorio"
+  },
+  {
+    "nivel": 2,
+    "edad": 50,
+    "frecuencia": 0.0161161948961425,
+    "severidad": 84290.0,
+    "prima_anual": 1358.43,
+    "prima_mensual": 119.43,
+    "descripcion": "Hospitalario"
+  },
+  {
+    "nivel": 3,
+    "edad": 50,
+    "frecuencia": 0.0074531218078631,
+    "severidad": 119047.0,
+    "prima_anual": 887.27,
+    "prima_mensual": 78.01,
+    "descripcion": "Alta Especialidad"
+  },
+  {
+    "nivel": 1,
+    "edad": 51,
+    "frecuencia": 0.0188463979044839,
+    "severidad": 36487.0,
+    "prima_anual": 687.64,
+    "prima_mensual": 60.45,
+    "descripcion": "Ambulatorio"
+  },
+  {
+    "nivel": 2,
+    "edad": 51,
+    "frecuencia": 0.0165170378188515,
+    "severidad": 88748.0,
+    "prima_anual": 1465.86,
+    "prima_mensual": 128.87,
+    "descripcion": "Hospitalario"
+  },
+  {
+    "nivel": 3,
+    "edad": 51,
+    "frecuencia": 0.0080413932788801,
+    "severidad": 118263.0,
+    "prima_anual": 951.0,
+    "prima_mensual": 83.61,
+    "descripcion": "Alta Especialidad"
+  },
+  {
+    "nivel": 1,
+    "edad": 52,
+    "frecuencia": 0.0189876100603731,
+    "severidad": 37604.0,
+    "prima_anual": 714.0,
+    "prima_mensual": 62.77,
+    "descripcion": "Ambulatorio"
+  },
+  {
+    "nivel": 2,
+    "edad": 52,
+    "frecuencia": 0.0166039243422217,
+    "severidad": 92794.0,
+    "prima_anual": 1540.75,
+    "prima_mensual": 135.46,
+    "descripcion": "Hospitalario"
+  },
+  {
+    "nivel": 3,
+    "edad": 52,
+    "frecuencia": 0.008350739174844,
+    "severidad": 117684.0,
+    "prima_anual": 982.75,
+    "prima_mensual": 86.4,
+    "descripcion": "Alta Especialidad"
+  },
+  {
+    "nivel": 1,
+    "edad": 53,
+    "frecuencia": 0.0190127536709166,
+    "severidad": 36950.0,
+    "prima_anual": 702.53,
+    "prima_mensual": 61.76,
+    "descripcion": "Ambulatorio"
+  },
+  {
+    "nivel": 2,
+    "edad": 53,
+    "frecuencia": 0.0163290131812823,
+    "severidad": 93528.0,
+    "prima_anual": 1527.22,
+    "prima_mensual": 134.27,
+    "descripcion": "Hospitalario"
+  },
+  {
+    "nivel": 3,
+    "edad": 53,
+    "frecuencia": 0.0088253896529518,
+    "severidad": 117218.0,
+    "prima_anual": 1034.49,
+    "prima_mensual": 90.95,
+    "descripcion": "Alta Especialidad"
+  },
+  {
+    "nivel": 1,
+    "edad": 54,
+    "frecuencia": 0.0194470022724776,
+    "severidad": 38703.0,
+    "prima_anual": 752.65,
+    "prima_mensual": 66.17,
+    "descripcion": "Ambulatorio"
+  },
+  {
+    "nivel": 2,
+    "edad": 54,
+    "frecuencia": 0.0165782456021784,
+    "severidad": 96280.0,
+    "prima_anual": 1596.16,
+    "prima_mensual": 140.33,
+    "descripcion": "Hospitalario"
+  },
+  {
+    "nivel": 3,
+    "edad": 54,
+    "frecuencia": 0.0089772724072775,
+    "severidad": 121214.0,
+    "prima_anual": 1088.17,
+    "prima_mensual": 95.67,
+    "descripcion": "Alta Especialidad"
+  },
+  {
+    "nivel": 1,
+    "edad": 55,
+    "frecuencia": 0.0203053797542004,
+    "severidad": 40426.0,
+    "prima_anual": 820.87,
+    "prima_mensual": 72.17,
+    "descripcion": "Ambulatorio"
+  },
+  {
+    "nivel": 2,
+    "edad": 55,
+    "frecuencia": 0.0172286189952351,
+    "severidad": 94331.0,
+    "prima_anual": 1625.18,
+    "prima_mensual": 142.88,
+    "descripcion": "Hospitalario"
+  },
+  {
+    "nivel": 3,
+    "edad": 55,
+    "frecuencia": 0.0098035869165519,
+    "severidad": 120750.0,
+    "prima_anual": 1183.78,
+    "prima_mensual": 104.07,
+    "descripcion": "Alta Especialidad"
+  },
+  {
+    "nivel": 1,
+    "edad": 56,
+    "frecuencia": 0.0202507182616132,
+    "severidad": 42571.0,
+    "prima_anual": 862.1,
+    "prima_mensual": 75.79,
+    "descripcion": "Ambulatorio"
+  },
+  {
+    "nivel": 2,
+    "edad": 56,
+    "frecuencia": 0.0175919241495085,
+    "severidad": 96295.0,
+    "prima_anual": 1694.01,
+    "prima_mensual": 148.93,
+    "descripcion": "Hospitalario"
+  },
+  {
+    "nivel": 3,
+    "edad": 56,
+    "frecuencia": 0.0103916687676016,
+    "severidad": 125419.0,
+    "prima_anual": 1303.32,
+    "prima_mensual": 114.58,
+    "descripcion": "Alta Especialidad"
+  },
+  {
+    "nivel": 1,
+    "edad": 57,
+    "frecuencia": 0.0208746567807987,
+    "severidad": 43385.0,
+    "prima_anual": 905.65,
+    "prima_mensual": 79.62,
+    "descripcion": "Ambulatorio"
+  },
+  {
+    "nivel": 2,
+    "edad": 57,
+    "frecuencia": 0.018413776311066,
+    "severidad": 95830.0,
+    "prima_anual": 1764.59,
+    "prima_mensual": 155.14,
+    "descripcion": "Hospitalario"
+  },
+  {
+    "nivel": 3,
+    "edad": 57,
+    "frecuencia": 0.0113516171843947,
+    "severidad": 120584.0,
+    "prima_anual": 1368.82,
+    "prima_mensual": 120.34,
+    "descripcion": "Alta Especialidad"
+  },
+  {
+    "nivel": 1,
+    "edad": 58,
+    "frecuencia": 0.0216619776269372,
+    "severidad": 42433.0,
+    "prima_anual": 919.19,
+    "prima_mensual": 80.81,
+    "descripcion": "Ambulatorio"
+  },
+  {
+    "nivel": 2,
+    "edad": 58,
+    "frecuencia": 0.0195105985801751,
+    "severidad": 93262.0,
+    "prima_anual": 1819.59,
+    "prima_mensual": 159.97,
+    "descripcion": "Hospitalario"
+  },
+  {
+    "nivel": 3,
+    "edad": 58,
+    "frecuencia": 0.0120468697861307,
+    "severidad": 122949.0,
+    "prima_anual": 1481.15,
+    "prima_mensual": 130.22,
+    "descripcion": "Alta Especialidad"
+  },
+  {
+    "nivel": 1,
+    "edad": 59,
+    "frecuencia": 0.0223910483340998,
+    "severidad": 48397.0,
+    "prima_anual": 1083.67,
+    "prima_mensual": 95.27,
+    "descripcion": "Ambulatorio"
+  },
+  {
+    "nivel": 2,
+    "edad": 59,
+    "frecuencia": 0.0198455847139086,
+    "severidad": 95396.0,
+    "prima_anual": 1893.18,
+    "prima_mensual": 166.44,
+    "descripcion": "Hospitalario"
+  },
+  {
+    "nivel": 3,
+    "edad": 59,
+    "frecuencia": 0.0133488295264273,
+    "severidad": 117011.0,
+    "prima_anual": 1561.97,
+    "prima_mensual": 137.32,
+    "descripcion": "Alta Especialidad"
+  },
+  {
+    "nivel": 1,
+    "edad": 60,
+    "frecuencia": 0.0236011014764794,
+    "severidad": 43076.0,
+    "prima_anual": 1016.64,
+    "prima_mensual": 89.38,
+    "descripcion": "Ambulatorio"
+  },
+  {
+    "nivel": 2,
+    "edad": 60,
+    "frecuencia": 0.0217997112821522,
+    "severidad": 98547.0,
+    "prima_anual": 2148.3,
+    "prima_mensual": 188.87,
+    "descripcion": "Hospitalario"
+  },
+  {
+    "nivel": 3,
+    "edad": 60,
+    "frecuencia": 0.0148033264479585,
+    "severidad": 114344.0,
+    "prima_anual": 1692.68,
+    "prima_mensual": 148.81,
+    "descripcion": "Alta Especialidad"
+  },
+  {
+    "nivel": 1,
+    "edad": 61,
+    "frecuencia": 0.0248613269356829,
+    "severidad": 44261.0,
+    "prima_anual": 1100.38,
+    "prima_mensual": 96.74,
+    "descripcion": "Ambulatorio"
+  },
+  {
+    "nivel": 2,
+    "edad": 61,
+    "frecuencia": 0.0223141348364706,
+    "severidad": 92446.0,
+    "prima_anual": 2062.86,
+    "prima_mensual": 181.36,
+    "descripcion": "Hospitalario"
+  },
+  {
+    "nivel": 3,
+    "edad": 61,
+    "frecuencia": 0.016446109667351,
+    "severidad": 109011.0,
+    "prima_anual": 1792.81,
+    "prima_mensual": 157.62,
+    "descripcion": "Alta Especialidad"
+  },
+  {
+    "nivel": 1,
+    "edad": 62,
+    "frecuencia": 0.0270806537466576,
+    "severidad": 44649.0,
+    "prima_anual": 1209.11,
+    "prima_mensual": 106.3,
+    "descripcion": "Ambulatorio"
+  },
+  {
+    "nivel": 2,
+    "edad": 62,
+    "frecuencia": 0.0243032039054134,
+    "severidad": 91489.0,
+    "prima_anual": 2223.48,
+    "prima_mensual": 195.48,
+    "descripcion": "Hospitalario"
+  },
+  {
+    "nivel": 3,
+    "edad": 62,
+    "frecuencia": 0.0184831934252522,
+    "severidad": 106405.0,
+    "prima_anual": 1966.71,
+    "prima_mensual": 172.9,
+    "descripcion": "Alta Especialidad"
+  },
+  {
+    "nivel": 1,
+    "edad": 63,
+    "frecuencia": 0.0283823518501574,
+    "severidad": 43622.0,
+    "prima_anual": 1238.08,
+    "prima_mensual": 108.85,
+    "descripcion": "Ambulatorio"
+  },
+  {
+    "nivel": 2,
+    "edad": 63,
+    "frecuencia": 0.0258623887469675,
+    "severidad": 92605.0,
+    "prima_anual": 2395.0,
+    "prima_mensual": 210.56,
+    "descripcion": "Hospitalario"
+  },
+  {
+    "nivel": 3,
+    "edad": 63,
+    "frecuencia": 0.0202512049578233,
+    "severidad": 113679.0,
+    "prima_anual": 2302.14,
+    "prima_mensual": 202.39,
+    "descripcion": "Alta Especialidad"
+  },
+  {
+    "nivel": 1,
+    "edad": 64,
+    "frecuencia": 0.0310981618263035,
+    "severidad": 52666.0,
+    "prima_anual": 1637.81,
+    "prima_mensual": 143.99,
+    "descripcion": "Ambulatorio"
+  },
+  {
+    "nivel": 2,
+    "edad": 64,
+    "frecuencia": 0.0268129708669489,
+    "severidad": 95295.0,
+    "prima_anual": 2555.14,
+    "prima_mensual": 224.64,
+    "descripcion": "Hospitalario"
+  },
+  {
+    "nivel": 3,
+    "edad": 64,
+    "frecuencia": 0.0217496869169627,
+    "severidad": 112389.0,
+    "prima_anual": 2444.42,
+    "prima_mensual": 214.9,
+    "descripcion": "Alta Especialidad"
+  },
+  {
+    "nivel": 1,
+    "edad": 65,
+    "frecuencia": 0.0314313267721521,
+    "severidad": 44715.0,
+    "prima_anual": 1405.46,
+    "prima_mensual": 123.56,
+    "descripcion": "Ambulatorio"
+  },
+  {
+    "nivel": 2,
+    "edad": 65,
+    "frecuencia": 0.0296454559328252,
+    "severidad": 93756.0,
+    "prima_anual": 2779.44,
+    "prima_mensual": 244.36,
+    "descripcion": "Hospitalario"
+  },
+  {
+    "nivel": 3,
+    "edad": 65,
+    "frecuencia": 0.02309942754722,
+    "severidad": 116447.0,
+    "prima_anual": 2689.86,
+    "prima_mensual": 236.48,
+    "descripcion": "Alta Especialidad"
+  },
+  {
+    "nivel": 1,
+    "edad": 66,
+    "frecuencia": 0.032753139138264,
+    "severidad": 54762.0,
+    "prima_anual": 1793.64,
+    "prima_mensual": 157.69,
+    "descripcion": "Ambulatorio"
+  },
+  {
+    "nivel": 2,
+    "edad": 66,
+    "frecuencia": 0.0302089521012892,
+    "severidad": 89726.0,
+    "prima_anual": 2710.52,
+    "prima_mensual": 238.3,
+    "descripcion": "Hospitalario"
+  },
+  {
+    "nivel": 3,
+    "edad": 66,
+    "frecuencia": 0.0246759990884263,
+    "severidad": 115526.0,
+    "prima_anual": 2850.71,
+    "prima_mensual": 250.62,
+    "descripcion": "Alta Especialidad"
+  },
+  {
+    "nivel": 1,
+    "edad": 67,
+    "frecuencia": 0.033206625149517,
+    "severidad": 52321.0,
+    "prima_anual": 1737.41,
+    "prima_mensual": 152.75,
+    "descripcion": "Ambulatorio"
+  },
+  {
+    "nivel": 2,
+    "edad": 67,
+    "frecuencia": 0.0312996173214202,
+    "severidad": 84802.0,
+    "prima_anual": 2654.28,
+    "prima_mensual": 233.35,
+    "descripcion": "Hospitalario"
+  },
+  {
+    "nivel": 3,
+    "edad": 67,
+    "frecuencia": 0.0262809516309599,
+    "severidad": 109259.0,
+    "prima_anual": 2871.42,
+    "prima_mensual": 252.44,
+    "descripcion": "Alta Especialidad"
+  },
+  {
+    "nivel": 1,
+    "edad": 68,
+    "frecuencia": 0.0337423164533087,
+    "severidad": 49940.0,
+    "prima_anual": 1685.1,
+    "prima_mensual": 148.15,
+    "descripcion": "Ambulatorio"
+  },
+  {
+    "nivel": 2,
+    "edad": 68,
+    "frecuencia": 0.0302070386365724,
+    "severidad": 103094.0,
+    "prima_anual": 3114.15,
+    "prima_mensual": 273.78,
+    "descripcion": "Hospitalario"
+  },
+  {
+    "nivel": 3,
+    "edad": 68,
+    "frecuencia": 0.027924342152989,
+    "severidad": 106546.0,
+    "prima_anual": 2975.23,
+    "prima_mensual": 261.57,
+    "descripcion": "Alta Especialidad"
+  },
+  {
+    "nivel": 1,
+    "edad": 69,
+    "frecuencia": 0.036362261051858,
+    "severidad": 50433.0,
+    "prima_anual": 1833.87,
+    "prima_mensual": 161.23,
+    "descripcion": "Ambulatorio"
+  },
+  {
+    "nivel": 2,
+    "edad": 69,
+    "frecuencia": 0.0309970715682778,
+    "severidad": 102470.0,
+    "prima_anual": 3176.27,
+    "prima_mensual": 279.24,
+    "descripcion": "Hospitalario"
+  },
+  {
+    "nivel": 3,
+    "edad": 69,
+    "frecuencia": 0.0281010579094671,
+    "severidad": 122966.0,
+    "prima_anual": 3455.47,
+    "prima_mensual": 303.79,
+    "descripcion": "Alta Especialidad"
+  },
+  {
+    "nivel": 1,
+    "edad": 70,
+    "frecuencia": 0.0350894257541308,
+    "severidad": 51328.0,
+    "prima_anual": 1801.06,
+    "prima_mensual": 158.34,
+    "descripcion": "Ambulatorio"
+  },
+  {
+    "nivel": 2,
+    "edad": 70,
+    "frecuencia": 0.0333203642686055,
+    "severidad": 100888.0,
+    "prima_anual": 3361.64,
+    "prima_mensual": 295.54,
+    "descripcion": "Hospitalario"
+  },
+  {
+    "nivel": 3,
+    "edad": 70,
+    "frecuencia": 0.0278064853429304,
+    "severidad": 110000.0,
+    "prima_anual": 3058.71,
+    "prima_mensual": 268.91,
+    "descripcion": "Alta Especialidad"
+  }
+]

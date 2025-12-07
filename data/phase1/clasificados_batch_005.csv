@@ -1,0 +1,151 @@
+causa,nivel,justificacion_medica,cie10,confianza
+"RUPTURA DE LAS CUERDAS TENDINOSAS COMO COMPLICACIÓN PRESENTE POSTERIOR AL INFARTO AGUDO DEL MIOCARDIO",3,"Complicación mecánica cardiaca post-infarto que requiere manejo en UCI y probable cirugía cardiovascular urgente",I23.4,alta
+"ALCALOSIS",2,"Trastorno hidroelectrolítico que requiere hospitalización para corrección y monitoreo",E87.3,alta
+"SÍNDROMES DEL COMPORTAMIENTO ASOCIADOS CON ALTERACIONES FISIOLÓGICAS Y FACTORES FÍSICOS, NO ESPECIFICADOS",2,"Trastornos psicosomáticos que pueden requerir manejo hospitalario multidisciplinario",F59,media
+"PRESENCIA DE IMPLANTES DE RAÍZ DE DIENTE Y DE MANDÍBULA",1,"Seguimiento ambulatorio de implantes dentales, no requiere hospitalización",Z96.5,alta
+"AMPUTACIÓN TRAUMÁTICA DE LA MANO A NIVEL DE LA MUÑECA",3,"Trauma grave que requiere cirugía de urgencia, hospitalización prolongada y rehabilitación intensiva",S68.4,alta
+"ESTENOSIS NO REUMATICA (DE LA VALVULA) TRICUSPIDE)",3,"Valvulopatía que puede requerir cirugía cardiaca de alta complejidad",I36.0,alta
+"ATROFIA DE LAS PAPILAS LINGUALES",1,"Trastorno lingual benigno de manejo ambulatorio",K14.4,alta
+"SEPTICEMIA DEBIDA A SALMONELLA",3,"Infección sistémica grave que requiere UCI, antibioticoterapia intensiva y monitoreo constante",A02.1,alta
+"ENVENENAMIENTO POR ANTICONCEPTIVOS ORALES",2,"Intoxicación que requiere hospitalización para desintoxicación y vigilancia",T38.4,alta
+"PERSONA LESIONADA POR COLISION ENTRE AUTOMOVIL Y V",2,"Trauma de tránsito que típicamente requiere evaluación hospitalaria y manejo de lesiones múltiples",V43,media
+"CIRROSIS BILIAR SECUNDARIA",3,"Hepatopatía crónica avanzada que requiere manejo especializado, posible candidato a trasplante",K74.5,alta
+"FETO Y RECIÉN NACIDO AFECTADOS POR SÍNDROMES DE TRANSFUSIÓN PLACENTARIA",3,"Complicación neonatal grave que requiere UCI neonatal y manejo especializado",P02.3,alta
+"TUMOR BENIGNO DEL OJO Y SUS ANEXOS",2,"Tumor que puede requerir cirugía oftalmológica programada y seguimiento",D31,alta
+"OTROS TRASTORNOS ADRENOGENITALES",3,"Trastornos endocrinos complejos que requieren manejo por endocrinología especializada",E25,alta
+"DISFUNCIÓN DEL LABERINTO",1,"Trastorno vestibular de manejo ambulatorio con medicamentos y terapia vestibular",H83.2,alta
+"INHALACIÓN E INGESTIÓN DE OTROS OBJETOS QUE CAUSAN OBSTRUCCIÓN DE LAS VÍAS RESPIRATORIAS, GRANJA",3,"Emergencia respiratoria que requiere extracción urgente, posible broncoscopia o cirugía",T17,alta
+"TRASTORNOS HIPERTENSIVOS PREEXISTENTES, CON PROTEINURIA AGREGADA",2,"Complicación obstétrica que requiere hospitalización y monitoreo fetal estrecho",O11,alta
+"TRASTORNO NO ESPECIFICADO DE LA ENCÍA Y DE LA ZONA EDÉNTULA",1,"Patología dental/periodontal de manejo ambulatorio",K06.9,alta
+"TRASTORNOS MENTALES Y DEL COMPORTAMIENTO DEBIDOS AL USO DE MÚLTIPLES DROGAS Y AL USO DE OTRAS SUSTANCIAS PSICOACTIVAS, INTOXICACIÓN AGUDA",2,"Intoxicación aguda por politoxicomanía que requiere hospitalización y desintoxicación",F19.0,alta
+"TRASTORNO LOCALIZADO DEL TEJIDO CONJUNTIVO, NO ESPECIFICADO",1,"Trastorno del tejido conectivo de manejo ambulatorio por reumatología",M79.9,media
+"CONTACTO CON AIRE Y GASES CALIENTES, VIVIENDA",2,"Quemadura por inhalación que requiere hospitalización y manejo de vía aérea",X14.0,alta
+"HEMIPLEJIA",3,"Parálisis de medio cuerpo que sugiere evento cerebrovascular, requiere UCI y neurología",G81,alta
+"OTRAS CAÍDAS EN EL MISMO NIVEL, OTRO LUGAR ESPECIFICADO",2,"Trauma por caída que puede requerir evaluación hospitalaria según lesiones",W18.3,media
+"CONDUCTOR DE VEHÍCULO DE MOTOR DE TRES RUEDAS LESIONADO POR COLISIÓN CON OTROS VEHÍCULOS DE MOTOR, Y CON LOS NO ESPECIFICADOS, EN ACCIDENTE NO DE TRÁNSITO",2,"Politraumatismo vehicular que requiere evaluación y manejo hospitalario",V32,media
+"FACOMATOSIS, NO CLASIFICADA EN OTRA PARTE",3,"Síndrome neurocutáneo complejo que requiere manejo multidisciplinario especializado",Q85.9,alta
+"FASCITIS NODULAR",2,"Lesión de tejidos blandos que puede requerir biopsia y cirugía programada",M72.4,alta
+"OTROS TRASTORNOS DEL HUMOR [AFECTIVOS] PERSISTENTES",1,"Trastorno psiquiátrico de manejo ambulatorio con psiquiatría",F34,alta
+"MALFORMACION CONGENITA DEL APARATO URINARIO, NO ESPECIFICADA",3,"Malformación genitourinaria congénita que puede requerir cirugía urológica pediátrica",Q64.9,alta
+"TRASTORNO DE LA CONTINUIDAD DEL HUESO, NO ESPECIFICADO",2,"Fractura o pseudoartrosis que requiere manejo ortopédico, posible cirugía",M84.9,media
+"ESTENOSIS MITRAL CONGÉNITA",3,"Cardiopatía congénita que requiere manejo cardiológico especializado, posible cirugía valvular",Q23.2,alta
+"DISPLASIA CONDROECTODÉRMICA",3,"Displasia ósea congénita rara que requiere manejo multidisciplinario especializado",Q77.6,alta
+"HERIDA QUE COMPROMETE LA FARINGE Y EL ESÓFAGO CERVICAL",3,"Trauma cervical complejo que requiere cirugía urgente y UCI",S11.2,alta
+"COMPLICACIONES DE PROCEDIMIENTOS, NO CLASIFICADAS EN OTRA PARTE",2,"Complicación postquirúrgica o postprocedimiento que requiere hospitalización y manejo",T81,media
+"AMPUTACIÓN TRAUMÁTICA EN ALGÚN NIVEL ENTRE LA CADERA Y LA RODILLA",3,"Trauma grave que requiere cirugía de urgencia, UCI y rehabilitación prolongada",S78,alta
+"DELIRIO NO SUPERPUESTO A UN CUADRO DE DEMENCIA, ASÍ DESCRITO",2,"Estado confusional agudo que requiere hospitalización para estudio etiológico y manejo",F05.0,alta
+"HIPOPLASIA Y DISPLASIA PULMONAR",3,"Malformación pulmonar congénita que requiere manejo neumológico especializado",Q33.6,alta
+"DOLOR FACIAL ATÍPICO",1,"Dolor crónico facial de manejo ambulatorio con neurología o algología",G50.1,alta
+"SÍNDROME DEL ABDOMEN EN CIRUELA PASA",3,"Malformación congénita compleja de pared abdominal que requiere cirugía especializada",Q79.4,alta
+"ICTERICIA NEONATAL DEBIDA A HEMORRAGIA",2,"Ictericia patológica neonatal que requiere hospitalización y fototerapia, posible transfusión",P58,alta
+"INFECCIÓN PULMONAR DEBIDA A HISTOPLASMA CAPSULATUM, SIN OTRA ESPECIFICACIÓN",2,"Infección fúngica pulmonar que requiere hospitalización y antifúngicos",B39.2,alta
+"PRUEBA Y AJUSTE DE PRÓTESIS DENTAL",1,"Atención dental ambulatoria de rutina",Z46.3,alta
+"TRAUMATISMOS POR APLASTAMIENTO QUE AFECTAN MÚLTIPLES REGIONES DEL (DE LOS) MIEMBRO(S) INFERIOR(ES)",3,"Politraumatismo grave que requiere cirugía ortopédica de urgencia y UCI",T04.3,alta
+"OTROS TRASTORNOS HEMATOLÓGICOS PERINATALES ESPECIFICADOS",3,"Trastorno hematológico neonatal que requiere UCI neonatal y manejo especializado",P61,alta
+"TUMOR MALIGNO DE SITIOS MAL DEFINIDOS DEL SISTEMA RESPIRATORIO",3,"Cáncer respiratorio que requiere oncología, quimioterapia y/o radioterapia",C39,alta
+"TRASTORNO DEL METABOLISMO DE LOS AMINOACIDOS AZUFRADOS",3,"Error congénito del metabolismo que requiere manejo metabólico especializado",E72.1,alta
+"PROBLEMAS RELACIONADOS CON LA DIETA Y HÁBITOS ALIMENTARIOS INAPROPIADOS",1,"Trastorno alimentario de manejo ambulatorio con nutrición",Z72.4,alta
+"CANDIDIASIS DE OTRAS LOCALIZACIONES UROGENITALES",1,"Infección micótica urogenital de manejo ambulatorio con antifúngicos",B37.4,alta
+"OTROS TRASTORNOS DEL NERVIO OPTICO [II PAR] Y DE LAS VIAS OPTICAS",2,"Neuropatía óptica que requiere evaluación oftalmológica especializada y posible hospitalización",H47,media
+"EXAMEN PARA ADMISIÓN A INSTITUCIONES EDUCATIVAS",1,"Examen médico preventivo ambulatorio",Z02.0,alta
+"TRASTORNO NO REUMÁTICO DE LA VÁLVULA TRICÚSPIDE, NO ESPECIFICADO",3,"Valvulopatía que puede requerir manejo cardiológico especializado o cirugía",I07.9,alta
+"ENFERMEDAD DE PAGET DEL CRÁNEO",2,"Enfermedad ósea crónica que puede requerir hospitalización para tratamiento",M88.0,alta
+"OTROS ESTRANGULAMIENTOS Y AHORCAMIENTOS ACCIDENTALES: VIVIENDA",3,"Asfixia mecánica grave que requiere manejo urgente de vía aérea y UCI",W76.0,alta
+"OTRAS ESPONDILOPATÍAS INFECCIOSAS",2,"Infección espinal que requiere hospitalización, antibióticos parenterales e imagen",M49,alta
+"GOLPE CONTRA O GOLPEADO POR EQUIPO PARA DEPORTES, VIVIENDA",2,"Trauma deportivo que puede requerir evaluación hospitalaria según gravedad",W21.0,media
+"OTRAS MALFORMACIONES CONGÉNITAS DE LOS PÁRPADOS",2,"Malformación palpebral que puede requerir cirugía oftalmológica programada",Q10.3,alta
+"EFECTO TÓXICO DEL PLOMO Y SUS COMPUESTOS",2,"Intoxicación por plomo que requiere hospitalización, quelación y monitoreo",T56.0,alta
+"OTRAS ENFERMEDADES INFLAMATORIAS DE LA VAGINA Y DE",1,"Vaginitis o vulvovaginitis de manejo ambulatorio con tratamiento tópico",N76,media
+"ENVENENAMIENTO ACCIDENTAL POR, Y EXPOSICIÓN A DISOLVENTES ORGÁNICOS E HIDROCARBUROS HALOGENADOS Y SUS VAPORES, LUGAR NO ESPECIFICADO",2,"Intoxicación química que requiere hospitalización para desintoxicación y vigilancia neurológica",X46,alta
+"TRAUMATISMO DE OTROS NERVIOS A NIVEL DEL PIE Y DEL TOBILLO",2,"Lesión neurológica periférica que puede requerir cirugía reconstructiva",S94,media
+"EFECTO TOXICO DE OTRAS SUSTANCIAS NOCIVAS INGERIDAS COMO ALIMENTO: HONGOS INGERIDOS",2,"Intoxicación por hongos que requiere hospitalización y soporte hepático/renal",T62.0,alta
+"SÍNDROME URETRAL, NO ESPECIFICADO",1,"Síndrome urológico funcional de manejo ambulatorio",N34.3,alta
+"ERISIPELOIDE",1,"Infección cutánea bacteriana de manejo ambulatorio con antibióticos orales",A26,alta
+"EFECTOS ADVERSOS DE LA VACUNA BCG",1,"Reacción adversa vacunal generalmente leve de manejo ambulatorio",Y59.0,alta
+"PRESENCIA DE DISPOSITIVO PARA DRENAJE DE LÍQUIDO CEFALORRAQUÍDEO",2,"Paciente con válvula de derivación ventricular que requiere seguimiento neuroquirúrgico",Z98.2,alta
+"OTROS TRASTORNOS DEL METABOLISMO DE LOS AMINOÁCIDOS DE CADENA RAMIFICADA",3,"Error congénito del metabolismo que requiere manejo metabólico especializado",E71.2,alta
+"VÍCTIMA DE RAYO, VIVIENDA",3,"Trauma eléctrico grave que requiere UCI y manejo de arritmias y quemaduras",X33.0,alta
+"PERIOSTITIS EN OTRAS ENFERMEDADES INFECCIOSAS CLASIFICADAS EN OTRA PARTE",2,"Infección ósea secundaria que requiere hospitalización y antibióticos parenterales",M90.2,alta
+"NACIDOS VIVOS SEGUN LUGAR DE NACIMIENTO",1,"Código administrativo de nacimiento, no implica patología",Z38,alta
+"OTRAS INFECCIONES VIRALES DEL SISTEMA NERVIOSO CENTRAL, NO CLASIFICADAS EN OTRA PARTE",3,"Encefalitis o meningitis viral que requiere UCI y manejo neurológico especializado",A89,alta
+"ELEVACIÓN DE LOS NIVELES DE TRANSAMINASAS O DESHIDROGENASA LÁCTICA [DHL]",1,"Hallazgo de laboratorio que requiere evaluación ambulatoria",R74.0,alta
+"OTRAS COMPLICACIONES VENOSAS CONSECUTIVAS AL ABORTO, AL EMBARAZO ECTÓPICO Y AL EMBARAZO MOLAR",2,"Complicación vascular obstétrica que requiere hospitalización y anticoagulación",O08.7,alta
+"CEGUERA Y DEFICIENCIA VISUAL (BINICULAR O MONOCULAR)",1,"Condición oftalmológica crónica de seguimiento ambulatorio",H54,media
+"COMPLICACIONES CONSECUTIVAS AL ABORTO, AL EMBARAZO ECTOPICO Y AL EMBARAZO MOLAR",2,"Complicación obstétrica que requiere hospitalización y manejo ginecológico",O08,media
+"EFECTO TÓXICO DE ÁCIDOS CORROSIVOS Y SUSTANCIAS ÁCIDAS SIMILARES",3,"Intoxicación corrosiva grave que requiere UCI, endoscopia urgente y cirugía posible",T54,alta
+"ENTERITIS DEBIDA A YERSINIA ENTEROCOLITICA",1,"Gastroenteritis bacteriana generalmente de manejo ambulatorio con hidratación",A04.6,alta
+"SINDROME VITREO CONSECUTIVO A CIRUGIA DE CATARATA",2,"Complicación oftalmológica postquirúrgica que puede requerir reintervención",H59.0,alta
+"COCCIDIOIDOMICOSIS",2,"Infección fúngica sistémica que puede requerir hospitalización y antifúngicos parenterales",B38,alta
+"TRASTORNOS MENTALES Y DEL COMPORTAMIENTO DEBIDOS AL USO DE MÚLTIPLES DROGAS Y AL USO DE OTRAS SUSTANCIAS PSICOACTIVAS, TRASTORNO MENTAL Y DEL COMPORTAMIENTO, NO ESPECIFICADO",2,"Trastorno psiquiátrico por abuso de sustancias que puede requerir internamiento",F19.9,media
+"FRAMBESIA",1,"Infección tropical crónica de manejo ambulatorio con penicilina",A66,alta
+"HIPERPOTASEMIA",2,"Trastorno electrolítico grave que requiere hospitalización y monitoreo cardiaco",E87.5,alta
+"OTRAS FIEBRES HEMORRÁGICAS VIRALES ESPECIFICADAS",3,"Enfermedad viral grave que requiere aislamiento, UCI y manejo de coagulopatía",A98,alta
+"CONTACTO TRAUMÁTICO CON ANIMALES Y PLANTAS MARINAS VENENOSOS, VIVIENDA",2,"Envenenamiento marino que requiere hospitalización para antídoto y vigilancia",X26.0,alta
+"OTROS TRASTORNOS DEL METABOLISMO DE LOS AMINOACIDOS",3,"Error metabólico congénito que requiere manejo especializado en metabolismo",E72,alta
+"OTROS TRAUMATISMOS DE MIEMBRO SUPERIOR, NIVEL NO ESPECIFICADO",2,"Trauma de extremidad superior que puede requerir cirugía ortopédica",T11.9,media
+"TRAUMATISMO DE OTROS NERVIOS A NIVEL DEL HOMBRO Y DEL BRAZO",2,"Lesión neurológica periférica que puede requerir cirugía reconstructiva",S44,media
+"TRAUMATISMO DEL ARCO PALMAR SUPERFICIAL",2,"Trauma vascular de mano que requiere cirugía vascular urgente",S65.2,alta
+"CALCIFICACION Y OSIFICACION DEL MUSCULO",2,"Miositis osificante que puede requerir cirugía ortopédica programada",M61,alta
+"PERIARTRITIS DE LA MUÑECA",1,"Tendinitis o inflamación periarticular de manejo ambulatorio con AINES y rehabilitación",M77.2,alta
+"PEATÓN LESIONADO EN ACCIDENTE DE TRÁNSITO QUE INVOLUCRA OTROS VEHÍCULOS DE MOTOR, Y LOS NO ESPECIFICADOS",2,"Politraumatismo por atropellamiento que requiere hospitalización",V09,media
+"MOTOCICLISTA LESIONADO POR COLISION CON VEHICULO DE MOTOR DE DOS O TRES RUEDAS",2,"Trauma vehicular que requiere evaluación hospitalaria y manejo de lesiones",V22,media
+"MAL FUNCIONAMIENTO DE ESTOMA EXTERNO DE VÍAS URINARIAS",2,"Complicación urológica de estoma que requiere evaluación y posible reintervención",N99.5,alta
+"ARTRITIS EN LA ENFERMEDAD DE LYME (A69.2Å)",2,"Complicación articular de Lyme que requiere antibióticos parenterales prolongados",M01.2,alta
+"PRURITO, NO ESPECIFICADO",1,"Síntoma dermatológico de manejo ambulatorio",L29.9,alta
+"OSTEOPATÍA EN OTRAS ENFERMEDADES INFECCIOSAS CLASIFICADAS EN OTRA PARTE",2,"Afectación ósea por infección que requiere hospitalización y antibióticos parenterales",M90.2,media
+"ATENCIÓN DE ILEOSTOMÍA",1,"Atención ambulatoria de estoma de rutina",Z43.2,alta
+"TRAUMATISMO DE LA VENA POPLÍTEA",3,"Trauma vascular mayor que requiere cirugía vascular urgente y UCI",S85.5,alta
+"PARÁLISIS FACIAL DE NEURONA MOTORA SUPERIOR",2,"Parálisis facial central por evento cerebrovascular que requiere hospitalización",G51,media
+"OTRAS MALFORMACIONES CONGÉNITAS DE LA PIEL, ESPECIFICADAS",2,"Malformación cutánea congénita que puede requerir cirugía plástica programada",Q82.8,media
+"HISTORIA PERSONAL DE USO (PRESENTE) DE OTROS MEDICAMENTOS POR LARGO TIEMPO",1,"Código administrativo de seguimiento ambulatorio",Z92.2,alta
+"EXPOSICIÓN A CORRIENTE ELÉCTRICA NO ESPECIFICADA, INSTITUCIÓN RESIDENCIAL",2,"Electrocución que requiere hospitalización para manejo de arritmias y quemaduras",W87.9,alta
+"INTOXICACIÓN ALIMENTARIA POR CLENBUTEROL",2,"Intoxicación química que requiere hospitalización y monitoreo cardiovascular",T65.8,alta
+"OTRAS ANOFTALMÍAS",2,"Malformación ocular congénita que requiere manejo oftalmológico especializado",Q11.1,alta
+"DESEQUILIBRIO DE LOS CONSTITUYENTES EN LA DIETA",1,"Problema nutricional de manejo ambulatorio",E63.1,alta
+"TUMOR MALIGNO DEL PISO DE LA BOCA",3,"Cáncer oral que requiere oncología, cirugía maxilofacial y radioterapia",C04,alta
+"EFECTOS ADVERSOS DE BENZODIAZEPINAS",1,"Reacción adversa medicamentosa generalmente de manejo ambulatorio",Y47,media
+"CHOQUE O EMPELLÓN CONTRA OTRA PERSONA, VIVIENDA",2,"Trauma por choque que puede requerir evaluación hospitalaria según lesiones",W03.0,media
+"INFECCIONES POR MICOBACTERIAS PULMONARES",2,"Infección pulmonar atípica que requiere hospitalización y tratamiento prolongado",A31.0,alta
+"EXPOSICIÓN A OTROS FACTORES ESPECIFICADOS, VIVIENDA",1,"Exposición ambiental de evaluación ambulatoria",X58.0,baja
+"BURSITIS GONOCOCICA (A54.4Å)",2,"Infección articular gonocócica que requiere hospitalización y antibióticos parenterales",M73.0,alta
+"FÍSTULA DEL APÉNDICE",2,"Complicación quirúrgica que requiere reintervención programada",K38.3,alta
+"INHALACIÓN E INGESTIÓN DE ALIMENTO QUE CAUSA OBSTRUCCIÓN DE LAS VÍAS RESPIRATORIAS, ÁREAS DE DEPORTE Y ATLETISMO",3,"Emergencia respiratoria que requiere extracción urgente y posible vía aérea artificial",T17.9,alta
+"LARINGITIS OBSTRUCTIVA AGUDA [CRUP] Y EPIGLOTITIS",2,"Emergencia respiratoria pediátrica que requiere hospitalización y manejo de vía aérea",J05,alta
+"MIOPATÍAS CONGÉNITAS",3,"Enfermedad neuromuscular congénita que requiere manejo neurológico especializado",G71.2,alta
+"OCLUSION Y ESTENOSIS DE LAS ARTERIAS PRECEREBRALES SIN OCASIONAR INFARTO CEREBRAL",3,"Enfermedad cerebrovascular que requiere manejo neurológico especializado y posible cirugía",I65,alta
+"SECUELAS DE OTRAS ENFERMEDADES INFECCIOSAS Y PARASITARIAS ESPECIFICADAS",1,"Seguimiento ambulatorio de secuelas crónicas",B94,media
+"OTRAS ARTROPATÍAS POSTINFECCIOSAS EN ENFERMEDADES CLASIFICADAS EN OTRA PARTE",2,"Artritis reactiva que puede requerir hospitalización para antibióticos",M03,media
+"NECESIDAD DE ASISTENCIA DEBIDA A MOVILIDAD REDUCIDA",1,"Código administrativo de discapacidad, manejo ambulatorio",Z74.0,alta
+"SÍNDROME DE HIPERMOVILIDAD",1,"Trastorno del tejido conectivo de manejo ambulatorio con rehabilitación",M35.7,alta
+"OTRAS TUBERCULOSIS DEL SISTEMA NERVIOSO",3,"Tuberculosis extrapulmonar grave que requiere hospitalización y tratamiento especializado",A17,alta
+"ARTRITIS TUBERCULOSA",2,"Tuberculosis osteoarticular que requiere hospitalización y tratamiento prolongado",A18.0,alta
+"ABORTO ESPONTÁNEO COMPLETO O NO ESPECIFICADO, COMPLICADO CON INFECCIÓN GENITAL Y PELVIANA",2,"Complicación obstétrica infecciosa que requiere hospitalización y antibióticos",O03.0,alta
+"OTRAS MALFORMACIONES CONGÉNITAS ESPECIFICADAS DEL (DE LOS) MIEMBRO(S)",2,"Malformación esquelética congénita que puede requerir cirugía ortopédica reconstructiva",Q74.8,media
+"ERISIPELOIDE, NO ESPECIFICADA",1,"Infección cutánea bacteriana de manejo ambulatorio con antibióticos",A26.9,alta
+"PORTADOR DEL AGENTE DE LA FIEBRE TIFOIDEA",1,"Portador asintomático que requiere seguimiento ambulatorio",Z22.0,alta
+"CONTACTO TRAUMÁTICO CON OTROS ANIMALES VENENOSOS ESPECIFICADOS, LUGAR NO ESPECIFICADO",2,"Envenenamiento animal que requiere hospitalización para antídoto y vigilancia",X29,media
+"PLASMOCITOMA, EXTRAMEDULAR",3,"Neoplasia hematológica que requiere oncología y quimioterapia",C90.2,alta
+"CORAZÓN TRIAURICULAR",3,"Cardiopatía congénita compleja que requiere cirugía cardiovascular especializada",Q20.4,alta
+"AMPUTACION TRAUMATICA DEL PIE Y DEL TOBILLO",3,"Trauma grave que requiere cirugía de urgencia, UCI y rehabilitación prolongada",S98,alta
+"HERIDAS DEL TORAX, PARTE NO ESPECIFICADA",2,"Trauma torácico que requiere hospitalización y manejo de posibles lesiones internas",S21,media
+"OTRAS INFECCIONES PUERPERALES",2,"Infección postparto que requiere hospitalización y antibióticos parenterales",O86,alta
+"BRONQUITIS AGUDA DEBIDA A VIRUS ECHO",1,"Infección respiratoria viral de manejo ambulatorio",J20.7,alta
+"CUERPO EXTRAÑO QUE PENETRA POR EL OJO U ORIFICIO NATURAL, OTRO LUGAR ESPECIFICADO",2,"Cuerpo extraño que puede requerir extracción quirúrgica programada",T15,media
+"MIASTENIA GRAVIS Y OTROS TRASTORNOS NEUROMUSCULARES",3,"Enfermedad neuromuscular autoinmune que requiere neurología especializada y posible UCI",G70,alta
+"HERIDA MÚLTIPLE DE LA PARED TORÁCICA",2,"Politraumatismo torácico que requiere hospitalización y cirugía",S21.7,alta
+"CONSULTA PARA ASESORÍA POR ABUSO DE TABACO",1,"Consulta preventiva ambulatoria para cesación tabáquica",Z71.6,alta
+"DERMATITIS DE CONTACTO POR IRRITANTES, DEBIDA A DROGAS EN CONTACTO CON LA PIEL",1,"Dermatitis alérgica de manejo ambulatorio con esteroides tópicos",L24.4,alta
+"CICLISTA LESIONADO EN OTROS ACCIDENTES DE TRANSPORTE, Y EN LOS NO ESPECIFICADOS.",2,"Trauma por accidente ciclista que requiere evaluación hospitalaria",V19,media
+"HEMATEMESIS NEONATAL",2,"Sangrado digestivo neonatal que requiere hospitalización y estudio",P54.0,alta
+"HÍGADO ALCOHÓLICO ADIPOSO",2,"Hepatopatía alcohólica que puede requerir hospitalización para manejo de complicaciones",K70.0,alta
+"TRASTORNOS PULMONARES INTERSTICIALES NO ESPECIFICADOS INDUCIDOS POR DROGAS",2,"Neumonitis medicamentosa que requiere hospitalización y suspensión del fármaco",J70.4,alta
+"GOLPE CONTRA O GOLPEADO POR EQUIPO PARA DEPORTES",2,"Trauma deportivo que puede requerir evaluación hospitalaria según gravedad",W21,media
+"FALTA O PÉRDIDA DEL DESEO SEXUAL",1,"Disfunción sexual de manejo ambulatorio con psicología o sexología",F52.0,alta
+"ENFERMEDAD MENINGOCÓCICA, NO ESPECIFICADA",3,"Infección meningocócica grave que requiere UCI, antibióticos y aislamiento",A39.9,alta
+"MORDEDURA O PICADURA DE INSECTOS Y OTROS ARTRÓPODOS NO VENENOSOS, ESCUELAS, OTRAS INSTITUCIONES Y ÁREAS ADMINISTRATIVAS PÚBLICAS",1,"Picadura simple de manejo ambulatorio",W57.2,alta
+"CONTACTO TRAUMATICO CON OBJETO CORTANTE, DE INTENCION NO DETERMINADA",2,"Herida cortante que puede requerir sutura y evaluación hospitalaria",Y28,media
+"TRAUMATISMO POR APLASTAMIENTO DEL ANTEBRAZO",2,"Trauma grave de antebrazo que requiere cirugía ortopédica y hospitalización",S57,alta
+"OTRAS FORMAS ESPECIFICADAS DE TEMBLOR",1,"Trastorno del movimiento de manejo ambulatorio con neurología",G25.2,alta
+"CONTACTO CON Y EXPOSICIÓN A HEPATITIS VIRAL",1,"Exposición viral que requiere evaluación ambulatoria y posible profilaxis",Z20.5,alta
+"TÓRAX AZOTADO",3,"Trauma torácico grave con fracturas costales múltiples que requiere UCI y ventilación",S22.5,alta
+"TRASTORNOS DEL OIDO EXTERNO EN ENFERMEDADES CLASIFICADAS EN OTRA PARTE",1,"Otitis externa secundaria de manejo ambulatorio",H62,media

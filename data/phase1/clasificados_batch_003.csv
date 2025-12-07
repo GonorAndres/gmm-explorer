@@ -1,0 +1,151 @@
+causa,nivel,justificacion_medica,cie10,confianza
+"ABDOMEN AGUDO",3,"Emergencia quirúrgica que requiere evaluación inmediata en UCI o cirugía urgente. Alta mortalidad si no se trata de inmediato",R10.0,alta
+"HERNIA INCISIONAL CON OBSTRUCCIÓN, SIN GANGRENA",2,"Requiere cirugía programada para reparación de hernia con obstrucción intestinal parcial",K43.0,alta
+"HEMORROIDES INTERNAS SIN COMPLICACIÓN",1,"Patología ambulatoria manejable con tratamiento médico conservador y seguimiento",K64.8,alta
+"OTRAS LESIONES ARTICULARES ESPECÍFICAS, NO CLASIFICADAS EN OTRA PARTE",2,"Lesiones articulares que pueden requerir procedimientos ortopédicos o rehabilitación hospitalaria",M24.8,media
+"TUMOR BENIGNO DE LA HIPÓFISIS",3,"Requiere manejo neuroquirúrgico y endocrinológico especializado. Puede afectar múltiples sistemas hormonales",D35.2,alta
+"CONTUSIÓN DEL CODO",1,"Traumatismo menor manejable ambulatoriamente con analgésicos y reposo",S50.0,alta
+"OBSTRUCCIÓN DE LA VESÍCULA BILIAR",2,"Requiere colecistectomía programada. Hospitalización breve de 2-4 días",K82.0,alta
+"NÓDULO TIROIDEO SOLITARIO NO TÓXICO",1,"Seguimiento ambulatorio con ultrasonido y eventual biopsia. Usualmente benigno",E04.1,alta
+"TUMOR MALIGNO DE LA CABEZA DEL PÁNCREAS",3,"Cáncer de páncreas requiere oncología de alta especialidad. Mal pronóstico. Cirugía compleja (Whipple) o quimioterapia",C25.0,alta
+"OTRAS CONVULSIONES Y LAS NO ESPECIFICADAS",3,"Requiere manejo neurológico urgente en urgencias o UCI para estabilización y estudio etiológico",R56.8,alta
+"ESGUINCE Y TORCEDURA DE LA MUÑECA",1,"Lesión menor con tratamiento conservador ambulatorio. Inmovilización y analgesia",S63.5,alta
+"NEUMONÍA VIRAL, NO ESPECIFICADA",2,"Requiere hospitalización breve para oxigenoterapia y vigilancia respiratoria. 3-5 días típicos",J12.9,alta
+"OTRAS COLITIS Y GASTROENTERITIS NO INFECCIOSAS ESPECIFICADAS",1,"Manejo ambulatorio con dieta, hidratación oral y sintomáticos. Seguimiento externo",K52.8,alta
+"TUMOR BENIGNO LIPOMATOSO DE PIEL Y DE TEJIDO SUBCUTÁNEO DE CABEZA, CARA Y CUELLO",2,"Resección quirúrgica programada en hospital de día o cirugía ambulatoria con sedación",D17.0,alta
+"PROSTATITIS AGUDA",1,"Infección tratada ambulatoriamente con antibióticos orales y analgésicos. Seguimiento urológico",N41.0,alta
+"CONTUSIÓN DE LA REGIÓN LUMBOSACRA Y DE LA PELVIS",1,"Traumatismo menor con manejo conservador ambulatorio. Analgésicos y reposo",S30.0,alta
+"OTROS PROCEDIMIENTOS PARA OTROS PROPÓSITOS QUE NO SEAN LOS DE MEJORAR EL ESTADO DE SALUD",1,"Procedimientos electivos o cosméticos sin indicación médica urgente. Ambulatorios",Z41.8,media
+"TRAUMATISMOS SUPERFICIALES QUE AFECTAN MULTIPLES REGIONES DEL CUERPO",1,"Lesiones menores superficiales sin compromiso sistémico. Curación y vigilancia ambulatoria",T00.9,alta
+"OTROS PARTOS ÚNICOS POR CESÁREA",2,"Procedimiento quirúrgico obstétrico programado o urgente. Hospitalización 2-4 días",O82.9,alta
+"DIABETES MELLITUS TIPO 1",3,"Enfermedad crónica de alta complejidad requiriendo endocrinología especializada. Riesgo de complicaciones graves (cetoacidosis)",E10.9,alta
+"FRACTURA DE LA PIERNA, INCLUSIVE DEL TOBILLO",2,"Requiere reducción ortopédica y hospitalización breve. Posible cirugía con osteosíntesis",S82.9,alta
+"FRACTURA DE OTRAS PARTES DE LA PIERNA",2,"Requiere manejo ortopédico hospitalario. Reducción e inmovilización. 2-5 días de estancia",S82.8,alta
+"HIPERPLASIA ADENOMATOSA DEL ENDOMETRIO",2,"Requiere legrado uterino o histeroscopía diagnóstica/terapéutica. Hospitalización breve",N85.0,alta
+"HEMORROIDES",1,"Manejo conservador ambulatorio en casos leves. Tratamiento médico y cambios dietéticos",K64.9,alta
+"OTROS TRAUMATISMOS DE LA CABEZA, ESPECIFICADOS",2,"Traumatismos craneales que requieren observación hospitalaria y estudios de imagen (TAC)",S09.8,media
+"RUPTURA ESPONTÁNEA DE OTROS TENDONES",2,"Requiere reparación quirúrgica programada. Hospitalización breve postquirúrgica",M66.8,alta
+"TUMOR BENIGNO DE LA MAMA",2,"Requiere resección quirúrgica programada (biopsia excisional). Hospitalización 1-2 días",D24,alta
+"FISURA ANAL AGUDA",1,"Manejo conservador ambulatorio con analgésicos tópicos, laxantes y medidas higiénico-dietéticas",K60.0,alta
+"LESIONES DEL HOMBRO",2,"Lesiones que pueden requerir artroscopía o cirugía ortopédica. Rehabilitación hospitalaria",M75.9,media
+"LUPUS ERITEMATOSO SISTÉMICO, SIN OTRA ESPECIFICACIÓN",3,"Enfermedad autoinmune multisistémica requiriendo reumatología de alta especialidad. Inmunosupresores",M32.9,alta
+"PSORIASIS VULGAR",1,"Enfermedad dermatológica crónica con manejo ambulatorio. Tratamientos tópicos y sistémicos",L40.0,alta
+"ENFERMEDAD CARDIOVASCULAR ATEROSCLERÓTICA, ASÍ DESCRITA",3,"Cardiopatía isquémica de alto riesgo requiriendo cardiología intervencionista. Posible cateterismo o revascularización",I25.0,alta
+"NEUMONÍA DEBIDA A VIRUS SINCITIAL RESPIRATORIO",2,"Neumonía viral que requiere hospitalización especialmente en niños. Oxigenoterapia y soporte 3-7 días",J12.1,alta
+"TUMOR MALIGNO, DE SITIO PRIMARIO DESCONOCIDO, ASÍ DESCRITO",3,"Cáncer metastásico requiere oncología de alta especialidad. Estudios extensos y quimioterapia sistémica",C80,alta
+"RUPTURA DE LIGAMENTOS A NIVEL DEL TOBILLO Y DEL PIE",2,"Requiere cirugía ortopédica para reparación ligamentaria. Hospitalización 2-4 días",S93.2,alta
+"OTROS TRASTORNOS ESPECIFICADOS DE LA GLÁNDULA TIROIDES",1,"Patologías tiroideas manejables ambulatoriamente con endocrinología. Seguimiento y tratamiento médico",E07.8,media
+"DESPRENDIMIENTO DE LA RETINA CON RUPTURA",3,"Emergencia oftalmológica requiriendo cirugía vitreorretiniana urgente de alta especialidad. Riesgo de ceguera",H33.0,alta
+"FRACTURA DEL MALÉOLO EXTERNO",2,"Fractura de tobillo que requiere reducción ortopédica. Hospitalización breve 2-3 días. Posible osteosíntesis",S82.6,alta
+"TUMOR DE COMPORTAMIENTO INCIERTO O DESCONOCIDO DEL HUESO Y CARTÍLAGO ARTICULAR",3,"Tumor óseo requiere estudio oncológico especializado. Biopsia y posible resección compleja",D48.0,alta
+"GANGLIÓN",1,"Quiste sinovial benigno con manejo ambulatorio. Aspiración o resección en consultorio",M67.4,alta
+"ASMA, NO ESPECIFICADO",2,"Crisis asmática moderada-severa requiere hospitalización. Nebulizaciones y vigilancia respiratoria 2-4 días",J45.9,media
+"ENFERMEDAD DIVERTICULAR DEL INTESTINO",2,"Diverticulitis aguda que requiere hospitalización. Antibióticos IV y dieta. 3-5 días de estancia",K57.9,alta
+"OTROS TRASTORNOS DE LOS DIENTES Y DE SUS ESTRUCTURAS DE SOSTEN",1,"Patología dental ambulatoria. Manejo odontológico conservador o extracciones simples",K08.8,media
+"GASTRODUODENITIS, NO ESPECIFICADA",1,"Inflamación gástrica manejable ambulatoriamente con inhibidores de bomba y dieta",K29.9,alta
+"PÓLIPOS INFLAMATORIOS",1,"Pólipos intestinales benignos. Resección endoscópica ambulatoria (colonoscopia)",K51.4,media
+"OTROS TRASTORNOS DEL SISTEMA CIRCULATORIO CONSECUTIVOS A PROCEDIMIENTOS, NO CLASIFICADOS EN OTRA PARTE",3,"Complicaciones vasculares postquirúrgicas que requieren UCI o cardiología de alta especialidad",I97.8,alta
+"TUMOR DE COMPORTAMIENTO INCIERTO O DESCONOCIDO DEL COLON",3,"Tumor colónico requiere estudio oncológico. Colonoscopia, biopsia y posible colectomía. Oncología especializada",D37.4,alta
+"LUPUS ERITEMATOSO SISTÉMICO, INDUCIDO POR DROGAS",3,"Reacción autoinmune severa por medicamentos. Requiere reumatología especializada e inmunosupresión",M32.0,alta
+"OTRAS GONARTROSIS PRIMARIAS",2,"Artrosis de rodilla que puede requerir artroscopía o artroplastia. Manejo ortopédico hospitalario",M17.1,alta
+"GONARTROSIS [ARTROSIS DE LA RODILLA]",2,"Artrosis severa que puede requerir reemplazo articular. Cirugía ortopédica mayor 3-5 días",M17.9,alta
+"EMBOLIA Y TROMBOSIS DE OTRAS VENAS ESPECIFICADAS",3,"Evento tromboembólico que requiere anticoagulación urgente en UCI o medicina interna. Riesgo vital",I82.8,alta
+"COLECISTITIS",2,"Inflamación vesicular que requiere colecistectomía. Hospitalización 2-4 días con antibióticos IV",K81.9,alta
+"TUMOR BENIGNO DE OTROS ÓRGANOS GENITALES MASCULINOS",2,"Tumor que requiere resección quirúrgica urológica programada. Hospitalización breve",D29.8,alta
+"TUMOR DE COMPORTAMIENTO INCIERTO O DESCONOCIDO DEL ENCÉFALO, PARTE NO ESPECIFICADA",3,"Tumor cerebral requiere neurocirugía de alta especialidad. Estudios avanzados (RM) y posible craneotomía",D43.2,alta
+"VÉRTIGO PAROXÍSTICO BENIGNO",1,"Trastorno vestibular manejable ambulatoriamente con maniobras de reposicionamiento y medicamentos",H81.1,alta
+"INFARTO AGUDO DEL MIOCARDIO",3,"Emergencia cardiovascular crítica. Requiere UCI, cateterismo cardíaco urgente y monitorización intensiva",I21.9,alta
+"GASTROENTERITIS Y COLITIS DE ORIGEN NO ESPECIFICADO",1,"Infección gastrointestinal leve con manejo ambulatorio. Hidratación oral y sintomáticos",A09,alta
+"TIROTOXICOSIS CON BOCIO DIFUSO",3,"Enfermedad de Graves requiere endocrinología especializada. Antitiroideos, posible yodo radioactivo o cirugía",E05.0,alta
+"GASTRITIS Y DUODENITIS",1,"Inflamación gástrica con manejo ambulatorio. Inhibidores de bomba de protones y dieta",K29,alta
+"GONARTROSIS, NO ESPECIFICADA",2,"Artrosis de rodilla que puede requerir procedimientos ortopédicos. Infiltraciones o cirugía",M17.9,alta
+"DEGENERACIÓN DE LA MÁCULA Y DEL POLO POSTERIOR DEL OJO",3,"Degeneración macular requiere oftalmología de alta especialidad. Inyecciones intravítreas anti-VEGF",H35.3,alta
+"CONDROMALACIA DE LA RÓTULA",1,"Desgaste del cartílago rotuliano con manejo conservador ambulatorio. Fisioterapia y analgesia",M22.4,alta
+"PARTO ÚNICO ASISTIDO, SIN OTRA ESPECIFICACIÓN",2,"Parto vaginal eutócico que requiere hospitalización obstétrica breve. 1-2 días de estancia",O80.9,alta
+"SINUSITIS MAXILAR AGUDA",1,"Infección sinusal ambulatoria. Antibióticos orales y descongestionantes",J01.0,alta
+"OTRAS HERNIAS VENTRALES Y LAS NO ESPECIFICADAS SIN OBSTRUCCIÓN O GANGRENA",2,"Hernia que requiere reparación quirúrgica programada. Cirugía general 1-2 días",K43.9,alta
+"ESGUINCES Y TORCEDURAS DE DEDO(S) DE LA MANO",1,"Lesión menor con tratamiento conservador ambulatorio. Inmovilización y analgesia",S63.6,alta
+"CONTUSIÓN DE OTRAS PARTES DE LA MUÑECA Y DE LA MANO",1,"Traumatismo menor con manejo ambulatorio. Analgésicos y hielo local",S60.2,alta
+"RADICULOPATÍA",2,"Compresión nerviosa radicular que puede requerir hospitalización para manejo del dolor o cirugía descompresiva",M54.1,media
+"HIPERLIPIDEMIA MIXTA",1,"Dislipidemia crónica con manejo ambulatorio. Estatinas y modificación dietética",E78.2,alta
+"FÍSTULA ANORRECTAL",2,"Requiere cirugía proctológica para fistulectomía. Hospitalización breve 1-2 días",K60.3,alta
+"OTROS TRASTORNOS METABOLICOS",3,"Trastornos metabólicos complejos que requieren endocrinología especializada o UCI metabólica",E88.8,baja
+"INSUFICIENCIA CARDÍACA CONGESTIVA",3,"Descompensación cardíaca que requiere UCI o cardiología de alta especialidad. Inotrópicos y monitorización",I50.0,alta
+"TUMOR DE COMPORTAMIENTO INCIERTO O DESCONOCIDO DE LA VEJIGA",3,"Tumor vesical requiere urología oncológica. Cistoscopia, biopsia y posible cistectomía",D41.4,alta
+"ENFERMEDAD DIVERTICULAR DEL INTESTINO GRUESO CON PERFORACIÓN Y ABSCESO",3,"Emergencia quirúrgica. Peritonitis que requiere cirugía urgente y UCI. Alta mortalidad",K57.2,alta
+"CONSULTA PARA REPETICIÓN DE RECETA",1,"Consulta ambulatoria rutinaria para renovación de prescripción médica",Z76.0,alta
+"ESGUINCES Y TORCEDURAS DE LA ARTICULACIÓN DEL HOMBRO",1,"Lesión ligamentaria menor con tratamiento conservador ambulatorio. Rehabilitación",S43.4,alta
+"PARÁLISIS DE BELL",2,"Parálisis facial aguda que puede requerir hospitalización breve para corticoterapia IV y vigilancia",G51.0,media
+"ESGUINCES Y TORCEDURAS QUE COMPROMETEN LOS LIGAMENTOS LATERALES (EXTERNO) (INTERNO) DE LA RODILLA",2,"Lesión ligamentaria de rodilla que puede requerir artroscopía. Cirugía ortopédica",S83.4,alta
+"FRACTURA DE LA EPÍFISIS INFERIOR DE LA TIBIA",2,"Fractura que requiere reducción ortopédica y hospitalización. Posible osteosíntesis 3-5 días",S82.5,alta
+"ENFERMEDAD DIVERTICULAR DEL INTESTINO, PARTE NO ESPECIFICADA, SIN PERFORACIÓN NI ABSCESO",2,"Diverticulitis no complicada que requiere hospitalización breve. Antibióticos IV 2-4 días",K57.9,alta
+"HIPOPITUITARISMO",3,"Insuficiencia hipofisiaria que requiere endocrinología de alta especialidad. Reemplazo hormonal múltiple",E23.0,alta
+"PRODUCTO ÚNICO, NACIDO EN HOSPITAL",1,"Código de atención al recién nacido sano. Alojamiento conjunto sin complicaciones",Z38.0,alta
+"LEPTOSPIROSIS ICTEROHEMORRÁGICA",3,"Enfermedad de Weil. Leptospirosis severa que requiere UCI. Falla multiorgánica. Antibióticos IV",A27.0,alta
+"CEFALEA",1,"Dolor de cabeza primario con manejo ambulatorio. Analgésicos y seguimiento neurológico",R51,alta
+"HEMORROIDES EXTERNAS CON OTRAS COMPLICACIONES",2,"Hemorroides complicadas que requieren hemorroidectomía quirúrgica. Hospitalización breve",K64.4,alta
+"TUMOR MALIGNO DEL ENDOCÉRVIX",3,"Cáncer cervical que requiere oncología ginecológica de alta especialidad. Histerectomía radical o radioterapia",C53.0,alta
+"SÍNDROME DE GUILLAIN-BARRÉ",3,"Polirradiculopatía aguda que requiere UCI. Posible ventilación mecánica. Plasmaféresis o inmunoglobulina IV",G61.0,alta
+"TUMOR BENIGNO LIPOMATOSO DE PIEL Y DE TEJIDO SUBCUTÁNEO DEL TRONCO",2,"Lipoma que requiere resección quirúrgica programada. Cirugía ambulatoria o estancia breve",D17.1,alta
+"TUMOR MALIGNO DEL COLON, PARTE NO ESPECIFICADA",3,"Cáncer colorrectal que requiere oncología de alta especialidad. Colectomía y quimioterapia adyuvante",C18.9,alta
+"BALANOPOSTITIS",1,"Inflamación del glande y prepucio. Manejo ambulatorio con antimicóticos o antibióticos tópicos",N48.1,alta
+"OTRAS HERNIAS DE LA CAVIDAD ABDOMINAL ESPECIFICADAS, SIN OBSTRUCCIÓN NI GANGRENA",2,"Hernia abdominal que requiere reparación quirúrgica programada. Hospitalización 1-2 días",K45.8,alta
+"ABORTO ESPONTÁNEO INCOMPLETO, COMPLICADO CON INFECCIÓN GENITAL Y PELVIANA",2,"Aborto complicado que requiere legrado uterino urgente y antibióticos IV. Hospitalización 2-3 días",O03.0,alta
+"ABORTO ESPONTÁNEO INCOMPLETO, SIN COMPLICACIÓN",2,"Aborto incompleto que requiere legrado uterino. Procedimiento quirúrgico breve 1-2 días",O03.4,alta
+"TRAUMATISMO INTRACRANEAL, NO ESPECIFICADO",3,"Trauma craneoencefálico que requiere UCI neuroquirúrgica. TAC urgente y vigilancia neurológica intensiva",S06.9,alta
+"ACCIDENTE VASCULAR ENCEFÁLICO AGUDO, NO ESPECIFICADO COMO HEMORRÁGICO O ISQUÉMICO",3,"EVC agudo que requiere UCI de neurología. Trombolisis urgente o craniectomía descompresiva",I64,alta
+"TRAUMATISMO SUPERFICIAL DE OTRAS PARTES DE LA CABEZA",1,"Lesión menor de cuero cabelludo o cara. Curación ambulatoria simple",S00.8,alta
+"TRASTORNO DE LA REFRACCIÓN, NO ESPECIFICADO",1,"Error refractivo (miopía, hipermetropía) con corrección ambulatoria. Lentes o cirugía refractiva electiva",H52.7,alta
+"EXAMEN PSIQUIÁTRICO GENERAL, NO CLASIFICADO EN OTRA PARTE",1,"Valoración psiquiátrica ambulatoria de rutina. Consulta externa",Z00.4,alta
+"USO EMERGENTE DE U07",1,"Código temporal genérico para emergencias. Clasificación depende del diagnóstico específico",U07,baja
+"PRURIGO DE BESNIER",1,"Dermatitis atópica crónica con manejo ambulatorio. Antihistamínicos y corticoides tópicos",L20.0,alta
+"CARIES LIMITADA AL ESMALTE",1,"Caries dental inicial con tratamiento odontológico ambulatorio. Obturación simple",K02.0,alta
+"DIABETES MELLITUS TIPO 1, CON CETOACIDOSIS",3,"Cetoacidosis diabética. Emergencia metabólica que requiere UCI. Insulina IV y corrección hidroelectrolítica",E10.1,alta
+"TUMOR DE COMPORTAMIENTO INCIERTO O DESCONOCIDO DE OTROS SITIOS ESPECIFICADOS",3,"Tumor de etiología incierta que requiere oncología especializada. Biopsia y estudio histopatológico complejo",D48.7,media
+"TUMOR MALIGNO DEL TESTÍCULO NO DESCENDIDO",3,"Cáncer testicular que requiere urología oncológica. Orquiectomía y quimioterapia según estadificación",C62.0,alta
+"INTOXICACIÓN ALIMENTARIA BACTERIANA, NO ESPECIFICADA",1,"Intoxicación alimentaria leve con manejo ambulatorio. Hidratación oral y sintomáticos",A05.9,alta
+"DEDO EN GATILLO",2,"Tenosinovitis estenosante que requiere liberación quirúrgica. Procedimiento ambulatorio o estancia breve",M65.3,alta
+"CATARATA TRAUMÁTICA",2,"Catarata postraumática que requiere facoemulsificación quirúrgica. Cirugía oftalmológica programada",H26.1,alta
+"HIPERTROFIA DE LAS ADENOIDES",2,"Hipertrofia adenoidea que requiere adenoidectomía. Cirugía otorrinolaringológica pediátrica 1 día",J35.2,alta
+"FISURA ANAL, NO ESPECIFICADA",1,"Fisura anal con manejo conservador ambulatorio inicial. Analgésicos tópicos y laxantes",K60.2,alta
+"TERMINACIÓN DEL EMBARAZO, FETO Y RECIÉN NACIDO",1,"Código para productos de gestación interrumpida. Atención neonatal variable según circunstancias",P96.4,media
+"DIABETES MELLITUS INSULINODEPENDIENTE CON COMA",3,"Coma diabético hiperosmolar o cetoacidótico. Requiere UCI metabólica. Terapia intensiva",E10.0,alta
+"BRONQUIOLITIS AGUDA DEBIDA A VIRUS SINCITIAL RESPIRATORIO",2,"Bronquiolitis en lactantes que requiere hospitalización. Oxigenoterapia y vigilancia respiratoria 3-7 días",J21.0,alta
+"FRACTURA DE VÉRTEBRA LUMBAR",2,"Fractura vertebral que requiere hospitalización ortopédica. Manejo del dolor y posible estabilización quirúrgica",S32.0,alta
+"TRAUMATISMO SUPERFICIAL DE LA CABEZA, PARTE NO ESPECIFICADA",1,"Lesión menor de cuero cabelludo. Curación ambulatoria simple sin complicaciones",S00.9,alta
+"PARTO POR CESÁREA CON HISTERECTOMÍA",3,"Cesárea complicada con histerectomía obstétrica. Requiere UCI o cuidados intensivos. Hemorragia severa",O82.2,alta
+"URTICARIA ALÉRGICA",1,"Reacción alérgica cutánea con manejo ambulatorio. Antihistamínicos y evitar alérgeno",L50.0,alta
+"FIBRILACIÓN Y ALETEO VENTRICULAR",3,"Arritmia ventricular maligna que requiere UCI cardiológica. Desfibrilación urgente y antiarrítmicos IV",I49.0,alta
+"BRONQUIOLITIS AGUDA, NO ESPECIFICADA",2,"Bronquiolitis que requiere hospitalización pediátrica. Soporte respiratorio 3-5 días",J21.9,alta
+"COXARTROSIS, NO ESPECIFICADA",2,"Artrosis de cadera severa que puede requerir artroplastia total. Cirugía ortopédica mayor",M16.9,alta
+"CONSOLIDACIÓN DEFECTUOSA DE FRACTURA",2,"Complicación ortopédica que requiere osteotomía correctiva. Cirugía programada",M84.0,alta
+"EPILEPSIA",3,"Trastorno convulsivo crónico que requiere neurología especializada. Manejo con antiepilépticos múltiples",G40.9,alta
+"OTROS TRASTORNOS DE DISCO CERVICAL",2,"Hernia discal cervical que puede requerir cirugía descompresiva. Neurocirugía programada",M50.8,alta
+"MIGRAÑA, NO ESPECIFICADA",1,"Cefalea primaria con manejo ambulatorio. Triptanos y profilaxis neurológica",G43.9,alta
+"SÍNDROME DE LA ARTICULACIÓN CONDROCOSTAL [TIETZE]",1,"Condritis costal benigna con manejo ambulatorio. Antiinflamatorios y analgesia",M94.0,alta
+"FARINGITIS AGUDA, NO ESPECIFICADA",1,"Infección faríngea con manejo ambulatorio. Antibióticos orales si es bacteriana",J02.9,alta
+"SÍNDROME SECO [SJÖGREN]",3,"Enfermedad autoinmune que requiere reumatología de alta especialidad. Inmunosupresores y manejo multidisciplinario",M35.0,alta
+"TRASTORNO DE MENISCO DEBIDO A DESGARRO O LESIÓN ANTIGUA",2,"Lesión meniscal que requiere artroscopía de rodilla. Cirugía ortopédica programada 1-2 días",M23.2,alta
+"OTROS TRAUMATISMOS DEL PIE Y DEL TOBILLO, ESPECIFICADOS",1,"Traumatismos menores de pie/tobillo con manejo conservador ambulatorio",S99.8,media
+"EXAMEN GINECOLÓGICO (GENERAL) (DE RUTINA)",1,"Revisión ginecológica preventiva ambulatoria. Papanicolaou y exploración",Z01.4,alta
+"DEFORMIDAD ADQUIRIDA DE LA NARIZ",2,"Deformidad nasal que requiere rinoplastia. Cirugía otorrinolaringológica programada",M95.0,alta
+"HERNIA HIATAL CONGÉNITA",2,"Hernia hiatal que puede requerir funduplicatura. Cirugía gastrointestinal programada",Q40.1,alta
+"HIDROCELE, NO ESPECIFICADO",2,"Hidrocele que requiere hidrocelectomía quirúrgica. Cirugía urológica ambulatoria o estancia breve",N43.3,alta
+"TUMOR DE COMPORTAMIENTO INCIERTO O DESCONOCIDO DEL ÚTERO",3,"Tumor uterino que requiere oncología ginecológica. Biopsia y posible histerectomía según patología",D39.0,alta
+"CISTOCELE",2,"Prolapso vesical que requiere colporrafia quirúrgica. Cirugía ginecológica programada",N81.1,alta
+"INFECCIÓN AGUDA DE LAS VÍAS RESPIRATORIAS SUPERIORES, NO ESPECIFICADA",1,"Infección viral de vías respiratorias altas. Manejo sintomático ambulatorio",J06.9,alta
+"TUMOR MALIGNO DEL COLON SIGMOIDE",3,"Cáncer de colon sigmoides que requiere oncología de alta especialidad. Sigmoidectomía y quimioterapia",C18.7,alta
+"ISQUEMIA CEREBRAL TRANSITORIA, SIN OTRA ESPECIFICACIÓN",3,"Ataque isquémico transitorio que requiere neurología vascular urgente. Estudio etiológico y antiagregación",G45.9,alta
+"ABSCESO ISQUIORRECTAL",2,"Absceso perianal que requiere drenaje quirúrgico urgente. Cirugía proctológica 1-2 días",K61.3,alta
+"CEFALEA VASCULAR, NCOP",1,"Cefalea vascular con manejo ambulatorio. Analgésicos y seguimiento neurológico",G44.1,alta
+"HEMORROIDES TROMBOSADAS NO ESPECIFICADAS",2,"Hemorroides complicadas con trombosis que pueden requerir hemorroidectomía urgente",K64.5,alta
+"SÍNDROME MUCOCUTÁNEO LINFONODULAR [KAWASAKI]",3,"Enfermedad de Kawasaki que requiere UCI pediátrica. Inmunoglobulina IV urgente para prevenir aneurismas coronarios",M30.3,alta
+"LINFOMA DE HODGKIN CON PREDOMINIO LINFOCÍTICO NODULAR",3,"Linfoma que requiere hematología-oncología de alta especialidad. Quimioterapia y posible radioterapia",C81.0,alta
+"PANCREATITIS AGUDA",3,"Inflamación pancreática aguda que requiere UCI o medicina interna. Soporte hemodinámico y nutricional",K85.9,alta
+"INFLUENZA CON NEUMONÍA, DEBIDA A OTRO VIRUS DE LA INFLUENZA ESTACIONAL IDENTIFICADO",2,"Neumonía por influenza que requiere hospitalización. Antivirales y soporte respiratorio 5-7 días",J10.0,alta
+"OTRAS SINOVITIS Y TENOSINOVITIS",1,"Inflamación articular/tendinosa con manejo ambulatorio. Antiinflamatorios y fisioterapia",M65.8,alta
+"LUXACIÓN DEL CODO, NO ESPECIFICADA",2,"Luxación de codo que requiere reducción ortopédica bajo sedación. Hospitalización breve 1-2 días",S53.1,alta
+"ENFERMEDAD NO ESPECIFICADA DE LOS TEJIDOS DENTALES DUROS",1,"Patología dental inespecífica con tratamiento odontológico ambulatorio",K03.9,media
+"CALACIO [CHALAZIÓN]",1,"Quiste meibomiano benigno. Drenaje ambulatorio o resolución espontánea",H00.1,alta
+"SINDROME DEL COLON IRRITABLE",1,"Trastorno funcional intestinal con manejo ambulatorio. Dieta y moduladores intestinales",K58.9,alta
+"HERIDA DEL PÁRPADO Y DE LA REGIÓN PERIOCULAR",2,"Herida palpebral que puede requerir sutura quirúrgica oftalmológica. Riesgo de lesión ocular",S01.1,alta

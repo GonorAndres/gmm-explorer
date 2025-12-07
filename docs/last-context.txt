@@ -1,0 +1,46 @@
+================================================================================
+PHASE 4 SUMMARY - Claims Explorer Frontend
+Date: 2025-12-06
+================================================================================
+
+COMPLETED:
+- Next.js 14 + TypeScript + Tailwind + Recharts
+- Data prep script: 1.97M rows → 1,380 aggregated rows (JSON)
+- Sidebar with 4 nav items (español)
+- Claims Explorer page (/siniestros) with:
+  * 4 summary cards
+  * Interactive filters (año, edad, sexo, nivel)
+  * 3 charts (frecuencia, distribución pie, prima por edad)
+  * Data table with pagination
+- Placeholder pages: /polizas, /metodologia, /tarificador
+
+KEY FILES:
+- web/scripts/prepare-data.py → generates JSON from parquet
+- web/data/*.json (4 files, ~1.3MB total)
+- web/app/siniestros/page.tsx → main explorer
+- web/lib/constants.ts → Spanish labels + formatters
+- web/types/index.ts → TypeScript interfaces
+
+DATA OUTPUTS FROM PHASE 3:
+- outputs/tarificacion/primas_por_nivel.csv (3 rows)
+- outputs/tarificacion/primas_por_nivel_edad.csv (138 rows: 3 niveles × 46 edades)
+- Total annual premium: $2,228 MXN
+- Monthly premium (10% discount): $195.86 MXN
+
+PRIMAS POR NIVEL (annual):
+- Nivel 1 Ambulatorio:      $516  (23.2%)
+- Nivel 2 Hospitalario:   $1,149  (51.6%)
+- Nivel 3 Alta Especialidad: $563  (25.3%)
+
+FOR PHASE 5 (Tarificador):
+- Use primas-nivel-edad.json (already generated)
+- Input: edad (25-70), calculate total premium
+- Formula: Prima Total = Σ prima_nivel(edad) for niveles 1,2,3
+- Show monthly option with 5.5% surcharge
+- Age range: 25-70 (individual ages, not bands)
+
+NOTES:
+- Node.js 18.19.1 used (Next.js 14 compatible)
+- Run: cd web && npm run dev
+- Build may have TS warnings but dev server works
+================================================================================
