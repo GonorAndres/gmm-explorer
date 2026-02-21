@@ -32,6 +32,45 @@ export interface CausaClasificada {
   causa: string
   nivel: number
   frecuencia: number
+  nivel_probabilidad?: number
+  origen?: 'manual' | 'claude' | 'modelo'
+  explicacion?: string
+}
+
+/**
+ * Explicación de causa médica para el Explorador de Causas
+ */
+export interface ExplicacionCausa {
+  causa: string
+  nivel: number
+  nivel_nombre: string
+  explicacion: string
+}
+
+/**
+ * Metadata de clasificación (antes vs después)
+ */
+export interface ClasificacionMetadata {
+  rf_accuracy: number
+  rf_f1_macro: number
+  rf_low_confidence_pct: number
+  claude_accuracy: number
+  claude_avg_confidence: number
+  claude_low_confidence_pct: number
+  total_causas: number
+  causas_reclasificadas: number
+  ejemplos_correccion: EjemploCorreccion[]
+}
+
+/**
+ * Ejemplo de corrección de clasificación
+ */
+export interface EjemploCorreccion {
+  causa: string
+  nivel_rf: number
+  nivel_claude: number
+  nivel_manual?: number
+  justificacion: string
 }
 
 /**

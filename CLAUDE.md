@@ -90,12 +90,14 @@ All pages are client components with local state only (useState/useMemo). No API
 | 2 | Hospital/cirugia programada | Cesareas, vesicula, fracturas |
 | 3 | Alta especialidad/emergencias | Cancer, UCI, infartos, trasplantes |
 
-### ML Model
+### Classification Model
 
-- TF-IDF (ngrams 1-3, 5000 features) + Random Forest (200 trees, balanced weights)
-- Trained on 1,500 manually labeled causes (alta confidence only -> 976 train / 244 test)
-- **Actual accuracy: ~59% (F1-macro: 58.8%)**
-- Classifies 9,409 unique medical causes into 3 levels
+- **Current**: Claude AI (LLM-based classification) -- 7,909 causes classified with high confidence
+- **Previous**: TF-IDF + Random Forest (59% accuracy, replaced)
+- 1,500 causes classified manually (gold standard)
+- 7,909 causes classified by Claude Code subagents (origen='claude')
+- Average confidence: 82.5%, low confidence causes: ~0%
+- Claude understands medical terminology, CIE-10 codes, and clinical context
 
 ### Actuarial Calculation
 

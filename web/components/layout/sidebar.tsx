@@ -121,6 +121,17 @@ export function Sidebar() {
               Gastos Medicos Mayores Colectivo
             </p>
           </div>
+          <div className="bg-amber-900/20 rounded-lg p-2.5 flex items-center gap-2">
+            <div className="w-5 h-5 bg-amber-600/30 rounded flex items-center justify-center flex-shrink-0">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="w-3 h-3 text-amber-400">
+                <path d="M12 2v4M12 18v4M4.93 4.93l2.83 2.83M16.24 16.24l2.83 2.83M2 12h4M18 12h4M4.93 19.07l2.83-2.83M16.24 7.76l2.83-2.83" />
+              </svg>
+            </div>
+            <div>
+              <p className="text-[10px] text-amber-400/80 font-medium">Powered by Claude</p>
+              <p className="text-[9px] text-slate-600">Clasificacion con IA</p>
+            </div>
+          </div>
           <a
             href="https://github.com/GonorAndres/gmm-explorer"
             target="_blank"

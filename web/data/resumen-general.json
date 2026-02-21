@@ -6,26 +6,26 @@
     {
       "nivel": 1,
       "descripcion": "Ambulatorio",
-      "siniestros": 1725847,
-      "monto": 49412423519.8121,
-      "pct_siniestros": 47.6,
-      "pct_monto": 23.2
+      "siniestros": 1686673,
+      "monto": 42387892059.2985,
+      "pct_siniestros": 46.5,
+      "pct_monto": 19.9
     },
     {
       "nivel": 2,
       "descripcion": "Hospitalario",
-      "siniestros": 1416908,
-      "monto": 109994815622.4473,
-      "pct_siniestros": 39.0,
-      "pct_monto": 51.6
+      "siniestros": 1474501,
+      "monto": 115462739606.2984,
+      "pct_siniestros": 40.6,
+      "pct_monto": 54.1
     },
     {
       "nivel": 3,
       "descripcion": "Alta Especialidad",
-      "siniestros": 485732,
-      "monto": 53837604266.9782,
-      "pct_siniestros": 13.4,
-      "pct_monto": 25.2
+      "siniestros": 467313,
+      "monto": 55394211743.6407,
+      "pct_siniestros": 12.9,
+      "pct_monto": 26.0
     }
   ],
   "por_sexo": [
@@ -55,5 +55,5 @@
     "min": 25,
     "max": 70
   },
-  "generado": "2026-02-21T07:28:38.745248"
+  "generado": "2026-02-21T20:52:14.318990"
 }

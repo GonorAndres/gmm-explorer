@@ -1,0 +1,602 @@
+[
+  {
+    "causa": "OTRAS ENFERMEDADES DE LOS TEJIDOS DUROS DE LOS DIENTES",
+    "nivel": 1,
+    "nivel_nombre": "Ambulatorio",
+    "explicacion": "Problemas en el esmalte, dentina u otros tejidos duros de los dientes, como desgaste o fracturas dentales. Se clasifica como ambulatorio porque se atiende en consultorio dental sin necesidad de hospitalización."
+  },
+  {
+    "causa": "DESCONOCIDO",
+    "nivel": 1,
+    "nivel_nombre": "Ambulatorio",
+    "explicacion": "Registros donde la causa del siniestro no fue especificada o no pudo identificarse. Se clasifica como ambulatorio por defecto al no contar con información suficiente para asignar un nivel mayor."
+  },
+  {
+    "causa": "CARIES DENTAL",
+    "nivel": 1,
+    "nivel_nombre": "Ambulatorio",
+    "explicacion": "Destrucción progresiva del tejido dental causada por bacterias. Se trata en consultorio dental de forma ambulatoria con procedimientos como empastes o endodoncias."
+  },
+  {
+    "causa": "ALTERACIONES DE LA VISION",
+    "nivel": 1,
+    "nivel_nombre": "Ambulatorio",
+    "explicacion": "Problemas de la vista como dificultad para enfocar o ver a distancia. Se atiende de forma ambulatoria con consultas oftalmológicas y prescripción de lentes."
+  },
+  {
+    "causa": "PARTO POR CESÁREA ELECTIVA",
+    "nivel": 2,
+    "nivel_nombre": "Hospitalario",
+    "explicacion": "Cirugía programada para el nacimiento del bebé mediante incisión abdominal. Requiere hospitalización, anestesia y recuperación postoperatoria, por lo que es nivel hospitalario."
+  },
+  {
+    "causa": "EMBARAZO CONFIRMADO",
+    "nivel": 1,
+    "nivel_nombre": "Ambulatorio",
+    "explicacion": "Diagnóstico y seguimiento del embarazo mediante consultas prenatales. Se clasifica como ambulatorio porque el control prenatal se realiza en consulta externa."
+  },
+  {
+    "causa": "DESVIACIÓN DEL TABIQUE NASAL",
+    "nivel": 2,
+    "nivel_nombre": "Hospitalario",
+    "explicacion": "Desplazamiento del cartílago que divide la nariz, causando dificultad para respirar. Requiere cirugía (septoplastia) con anestesia general y hospitalización breve."
+  },
+  {
+    "causa": "COVID-19, VIRUS IDENTIFICADO",
+    "nivel": 2,
+    "nivel_nombre": "Hospitalario",
+    "explicacion": "Infección por el virus SARS-CoV-2 confirmada por prueba de laboratorio. Se clasifica como hospitalario porque muchos casos requirieron internamiento con oxígeno suplementario y monitoreo."
+  },
+  {
+    "causa": "CÁLCULO DE LA VESÍCULA BILIAR CON COLECISTITIS AGUDA",
+    "nivel": 2,
+    "nivel_nombre": "Hospitalario",
+    "explicacion": "Piedras en la vesícula que provocan inflamación aguda y dolor intenso. Requiere cirugía para extirpar la vesícula (colecistectomía) y hospitalización."
+  },
+  {
+    "causa": "PARTO POR CESÁREA, SIN OTRA ESPECIFICACIÓN",
+    "nivel": 2,
+    "nivel_nombre": "Hospitalario",
+    "explicacion": "Nacimiento por cesárea sin especificar si fue electiva o de emergencia. Es nivel hospitalario porque toda cesárea implica cirugía y estancia hospitalaria."
+  },
+  {
+    "causa": "EXAMEN GENERAL E INVESTIGACION DE PERSONAS SIN QUEJAS O SIN DIAGNOSTICO INFORMADO",
+    "nivel": 1,
+    "nivel_nombre": "Ambulatorio",
+    "explicacion": "Revisiones médicas de rutina o chequeos generales de salud sin síntomas específicos. Se atiende en consulta externa de forma ambulatoria."
+  },
+  {
+    "causa": "HIPERTENSIÓN ESENCIAL (PRIMARIA)",
+    "nivel": 1,
+    "nivel_nombre": "Ambulatorio",
+    "explicacion": "Presión arterial alta crónica sin causa identificable, es la forma más común de hipertensión. Se controla con medicamento y consultas periódicas de forma ambulatoria."
+  },
+  {
+    "causa": "CÁLCULO DEL RIÑÓN",
+    "nivel": 2,
+    "nivel_nombre": "Hospitalario",
+    "explicacion": "Formación de piedras en el riñón que causan dolor intenso (cólico renal). Frecuentemente requiere procedimientos como litotricia o cirugía para su extracción."
+  },
+  {
+    "causa": "MENISCO QUÍSTICO",
+    "nivel": 2,
+    "nivel_nombre": "Hospitalario",
+    "explicacion": "Formación de quistes en el menisco de la rodilla, causando dolor e inflamación. Generalmente requiere artroscopia u otra cirugía para su tratamiento."
+  },
+  {
+    "causa": "LEIOMIOMA SUBMUCOSO DEL ÚTERO",
+    "nivel": 2,
+    "nivel_nombre": "Hospitalario",
+    "explicacion": "Tumor benigno (mioma) que crece dentro de la cavidad uterina, causando sangrado abundante. Requiere cirugía (histeroscopia o miomectomía) y hospitalización."
+  },
+  {
+    "causa": "EXAMEN MÉDICO GENERAL",
+    "nivel": 1,
+    "nivel_nombre": "Ambulatorio",
+    "explicacion": "Consulta médica de rutina para evaluación general de salud. Es un procedimiento ambulatorio que se realiza en consultorio sin necesidad de internamiento."
+  },
+  {
+    "causa": "ENFERMEDAD DEL REFLUJO GASTROESOFÁGICO CON ESOFAGITIS",
+    "nivel": 1,
+    "nivel_nombre": "Ambulatorio",
+    "explicacion": "Retorno del ácido estomacal al esófago causando irritación e inflamación. Se trata con medicamentos y cambios en la dieta de forma ambulatoria."
+  },
+  {
+    "causa": "OTRAS GASTROENTERITIS Y COLITIS DE ORIGEN INFECCIOSO",
+    "nivel": 1,
+    "nivel_nombre": "Ambulatorio",
+    "explicacion": "Infección del estómago e intestinos que causa diarrea, vómito y dolor abdominal. Generalmente se resuelve con hidratación y medicamentos en consulta externa."
+  },
+  {
+    "causa": "TRASTORNOS DE DISCO LUMBAR Y OTROS, CON RADICULOPATÍA",
+    "nivel": 2,
+    "nivel_nombre": "Hospitalario",
+    "explicacion": "Hernia de disco en la espalda baja que comprime nervios, causando dolor que baja por la pierna. Puede requerir cirugía de columna y hospitalización."
+  },
+  {
+    "causa": "APENDICITIS AGUDA CON PERITONITIS GENERALIZADA",
+    "nivel": 3,
+    "nivel_nombre": "Alta Especialidad",
+    "explicacion": "Inflamación severa del apéndice que se ha roto y causado infección generalizada en el abdomen. Es una emergencia que requiere cirugía urgente y cuidados intensivos."
+  },
+  {
+    "causa": "DIABETES MELLITUS TIPO 2, CON COMA",
+    "nivel": 3,
+    "nivel_nombre": "Alta Especialidad",
+    "explicacion": "Complicación grave de la diabetes donde los niveles de azúcar provocan pérdida del conocimiento. Requiere atención de emergencia, posiblemente terapia intensiva."
+  },
+  {
+    "causa": "LEIOMIOMA DEL ÚTERO, SIN OTRA ESPECIFICACIÓN",
+    "nivel": 2,
+    "nivel_nombre": "Hospitalario",
+    "explicacion": "Tumor benigno (mioma) en el útero que puede causar sangrado y dolor pélvico. Su tratamiento generalmente requiere cirugía y hospitalización."
+  },
+  {
+    "causa": "COLECISTITIS AGUDA",
+    "nivel": 2,
+    "nivel_nombre": "Hospitalario",
+    "explicacion": "Inflamación repentina de la vesícula biliar que causa dolor abdominal intenso. Usualmente requiere cirugía para extirpar la vesícula y estancia hospitalaria."
+  },
+  {
+    "causa": "TUMOR MALIGNO DEL PEZÓN Y ARÉOLA MAMARIA",
+    "nivel": 3,
+    "nivel_nombre": "Alta Especialidad",
+    "explicacion": "Cáncer localizado en el pezón o aréola de la mama. Requiere tratamiento oncológico especializado que puede incluir cirugía, quimioterapia y radioterapia."
+  },
+  {
+    "causa": "TRASTORNOS DE DISCOS INTERVERTEBRALES LUMBARES Y OTROS, CON MIELOPATÍA",
+    "nivel": 3,
+    "nivel_nombre": "Alta Especialidad",
+    "explicacion": "Hernia de disco que comprime la médula espinal, pudiendo causar debilidad o parálisis. Requiere neurocirugía de alta especialidad por el riesgo de daño neurológico."
+  },
+  {
+    "causa": "ENFERMEDADES DE LA PULPA Y DE LOS TEJIDOS PERIAPICALES",
+    "nivel": 1,
+    "nivel_nombre": "Ambulatorio",
+    "explicacion": "Infecciones o inflamaciones del nervio dental y los tejidos que rodean la raíz del diente. Se tratan en consultorio dental con endodoncia u otros procedimientos ambulatorios."
+  },
+  {
+    "causa": "PARTO ÚNICO ESPONTÁNEO, PRESENTACIÓN CEFÁLICA DE VÉRTICE",
+    "nivel": 2,
+    "nivel_nombre": "Hospitalario",
+    "explicacion": "Parto natural de un solo bebé en posición normal (cabeza abajo). Requiere atención hospitalaria para el nacimiento y monitoreo postparto."
+  },
+  {
+    "causa": "CÁLCULO DEL URÉTER",
+    "nivel": 2,
+    "nivel_nombre": "Hospitalario",
+    "explicacion": "Piedra alojada en el conducto que conecta el riñón con la vejiga, causando dolor severo. Frecuentemente requiere procedimientos hospitalarios para su extracción."
+  },
+  {
+    "causa": "ESGUINCES Y TORCEDURAS DEL TOBILLO",
+    "nivel": 1,
+    "nivel_nombre": "Ambulatorio",
+    "explicacion": "Lesión de los ligamentos del tobillo por torcedura o movimiento brusco. Se trata con reposo, inmovilización y rehabilitación de forma ambulatoria."
+  },
+  {
+    "causa": "INFECCIÓN DE VÍAS URINARIAS, SITIO NO ESPECIFICADO",
+    "nivel": 1,
+    "nivel_nombre": "Ambulatorio",
+    "explicacion": "Infección bacteriana en alguna parte del sistema urinario (vejiga, riñón o uretra). Se trata con antibióticos en consulta externa de forma ambulatoria."
+  },
+  {
+    "causa": "NACIDO VIVO, ÚNICO",
+    "nivel": 1,
+    "nivel_nombre": "Ambulatorio",
+    "explicacion": "Registro del nacimiento de un bebé vivo sin complicaciones. Se clasifica como ambulatorio cuando el recién nacido no requiere cuidados especiales."
+  },
+  {
+    "causa": "APENDICITIS AGUDA, NO ESPECIFICADA",
+    "nivel": 2,
+    "nivel_nombre": "Hospitalario",
+    "explicacion": "Inflamación del apéndice que requiere cirugía para su extirpación. Es nivel hospitalario porque implica cirugía (apendicectomía) y recuperación en hospital."
+  },
+  {
+    "causa": "GASTRITIS AGUDA HEMORRÁGICA",
+    "nivel": 2,
+    "nivel_nombre": "Hospitalario",
+    "explicacion": "Inflamación severa del estómago con sangrado del revestimiento gástrico. Requiere hospitalización para controlar la hemorragia y estabilizar al paciente."
+  },
+  {
+    "causa": "INSUFICIENCIA VENOSA (CRÓNICA) (PERIFÉRICA)",
+    "nivel": 1,
+    "nivel_nombre": "Ambulatorio",
+    "explicacion": "Las venas de las piernas no logran retornar la sangre eficientemente, causando hinchazón y varices. Se maneja con medias de compresión y consultas ambulatorias."
+  },
+  {
+    "causa": "ASTIGMATISMO",
+    "nivel": 1,
+    "nivel_nombre": "Ambulatorio",
+    "explicacion": "Defecto de la curvatura del ojo que causa visión borrosa tanto de lejos como de cerca. Se corrige con lentes o se diagnostica en consulta oftalmológica ambulatoria."
+  },
+  {
+    "causa": "HERNIA INGUINAL BILATERAL CON OBSTRUCCIÓN, SIN GANGRENA",
+    "nivel": 2,
+    "nivel_nombre": "Hospitalario",
+    "explicacion": "Salida de tejido abdominal por ambos lados de la ingle con bloqueo intestinal. Requiere cirugía para reparar ambas hernias y hospitalización."
+  },
+  {
+    "causa": "HIPERPLASIA DE LA PRÓSTATA",
+    "nivel": 1,
+    "nivel_nombre": "Ambulatorio",
+    "explicacion": "Crecimiento benigno de la próstata que dificulta la micción, común en hombres mayores. Se controla con medicamentos y seguimiento en consulta externa."
+  },
+  {
+    "causa": "TUMOR MALIGNO DE LA MAMA, PARTE NO ESPECIFICADA",
+    "nivel": 3,
+    "nivel_nombre": "Alta Especialidad",
+    "explicacion": "Cáncer de mama sin especificar la ubicación exacta dentro de la mama. Requiere tratamiento oncológico especializado con cirugía, quimioterapia o radioterapia."
+  },
+  {
+    "causa": "HERNIA UMBILICAL SIN OBSTRUCCIÓN NI GANGRENA",
+    "nivel": 2,
+    "nivel_nombre": "Hospitalario",
+    "explicacion": "Protrusión de tejido abdominal a través del ombligo sin complicaciones graves. Requiere cirugía programada para su reparación y hospitalización breve."
+  },
+  {
+    "causa": "LUMBAGO NO ESPECIFICADO",
+    "nivel": 1,
+    "nivel_nombre": "Ambulatorio",
+    "explicacion": "Dolor en la parte baja de la espalda sin causa específica identificada. Se trata con medicamentos, fisioterapia y reposo de forma ambulatoria."
+  },
+  {
+    "causa": "CONTUSIÓN DE LA RODILLA",
+    "nivel": 1,
+    "nivel_nombre": "Ambulatorio",
+    "explicacion": "Golpe fuerte en la rodilla que causa dolor e inflamación sin fractura. Se trata con reposo, hielo y analgésicos en consulta ambulatoria."
+  },
+  {
+    "causa": "DIARREA Y GASTROENTERITIS DE PRESUNTO ORIGEN INFECCIOSO",
+    "nivel": 1,
+    "nivel_nombre": "Ambulatorio",
+    "explicacion": "Cuadro de diarrea y malestar estomacal probablemente causado por una infección. Se maneja con hidratación y medicamentos en consulta externa."
+  },
+  {
+    "causa": "PARTO ÚNICO ESPONTÁNEO, SIN OTRA ESPECIFICACIÓN",
+    "nivel": 2,
+    "nivel_nombre": "Hospitalario",
+    "explicacion": "Parto natural de un solo bebé sin detalles adicionales sobre la presentación. Requiere atención hospitalaria para el nacimiento y vigilancia postparto."
+  },
+  {
+    "causa": "CÁLCULO DEL RIÑÓN CON CÁLCULO DEL URÉTER",
+    "nivel": 2,
+    "nivel_nombre": "Hospitalario",
+    "explicacion": "Presencia de piedras tanto en el riñón como en el conducto ureteral. Requiere procedimientos hospitalarios como litotricia o cirugía para eliminarlas."
+  },
+  {
+    "causa": "TUMOR DE COMPORTAMIENTO INCIERTO O DESCONOCIDO DEL OVARIO",
+    "nivel": 2,
+    "nivel_nombre": "Hospitalario",
+    "explicacion": "Masa en el ovario cuya naturaleza benigna o maligna aún no se determina. Requiere cirugía para biopsia o extirpación y estudio patológico hospitalario."
+  },
+  {
+    "causa": "TUMOR DE COMPORTAMIENTO INCIERTO O DESCONOCIDO DE LA MAMA",
+    "nivel": 2,
+    "nivel_nombre": "Hospitalario",
+    "explicacion": "Masa en la mama que no se ha confirmado como benigna o maligna. Requiere biopsia quirúrgica y hospitalización para determinar su naturaleza."
+  },
+  {
+    "causa": "OTROS TRASTORNOS DE LOS MENISCOS",
+    "nivel": 2,
+    "nivel_nombre": "Hospitalario",
+    "explicacion": "Diversas lesiones del menisco de la rodilla que causan dolor y limitación de movimiento. Generalmente requieren artroscopia y hospitalización breve."
+  },
+  {
+    "causa": "OTROS QUISTES OVÁRICOS Y LOS NO ESPECIFICADOS",
+    "nivel": 2,
+    "nivel_nombre": "Hospitalario",
+    "explicacion": "Sacos llenos de líquido en los ovarios de diversos tipos. Pueden requerir cirugía laparoscópica para su extirpación cuando son grandes o sintomáticos."
+  },
+  {
+    "causa": "EPILEPSIA Y SÍNDROMES EPILÉPTICOS IDIOPÁTICOS RELACIONADOS CON LOCALIZACIONES (FOCALES)(PARCIALES) Y CON ATAQUES DE INICIO LOCALIZADO",
+    "nivel": 1,
+    "nivel_nombre": "Ambulatorio",
+    "explicacion": "Trastorno neurológico con convulsiones que se originan en una zona específica del cerebro. Se controla con medicamentos antiepilépticos y seguimiento ambulatorio en neurología."
+  },
+  {
+    "causa": "FRACTURA DE LA RÓTULA",
+    "nivel": 2,
+    "nivel_nombre": "Hospitalario",
+    "explicacion": "Rotura del hueso de la rodilla (rótula), generalmente por un golpe fuerte o caída. Puede requerir cirugía para fijar los fragmentos y hospitalización."
+  },
+  {
+    "causa": "HIPERMETROPÍA",
+    "nivel": 1,
+    "nivel_nombre": "Ambulatorio",
+    "explicacion": "Defecto visual que dificulta ver objetos cercanos con claridad. Se diagnostica y corrige con lentes en consulta oftalmológica ambulatoria."
+  },
+  {
+    "causa": "OTRAS ENFERMEDADES INFECCIOSAS Y LAS NO ESPECIFICADAS",
+    "nivel": 1,
+    "nivel_nombre": "Ambulatorio",
+    "explicacion": "Infecciones de diversos tipos no clasificadas en categorías específicas. Generalmente se tratan con medicamentos en consulta externa ambulatoria."
+  },
+  {
+    "causa": "ESGUINCES Y TORCEDURAS QUE COMPROMETEN EL LIGAMENTO CRUZADO (ANTERIOR) (POSTERIOR) DE LA RODILLA",
+    "nivel": 2,
+    "nivel_nombre": "Hospitalario",
+    "explicacion": "Lesión de los ligamentos cruzados de la rodilla, común en deportes. Frecuentemente requiere cirugía artroscópica de reconstrucción y hospitalización."
+  },
+  {
+    "causa": "HEMORROIDES INTERNAS TROMBOSADAS",
+    "nivel": 2,
+    "nivel_nombre": "Hospitalario",
+    "explicacion": "Venas inflamadas dentro del recto con formación de coágulos, causando dolor intenso. Pueden requerir cirugía (hemorroidectomía) y hospitalización breve."
+  },
+  {
+    "causa": "PARTO UNICO POR CESAREA",
+    "nivel": 2,
+    "nivel_nombre": "Hospitalario",
+    "explicacion": "Nacimiento de un solo bebé mediante cesárea. Requiere cirugía, anestesia y estancia hospitalaria para la recuperación de la madre."
+  },
+  {
+    "causa": "CONSULTA PARA ATENCIÓN Y SUPERVISIÓN DE LA SALUD DE OTROS NIÑOS O LACTANTES SANOS",
+    "nivel": 1,
+    "nivel_nombre": "Ambulatorio",
+    "explicacion": "Visita pediátrica de rutina para vigilar el crecimiento y desarrollo de niños sanos. Es una consulta preventiva que se realiza de forma ambulatoria."
+  },
+  {
+    "causa": "DESGARRO DE MENISCOS, PRESENTE",
+    "nivel": 2,
+    "nivel_nombre": "Hospitalario",
+    "explicacion": "Ruptura del cartílago meniscal de la rodilla que causa dolor y bloqueo articular. Generalmente requiere artroscopia para reparar o retirar el tejido dañado."
+  },
+  {
+    "causa": "PRUEBA Y AJUSTE DE ANTEOJOS Y LENTES DE CONTACTO",
+    "nivel": 1,
+    "nivel_nombre": "Ambulatorio",
+    "explicacion": "Consulta para medir la graduación y ajustar lentes correctivos. Es un procedimiento ambulatorio realizado en consultorio óptico u oftalmológico."
+  },
+  {
+    "causa": "MIOPÍA",
+    "nivel": 1,
+    "nivel_nombre": "Ambulatorio",
+    "explicacion": "Defecto visual que impide ver con claridad los objetos lejanos. Se diagnostica en consulta oftalmológica y se corrige con lentes de forma ambulatoria."
+  },
+  {
+    "causa": "OTROS TRASTORNOS INTERNOS DE LA RODILLA",
+    "nivel": 2,
+    "nivel_nombre": "Hospitalario",
+    "explicacion": "Diversas lesiones internas de la rodilla como daño al cartílago o cuerpos libres. Pueden requerir artroscopia u otra cirugía y hospitalización."
+  },
+  {
+    "causa": "OTROS RECIÉN NACIDOS PRETÉRMINO",
+    "nivel": 3,
+    "nivel_nombre": "Alta Especialidad",
+    "explicacion": "Bebés nacidos antes de completar las semanas de gestación, con diversos grados de prematurez. Requieren cuidados neonatales intensivos y equipo especializado."
+  },
+  {
+    "causa": "PRESENCIA DE ANTEOJOS Y LENTES DE CONTACTO",
+    "nivel": 1,
+    "nivel_nombre": "Ambulatorio",
+    "explicacion": "Registro que indica que el paciente usa lentes correctivos. Se relaciona con consultas de seguimiento óptico que son ambulatorias."
+  },
+  {
+    "causa": "OTRAS CONSULTAS ESPECIFICADAS",
+    "nivel": 1,
+    "nivel_nombre": "Ambulatorio",
+    "explicacion": "Consultas médicas de diversos tipos no clasificadas en otra categoría. Son atenciones ambulatorias que no requieren hospitalización."
+  },
+  {
+    "causa": "VÁRICES ESCROTALES",
+    "nivel": 2,
+    "nivel_nombre": "Hospitalario",
+    "explicacion": "Dilatación de las venas del escroto (varicocele) que puede causar dolor e infertilidad. Requiere cirugía (varicocelectomía) y hospitalización breve."
+  },
+  {
+    "causa": "HERNIA INGUINAL UNILATERAL O NO ESPECIFICADA, SIN OBSTRUCCIÓN NI GANGRENA",
+    "nivel": 2,
+    "nivel_nombre": "Hospitalario",
+    "explicacion": "Protrusión de tejido abdominal por la ingle de un solo lado sin complicaciones. Requiere cirugía programada (hernioplastia) y hospitalización."
+  },
+  {
+    "causa": "HERNIA UMBILICAL CON OBSTRUCCIÓN, SIN GANGRENA",
+    "nivel": 2,
+    "nivel_nombre": "Hospitalario",
+    "explicacion": "Protrusión de tejido abdominal por el ombligo que causa bloqueo intestinal. Requiere cirugía de urgencia para resolver la obstrucción y hospitalización."
+  },
+  {
+    "causa": "EXAMEN DE LABORATORIO",
+    "nivel": 1,
+    "nivel_nombre": "Ambulatorio",
+    "explicacion": "Análisis de sangre, orina u otras muestras para diagnóstico o seguimiento. Son estudios ambulatorios que se realizan sin necesidad de internamiento."
+  },
+  {
+    "causa": "EMBARAZO ABDOMINAL",
+    "nivel": 3,
+    "nivel_nombre": "Alta Especialidad",
+    "explicacion": "Embarazo ectópico donde el embrión se implanta en la cavidad abdominal fuera del útero. Es una emergencia que requiere cirugía inmediata y cuidados de alta especialidad."
+  },
+  {
+    "causa": "DIENTES INCLUIDOS E IMPACTADOS",
+    "nivel": 2,
+    "nivel_nombre": "Hospitalario",
+    "explicacion": "Dientes (generalmente muelas del juicio) que no logran salir y quedan atrapados en el hueso. Requieren cirugía maxilofacial con anestesia para su extracción."
+  },
+  {
+    "causa": "FRACTURA DE LOS HUESOS DE LA NARIZ",
+    "nivel": 1,
+    "nivel_nombre": "Ambulatorio",
+    "explicacion": "Rotura de los huesos nasales, generalmente por un golpe o caída. En la mayoría de los casos se reduce de forma ambulatoria sin cirugía mayor."
+  },
+  {
+    "causa": "INFECCIÓN DEBIDA A CORONAVIRUS, DE SITIO NO ESPECIFICADO",
+    "nivel": 2,
+    "nivel_nombre": "Hospitalario",
+    "explicacion": "Infección por coronavirus sin especificar la zona afectada del cuerpo. Se clasifica como hospitalario por la frecuente necesidad de internamiento y monitoreo."
+  },
+  {
+    "causa": "TRAUMATISMO DE ESTRUCTURAS MÚLTIPLES DE LA RODILLA",
+    "nivel": 2,
+    "nivel_nombre": "Hospitalario",
+    "explicacion": "Lesión que afecta varias estructuras de la rodilla (ligamentos, meniscos, cartílago). Generalmente requiere cirugía artroscópica y hospitalización."
+  },
+  {
+    "causa": "CARDIOMIOPATÍA ISQUÉMICA",
+    "nivel": 3,
+    "nivel_nombre": "Alta Especialidad",
+    "explicacion": "Debilitamiento del músculo del corazón por falta de flujo sanguíneo adecuado. Es una enfermedad cardíaca grave que requiere atención cardiológica de alta especialidad."
+  },
+  {
+    "causa": "FRACTURA DE LA CLAVÍCULA",
+    "nivel": 2,
+    "nivel_nombre": "Hospitalario",
+    "explicacion": "Rotura del hueso que conecta el hombro con el esternón, frecuente en caídas o accidentes. Puede requerir cirugía con placas y hospitalización."
+  },
+  {
+    "causa": "LUXACIÓN DE LA ARTICULACIÓN DEL TOBILLO",
+    "nivel": 2,
+    "nivel_nombre": "Hospitalario",
+    "explicacion": "Desplazamiento de los huesos del tobillo fuera de su posición normal. Requiere reducción bajo anestesia y posible cirugía con hospitalización."
+  },
+  {
+    "causa": "INFARTO TRANSMURAL AGUDO DEL MIOCARDIO DE LA PARED ANTERIOR",
+    "nivel": 3,
+    "nivel_nombre": "Alta Especialidad",
+    "explicacion": "Ataque al corazón que afecta todo el grosor de la pared frontal del corazón. Es una emergencia cardiaca que requiere terapia intensiva y cardiología intervencionista."
+  },
+  {
+    "causa": "CONSULTA, NO ESPECIFICADA",
+    "nivel": 1,
+    "nivel_nombre": "Ambulatorio",
+    "explicacion": "Visita médica sin especificar el motivo de la consulta. Se clasifica como ambulatoria al tratarse de una atención en consultorio."
+  },
+  {
+    "causa": "OTRAS RINITIS ALÉRGICAS",
+    "nivel": 1,
+    "nivel_nombre": "Ambulatorio",
+    "explicacion": "Inflamación de la mucosa nasal por reacciones alérgicas de diversos tipos. Se controla con antihistamínicos y seguimiento ambulatorio con alergólogo."
+  },
+  {
+    "causa": "RINITIS VASOMOTORA",
+    "nivel": 1,
+    "nivel_nombre": "Ambulatorio",
+    "explicacion": "Congestión nasal crónica causada por vasos sanguíneos hipersensibles en la nariz, sin causa alérgica. Se trata con medicamentos en consulta ambulatoria."
+  },
+  {
+    "causa": "CÁLCULO DE LA VESÍCULA BILIAR CON OTRA COLECISTITIS",
+    "nivel": 2,
+    "nivel_nombre": "Hospitalario",
+    "explicacion": "Piedras en la vesícula que causan inflamación de otro tipo (no aguda). Requiere cirugía para extirpar la vesícula y estancia hospitalaria."
+  },
+  {
+    "causa": "COLECISTITIS CRÓNICA",
+    "nivel": 2,
+    "nivel_nombre": "Hospitalario",
+    "explicacion": "Inflamación prolongada de la vesícula biliar, generalmente por piedras recurrentes. Requiere cirugía programada (colecistectomía) y hospitalización."
+  },
+  {
+    "causa": "PREPUCIO REDUNDANTE, FIMOSIS Y PARAFIMOSIS",
+    "nivel": 2,
+    "nivel_nombre": "Hospitalario",
+    "explicacion": "Estrechamiento del prepucio que impide retraerlo adecuadamente. Requiere cirugía (circuncisión) con anestesia y hospitalización breve."
+  },
+  {
+    "causa": "GASTRITIS, NO ESPECIFICADA",
+    "nivel": 1,
+    "nivel_nombre": "Ambulatorio",
+    "explicacion": "Inflamación del revestimiento del estómago sin especificar el tipo. Se trata con medicamentos y cambios dietéticos en consulta ambulatoria."
+  },
+  {
+    "causa": "ANGINA INESTABLE",
+    "nivel": 3,
+    "nivel_nombre": "Alta Especialidad",
+    "explicacion": "Dolor de pecho por reducción del flujo sanguíneo al corazón que ocurre de forma impredecible. Es una urgencia cardiaca que puede preceder un infarto y requiere atención especializada."
+  },
+  {
+    "causa": "OTROS TRASTORNOS ESPECIFICADOS DE LA NARIZ Y DE LOS SENOS PARANASALES",
+    "nivel": 1,
+    "nivel_nombre": "Ambulatorio",
+    "explicacion": "Diversos problemas de la nariz y senos paranasales como sinusitis u otras afecciones. Se tratan con medicamentos en consulta de otorrinolaringología ambulatoria."
+  },
+  {
+    "causa": "OTRAS GASTRITIS AGUDAS",
+    "nivel": 1,
+    "nivel_nombre": "Ambulatorio",
+    "explicacion": "Inflamación repentina del estómago de diversos tipos sin sangrado. Se trata con medicamentos protectores gástricos en consulta ambulatoria."
+  },
+  {
+    "causa": "CATARATA SENIL INCIPIENTE",
+    "nivel": 2,
+    "nivel_nombre": "Hospitalario",
+    "explicacion": "Opacidad inicial del cristalino del ojo relacionada con la edad. Requiere cirugía ocular para reemplazar el cristalino y hospitalización ambulatoria quirúrgica."
+  },
+  {
+    "causa": "OTROS TRASTORNOS DE LA REFRACCIÓN",
+    "nivel": 1,
+    "nivel_nombre": "Ambulatorio",
+    "explicacion": "Problemas visuales de enfoque no clasificados como miopía, hipermetropía o astigmatismo. Se diagnostican y corrigen con lentes en consulta ambulatoria."
+  },
+  {
+    "causa": "ARTRITIS REUMATOIDE, NO ESPECIFICADA",
+    "nivel": 1,
+    "nivel_nombre": "Ambulatorio",
+    "explicacion": "Enfermedad autoinmune que causa inflamación crónica de las articulaciones. Se controla con medicamentos y consultas periódicas de reumatología ambulatoria."
+  },
+  {
+    "causa": "QUISTE FOLICULAR DEL OVARIO",
+    "nivel": 2,
+    "nivel_nombre": "Hospitalario",
+    "explicacion": "Saco lleno de líquido que se forma en el ovario durante la ovulación. Puede requerir cirugía laparoscópica si es grande o causa complicaciones."
+  },
+  {
+    "causa": "HERNIA INGUINAL BILATERAL, SIN OBSTRUCCIÓN NI GANGRENA",
+    "nivel": 2,
+    "nivel_nombre": "Hospitalario",
+    "explicacion": "Protrusión de tejido abdominal por ambos lados de la ingle sin complicaciones. Requiere cirugía programada bilateral y hospitalización."
+  },
+  {
+    "causa": "TRAUMATISMO, NO ESPECIFICADO",
+    "nivel": 1,
+    "nivel_nombre": "Ambulatorio",
+    "explicacion": "Lesión física sin especificar el tipo o la zona afectada. Se clasifica como ambulatorio al no indicar gravedad que requiera hospitalización."
+  },
+  {
+    "causa": "FRACTURA DE LA EPÍFISIS INFERIOR DEL RADIO",
+    "nivel": 2,
+    "nivel_nombre": "Hospitalario",
+    "explicacion": "Rotura del extremo inferior del hueso del antebrazo cerca de la muñeca (fractura de Colles). Puede requerir cirugía con placas y hospitalización."
+  },
+  {
+    "causa": "RINITIS ALÉRGICA, NO ESPECIFICADA",
+    "nivel": 1,
+    "nivel_nombre": "Ambulatorio",
+    "explicacion": "Inflamación nasal por alergia sin especificar el alérgeno causante. Se maneja con antihistamínicos y seguimiento ambulatorio."
+  },
+  {
+    "causa": "INSUFICIENCIA RENAL TERMINAL",
+    "nivel": 3,
+    "nivel_nombre": "Alta Especialidad",
+    "explicacion": "Los riñones han perdido casi toda su función y no pueden filtrar la sangre. Requiere diálisis permanente o trasplante renal, tratamiento de alta especialidad."
+  },
+  {
+    "causa": "DIABETES MELLITUS NO ESPECIFICADA, CON COMA",
+    "nivel": 3,
+    "nivel_nombre": "Alta Especialidad",
+    "explicacion": "Complicación grave de diabetes donde el paciente pierde el conocimiento por descontrol metabólico. Requiere atención de emergencia y posible terapia intensiva."
+  },
+  {
+    "causa": "SUFRIMIENTO MATERNO DURANTE EL TRABAJO DE PARTO Y EL PARTO",
+    "nivel": 2,
+    "nivel_nombre": "Hospitalario",
+    "explicacion": "Complicación durante el trabajo de parto que pone en riesgo la salud de la madre. Requiere intervención obstétrica hospitalaria para proteger a la madre y al bebé."
+  },
+  {
+    "causa": "ENFERMEDAD DIVERTICULAR DEL INTESTINO DELGADO CON PERFORACIÓN Y ABSCESO",
+    "nivel": 3,
+    "nivel_nombre": "Alta Especialidad",
+    "explicacion": "Bolsas en la pared del intestino delgado que se rompen y forman infección. Es una emergencia quirúrgica que puede requerir cuidados intensivos."
+  },
+  {
+    "causa": "LEIOMIOMA DEL UTERO",
+    "nivel": 2,
+    "nivel_nombre": "Hospitalario",
+    "explicacion": "Tumor benigno (mioma) del músculo uterino que puede causar sangrado y dolor. Generalmente requiere cirugía (miomectomía o histerectomía) y hospitalización."
+  },
+  {
+    "causa": "FRACTURA DE OTRO DEDO DE LA MANO",
+    "nivel": 1,
+    "nivel_nombre": "Ambulatorio",
+    "explicacion": "Rotura de un hueso de algún dedo de la mano (excluyendo el pulgar). Se trata con inmovilización y seguimiento ambulatorio sin necesidad de hospitalización."
+  }
+]

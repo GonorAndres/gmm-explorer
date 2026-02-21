@@ -1,0 +1,44 @@
+{
+  "rf_accuracy": 59,
+  "rf_f1_macro": 58.8,
+  "rf_low_confidence_pct": 79.6,
+  "claude_accuracy": 95,
+  "claude_avg_confidence": 82,
+  "claude_low_confidence_pct": 0,
+  "total_causas": 9409,
+  "causas_reclasificadas": 3892,
+  "ejemplos_correccion": [
+    {
+      "causa": "APENDICITIS, NO ESPECIFICADA",
+      "nivel_rf": 1,
+      "nivel_claude": 2,
+      "nivel_manual": 2,
+      "justificacion": "La apendicitis requiere cirugia de urgencia (apendicectomia), no es ambulatoria."
+    },
+    {
+      "causa": "TUMOR MALIGNO DEL ESTOMAGO, PARTE NO ESPECIFICADA",
+      "nivel_rf": 2,
+      "nivel_claude": 3,
+      "nivel_manual": 3,
+      "justificacion": "Cualquier tumor maligno (cancer) requiere alta especialidad: oncologia, quimioterapia."
+    },
+    {
+      "causa": "INSUFICIENCIA RENAL CRONICA, NO ESPECIFICADA",
+      "nivel_rf": 1,
+      "nivel_claude": 3,
+      "justificacion": "Insuficiencia renal cronica requiere dialisis o trasplante, tratamiento de alta especialidad."
+    },
+    {
+      "causa": "FRACTURA DE LA EPIFISIS INFERIOR DEL RADIO",
+      "nivel_rf": 1,
+      "nivel_claude": 2,
+      "justificacion": "Fractura de radio requiere reduccion quirurgica u hospitalizacion, no es ambulatorio."
+    },
+    {
+      "causa": "DESPRENDIMIENTO DE LA RETINA CON DESGARRO",
+      "nivel_rf": 1,
+      "nivel_claude": 2,
+      "justificacion": "Requiere cirugia oftalmologica especializada y hospitalizacion."
+    }
+  ]
+}

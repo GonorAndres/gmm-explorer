@@ -1,5 +1,6 @@
 'use client'
 
+import { useState, useMemo } from 'react'
 import {
   BookOpen,
   Database,
@@ -17,22 +18,33 @@ import {
   Zap,
   Sparkles,
   TreeDeciduous,
-  Clock,
   Users,
+  Search,
+  XCircle,
 } from 'lucide-react'
 import { cn } from '@/lib/utils'
 import { PageHeader } from '@/components/ui/page-header'
 import { InsightPanel } from '@/components/ui/insight-panel'
-import { CALLOUTS } from '@/lib/content'
+import { ClaudeBadge } from '@/components/ui/claude-badge'
+import { CALLOUTS, CLAUDE_CONTENT, INSIGHT_PANELS_CLAUDE } from '@/lib/content'
 import {
   NIVEL_LABELS,
   NIVEL_COLORS,
   NIVEL_DESCRIPCIONES,
 } from '@/lib/constants'
+import type { ExplicacionCausa, ClasificacionMetadata } from '@/types'
+
+// Datos estaticos de clasificacion
+import clasificacionMeta from '@/data/clasificacion-metadata.json'
+import explicacionesData from '@/data/explicaciones-causas.json'
+
+const metadata = clasificacionMeta as ClasificacionMetadata
+const explicacionesCausas = explicacionesData as ExplicacionCausa[]
 
 /**
  * Pagina de Metodologia
  * Documenta el proceso completo de clasificacion y tarificacion GMM
+ * Incluye showcase de mejora con Claude y Explorador de Causas
  */
 export default function MetodologiaPage() {
   return (
@@ -61,6 +73,9 @@ export default function MetodologiaPage() {
                   el producto de <strong className="text-white">frecuencia x severidad</strong>, segmentada por nivel de
                   atencion y edad del asegurado.
                 </p>
+                <div className="mt-3">
+                  <ClaudeBadge variante="compact" className="text-amber-300" />
+                </div>
               </div>
             </div>
           </div>
@@ -76,9 +91,9 @@ export default function MetodologiaPage() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
           {[
             { paso: 1, titulo: 'Consolidacion', descripcion: 'Unificacion de datos de siniestros y polizas 2020-2024', icono: Database, color: 'bg-purple-100 text-purple-700' },
-            { paso: 2, titulo: 'Clasificacion', descripcion: 'Etiquetado de causas medicas en 3 niveles de complejidad', icono: Brain, color: 'bg-blue-100 text-blue-700' },
+            { paso: 2, titulo: 'Clasificacion', descripcion: 'Causas medicas clasificadas con Claude AI en 3 niveles', icono: Brain, color: 'bg-amber-100 text-amber-700' },
             { paso: 3, titulo: 'Calculo Actuarial', descripcion: 'Frecuencia x Severidad por nivel y edad', icono: Calculator, color: 'bg-green-100 text-green-700' },
-            { paso: 4, titulo: 'Tarificacion', descripcion: 'Tabla de primas por nivel y edad (25-70 anos)', icono: TrendingUp, color: 'bg-amber-100 text-amber-700' },
+            { paso: 4, titulo: 'Tarificacion', descripcion: 'Tabla de primas por nivel y edad (25-70 anos)', icono: TrendingUp, color: 'bg-blue-100 text-blue-700' },
           ].map((item, index) => (
             <div key={item.paso} className="relative">
               <div className="card h-full">
@@ -101,7 +116,7 @@ export default function MetodologiaPage() {
         </div>
       </section>
 
-      {/* InsightPanel #1 - despues del flujo */}
+      {/* InsightPanel #1 */}
       <section className="mb-10">
         <InsightPanel titulo="Sabias que...? Concentracion de costos en Nivel 3">
           <p>{CALLOUTS.sabiasQue[0]}</p>
@@ -120,7 +135,7 @@ export default function MetodologiaPage() {
               </div>
               <div>
                 <h2 className="text-2xl font-bold">El Corazon del Proyecto</h2>
-                <p className="text-white/80">Fase 2: Clasificacion de Causas Medicas</p>
+                <p className="text-white/80">Fase 2: Clasificacion de Causas Medicas con Claude AI</p>
               </div>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mt-6">
@@ -262,69 +277,199 @@ export default function MetodologiaPage() {
           </div>
         </div>
 
-        {/* Fase 2: Random Forest */}
-        <div className="card mb-6">
-          <div className="card-header bg-gradient-to-r from-green-50 to-emerald-50">
+        {/* Fase 2: El Problema con ML Tradicional */}
+        <div className="card mb-6 border-red-200">
+          <div className="card-header bg-gradient-to-r from-red-50 to-orange-50">
             <h3 className="font-semibold text-slate-900 flex items-center gap-2">
-              <TreeDeciduous className="w-5 h-5 text-green-600" />
-              Fase 2: Random Forest - Aprendizaje Automatico
+              <XCircle className="w-5 h-5 text-red-500" />
+              El Problema: Random Forest (ML Tradicional)
             </h3>
           </div>
           <div className="card-body">
             <p className="text-slate-600 mb-4">
-              Con las 1,500 causas etiquetadas, entrenamos un modelo <strong>Random Forest</strong> que
-              aprende los patrones textuales y puede clasificar automaticamente las 7,909 causas restantes.
+              {CLAUDE_CONTENT.problemaML.contenido}
             </p>
-            <div className="bg-gradient-to-r from-green-50 to-emerald-50 rounded-xl p-6 mb-6">
-              <h4 className="font-semibold text-green-900 mb-3">Como funciona? (Explicacion intuitiva)</h4>
-              <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-                <div className="text-center">
-                  <div className="w-12 h-12 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-2">
-                    <TreeDeciduous className="w-6 h-6 text-green-600" />
-                  </div>
-                  <p className="font-medium text-green-900">100 &quot;expertos&quot;</p>
-                  <p className="text-xs text-green-700 mt-1">100 arboles de decision, cada uno aprende reglas diferentes</p>
-                </div>
-                <div className="text-center">
-                  <div className="w-12 h-12 bg-emerald-100 rounded-full flex items-center justify-center mx-auto mb-2">
-                    <Brain className="w-6 h-6 text-emerald-600" />
-                  </div>
-                  <p className="font-medium text-emerald-900">Votan juntos</p>
-                  <p className="text-xs text-emerald-700 mt-1">Para cada causa nueva, todos los arboles &quot;votan&quot; y gana la mayoria</p>
-                </div>
-                <div className="text-center">
-                  <div className="w-12 h-12 bg-teal-100 rounded-full flex items-center justify-center mx-auto mb-2">
-                    <CheckCircle2 className="w-6 h-6 text-teal-600" />
-                  </div>
-                  <p className="font-medium text-teal-900">Consenso robusto</p>
-                  <p className="text-xs text-teal-700 mt-1">El consenso de muchos expertos es mas confiable que uno solo</p>
-                </div>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-4">
+              <div className="bg-red-50 border border-red-200 rounded-lg p-4 text-center">
+                <p className="text-3xl font-bold text-red-600">{Math.round(metadata.rf_accuracy)}%</p>
+                <p className="text-sm text-red-700">Precision del modelo</p>
+              </div>
+              <div className="bg-red-50 border border-red-200 rounded-lg p-4 text-center">
+                <p className="text-3xl font-bold text-red-600">{Math.round(metadata.rf_low_confidence_pct)}%</p>
+                <p className="text-sm text-red-700">Causas con baja confianza</p>
+              </div>
+              <div className="bg-red-50 border border-red-200 rounded-lg p-4 text-center">
+                <p className="text-3xl font-bold text-red-600">F1: {metadata.rf_f1_macro.toFixed(1)}%</p>
+                <p className="text-sm text-red-700">F1-macro (promedio)</p>
               </div>
             </div>
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-              <div className="bg-purple-50 border border-purple-200 rounded-lg p-4 text-center">
-                <Clock className="w-8 h-8 text-purple-600 mx-auto mb-2" />
-                <p className="font-semibold text-purple-900">Velocidad</p>
-                <p className="text-sm text-purple-700">7,909 causas en <strong>segundos</strong> vs. semanas manual</p>
-              </div>
-              <div className="bg-blue-50 border border-blue-200 rounded-lg p-4 text-center">
-                <Zap className="w-8 h-8 text-blue-600 mx-auto mb-2" />
-                <p className="font-semibold text-blue-900">Consistencia</p>
-                <p className="text-sm text-blue-700">Mismos criterios a todas las causas, sin fatiga humana</p>
-              </div>
-              <div className="bg-green-50 border border-green-200 rounded-lg p-4 text-center">
-                <TrendingUp className="w-8 h-8 text-green-600 mx-auto mb-2" />
-                <p className="font-semibold text-green-900">Escalabilidad</p>
-                <p className="text-sm text-green-700">Reutilizable para clasificar nuevas causas en anos futuros</p>
+            <div className="bg-red-50 rounded-lg p-4">
+              <div className="flex gap-2">
+                <AlertTriangle className="w-5 h-5 text-red-500 flex-shrink-0 mt-0.5" />
+                <div>
+                  <p className="text-sm text-red-800 font-medium mb-1">Impacto en primas:</p>
+                  <p className="text-sm text-red-700">
+                    Con solo 59% de precision, el 41% de las causas podian estar mal clasificadas.
+                    Esto distorsiona directamente el calculo de primas por nivel, afectando la suficiencia actuarial.
+                  </p>
+                </div>
               </div>
             </div>
           </div>
         </div>
 
-        {/* InsightPanel #2 - despues de Random Forest */}
+        {/* Fase 2b: La Solucion -- Claude */}
+        <div className="card mb-6 border-amber-200">
+          <div className="card-header bg-gradient-to-r from-amber-50 to-orange-50">
+            <h3 className="font-semibold text-slate-900 flex items-center gap-2">
+              <Sparkles className="w-5 h-5 text-amber-600" />
+              La Solucion: Claude AI
+              <ClaudeBadge variante="inline" />
+            </h3>
+          </div>
+          <div className="card-body">
+            <p className="text-slate-600 mb-4">
+              {CLAUDE_CONTENT.solucionClaude.contenido}
+            </p>
+            <div className="bg-gradient-to-r from-amber-50 to-orange-50 rounded-xl p-6 mb-6">
+              <h4 className="font-semibold text-amber-900 mb-3">Como funciona Claude vs Random Forest?</h4>
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <div className="text-center">
+                  <div className="w-12 h-12 bg-red-100 rounded-full flex items-center justify-center mx-auto mb-2">
+                    <TreeDeciduous className="w-6 h-6 text-red-600" />
+                  </div>
+                  <p className="font-medium text-red-900 mb-1">Random Forest</p>
+                  <p className="text-xs text-red-700">Aprende patrones estadisticos de texto de 1,500 ejemplos. No entiende medicina.</p>
+                </div>
+                <div className="text-center">
+                  <div className="w-12 h-12 bg-amber-100 rounded-full flex items-center justify-center mx-auto mb-2">
+                    <Brain className="w-6 h-6 text-amber-600" />
+                  </div>
+                  <p className="font-medium text-amber-900 mb-1">Claude (LLM)</p>
+                  <p className="text-xs text-amber-700">Comprende terminologia medica, codigos CIE-10 y razona sobre severidad clinica.</p>
+                </div>
+              </div>
+            </div>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+              <div className="bg-amber-50 border border-amber-200 rounded-lg p-4 text-center">
+                <Brain className="w-8 h-8 text-amber-600 mx-auto mb-2" />
+                <p className="font-semibold text-amber-900">Conocimiento Medico</p>
+                <p className="text-sm text-amber-700">Entiende que &quot;COLECISTECTOMIA&quot; = cirugia de vesicula</p>
+              </div>
+              <div className="bg-amber-50 border border-amber-200 rounded-lg p-4 text-center">
+                <Zap className="w-8 h-8 text-amber-600 mx-auto mb-2" />
+                <p className="font-semibold text-amber-900">Sin Entrenamiento</p>
+                <p className="text-sm text-amber-700">No requiere datos de entrenamiento adicionales</p>
+              </div>
+              <div className="bg-amber-50 border border-amber-200 rounded-lg p-4 text-center">
+                <CheckCircle2 className="w-8 h-8 text-amber-600 mx-auto mb-2" />
+                <p className="font-semibold text-amber-900">Alta Confianza</p>
+                <p className="text-sm text-amber-700">Solo {Math.round(metadata.claude_low_confidence_pct)}% de causas con baja confianza</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        {/* Resultados: Antes vs Despues */}
+        <div className="card mb-6">
+          <div className="card-header bg-gradient-to-r from-green-50 to-emerald-50">
+            <h3 className="font-semibold text-slate-900 flex items-center gap-2">
+              <TrendingUp className="w-5 h-5 text-green-600" />
+              Resultados: Antes vs Despues
+            </h3>
+          </div>
+          <div className="card-body">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
+              {/* Antes */}
+              <div className="bg-red-50 rounded-xl p-6 border border-red-200">
+                <div className="flex items-center gap-2 mb-4">
+                  <div className="w-8 h-8 bg-red-100 rounded-full flex items-center justify-center">
+                    <XCircle className="w-5 h-5 text-red-600" />
+                  </div>
+                  <h4 className="font-semibold text-red-900">Antes (Random Forest)</h4>
+                </div>
+                <div className="space-y-3">
+                  <div className="flex justify-between items-center">
+                    <span className="text-sm text-red-700">Precision</span>
+                    <span className="font-bold text-red-600">{Math.round(metadata.rf_accuracy)}%</span>
+                  </div>
+                  <div className="w-full bg-red-200 rounded-full h-2">
+                    <div className="bg-red-500 h-2 rounded-full" style={{ width: `${metadata.rf_accuracy}%` }} />
+                  </div>
+                  <div className="flex justify-between items-center">
+                    <span className="text-sm text-red-700">Causas baja confianza</span>
+                    <span className="font-bold text-red-600">{Math.round(metadata.rf_low_confidence_pct)}%</span>
+                  </div>
+                  <div className="flex justify-between items-center">
+                    <span className="text-sm text-red-700">F1-macro</span>
+                    <span className="font-bold text-red-600">{metadata.rf_f1_macro.toFixed(1)}%</span>
+                  </div>
+                </div>
+              </div>
+              {/* Despues */}
+              <div className="bg-green-50 rounded-xl p-6 border border-green-200">
+                <div className="flex items-center gap-2 mb-4">
+                  <div className="w-8 h-8 bg-green-100 rounded-full flex items-center justify-center">
+                    <CheckCircle2 className="w-5 h-5 text-green-600" />
+                  </div>
+                  <h4 className="font-semibold text-green-900">Despues (Claude AI)</h4>
+                </div>
+                <div className="space-y-3">
+                  <div className="flex justify-between items-center">
+                    <span className="text-sm text-green-700">Precision</span>
+                    <span className="font-bold text-green-600">{Math.round(metadata.claude_accuracy)}%</span>
+                  </div>
+                  <div className="w-full bg-green-200 rounded-full h-2">
+                    <div className="bg-green-500 h-2 rounded-full" style={{ width: `${metadata.claude_accuracy}%` }} />
+                  </div>
+                  <div className="flex justify-between items-center">
+                    <span className="text-sm text-green-700">Causas baja confianza</span>
+                    <span className="font-bold text-green-600">{Math.round(metadata.claude_low_confidence_pct)}%</span>
+                  </div>
+                  <div className="flex justify-between items-center">
+                    <span className="text-sm text-green-700">Confianza promedio</span>
+                    <span className="font-bold text-green-600">{Math.round(metadata.claude_avg_confidence)}%</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            {/* Ejemplos de Correcciones */}
+            {metadata.ejemplos_correccion && metadata.ejemplos_correccion.length > 0 && (
+              <div className="bg-slate-50 rounded-lg p-4">
+                <h4 className="font-semibold text-slate-900 mb-3">Ejemplos de Correcciones</h4>
+                <div className="space-y-3">
+                  {metadata.ejemplos_correccion.map((ej, i) => (
+                    <div key={i} className="bg-white rounded-lg p-3 border">
+                      <p className="font-mono text-xs text-slate-500 mb-2">{ej.causa}</p>
+                      <div className="flex items-center gap-3 text-sm">
+                        <span className="px-2 py-0.5 rounded text-xs font-medium" style={{
+                          backgroundColor: `${NIVEL_COLORS[ej.nivel_rf]}20`,
+                          color: NIVEL_COLORS[ej.nivel_rf]
+                        }}>
+                          RF: L{ej.nivel_rf}
+                        </span>
+                        <ArrowRight className="w-4 h-4 text-slate-400" />
+                        <span className="px-2 py-0.5 rounded text-xs font-medium" style={{
+                          backgroundColor: `${NIVEL_COLORS[ej.nivel_claude]}20`,
+                          color: NIVEL_COLORS[ej.nivel_claude]
+                        }}>
+                          Claude: L{ej.nivel_claude}
+                        </span>
+                      </div>
+                      <p className="text-xs text-slate-600 mt-1">{ej.justificacion}</p>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            )}
+          </div>
+        </div>
+
+        {/* InsightPanel -- Por que un LLM supera al RF */}
         <div className="mb-6">
-          <InsightPanel titulo="Sabias que...? Velocidad del modelo Random Forest">
-            <p>{CALLOUTS.sabiasQue[3]}</p>
+          <InsightPanel titulo={INSIGHT_PANELS_CLAUDE.porqueLLM.titulo}>
+            <p>{INSIGHT_PANELS_CLAUDE.porqueLLM.contenido}</p>
           </InsightPanel>
         </div>
 
@@ -338,7 +483,7 @@ export default function MetodologiaPage() {
           </div>
           <div className="card-body">
             <p className="text-sm text-slate-600 mb-4">
-              La clasificacion final confirma las expectativas actuariales del comportamiento de siniestros:
+              La clasificacion con Claude confirma las expectativas actuariales del comportamiento de siniestros:
             </p>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
               {[
@@ -359,6 +504,13 @@ export default function MetodologiaPage() {
           </div>
         </div>
       </section>
+
+      {/* Explorador de Causas */}
+      {explicacionesCausas.length > 0 && (
+        <section className="mb-10">
+          <ExploradorCausas causas={explicacionesCausas} />
+        </section>
+      )}
 
       {/* Fuente de Datos */}
       <section className="mb-10">
@@ -531,7 +683,7 @@ export default function MetodologiaPage() {
         </div>
       </section>
 
-      {/* InsightPanel #3 - factor de riesgo por edad */}
+      {/* InsightPanel #3 */}
       <section className="mb-10">
         <InsightPanel titulo="Sabias que...? Factor de riesgo por edad">
           <p>{CALLOUTS.sabiasQue[1]}</p>
@@ -652,8 +804,111 @@ export default function MetodologiaPage() {
       {/* Footer */}
       <div className="mt-10 pt-6 border-t border-slate-200 text-center text-sm text-slate-500">
         <p>Sistema de Clasificacion y Tarificacion GMM - Datos CNSF 2020-2024</p>
-        <p className="mt-1">Proyecto Actuarial - AAR 2026-01</p>
+        <p className="mt-1">Proyecto Actuarial - AAR 2026-01 | Clasificacion con Claude AI</p>
       </div>
     </div>
+  )
+}
+
+
+/**
+ * Componente Explorador de Causas
+ * Busqueda y filtrado estatico sobre las top 100 causas con explicaciones
+ */
+function ExploradorCausas({ causas }: { causas: ExplicacionCausa[] }) {
+  const [busqueda, setBusqueda] = useState('')
+  const [nivelFiltro, setNivelFiltro] = useState<number | null>(null)
+
+  const causasFiltradas = useMemo(() => {
+    return causas.filter((c) => {
+      const matchBusqueda = !busqueda || c.causa.toLowerCase().includes(busqueda.toLowerCase())
+      const matchNivel = nivelFiltro === null || c.nivel === nivelFiltro
+      return matchBusqueda && matchNivel
+    })
+  }, [causas, busqueda, nivelFiltro])
+
+  return (
+    <>
+      <h2 className="text-xl font-bold text-slate-900 mb-4 flex items-center gap-2">
+        <Search className="w-5 h-5 text-blue-600" />
+        Explorador de Causas
+      </h2>
+      <div className="card">
+        <div className="card-body">
+          <p className="text-sm text-slate-600 mb-4">
+            Explora las causas medicas mas frecuentes con sus clasificaciones y explicaciones generadas por Claude.
+          </p>
+
+          {/* Filtros */}
+          <div className="flex flex-col sm:flex-row gap-3 mb-4">
+            <div className="relative flex-1">
+              <Search className="w-4 h-4 absolute left-3 top-1/2 -translate-y-1/2 text-slate-400" />
+              <input
+                type="text"
+                placeholder="Buscar causa medica..."
+                value={busqueda}
+                onChange={(e) => setBusqueda(e.target.value)}
+                className="w-full pl-9 pr-4 py-2 text-sm border border-slate-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500/20 focus:border-blue-500"
+              />
+            </div>
+            <div className="flex gap-2">
+              <button
+                onClick={() => setNivelFiltro(null)}
+                className={cn(
+                  'px-3 py-2 text-xs font-medium rounded-lg border transition-colors',
+                  nivelFiltro === null
+                    ? 'bg-slate-900 text-white border-slate-900'
+                    : 'bg-white text-slate-600 border-slate-200 hover:bg-slate-50'
+                )}
+              >
+                Todos
+              </button>
+              {[1, 2, 3].map((n) => (
+                <button
+                  key={n}
+                  onClick={() => setNivelFiltro(nivelFiltro === n ? null : n)}
+                  className={cn(
+                    'px-3 py-2 text-xs font-medium rounded-lg border transition-colors',
+                    nivelFiltro === n
+                      ? 'text-white border-transparent'
+                      : 'bg-white text-slate-600 border-slate-200 hover:bg-slate-50'
+                  )}
+                  style={nivelFiltro === n ? { backgroundColor: NIVEL_COLORS[n] } : {}}
+                >
+                  L{n}
+                </button>
+              ))}
+            </div>
+          </div>
+
+          {/* Resultados */}
+          <div className="space-y-2 max-h-96 overflow-y-auto">
+            {causasFiltradas.length === 0 && (
+              <p className="text-sm text-slate-400 text-center py-8">No se encontraron causas con ese criterio.</p>
+            )}
+            {causasFiltradas.slice(0, 50).map((c, i) => (
+              <div key={i} className="flex items-start gap-3 p-3 bg-slate-50 rounded-lg hover:bg-slate-100 transition-colors">
+                <div
+                  className="w-7 h-7 rounded-full flex items-center justify-center text-white text-xs font-bold flex-shrink-0 mt-0.5"
+                  style={{ backgroundColor: NIVEL_COLORS[c.nivel] }}
+                >
+                  {c.nivel}
+                </div>
+                <div className="min-w-0 flex-1">
+                  <p className="text-sm font-medium text-slate-900 truncate">{c.causa}</p>
+                  <p className="text-xs text-slate-500 mt-0.5">{c.nivel_nombre}</p>
+                  <p className="text-xs text-slate-600 mt-1">{c.explicacion}</p>
+                </div>
+              </div>
+            ))}
+            {causasFiltradas.length > 50 && (
+              <p className="text-xs text-slate-400 text-center py-2">
+                Mostrando 50 de {causasFiltradas.length} resultados. Usa el buscador para refinar.
+              </p>
+            )}
+          </div>
+        </div>
+      </div>
+    </>
   )
 }

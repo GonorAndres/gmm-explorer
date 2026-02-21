@@ -95,6 +95,36 @@ export const CALLOUTS = {
     'El 13.4% de los siniestros (Nivel 3) representa el 25.2% del monto total pagado. Pocos casos costosos dominan el gasto.',
     'Un asegurado de 70 años tiene un factor de riesgo 7.4 veces mayor que uno de 25 años.',
     'La inflacion medica en Mexico supera consistentemente a la inflacion general, lo que presiona las primas al alza cada año.',
-    'El modelo Random Forest clasifica 9,409 causas medicas unicas en solo segundos, una tarea que tomaria semanas de trabajo manual.',
+    'Claude clasifico 7,909 causas medicas con alta confianza, superando significativamente al Random Forest que solo alcanzaba 59% de precision.',
   ],
+}
+
+// ============================================
+// CONTENIDO DE SECCIÓN CLAUDE
+// ============================================
+
+export const CLAUDE_CONTENT = {
+  problemaML: {
+    titulo: 'El Problema con ML Tradicional',
+    contenido:
+      'El modelo Random Forest (TF-IDF + 200 arboles) alcanzo solo ~59% de precision (F1-macro: 58.8%) al clasificar causas medicas. Esto se debe a que el modelo aprende patrones estadisticos de texto, pero no comprende realmente el significado medico. Un modelo de ML no sabe que "COLECISTECTOMIA" es una cirugia de vesicula ni que "TUMOR MALIGNO" implica cancer.',
+  },
+  solucionClaude: {
+    titulo: 'La Solucion: Claude AI',
+    contenido:
+      'Claude es un modelo de lenguaje grande (LLM) que comprende terminologia medica, codigos CIE-10 y el contexto clinico de cada diagnostico. A diferencia del Random Forest que solo ve patrones de texto, Claude entiende que "APENDICITIS AGUDA CON PERITONITIS" requiere cirugia de emergencia (Nivel 3), no ambulatorio.',
+  },
+  porqueLLM: {
+    titulo: 'Por que un LLM supera al Random Forest?',
+    contenido:
+      'Un LLM como Claude tiene conocimiento medico incorporado en su entrenamiento. Puede interpretar abreviaturas (NE = No Especificada), entender jerarquias de gravedad, y reconocer que terminos como "SEPSIS" o "INSUFICIENCIA RENAL" implican alta especialidad. El Random Forest solo puede aprender de los 1,500 ejemplos etiquetados, mientras que Claude aprovecha todo su conocimiento pre-entrenado.',
+  },
+}
+
+export const INSIGHT_PANELS_CLAUDE = {
+  porqueLLM: {
+    titulo: 'Por que un LLM supera al Random Forest?',
+    contenido:
+      'El Random Forest aprende correlaciones estadisticas entre palabras y niveles a partir de 1,500 ejemplos. Si una palabra nueva no aparecio en el entrenamiento, el modelo no puede clasificarla bien. Claude, en cambio, comprende el significado medico de cada termino -- sabe que "neoplasia" significa cancer, que "colecistectomia" es cirugia de vesicula, y que "sepsis" es una emergencia. Esta comprension semantica es la diferencia entre 59% y >90% de precision.',
+  },
 }

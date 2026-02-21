@@ -207,6 +207,29 @@ export function abreviarNumero(valor: number): string {
 }
 
 // ============================================
+// CONFIGURACIÓN CLAUDE
+// ============================================
+
+export const CLAUDE_CONFIG = {
+  nombre: 'Claude',
+  descripcion: 'Modelo de lenguaje de Anthropic',
+  version: 'Claude Opus 4.6',
+  metodo: 'Clasificacion directa con conocimiento medico',
+  ventajas: [
+    'Comprension profunda de terminologia medica',
+    'Conocimiento de codigos CIE-10',
+    'Razonamiento contextual sobre severidad',
+    'Sin necesidad de datos de entrenamiento adicionales',
+  ],
+}
+
+export const NIVEL_NOMBRES: Record<number, string> = {
+  1: 'Ambulatorio',
+  2: 'Hospitalario',
+  3: 'Alta Especialidad',
+}
+
+// ============================================
 // CONFIGURACIÓN DE GRÁFICOS
 // ============================================
 
