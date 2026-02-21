@@ -22,15 +22,15 @@ export const NIVEL_DESCRIPCIONES: Record<number, string> = {
 }
 
 export const NIVEL_COLORS: Record<number, string> = {
-  1: '#22c55e', // verde - Ambulatorio
-  2: '#eab308', // amarillo - Hospitalario
-  3: '#ef4444', // rojo - Alta Especialidad
+  1: '#059669', // emerald-600 - Ambulatorio
+  2: '#d97706', // amber-600 - Hospitalario
+  3: '#e11d48', // rose-600 - Alta Especialidad
 }
 
 export const NIVEL_COLORS_LIGHT: Record<number, string> = {
-  1: '#86efac',
-  2: '#fde047',
-  3: '#fca5a5',
+  1: '#d1fae5', // emerald-100
+  2: '#fef3c7', // amber-100
+  3: '#ffe4e6', // rose-100
 }
 
 // ============================================
@@ -138,6 +138,10 @@ export const UI_LABELS = {
     tarificador: {
       titulo: 'Tarificador',
       subtitulo: 'Calculadora de primas para nuevas pólizas',
+    },
+    contexto: {
+      titulo: 'Contexto',
+      subtitulo: 'Nota Técnica y contexto del proyecto',
     },
   },
 }

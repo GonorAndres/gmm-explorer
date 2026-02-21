@@ -35,16 +35,19 @@ export interface CausaClasificada {
 }
 
 /**
- * Prima de riesgo por nivel y edad
+ * Prima de riesgo por nivel, edad y sexo
  * Generado en Fase 3 (tarificación actuarial)
  */
 export interface PrimaNivelEdad {
   nivel: number
   edad: number
+  sexo: string
   frecuencia: number
   severidad: number
   prima_anual: number
+  prima_tarifa: number
   prima_mensual: number
+  prima_tarifa_mensual: number
   descripcion: string
 }
 
@@ -61,6 +64,17 @@ export interface DistribucionNivel {
 }
 
 /**
+ * Distribución por sexo
+ */
+export interface DistribucionSexo {
+  sexo: string
+  siniestros: number
+  monto: number
+  pct_siniestros: number
+  pct_monto: number
+}
+
+/**
  * Resumen general del dashboard
  * Estadísticas globales para las tarjetas
  */
@@ -69,6 +83,7 @@ export interface ResumenGeneral {
   monto_total: number
   monto_promedio: number
   distribucion_nivel: DistribucionNivel[]
+  por_sexo: DistribucionSexo[]
   anios_disponibles: number[]
   rango_edad: {
     min: number
@@ -78,11 +93,48 @@ export interface ResumenGeneral {
 }
 
 // ============================================
+// TIPOS DE PÓLIZAS
+// ============================================
+
+/**
+ * Póliza agregada por (año, edad, sexo)
+ */
+export interface PolizaAgregada {
+  anio: number
+  edad: number
+  sexo: string
+  num_asegurados: number
+  prima_emitida: number
+  suma_asegurada: number
+  prima_promedio: number
+}
+
+/**
+ * Resumen anual de pólizas
+ */
+export interface ResumenAnual {
+  anio: number
+  num_asegurados: number
+  prima_emitida: number
+  suma_asegurada: number
+}
+
+/**
+ * Pólizas agrupadas por banda de edad
+ */
+export interface PolizaPorBanda {
+  banda_edad: string
+  num_asegurados: number
+  prima_emitida: number
+  pct_asegurados: number
+}
+
+// ============================================
 // TIPOS DE FILTROS
 // ============================================
 
 /**
- * Estado de los filtros del explorador
+ * Estado de los filtros del explorador de siniestros
  */
 export interface FiltrosSiniestros {
   anios: number[]
@@ -96,9 +148,19 @@ export interface FiltrosSiniestros {
 }
 
 /**
- * Valores por defecto para filtros
+ * Estado de los filtros del explorador de pólizas
  */
-export const FILTROS_DEFAULT: FiltrosSiniestros = {
+export interface FiltrosPolizas {
+  anios: number[]
+  edadMin: number
+  edadMax: number
+  sexo: 'Todos' | 'Masculino' | 'Femenino'
+}
+
+/**
+ * Valores por defecto para filtros de siniestros
+ */
+export const FILTROS_SINIESTROS_DEFAULT: FiltrosSiniestros = {
   anios: [2020, 2021, 2022, 2023, 2024],
   edadMin: 25,
   edadMax: 70,
@@ -106,6 +168,16 @@ export const FILTROS_DEFAULT: FiltrosSiniestros = {
   niveles: [1, 2, 3],
   montoMin: 0,
   montoMax: 1000000,
+}
+
+/**
+ * Valores por defecto para filtros de pólizas
+ */
+export const FILTROS_POLIZAS_DEFAULT: FiltrosPolizas = {
+  anios: [2020, 2021, 2022, 2023, 2024],
+  edadMin: 25,
+  edadMax: 70,
+  sexo: 'Todos',
 }
 
 // ============================================

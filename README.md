@@ -135,7 +135,7 @@ Abrir [http://localhost:3000](http://localhost:3000) en el navegador.
 - **Algoritmo**: Random Forest (100 árboles)
 - **Features**: TF-IDF sobre descripción de causas médicas
 - **Entrenamiento**: 1,500 causas clasificadas manualmente
-- **Precisión**: ~85% en validación cruzada
+- **Precisión**: ~59% accuracy (F1-macro: 58.8%)
 
 ---
 

@@ -2,166 +2,129 @@
 
 This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
 
-# Project: GMM Claims Classification & Risk Pricing - CNSF
+## Project Overview
 
-## Overview
-Classification system for Major Medical Expense (GMM) claims and actuarial risk premium calculation.
-Methodology: Risk Premium = Frequency × Severity
+GMM Explorer -- academic actuarial system for classifying Major Medical Expense (GMM) claims and calculating risk premiums from CNSF data (2020-2024). Built for AAR 2026-1 at UNAM Facultad de Ciencias.
+
+Core formula: `Prima de Riesgo = Frecuencia x Severidad`
 
 ## Language Rules
+
 - **Interaction**: English
-- **All outputs** (code comments, CSV headers, web UI, documentation): **Spanish**
-
-## Data Sources
-
-### Raw Data (Excel)
-Location: `data/raw/`
-```
-2020_GM_Colectivo_Bases.xlsx  (31 MB) - DIFFERENT FORMAT
-2021_GM_Colectivo_Bases.xlsx  (73 MB)
-2022_GM_Colectivo_Bases.xlsx  (75 MB)
-2023_GM_Colectivo_Bases.xlsx  (77 MB)
-2024_GM_Colectivo_Bases.xlsx  (65 MB)
-```
-⚠️ **IMPORTANT**: 2020 file has different schema. Validate and transform before consolidation.
-
-### Processed Data (Parquet)
-Location: `data/processed/`
-```
-2020_emision.parquet    2020_siniestros.parquet
-2021_emision.parquet    2021_siniestros.parquet
-2022_emision.parquet    2022_siniestros.parquet
-2023_emision.parquet    2023_siniestros.parquet
-2024_emision.parquet    2024_siniestros.parquet
-```
-
-### Key Variables
-- **Siniestros**: edad, monto, causa, año
-- **Emisión (Pólizas)**: exposure data for frequency calculation
-
-## Classification Levels
-
-| Nivel | Descripción | Ejemplos |
-|-------|-------------|----------|
-| 1 | Ambulatorio/prevención | Consultas, gastroenteritis, dental, laboratorio |
-| 2 | Hospital/cirugía programada | Cesáreas, vesícula, apendicitis, fracturas |
-| 3 | Alta especialidad/emergencias | Cáncer, UCI, infartos, trasplantes |
-
-## Project Structure
-```
-├── .claude/
-│   └── agents.json              # Subagent config
-├── data/
-│   ├── raw/                     # Original Excel files
-│   ├── processed/               # Parquet by year
-│   ├── consolidated/            # siniestros.parquet, polizas.parquet
-│   └── labeled/                 # training_set.csv (1,500 records)
-├── scripts/
-│   ├── consolidate_data.py
-│   ├── extract_top_causes.py
-│   ├── classify_causes.py
-│   └── train_model.py
-├── outputs/
-│   ├── model/
-│   └── tarificacion/
-└── web/
-    └── (Next.js app)
-```
-
-## Project Phases
-
-### PHASE 0: Setup & Consolidation
-1. Validate 2020 schema vs 2021-2024
-2. Transform 2020 to match standard schema
-3. Consolidate all siniestros → `consolidated/siniestros.parquet`
-4. Consolidate all emisión → `consolidated/polizas.parquet`
-5. Generate data quality report
-
-### PHASE 1: Manual Classification (1,500 records)
-1. Extract top 500 causes by claim frequency
-2. Classify using subagent → `top_500_labeled.csv`
-3. Random sample 1,000 from remaining causes
-4. Classify using subagent → `sample_1000_labeled.csv`
-5. Consolidate → `training_set.csv`
-
-### PHASE 2: Classification Model
-1. Feature engineering on causes
-2. Train model (sklearn)
-3. Evaluate metrics
-4. Classify all remaining causes
-5. Output: `outputs/model/`, `classified/all_causes.csv`
-
-### PHASE 3: Actuarial Calculation
-1. Join classified claims with policies
-2. Calculate frequency by level (claims/exposed)
-3. Calculate severity by level (average amount)
-4. Risk premium = frequency × severity
-5. **Calculate premium by level AND individual ages (25-70 years)**
-   - Individual ages: 25, 26, 27, ... 70 (46 individual age rates)
-   - Collective insurance (GMM Colectivo) focus
-   - Reference: `docs/tarificacion_colectivo_mexico.md`
-6. Output:
-   - `outputs/tarificacion/primas_por_nivel.csv`
-   - `outputs/tarificacion/primas_por_nivel_edad.csv` (matrix: 3 niveles × 46 edades)
-
-### PHASE 4: Frontend - Claims Explorer
-1. Setup Next.js + Tailwind + shadcn/ui
-2. Claims explorer with filters (edad, monto, causa, año)
-3. Classification tab (distribution by level)
-4. Frequency/severity visualizations
-
-### PHASE 5: Frontend - Policies & Pricing
-1. Policy explorer page
-2. Interactive pricing calculator
-   - Input: new policy characteristics
-   - Output: estimated premium
-
-### PHASE 6: Methodology & Deploy
-1. Executive methodology page (full process explanation)
-2. Final design review
-3. Deploy to Vercel
-
-## Subagent Configuration
-
-File: `.claude/agents.json`
-```json
-{
-  "clasificador-medico": {
-    "description": "Medical expert for GMM claims classification (Mexico)",
-    "prompt": "Eres un médico especialista con experiencia en sistemas de salud mexicanos (IMSS, ISSSTE, sector privado). Dominas CIE-10 y nomenclatura médica mexicana.\n\nCLASIFICA en:\n- Nivel 1: Ambulatorio (consultas, laboratorio, dental)\n- Nivel 2: Hospitalario (cirugías programadas, hospitalizaciones ≤5 días)\n- Nivel 3: Alta especialidad (oncología, UCI, cardiovascular, trasplantes)\n\nCONFIANZA:\n- alta: diagnóstico claro, mapeo directo\n- media: diagnóstico genérico, requiere inferencia\n- baja: texto ambiguo, abreviado, no identificable\n\nRESPONDE EN JSON:\n{\"causa\": \"\", \"nivel\": 1|2|3, \"justificacion_medica\": \"\", \"cie10\": \"\", \"confianza\": \"alta|media|baja\"}",
-    "tools": ["Read", "Grep", "WebSearch"],
-    "model": "sonnet"
-  }
-}
-```
-
-## Workflow Rules
-- One phase = one context session
-- After completing phase: save outputs → `/clear`
-- Reference this CLAUDE.md + previous phase outputs when starting new phase
-- Use `/compact` with specific instructions if context gets long mid-phase
-
-## Code Standards
-- Variables and comments: Spanish
-- Document classification logic explicitly
-- Clean, executive-style visualizations
-- Use shadcn/ui for filter components
+- **All code outputs** (comments, CSV headers, web UI text, variable names): **Spanish**
 
 ## Commands
-```bash
-# Data processing
-python scripts/consolidate_data.py
-python scripts/extract_top_causes.py
-python scripts/classify_causes.py
-python scripts/train_model.py
 
-# Frontend
-cd web && npm run dev          # Local
-vercel deploy                  # Production
+```bash
+# Python data pipeline (run from project root)
+python scripts/consolidate_data.py         # Raw parquet -> consolidated
+python scripts/clean_causes.py             # Optional: normalize cause names
+python scripts/consolidate_training_set.py # Merge classification batches -> training_set.csv
+python scripts/train_model.py              # TF-IDF + Random Forest
+python scripts/classify_all_causes.py      # Apply model to all 9,409 causes
+python scripts/calculate_tarificacion.py   # Actuarial premium calculation
+
+# Generate frontend JSON from pipeline outputs
+python web/scripts/prepare-data.py
+
+# Frontend (Next.js)
+cd web && npm install
+cd web && npm run dev        # Dev server at localhost:3000
+cd web && npm run build      # Production build
+cd web && npm run lint        # ESLint
 ```
 
-## Web Pages (4 total)
-1. **Explorador Siniestros**: Filters + classification tab
-2. **Explorador Pólizas**: Portfolio analysis
-3. **Metodología**: Executive project explanation
-4. **Tarificador**: Calculate premium for new policy
+## Architecture
+
+### Data Pipeline
+
+```
+data/raw/*.xlsx (not in repo, ~316MB)
+  -> data/processed/*.parquet (10 files: {year}_{emision,siniestros})
+    -> data/consolidated/{siniestros,polizas}.parquet
+      -> data/labeled/training_set.csv (1,500 manually classified causes)
+        -> outputs/model/{clasificador,vectorizer}.joblib
+          -> data/classified/all_causes_classified.csv (9,409 causes)
+            -> outputs/tarificacion/primas_por_nivel_edad.csv (3 levels x 46 ages x 2 sexes)
+              -> web/data/*.json (6 files consumed by frontend)
+```
+
+### Frontend (Next.js 14 App Router)
+
+All pages are client components with local state only (useState/useMemo). No API routes -- all data is statically imported from `web/data/*.json`.
+
+**5 routes:**
+- `/siniestros` -- Claims explorer with filters (year, age, sex, level), charts (Recharts), paginated table
+- `/polizas` -- Policy explorer with stacked bar/pie/line charts
+- `/tarificador` -- Interactive premium calculator (age input -> premium by level)
+- `/metodologia` -- Static methodology documentation
+- `/contexto` -- Nota Tecnica summary with team info
+- `/` redirects to `/siniestros`
+
+**Key frontend files:**
+- `web/lib/constants.ts` -- Shared constants: nivel labels/colors, nav items, UI labels, formatting utilities
+- `web/lib/content.ts` -- Centralized Spanish educational content (TOOLTIPS, INSIGHT_PANELS, CALLOUTS)
+- `web/types/index.ts` -- TypeScript interfaces for all data shapes + default filter constants
+- `web/app/globals.css` -- shadcn/ui CSS variables + custom component classes
+- `web/components/layout/sidebar.tsx` -- Responsive sidebar (navy corporate style)
+- `web/components/ui/` -- Reusable components: PageHeader, MetricCard, ChartCard, DistributionCard, InsightPanel + shadcn/ui primitives
+- `web/components/filters/` -- FilterBar, YearToggle, NivelToggle
+- `web/components/charts/` -- NivelLineChart, DonutChart
+- `web/lib/hooks/use-filters.ts` -- Shared filter state hook
+
+**Data files (`web/data/`):**
+| File | Used by | Source |
+|------|---------|--------|
+| `siniestros-agregados.json` | /siniestros | prepare-data.py |
+| `resumen-general.json` | /siniestros | prepare-data.py |
+| `primas-nivel-edad.json` | /siniestros, /tarificador | prepare-data.py |
+| `polizas-agregadas.json` | /polizas | prepare-data.py |
+| `polizas-resumen-anual.json` | /polizas | prepare-data.py |
+| `polizas-por-banda.json` | /polizas | prepare-data.py |
+
+### Classification Levels
+
+| Nivel | Descripcion | Ejemplos |
+|-------|-------------|----------|
+| 1 | Ambulatorio/prevencion | Consultas, laboratorio, dental |
+| 2 | Hospital/cirugia programada | Cesareas, vesicula, fracturas |
+| 3 | Alta especialidad/emergencias | Cancer, UCI, infartos, trasplantes |
+
+### ML Model
+
+- TF-IDF (ngrams 1-3, 5000 features) + Random Forest (200 trees, balanced weights)
+- Trained on 1,500 manually labeled causes (alta confidence only -> 976 train / 244 test)
+- **Actual accuracy: ~59% (F1-macro: 58.8%)**
+- Classifies 9,409 unique medical causes into 3 levels
+
+### Actuarial Calculation
+
+- Age range: 25-70 (46 individual ages)
+- Inflation adjustment factors: {2020: 1.41, 2021: 1.30, 2022: 1.20, 2023: 1.10, 2024: 1.00}
+- Monthly premium factor uses TIIE 10% annual rate
+- Credibility threshold: minimum 30 claims per cell
+- Gastos/Utilidad: Prima Tarifa = Prima Riesgo / (1 - 0.20 - 0.10 - 0.10)
+- Reference doc: `docs/tarificacion_colectivo_mexico.md`
+
+## 2020 Data Schema Warning
+
+The 2020 Excel/parquet files have a different schema from 2021-2024. `consolidate_data.py` handles this by computing `MONTO_PAGADO` from itemized components and adding NULL columns for missing fields. Any new script touching raw data must account for this.
+
+## Code Standards
+
+- Spanish for all user-facing text, variable names, and comments
+- Executive-style visualizations (clean, minimal)
+- Tailwind CSS with custom nivel color tokens (`nivel.ambulatorio`, `nivel.hospitalario`, `nivel.especialidad`)
+- Use the `cn()` utility from `web/lib/utils.ts` for conditional class merging
+
+### UI Design System
+
+- shadcn/ui primitives (Button, Card, Select, Slider, Tabs, Tooltip, Badge, Dialog, Separator)
+- Corporate/insurance palette: navy (slate-800/900), blue-700 accent, cool gray surfaces
+- Nivel semantic colors: emerald-600 (ambulatorio), amber-600 (hospitalario), rose-600 (especialidad)
+- Guided exploration: tooltips and collapsible InsightPanels on every data page
+
+## Known Issues
+
+- Model accuracy (59%) needs improvement
+- No tests exist for Python scripts or React components

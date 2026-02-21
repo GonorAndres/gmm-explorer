@@ -27,14 +27,7 @@ const ICONOS: Record<string, React.ElementType> = {
 }
 
 /**
- * Sidebar de navegación principal - Responsive
- *
- * Muestra los 5 módulos del sistema:
- * - Explorador de Siniestros
- * - Explorador de Pólizas
- * - Metodología
- * - Tarificador
- * - Contexto (Nota Técnica)
+ * Sidebar de navegación -- estilo corporativo navy
  */
 export function Sidebar() {
   const pathname = usePathname()
@@ -48,13 +41,13 @@ export function Sidebar() {
       {/* Botón hamburguesa - Solo visible en móvil */}
       <button
         onClick={toggleSidebar}
-        className="lg:hidden fixed top-4 left-4 z-50 p-2 bg-white rounded-lg shadow-md border border-gray-200 hover:bg-gray-50 transition-colors"
-        aria-label="Abrir menú"
+        className="lg:hidden fixed top-4 left-4 z-50 p-2 bg-slate-800 rounded-lg shadow-md hover:bg-slate-700 transition-colors"
+        aria-label="Abrir menu"
       >
         {isOpen ? (
-          <X className="w-6 h-6 text-gray-700" />
+          <X className="w-6 h-6 text-white" />
         ) : (
-          <Menu className="w-6 h-6 text-gray-700" />
+          <Menu className="w-6 h-6 text-white" />
         )}
       </button>
 
@@ -69,29 +62,30 @@ export function Sidebar() {
       {/* Sidebar */}
       <aside
         className={cn(
-          'w-64 bg-white border-r border-gray-200 h-screen flex flex-col z-40',
-          // Desktop: siempre visible y sticky
+          'w-64 bg-slate-900 h-screen flex flex-col z-40',
           'lg:sticky lg:top-0 lg:translate-x-0',
-          // Mobile: fixed y animado
           'fixed top-0 left-0 transition-transform duration-300 ease-in-out',
           isOpen ? 'translate-x-0' : '-translate-x-full lg:translate-x-0'
         )}
       >
         {/* Logo y título */}
-        <div className="p-6 border-b border-gray-200">
+        <div className="p-6 border-b border-slate-700/50">
           <div className="flex items-center gap-3">
             <div className="w-10 h-10 bg-blue-600 rounded-lg flex items-center justify-center">
               <Activity className="w-6 h-6 text-white" />
             </div>
             <div>
-              <h1 className="font-bold text-gray-900">Explorador GMM</h1>
-              <p className="text-xs text-gray-500">Proyecto Escolar • AAR 2026-1</p>
+              <h1 className="font-bold text-white">Explorador GMM</h1>
+              <p className="text-xs text-slate-400">AAR 2026-1 -- UNAM</p>
             </div>
           </div>
         </div>
 
         {/* Navegación */}
-        <nav className="flex-1 p-4 overflow-y-auto">
+        <nav className="flex-1 p-4 overflow-y-auto scrollbar-thin">
+          <p className="text-[10px] font-semibold text-slate-500 uppercase tracking-wider mb-3 px-3">
+            Modulos
+          </p>
           <ul className="space-y-1">
             {NAV_ITEMS.map((item) => {
               const Icono = ICONOS[item.icono] || FileSearch
@@ -104,10 +98,10 @@ export function Sidebar() {
                     href={item.href}
                     onClick={closeSidebar}
                     className={cn(
-                      'flex items-center gap-3 px-4 py-3 rounded-lg text-sm font-medium transition-colors',
+                      'flex items-center gap-3 px-3 py-2.5 rounded-lg text-sm transition-colors',
                       isActive
-                        ? 'bg-blue-50 text-blue-700 border border-blue-200'
-                        : 'text-gray-600 hover:bg-gray-50 hover:text-gray-900'
+                        ? 'bg-blue-600/20 text-blue-300 font-medium'
+                        : 'text-slate-400 hover:bg-slate-800 hover:text-slate-200'
                     )}
                   >
                     <Icono className="w-5 h-5" />
@@ -120,21 +114,21 @@ export function Sidebar() {
         </nav>
 
         {/* Footer del sidebar */}
-        <div className="p-4 border-t border-gray-200 space-y-3">
-          <div className="bg-gray-50 rounded-lg p-4">
-            <p className="text-xs text-gray-500 mb-2">Versión 1.0</p>
-            <p className="text-xs text-gray-400">
-              Sistema de clasificación y tarificación de siniestros GMM
+        <div className="p-4 border-t border-slate-700/50 space-y-3">
+          <div className="bg-slate-800/60 rounded-lg p-3">
+            <p className="text-xs text-slate-500">Datos CNSF 2020-2024</p>
+            <p className="text-[10px] text-slate-600 mt-0.5">
+              Gastos Medicos Mayores Colectivo
             </p>
           </div>
           <a
             href="https://github.com/GonorAndres/gmm-explorer"
             target="_blank"
             rel="noopener noreferrer"
-            className="flex items-center gap-2 text-xs text-gray-500 hover:text-gray-700 transition-colors"
+            className="flex items-center gap-2 text-xs text-slate-500 hover:text-slate-300 transition-colors px-1"
           >
             <Github className="w-4 h-4" />
-            <span>Sugerencias y aportaciones</span>
+            <span>Ver en GitHub</span>
           </a>
         </div>
       </aside>

@@ -1,6 +1,6 @@
 ======================================================================
 REPORTE DE TARIFICACIÓN GMM - FASE 3
-Generado: 2025-12-06 15:50:52
+Generado: 2026-02-21 07:26:59
 ======================================================================
 
 1. RESUMEN DE DATOS DE ENTRADA
@@ -16,43 +16,45 @@ Generado: 2025-12-06 15:50:52
    Monto ajustado (2024): $213,594,576,256
    Incremento por inflación: +18.9%
 
-3. PRIMAS DE RIESGO POR NIVEL (ANUALES)
+3. PRIMAS DE RIESGO POR NIVEL Y SEXO (ANUALES)
 ----------------------------------------
-   Nivel                Frecuencia      Severidad    Prima Anual  % Monto
-   ------------------------------------------------------------------
-   Ambulatorio              0.0180 $       28,773 $          516    23.2%
-   Hospitalario             0.0147 $       78,058 $        1,149    51.6%
-   Alta Especialidad        0.0050 $      111,515 $          563    25.3%
-   ------------------------------------------------------------------
-   TOTAL                                          $        2,228
+   Nivel                Sexo         Frecuencia      Severidad     P.Riesgo     P.Tarifa
+   --------------------------------------------------------------------------------
+   Ambulatorio          Femenino         0.0201 $       26,368 $        530 $        884
+   Ambulatorio          Masculino        0.0162 $       31,147 $        505 $        842
+   Hospitalario         Femenino         0.0176 $       71,354 $      1,257 $      2,094
+   Hospitalario         Masculino        0.0124 $       85,631 $      1,063 $      1,772
+   Alta Especialidad    Femenino         0.0051 $      108,904 $        550 $        917
+   Alta Especialidad    Masculino        0.0050 $      113,601 $        572 $        954
+   --------------------------------------------------------------------------------
+
+   Factor retención: 0.60 (1 - 0.2 - 0.1 - 0.1)
 
 4. PRIMAS MENSUALES 2025 (CON FACTOR DE DESCUENTO)
 ----------------------------------------
    Tasa de descuento anual: 10.0%
    Factor de conversión mensual: 0.087916
-   Fórmula: Prima Mensual = Prima Anual × 0.087916
 
-   Nivel                   Prima Anual  Prima Mensual
-   ------------------------------------------------
-   Ambulatorio          $       516.48 $        45.41
-   Hospitalario         $     1,148.80 $       101.00
-   Alta Especialidad    $       562.52 $        49.45
-   ------------------------------------------------
-   TOTAL                $     2,227.81 $       195.86
+   Nivel                Sexo          P.Riesgo Mens  P.Tarifa Mens
+   ------------------------------------------------------------
+   Ambulatorio          Femenino     $        46.64 $        77.73
+   Ambulatorio          Masculino    $        44.43 $        74.05
+   Hospitalario         Femenino     $       110.47 $       184.12
+   Hospitalario         Masculino    $        93.46 $       155.76
+   Alta Especialidad    Femenino     $        48.38 $        80.64
+   Alta Especialidad    Masculino    $        50.31 $        83.85
+   ------------------------------------------------------------
 
-   Nota: La prima mensual considera el valor del dinero en el tiempo.
-         Un pago mensual es ~5.5% más caro que el pago anual único.
-
-5. MATRIZ NIVEL × EDAD (25-70)
+5. MATRIZ NIVEL × EDAD × SEXO (25-70)
 ----------------------------------------
-   Celdas totales: 138
-   Celdas con datos: 138 (100.0%)
-   Celdas credibles (≥30 sin.): 138 (100.0%)
+   Celdas totales: 276 (3 niveles × 46 edades × 2 sexos)
+   Celdas con datos: 276 (100.0%)
+   Celdas credibles (≥30 sin.): 276 (100.0%)
 
-   Rango de primas por nivel:
-   - Ambulatorio: $305 - $1,834
-   - Hospitalario: $604 - $3,362
-   - Alta Especialidad: $158 - $3,455
+   Rango de primas de riesgo por nivel:
+   - Ambulatorio: $264 - $2,251
+   - Hospitalario: $493 - $3,640
+   - Alta Especialidad: $148 - $3,991
 
 6. VALIDACIONES
 ----------------------------------------
@@ -60,9 +62,9 @@ Generado: 2025-12-06 15:50:52
 
 7. ARCHIVOS GENERADOS
 ----------------------------------------
-   - /mnt/c/Users/andre/OneDrive/Documentos/NotasalPie/Semestre 2026-01/AAR/Proyecto/version_final/outputs/tarificacion/primas_por_nivel.csv
-   - /mnt/c/Users/andre/OneDrive/Documentos/NotasalPie/Semestre 2026-01/AAR/Proyecto/version_final/outputs/tarificacion/primas_por_nivel_edad.csv
-   - /mnt/c/Users/andre/OneDrive/Documentos/NotasalPie/Semestre 2026-01/AAR/Proyecto/version_final/outputs/tarificacion/reporte_tarificacion.txt
+   - /home/andre/arr-proyect/gmm-explorer/outputs/tarificacion/primas_por_nivel.csv
+   - /home/andre/arr-proyect/gmm-explorer/outputs/tarificacion/primas_por_nivel_edad.csv
+   - /home/andre/arr-proyect/gmm-explorer/outputs/tarificacion/reporte_tarificacion.txt
 
 ======================================================================
 FIN DEL REPORTE

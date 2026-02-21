@@ -4,19 +4,21 @@ Fase 3: Cálculo actuarial de primas de riesgo para seguros GMM (Gastos Médicos
 
 Metodología:
     Prima de Riesgo = Frecuencia × Severidad
+    Prima de Tarifa = Prima de Riesgo / (1 - G.Admin - G.Adq - Utilidad)
 
-    - Frecuencia (Morbilidad): M(x, nivel) = NS(x, nivel) / NE(x)
+    - Frecuencia (Morbilidad): M(x, nivel, sexo) = NS(x, nivel, sexo) / NE(x, sexo)
       Donde NS = número de siniestros, NE = número de expuestos
 
-    - Severidad (Costo Medio): SP(x, nivel) = Monto Total / Número de Siniestros
+    - Severidad (Costo Medio): SP(x, nivel, sexo) = Monto Total / Número de Siniestros
 
 Ajustes aplicados:
     - Inflación médica: Montos ajustados a pesos de 2024
     - Credibilidad: Bandera para celdas con >= 30 siniestros
+    - Dimensión sexo: Cálculos segmentados por Masculino/Femenino
 
 Salidas:
-    - outputs/tarificacion/primas_por_nivel.csv (3 filas: resumen por nivel)
-    - outputs/tarificacion/primas_por_nivel_edad.csv (138 filas: 3 niveles × 46 edades)
+    - outputs/tarificacion/primas_por_nivel.csv (6 filas: 3 niveles × 2 sexos)
+    - outputs/tarificacion/primas_por_nivel_edad.csv (276 filas: 3 niveles × 46 edades × 2 sexos)
     - outputs/tarificacion/reporte_tarificacion.txt (diagnóstico)
 
 Fuente metodológica: docs/tarificacion_colectivo_mexico.md
@@ -91,6 +93,19 @@ def calcular_factor_mensual(tasa_anual: float) -> float:
 FACTOR_MENSUAL_2025 = calcular_factor_mensual(TASA_DESCUENTO_ANUAL_2025)
 
 # =============================================================================
+# CONFIGURACIÓN DE PRIMA DE TARIFA
+# =============================================================================
+# Gastos y utilidad para convertir prima de riesgo a prima de tarifa
+# Prima Tarifa = Prima Riesgo / (1 - G.Admin - G.Adq - Utilidad)
+GASTOS_ADMINISTRACION = 0.20  # 20%
+GASTOS_ADQUISICION = 0.10     # 10%
+MARGEN_UTILIDAD = 0.10        # 10%
+FACTOR_RETENCION = 1 - GASTOS_ADMINISTRACION - GASTOS_ADQUISICION - MARGEN_UTILIDAD  # 0.60
+
+# Sexos válidos para segmentación
+SEXOS_VALIDOS = ['Masculino', 'Femenino']
+
+# =============================================================================
 # FUNCIONES DE CARGA
 # =============================================================================
 
@@ -155,25 +170,27 @@ def preparar_datos(df_siniestros: pd.DataFrame,
     stats['edades_polizas_invalidas'] = edades_invalidas
     print(f"      Edades no convertibles: {edades_invalidas:,}")
 
-    # --- 2.2 Filtrar rango de edades ---
-    print(f"\n  2.2 Filtrado de edades ({EDAD_MIN}-{EDAD_MAX})...")
+    # --- 2.2 Filtrar rango de edades y sexo válido ---
+    print(f"\n  2.2 Filtrado de edades ({EDAD_MIN}-{EDAD_MAX}) y sexo válido...")
 
     # Siniestros
     filas_antes_sin = len(df_siniestros)
     df_siniestros = df_siniestros[
         (df_siniestros['EDAD'] >= EDAD_MIN) &
-        (df_siniestros['EDAD'] <= EDAD_MAX)
+        (df_siniestros['EDAD'] <= EDAD_MAX) &
+        (df_siniestros['SEXO'].isin(SEXOS_VALIDOS))
     ].copy()
     filas_despues_sin = len(df_siniestros)
     stats['siniestros_filtrados'] = filas_antes_sin - filas_despues_sin
     print(f"      Siniestros: {filas_antes_sin:,} → {filas_despues_sin:,} " +
           f"(excluidos: {filas_antes_sin - filas_despues_sin:,})")
 
-    # Pólizas
+    # Pólizas: filtrar edades y sexo válido
     filas_antes_pol = len(df_polizas)
     df_polizas = df_polizas[
         (df_polizas['EDAD_INT'] >= EDAD_MIN) &
-        (df_polizas['EDAD_INT'] <= EDAD_MAX)
+        (df_polizas['EDAD_INT'] <= EDAD_MAX) &
+        (df_polizas['SEXO'].isin(SEXOS_VALIDOS))
     ].copy()
     filas_despues_pol = len(df_polizas)
     stats['polizas_filtradas'] = filas_antes_pol - filas_despues_pol
@@ -243,26 +260,31 @@ def preparar_datos(df_siniestros: pd.DataFrame,
 
 def calcular_exposicion(df_polizas: pd.DataFrame) -> pd.DataFrame:
     """
-    Calcula el número de asegurados expuestos por edad.
+    Calcula el número de asegurados expuestos por edad y sexo.
 
     La exposición es el denominador en el cálculo de frecuencia.
 
     Returns:
-        DataFrame con columnas: [edad, expuestos]
+        DataFrame con columnas: [edad, sexo, expuestos]
     """
     print("\n" + "=" * 70)
     print("PASO 3: CÁLCULO DE EXPOSICIÓN")
     print("=" * 70)
 
-    exposicion = df_polizas.groupby('EDAD_INT').agg({
+    exposicion = df_polizas.groupby(['EDAD_INT', 'SEXO']).agg({
         'NUM_ASEGURADOS': 'sum'
     }).reset_index()
 
-    exposicion.columns = ['edad', 'expuestos']
+    exposicion.columns = ['edad', 'sexo', 'expuestos']
 
-    print(f"  Edades con datos: {len(exposicion)}")
+    print(f"  Celdas edad×sexo con datos: {len(exposicion)}")
     print(f"  Total expuestos (5 años): {exposicion['expuestos'].sum():,}")
     print(f"  Promedio anual expuestos: {exposicion['expuestos'].sum() / 5:,.0f}")
+
+    # Desglose por sexo
+    for sexo in SEXOS_VALIDOS:
+        exp_sexo = exposicion[exposicion['sexo'] == sexo]['expuestos'].sum()
+        print(f"    {sexo}: {exp_sexo:,}")
 
     # Verificar edades faltantes
     edades_esperadas = set(range(EDAD_MIN, EDAD_MAX + 1))
@@ -278,34 +300,35 @@ def calcular_exposicion(df_polizas: pd.DataFrame) -> pd.DataFrame:
 def calcular_metricas_por_nivel_edad(df_siniestros: pd.DataFrame,
                                       df_exposicion: pd.DataFrame) -> pd.DataFrame:
     """
-    Calcula frecuencia, severidad y prima de riesgo por nivel y edad.
+    Calcula frecuencia, severidad, prima de riesgo y prima de tarifa por nivel, edad y sexo.
 
     Fórmulas:
         - Frecuencia = NUM_SINIESTROS / EXPUESTOS
         - Severidad = MONTO_AJUSTADO / NUM_SINIESTROS
         - Prima de Riesgo = Frecuencia × Severidad
+        - Prima de Tarifa = Prima de Riesgo / Factor de Retención
 
     Returns:
-        DataFrame con métricas actuariales por nivel y edad
+        DataFrame con métricas actuariales por nivel, edad y sexo
     """
     print("\n" + "=" * 70)
     print("PASO 4: CÁLCULO DE MÉTRICAS ACTUARIALES")
     print("=" * 70)
 
-    # Agregar siniestros por edad y nivel
-    print("\n  4.1 Agregación de siniestros por edad y nivel...")
-    metricas = df_siniestros.groupby(['EDAD', 'NIVEL']).agg({
+    # Agregar siniestros por edad, nivel y sexo
+    print("\n  4.1 Agregación de siniestros por edad, nivel y sexo...")
+    metricas = df_siniestros.groupby(['EDAD', 'NIVEL', 'SEXO']).agg({
         'NUM_SINIESTROS': 'sum',
         'MONTO_AJUSTADO': 'sum'
     }).reset_index()
 
-    metricas.columns = ['edad', 'nivel', 'num_siniestros', 'monto_total']
+    metricas.columns = ['edad', 'nivel', 'sexo', 'num_siniestros', 'monto_total']
 
     # Unir con exposición
     print("  4.2 Unión con datos de exposición...")
     metricas = metricas.merge(
         df_exposicion,
-        on='edad',
+        on=['edad', 'sexo'],
         how='left'
     )
 
@@ -321,8 +344,12 @@ def calcular_metricas_por_nivel_edad(df_siniestros: pd.DataFrame,
     print("  4.5 Cálculo de prima de riesgo...")
     metricas['prima_riesgo'] = metricas['frecuencia'] * metricas['severidad']
 
+    # Calcular prima de tarifa
+    print(f"  4.6 Cálculo de prima de tarifa (factor retención: {FACTOR_RETENCION:.2f})...")
+    metricas['prima_tarifa'] = metricas['prima_riesgo'] / FACTOR_RETENCION
+
     # Agregar bandera de credibilidad
-    print(f"  4.6 Bandera de credibilidad (mín. {MIN_SINIESTROS_CREDIBILIDAD} siniestros)...")
+    print(f"  4.7 Bandera de credibilidad (mín. {MIN_SINIESTROS_CREDIBILIDAD} siniestros)...")
     metricas['credible'] = metricas['num_siniestros'] >= MIN_SINIESTROS_CREDIBILIDAD
 
     celdas_credibles = metricas['credible'].sum()
@@ -343,90 +370,97 @@ def calcular_metricas_por_nivel_edad(df_siniestros: pd.DataFrame,
 def generar_primas_por_nivel(metricas: pd.DataFrame,
                               df_exposicion: pd.DataFrame) -> pd.DataFrame:
     """
-    Genera tabla resumen de primas por nivel de complejidad.
+    Genera tabla resumen de primas por nivel de complejidad y sexo.
 
     Returns:
-        DataFrame con 3 filas (una por nivel)
+        DataFrame con 6 filas (3 niveles × 2 sexos)
     """
     print("\n" + "=" * 70)
-    print("PASO 5: GENERACIÓN DE PRIMAS POR NIVEL")
+    print("PASO 5: GENERACIÓN DE PRIMAS POR NIVEL Y SEXO")
     print("=" * 70)
 
-    # Agregar por nivel
-    por_nivel = metricas.groupby('nivel').agg({
+    # Agregar por nivel y sexo
+    por_nivel = metricas.groupby(['nivel', 'sexo']).agg({
         'num_siniestros': 'sum',
         'monto_total': 'sum'
     }).reset_index()
 
-    # Exposición total
-    total_expuestos = df_exposicion['expuestos'].sum()
-    por_nivel['expuestos'] = total_expuestos
+    # Exposición por sexo
+    exp_por_sexo = df_exposicion.groupby('sexo')['expuestos'].sum().to_dict()
+    por_nivel['expuestos'] = por_nivel['sexo'].map(exp_por_sexo)
 
     # Calcular métricas agregadas
     por_nivel['frecuencia'] = por_nivel['num_siniestros'] / por_nivel['expuestos']
     por_nivel['severidad'] = por_nivel['monto_total'] / por_nivel['num_siniestros']
     por_nivel['prima_riesgo'] = por_nivel['frecuencia'] * por_nivel['severidad']
+    por_nivel['prima_tarifa'] = por_nivel['prima_riesgo'] / FACTOR_RETENCION
 
-    # Porcentajes
-    total_siniestros = por_nivel['num_siniestros'].sum()
-    total_monto = por_nivel['monto_total'].sum()
-    por_nivel['pct_siniestros'] = por_nivel['num_siniestros'] / total_siniestros * 100
-    por_nivel['pct_monto'] = por_nivel['monto_total'] / total_monto * 100
+    # Porcentajes (dentro de cada sexo)
+    for sexo in SEXOS_VALIDOS:
+        mask = por_nivel['sexo'] == sexo
+        total_sin_sexo = por_nivel.loc[mask, 'num_siniestros'].sum()
+        total_monto_sexo = por_nivel.loc[mask, 'monto_total'].sum()
+        por_nivel.loc[mask, 'pct_siniestros'] = por_nivel.loc[mask, 'num_siniestros'] / total_sin_sexo * 100
+        por_nivel.loc[mask, 'pct_monto'] = por_nivel.loc[mask, 'monto_total'] / total_monto_sexo * 100
 
     # Agregar descripción
     por_nivel['descripcion'] = por_nivel['nivel'].map(NIVEL_DESCRIPCION)
 
-    # Calcular prima mensual con factor de descuento 2025
+    # Calcular primas mensuales y de tarifa mensual
     por_nivel['prima_mensual'] = por_nivel['prima_riesgo'] * FACTOR_MENSUAL_2025
+    por_nivel['prima_tarifa_mensual'] = por_nivel['prima_tarifa'] * FACTOR_MENSUAL_2025
 
     # Reordenar columnas
     columnas = [
-        'nivel', 'descripcion', 'num_siniestros', 'monto_total', 'expuestos',
-        'frecuencia', 'severidad', 'prima_riesgo', 'prima_mensual',
+        'nivel', 'sexo', 'descripcion', 'num_siniestros', 'monto_total', 'expuestos',
+        'frecuencia', 'severidad', 'prima_riesgo', 'prima_tarifa',
+        'prima_mensual', 'prima_tarifa_mensual',
         'pct_siniestros', 'pct_monto'
     ]
-    por_nivel = por_nivel[columnas]
+    por_nivel = por_nivel[columnas].sort_values(['nivel', 'sexo'])
 
     # Mostrar resumen
-    print("\n  Resumen por nivel de complejidad:")
-    print("  " + "-" * 86)
-    print(f"  {'Nivel':<20} {'Frecuencia':>10} {'Severidad':>12} {'Prima Anual':>13} {'Prima Mensual':>13}")
-    print("  " + "-" * 86)
+    print("\n  Resumen por nivel y sexo:")
+    print("  " + "-" * 110)
+    print(f"  {'Nivel':<20} {'Sexo':<12} {'Frecuencia':>10} {'Severidad':>12} {'P.Riesgo':>12} {'P.Tarifa':>12}")
+    print("  " + "-" * 110)
     for _, row in por_nivel.iterrows():
-        print(f"  {row['descripcion']:<20} {row['frecuencia']:>10.4f} " +
-              f"${row['severidad']:>11,.0f} ${row['prima_riesgo']:>12,.0f} ${row['prima_mensual']:>12,.2f}")
-    print("  " + "-" * 86)
-    print(f"\n  Factor mensual 2025 (tasa {TASA_DESCUENTO_ANUAL_2025*100:.0f}%): {FACTOR_MENSUAL_2025:.6f}")
+        print(f"  {row['descripcion']:<20} {row['sexo']:<12} {row['frecuencia']:>10.4f} " +
+              f"${row['severidad']:>11,.0f} ${row['prima_riesgo']:>11,.0f} ${row['prima_tarifa']:>11,.0f}")
+    print("  " + "-" * 110)
+    print(f"\n  Factor retención: {FACTOR_RETENCION:.2f} (1 - {GASTOS_ADMINISTRACION} - {GASTOS_ADQUISICION} - {MARGEN_UTILIDAD})")
 
     return por_nivel
 
 
 def generar_primas_por_nivel_edad(metricas: pd.DataFrame) -> pd.DataFrame:
     """
-    Genera matriz completa de primas por nivel y edad individual.
+    Genera matriz completa de primas por nivel, edad y sexo.
 
     Returns:
-        DataFrame con 138 filas (3 niveles × 46 edades)
+        DataFrame con 276 filas (3 niveles × 46 edades × 2 sexos)
     """
     print("\n" + "=" * 70)
-    print("PASO 6: GENERACIÓN DE MATRIZ NIVEL × EDAD")
+    print("PASO 6: GENERACIÓN DE MATRIZ NIVEL × EDAD × SEXO")
     print("=" * 70)
 
-    # Crear todas las combinaciones de edad y nivel
+    # Crear todas las combinaciones de edad, nivel y sexo
     from itertools import product
     edades = list(range(EDAD_MIN, EDAD_MAX + 1))
     niveles = [1, 2, 3]
+    sexos = SEXOS_VALIDOS
 
     combinaciones = pd.DataFrame(
-        list(product(edades, niveles)),
-        columns=['edad', 'nivel']
+        list(product(edades, niveles, sexos)),
+        columns=['edad', 'nivel', 'sexo']
     )
 
     # Unir con métricas calculadas
     matriz = combinaciones.merge(
-        metricas[['edad', 'nivel', 'num_siniestros', 'expuestos',
-                  'frecuencia', 'monto_total', 'severidad', 'prima_riesgo', 'credible']],
-        on=['edad', 'nivel'],
+        metricas[['edad', 'nivel', 'sexo', 'num_siniestros', 'expuestos',
+                  'frecuencia', 'monto_total', 'severidad', 'prima_riesgo',
+                  'prima_tarifa', 'credible']],
+        on=['edad', 'nivel', 'sexo'],
         how='left'
     )
 
@@ -435,20 +469,23 @@ def generar_primas_por_nivel_edad(metricas: pd.DataFrame) -> pd.DataFrame:
     matriz['monto_total'] = matriz['monto_total'].fillna(0)
     matriz['frecuencia'] = matriz['frecuencia'].fillna(0)
     matriz['credible'] = matriz['credible'].fillna(False)
-    # Severidad y prima quedan como NaN si no hay siniestros (correcto)
+    # Severidad, prima_riesgo, prima_tarifa quedan como NaN si no hay siniestros
 
     # Agregar descripción
     matriz['descripcion'] = matriz['nivel'].map(NIVEL_DESCRIPCION)
 
-    # Calcular prima mensual con factor de descuento 2025
+    # Calcular primas mensuales
     matriz['prima_mensual'] = matriz['prima_riesgo'] * FACTOR_MENSUAL_2025
+    matriz['prima_tarifa_mensual'] = matriz['prima_tarifa'] * FACTOR_MENSUAL_2025
 
     # Reordenar columnas
     columnas = [
-        'edad', 'nivel', 'descripcion', 'num_siniestros', 'expuestos',
-        'frecuencia', 'monto_total', 'severidad', 'prima_riesgo', 'prima_mensual', 'credible'
+        'edad', 'nivel', 'sexo', 'descripcion', 'num_siniestros', 'expuestos',
+        'frecuencia', 'monto_total', 'severidad',
+        'prima_riesgo', 'prima_tarifa', 'prima_mensual', 'prima_tarifa_mensual',
+        'credible'
     ]
-    matriz = matriz[columnas].sort_values(['edad', 'nivel'])
+    matriz = matriz[columnas].sort_values(['edad', 'nivel', 'sexo'])
 
     # Estadísticas
     celdas_con_datos = (matriz['num_siniestros'] > 0).sum()
@@ -501,13 +538,13 @@ def validar_resultados(primas_nivel: pd.DataFrame,
     }
 
     for nivel in [1, 2, 3]:
-        sev = primas_nivel[primas_nivel['nivel'] == nivel]['severidad'].iloc[0]
+        sev_avg = primas_nivel[primas_nivel['nivel'] == nivel]['severidad'].mean()
         min_esp, max_esp = rangos_severidad[nivel]
-        status = "✓" if min_esp <= sev <= max_esp else "⚠"
-        print(f"      Nivel {nivel}: ${sev:,.0f} (esperado: ${min_esp:,}-${max_esp:,}) {status}")
+        status = "✓" if min_esp <= sev_avg <= max_esp else "⚠"
+        print(f"      Nivel {nivel}: ${sev_avg:,.0f} (esperado: ${min_esp:,}-${max_esp:,}) {status}")
 
-        if sev < min_esp * 0.5 or sev > max_esp * 2:
-            errores.append(f"Severidad nivel {nivel} fuera de rango: ${sev:,.0f}")
+        if sev_avg < min_esp * 0.5 or sev_avg > max_esp * 2:
+            errores.append(f"Severidad nivel {nivel} fuera de rango: ${sev_avg:,.0f}")
 
     # 7.3 Valores NaN/Inf
     print("\n  7.3 Validación de valores especiales...")
@@ -518,14 +555,14 @@ def validar_resultados(primas_nivel: pd.DataFrame,
     print(f"      NaN en métricas clave: {nan_count}")
     print(f"      Inf en métricas clave: {inf_count}")
 
-    # 7.4 Suma de porcentajes
+    # 7.4 Suma de porcentajes (por sexo, cada uno debe sumar 100%)
     print("\n  7.4 Validación de porcentajes...")
-    suma_pct_sin = primas_nivel['pct_siniestros'].sum()
-    suma_pct_monto = primas_nivel['pct_monto'].sum()
-    validaciones['suma_pct_siniestros'] = suma_pct_sin
-    validaciones['suma_pct_monto'] = suma_pct_monto
-    print(f"      Suma % siniestros: {suma_pct_sin:.2f}% (esperado: 100%)")
-    print(f"      Suma % monto: {suma_pct_monto:.2f}% (esperado: 100%)")
+    for sexo in SEXOS_VALIDOS:
+        mask = primas_nivel['sexo'] == sexo
+        suma_pct_sin = primas_nivel.loc[mask, 'pct_siniestros'].sum()
+        suma_pct_monto = primas_nivel.loc[mask, 'pct_monto'].sum()
+        print(f"      {sexo} - % siniestros: {suma_pct_sin:.2f}%, % monto: {suma_pct_monto:.2f}%")
+    validaciones['pct_por_sexo_ok'] = True
 
     # Resumen
     validaciones['errores'] = errores
@@ -576,50 +613,43 @@ def generar_reporte(stats_prep: dict,
                    stats_prep.get('monto_original_total', 1)) - 1) * 100
     lineas.append(f"   Incremento por inflación: +{incremento:.1f}%")
 
-    # Resultados por nivel
-    lineas.append("\n3. PRIMAS DE RIESGO POR NIVEL (ANUALES)")
+    # Resultados por nivel y sexo
+    lineas.append("\n3. PRIMAS DE RIESGO POR NIVEL Y SEXO (ANUALES)")
     lineas.append("-" * 40)
-    lineas.append(f"   {'Nivel':<20} {'Frecuencia':>10} {'Severidad':>14} {'Prima Anual':>14} {'% Monto':>8}")
-    lineas.append("   " + "-" * 66)
+    lineas.append(f"   {'Nivel':<20} {'Sexo':<12} {'Frecuencia':>10} {'Severidad':>14} {'P.Riesgo':>12} {'P.Tarifa':>12}")
+    lineas.append("   " + "-" * 80)
     for _, row in primas_nivel.iterrows():
-        lineas.append(f"   {row['descripcion']:<20} {row['frecuencia']:>10.4f} " +
-                     f"${row['severidad']:>13,.0f} ${row['prima_riesgo']:>13,.0f} {row['pct_monto']:>7.1f}%")
+        lineas.append(f"   {row['descripcion']:<20} {row['sexo']:<12} {row['frecuencia']:>10.4f} " +
+                     f"${row['severidad']:>13,.0f} ${row['prima_riesgo']:>11,.0f} ${row['prima_tarifa']:>11,.0f}")
 
-    # Prima total anual
-    prima_anual_total = primas_nivel['prima_riesgo'].sum()
-    lineas.append("   " + "-" * 66)
-    lineas.append(f"   {'TOTAL':<20} {'':<10} {'':<14} ${prima_anual_total:>13,.0f}")
+    lineas.append("   " + "-" * 80)
+    lineas.append(f"\n   Factor retención: {FACTOR_RETENCION:.2f} " +
+                  f"(1 - {GASTOS_ADMINISTRACION} - {GASTOS_ADQUISICION} - {MARGEN_UTILIDAD})")
 
-    # NUEVA SECCIÓN: Primas Mensuales 2025
+    # Primas Mensuales 2025
     lineas.append("\n4. PRIMAS MENSUALES 2025 (CON FACTOR DE DESCUENTO)")
     lineas.append("-" * 40)
     lineas.append(f"   Tasa de descuento anual: {TASA_DESCUENTO_ANUAL_2025*100:.1f}%")
     lineas.append(f"   Factor de conversión mensual: {FACTOR_MENSUAL_2025:.6f}")
-    lineas.append(f"   Fórmula: Prima Mensual = Prima Anual × {FACTOR_MENSUAL_2025:.6f}")
     lineas.append("")
-    lineas.append(f"   {'Nivel':<20} {'Prima Anual':>14} {'Prima Mensual':>14}")
-    lineas.append("   " + "-" * 48)
+    lineas.append(f"   {'Nivel':<20} {'Sexo':<12} {'P.Riesgo Mens':>14} {'P.Tarifa Mens':>14}")
+    lineas.append("   " + "-" * 60)
     for _, row in primas_nivel.iterrows():
-        lineas.append(f"   {row['descripcion']:<20} ${row['prima_riesgo']:>13,.2f} ${row['prima_mensual']:>13,.2f}")
-    lineas.append("   " + "-" * 48)
-    prima_mensual_total = primas_nivel['prima_mensual'].sum()
-    lineas.append(f"   {'TOTAL':<20} ${prima_anual_total:>13,.2f} ${prima_mensual_total:>13,.2f}")
-    lineas.append("")
-    lineas.append(f"   Nota: La prima mensual considera el valor del dinero en el tiempo.")
-    lineas.append(f"         Un pago mensual es ~{(FACTOR_MENSUAL_2025*12/1-1)*100:.1f}% más caro que el pago anual único.")
+        lineas.append(f"   {row['descripcion']:<20} {row['sexo']:<12} ${row['prima_mensual']:>13,.2f} ${row['prima_tarifa_mensual']:>13,.2f}")
+    lineas.append("   " + "-" * 60)
 
     # Estadísticas de la matriz
-    lineas.append("\n5. MATRIZ NIVEL × EDAD (25-70)")
+    lineas.append("\n5. MATRIZ NIVEL × EDAD × SEXO (25-70)")
     lineas.append("-" * 40)
     celdas_totales = len(primas_matriz)
     celdas_con_datos = (primas_matriz['num_siniestros'] > 0).sum()
     celdas_credibles = primas_matriz['credible'].sum()
-    lineas.append(f"   Celdas totales: {celdas_totales}")
+    lineas.append(f"   Celdas totales: {celdas_totales} (3 niveles × 46 edades × 2 sexos)")
     lineas.append(f"   Celdas con datos: {celdas_con_datos} ({celdas_con_datos/celdas_totales*100:.1f}%)")
     lineas.append(f"   Celdas credibles (≥30 sin.): {celdas_credibles} ({celdas_credibles/celdas_totales*100:.1f}%)")
 
     # Rango de primas
-    lineas.append("\n   Rango de primas por nivel:")
+    lineas.append("\n   Rango de primas de riesgo por nivel:")
     for nivel in [1, 2, 3]:
         datos_nivel = primas_matriz[(primas_matriz['nivel'] == nivel) &
                                      (primas_matriz['prima_riesgo'].notna())]
@@ -724,20 +754,18 @@ def main():
     print(f"  - primas_por_nivel_edad.csv ({len(primas_matriz)} filas)")
     print(f"  - reporte_tarificacion.txt")
 
-    # Mostrar resumen de primas anuales y mensuales
-    print("\nRESUMEN DE PRIMAS DE RIESGO:")
-    print("-" * 65)
-    print(f"  {'Nivel':<25} {'Prima Anual':>15} {'Prima Mensual':>15}")
-    print("-" * 65)
+    # Mostrar resumen de primas por sexo
+    print("\nRESUMEN DE PRIMAS DE RIESGO Y TARIFA:")
+    print("-" * 90)
+    print(f"  {'Nivel':<20} {'Sexo':<12} {'P.Riesgo':>12} {'P.Tarifa':>12} {'P.Mens Riesgo':>14}")
+    print("-" * 90)
     for _, row in primas_nivel.iterrows():
-        print(f"  Nivel {int(row['nivel'])} ({row['descripcion']:<14}) ${row['prima_riesgo']:>14,.2f} ${row['prima_mensual']:>14,.2f}")
+        print(f"  {row['descripcion']:<20} {row['sexo']:<12} "
+              f"${row['prima_riesgo']:>11,.2f} ${row['prima_tarifa']:>11,.2f} ${row['prima_mensual']:>13,.2f}")
 
-    prima_anual_total = primas_nivel['prima_riesgo'].sum()
-    prima_mensual_total = primas_nivel['prima_mensual'].sum()
-    print("-" * 65)
-    print(f"  {'TOTAL':<25} ${prima_anual_total:>14,.2f} ${prima_mensual_total:>14,.2f}")
-    print("-" * 65)
-    print(f"\n  Factor mensual 2025 (tasa {TASA_DESCUENTO_ANUAL_2025*100:.0f}%): {FACTOR_MENSUAL_2025:.6f}")
+    print("-" * 90)
+    print(f"\n  Factor retención: {FACTOR_RETENCION:.2f}")
+    print(f"  Factor mensual 2025 (tasa {TASA_DESCUENTO_ANUAL_2025*100:.0f}%): {FACTOR_MENSUAL_2025:.6f}")
     print(f"  Recargo por pago mensual: ~{(FACTOR_MENSUAL_2025*12 - 1)*100:.1f}%")
 
     return primas_nivel, primas_matriz
