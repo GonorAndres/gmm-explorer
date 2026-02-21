@@ -37,10 +37,63 @@
     scroll-behavior: smooth;
   }
 
-  /* Estilos para inputs y selects */
-  input,
+  /* Estilos para inputs y selects (excluir range) */
+  input:not([type="range"]),
   select {
     @apply border border-gray-300 rounded-lg px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-blue-700 focus:border-transparent;
+  }
+
+  /* Dual-thumb range slider */
+  .range-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    background: transparent;
+  }
+
+  .range-thumb::-webkit-slider-runnable-track {
+    height: 0;
+    background: transparent;
+  }
+
+  .range-thumb::-moz-range-track {
+    height: 0;
+    background: transparent;
+  }
+
+  .range-thumb::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    pointer-events: auto;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background: white;
+    border: 2px solid #2563eb;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);
+    cursor: pointer;
+    transition: transform 0.15s ease, box-shadow 0.15s ease;
+  }
+
+  .range-thumb::-webkit-slider-thumb:hover {
+    transform: scale(1.15);
+    box-shadow: 0 2px 6px rgba(37, 99, 235, 0.3);
+  }
+
+  .range-thumb::-moz-range-thumb {
+    appearance: none;
+    pointer-events: auto;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background: white;
+    border: 2px solid #2563eb;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);
+    cursor: pointer;
+  }
+
+  .range-thumb::-moz-range-thumb:hover {
+    transform: scale(1.15);
+    box-shadow: 0 2px 6px rgba(37, 99, 235, 0.3);
   }
 
   /* Estilos para tablas */

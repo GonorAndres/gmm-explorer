@@ -27,7 +27,7 @@ const ICONOS: Record<string, React.ElementType> = {
 }
 
 /**
- * Sidebar de navegación -- estilo corporativo navy
+ * Sidebar de navegacion -- estilo corporativo navy
  */
 export function Sidebar() {
   const pathname = usePathname()
@@ -38,7 +38,7 @@ export function Sidebar() {
 
   return (
     <>
-      {/* Botón hamburguesa - Solo visible en móvil */}
+      {/* Boton hamburguesa - Solo visible en movil */}
       <button
         onClick={toggleSidebar}
         className="lg:hidden fixed top-4 left-4 z-50 p-2 bg-slate-800 rounded-lg shadow-md hover:bg-slate-700 transition-colors"
@@ -51,7 +51,7 @@ export function Sidebar() {
         )}
       </button>
 
-      {/* Overlay - Solo visible en móvil cuando está abierto */}
+      {/* Overlay - Solo visible en movil cuando esta abierto */}
       {isOpen && (
         <div
           className="lg:hidden fixed inset-0 bg-black/50 z-40"
@@ -68,7 +68,7 @@ export function Sidebar() {
           isOpen ? 'translate-x-0' : '-translate-x-full lg:translate-x-0'
         )}
       >
-        {/* Logo y título */}
+        {/* Logo y titulo */}
         <div className="p-6 border-b border-slate-700/50">
           <div className="flex items-center gap-3">
             <div className="w-10 h-10 bg-blue-600 rounded-lg flex items-center justify-center">
@@ -81,7 +81,7 @@ export function Sidebar() {
           </div>
         </div>
 
-        {/* Navegación */}
+        {/* Navegacion */}
         <nav className="flex-1 p-4 overflow-y-auto scrollbar-thin">
           <p className="text-[10px] font-semibold text-slate-500 uppercase tracking-wider mb-3 px-3">
             Modulos
@@ -120,17 +120,6 @@ export function Sidebar() {
             <p className="text-[10px] text-slate-600 mt-0.5">
               Gastos Medicos Mayores Colectivo
             </p>
-          </div>
-          <div className="bg-amber-900/20 rounded-lg p-2.5 flex items-center gap-2">
-            <div className="w-5 h-5 bg-amber-600/30 rounded flex items-center justify-center flex-shrink-0">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="w-3 h-3 text-amber-400">
-                <path d="M12 2v4M12 18v4M4.93 4.93l2.83 2.83M16.24 16.24l2.83 2.83M2 12h4M18 12h4M4.93 19.07l2.83-2.83M16.24 7.76l2.83-2.83" />
-              </svg>
-            </div>
-            <div>
-              <p className="text-[10px] text-amber-400/80 font-medium">Powered by Claude</p>
-              <p className="text-[9px] text-slate-600">Clasificacion con IA</p>
-            </div>
           </div>
           <a
             href="https://github.com/GonorAndres/gmm-explorer"

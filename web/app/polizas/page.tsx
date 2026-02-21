@@ -119,30 +119,30 @@ export default function PolizasPage() {
         <MetricCard etiqueta="Total Asegurados" valor={abreviarNumero(metricas.totalAsegurados)} icono={Users} />
         <MetricCard etiqueta="Prima Emitida Total" valor={`$${abreviarNumero(metricas.primaTotal)}`} icono={DollarSign} colorIcono="bg-green-50 text-green-600" />
         <MetricCard etiqueta="Prima Promedio" valor={formatearMoneda(metricas.primaPromedio)} icono={TrendingUp} colorIcono="bg-purple-50 text-purple-600" />
-        <DistributionCard etiqueta="Distribucion por Sexo" items={metricas.porSexo} />
+        <DistributionCard etiqueta="Distribución por Sexo" items={metricas.porSexo} />
       </div>
 
       {/* Graficos */}
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-8">
-        <ChartCard titulo="Asegurados por Edad" subtitulo="Distribucion por sexo y edad">
+        <ChartCard titulo="Asegurados por Edad" subtitulo="Distribución por sexo y edad">
           <ResponsiveContainer width="100%" height={300}>
-            <BarChart data={datosPorEdad}>
+            <BarChart data={datosPorEdad} barCategoryGap="2%" barGap={0}>
               <CartesianGrid strokeDasharray="3 3" stroke="#e5e7eb" />
               <XAxis dataKey="edad" tick={{ fontSize: 10 }} tickLine={false} interval={4} />
               <YAxis tick={{ fontSize: 12 }} tickLine={false} tickFormatter={(v) => abreviarNumero(v)} />
               <Tooltip formatter={(value: number, name: string) => [formatearNumero(value), name]} labelFormatter={(l) => `Edad: ${l}`} />
               <Legend />
-              <Bar dataKey="masculino" name="Masculino" stackId="a" fill={COLORS.masculino} />
-              <Bar dataKey="femenino" name="Femenino" stackId="a" fill={COLORS.femenino} />
+              <Bar dataKey="masculino" name="Masculino" fill={COLORS.masculino} radius={[2, 2, 0, 0]} />
+              <Bar dataKey="femenino" name="Femenino" fill={COLORS.femenino} radius={[2, 2, 0, 0]} />
             </BarChart>
           </ResponsiveContainer>
         </ChartCard>
 
-        <ChartCard titulo="Distribucion por Sexo" subtitulo="Proporcion de asegurados">
+        <ChartCard titulo="Distribución por Sexo" subtitulo="Proporción de asegurados">
           <DonutChart data={metricas.porSexoDonut} />
         </ChartCard>
 
-        <ChartCard titulo="Evolucion Anual" subtitulo="Prima emitida y asegurados por ano" className="lg:col-span-2">
+        <ChartCard titulo="Evolución Anual" subtitulo="Prima emitida y asegurados por año" className="lg:col-span-2">
           <ResponsiveContainer width="100%" height={300}>
             <LineChart data={evolucionAnual}>
               <CartesianGrid strokeDasharray="3 3" stroke="#e5e7eb" />
@@ -169,7 +169,7 @@ export default function PolizasPage() {
       </div>
 
       {/* Tabla por banda de edad */}
-      <ChartCard titulo="Datos por Banda de Edad" subtitulo="Distribucion del portafolio">
+      <ChartCard titulo="Datos por Banda de Edad" subtitulo="Distribución del portafolio">
         <div className="overflow-x-auto">
           <table className="w-full">
             <thead>

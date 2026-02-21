@@ -192,7 +192,7 @@ export default function SiniestrosPage() {
 
           <ChartCard
             titulo={UI_LABELS.graficos.distribucionNivel}
-            subtitulo="Siniestros por clasificacion"
+            subtitulo="Siniestros por clasificación"
           >
             <DonutChart data={datosPie} />
           </ChartCard>

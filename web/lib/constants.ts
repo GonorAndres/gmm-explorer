@@ -214,10 +214,10 @@ export const CLAUDE_CONFIG = {
   nombre: 'Claude',
   descripcion: 'Modelo de lenguaje de Anthropic',
   version: 'Claude Opus 4.6',
-  metodo: 'Clasificacion directa con conocimiento medico',
+  metodo: 'Clasificación directa con conocimiento médico',
   ventajas: [
-    'Comprension profunda de terminologia medica',
-    'Conocimiento de codigos CIE-10',
+    'Comprensión profunda de terminología médica',
+    'Conocimiento de códigos CIE-10',
     'Razonamiento contextual sobre severidad',
     'Sin necesidad de datos de entrenamiento adicionales',
   ],

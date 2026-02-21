@@ -34,7 +34,7 @@ import {
 } from '@/lib/constants'
 import type { ExplicacionCausa, ClasificacionMetadata } from '@/types'
 
-// Datos estaticos de clasificacion
+// Datos estáticos de clasificación
 import clasificacionMeta from '@/data/clasificacion-metadata.json'
 import explicacionesData from '@/data/explicaciones-causas.json'
 
@@ -42,8 +42,8 @@ const metadata = clasificacionMeta as ClasificacionMetadata
 const explicacionesCausas = explicacionesData as ExplicacionCausa[]
 
 /**
- * Pagina de Metodologia
- * Documenta el proceso completo de clasificacion y tarificacion GMM
+ * Página de Metodología
+ * Documenta el proceso completo de clasificación y tarificación GMM
  * Incluye showcase de mejora con Claude y Explorador de Causas
  */
 export default function MetodologiaPage() {
@@ -51,8 +51,8 @@ export default function MetodologiaPage() {
     <div className="p-8 max-w-6xl mx-auto">
       {/* Header */}
       <PageHeader
-        titulo="Metodologia"
-        subtitulo="Sistema de Clasificacion de Siniestros GMM y Calculo de Prima de Riesgo"
+        titulo="Metodología"
+        subtitulo="Sistema de Clasificación de Siniestros GMM y Cálculo de Prima de Riesgo"
         icono={BookOpen}
       />
 
@@ -67,11 +67,11 @@ export default function MetodologiaPage() {
               <div>
                 <h2 className="text-xl font-bold mb-2">Resumen Ejecutivo</h2>
                 <p className="text-slate-300 leading-relaxed">
-                  Este proyecto implementa un sistema de clasificacion de siniestros de Gastos Medicos Mayores (GMM)
+                  Este proyecto implementa un sistema de clasificación de siniestros de Gastos Médicos Mayores (GMM)
                   en tres niveles de complejidad, utilizando datos de la CNSF del periodo 2020-2024.
-                  La metodologia actuarial aplicada calcula la <strong className="text-white">prima de riesgo</strong> como
+                  La metodología actuarial aplicada calcula la <strong className="text-white">prima de riesgo</strong> como
                   el producto de <strong className="text-white">frecuencia x severidad</strong>, segmentada por nivel de
-                  atencion y edad del asegurado.
+                  atención y edad del asegurado.
                 </p>
                 <div className="mt-3">
                   <ClaudeBadge variante="compact" className="text-amber-300" />
@@ -90,10 +90,10 @@ export default function MetodologiaPage() {
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
           {[
-            { paso: 1, titulo: 'Consolidacion', descripcion: 'Unificacion de datos de siniestros y polizas 2020-2024', icono: Database, color: 'bg-purple-100 text-purple-700' },
-            { paso: 2, titulo: 'Clasificacion', descripcion: 'Causas medicas clasificadas con Claude AI en 3 niveles', icono: Brain, color: 'bg-amber-100 text-amber-700' },
-            { paso: 3, titulo: 'Calculo Actuarial', descripcion: 'Frecuencia x Severidad por nivel y edad', icono: Calculator, color: 'bg-green-100 text-green-700' },
-            { paso: 4, titulo: 'Tarificacion', descripcion: 'Tabla de primas por nivel y edad (25-70 anos)', icono: TrendingUp, color: 'bg-blue-100 text-blue-700' },
+            { paso: 1, titulo: 'Consolidación', descripcion: 'Unificación de datos de siniestros y pólizas 2020-2024', icono: Database, color: 'bg-purple-100 text-purple-700' },
+            { paso: 2, titulo: 'Clasificación', descripcion: 'Causas médicas clasificadas con Claude AI en 3 niveles', icono: Brain, color: 'bg-amber-100 text-amber-700' },
+            { paso: 3, titulo: 'Cálculo Actuarial', descripcion: 'Frecuencia x Severidad por nivel y edad', icono: Calculator, color: 'bg-green-100 text-green-700' },
+            { paso: 4, titulo: 'Tarificación', descripcion: 'Tabla de primas por nivel y edad (25-70 años)', icono: TrendingUp, color: 'bg-blue-100 text-blue-700' },
           ].map((item, index) => (
             <div key={item.paso} className="relative">
               <div className="card h-full">
@@ -118,12 +118,12 @@ export default function MetodologiaPage() {
 
       {/* InsightPanel #1 */}
       <section className="mb-10">
-        <InsightPanel titulo="Sabias que...? Concentracion de costos en Nivel 3">
-          <p>{CALLOUTS.sabiasQue[0]}</p>
+        <InsightPanel titulo="Descubrimientos del proyecto: Concentración de costos en Nivel 3">
+          <p>{CALLOUTS.descubrimientos[0]}</p>
         </InsightPanel>
       </section>
 
-      {/* El Corazon del Proyecto */}
+      {/* El Corazón del Proyecto */}
       <section className="mb-10">
         <div className="card bg-gradient-to-br from-blue-800 via-blue-700 to-blue-600 text-white overflow-hidden relative">
           <div className="absolute top-0 right-0 w-64 h-64 bg-white/5 rounded-full -translate-y-32 translate-x-32" />
@@ -134,21 +134,21 @@ export default function MetodologiaPage() {
                 <Sparkles className="w-6 h-6" />
               </div>
               <div>
-                <h2 className="text-2xl font-bold">El Corazon del Proyecto</h2>
-                <p className="text-white/80">Fase 2: Clasificacion de Causas Medicas con Claude AI</p>
+                <h2 className="text-2xl font-bold">El Corazón del Proyecto</h2>
+                <p className="text-white/80">Fase 2: Clasificación de Causas Médicas con Claude AI</p>
               </div>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mt-6">
               <div className="bg-white/10 backdrop-blur-sm rounded-xl p-4 text-center">
                 <p className="text-3xl font-bold">9,409</p>
-                <p className="text-sm text-white/80">Causas medicas unicas</p>
+                <p className="text-sm text-white/80">Causas médicas únicas</p>
               </div>
               <div className="bg-white/10 backdrop-blur-sm rounded-xl p-4 text-center">
                 <ArrowRight className="w-6 h-6 mx-auto text-white/60" />
               </div>
               <div className="bg-white/10 backdrop-blur-sm rounded-xl p-4 text-center">
                 <p className="text-3xl font-bold">3</p>
-                <p className="text-sm text-white/80">Niveles de clasificacion</p>
+                <p className="text-sm text-white/80">Niveles de clasificación</p>
               </div>
             </div>
           </div>
@@ -159,23 +159,23 @@ export default function MetodologiaPage() {
       <section className="mb-10">
         <h2 className="text-xl font-bold text-slate-900 mb-4 flex items-center gap-2">
           <AlertTriangle className="w-5 h-5 text-amber-500" />
-          El Reto: Por que es dificil clasificar?
+          El Reto: Por qué es difícil clasificar?
         </h2>
         <div className="card">
           <div className="card-body">
             <p className="text-slate-600 mb-6">
-              Clasificar <strong>9,409 causas medicas unicas</strong> en 3 niveles de complejidad es un desafio
-              significativo. Sin formacion medica especializada, interpretar terminos clinicos, codigos CIE-10
-              y abreviaturas resulta practicamente imposible.
+              Clasificar <strong>9,409 causas médicas únicas</strong> en 3 niveles de complejidad es un desafío
+              significativo. Sin formación médica especializada, interpretar términos clínicos, códigos CIE-10
+              y abreviaturas resulta prácticamente imposible.
             </p>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 mb-6">
               <div className="bg-red-50 border border-red-200 rounded-lg p-4 text-center">
                 <p className="text-2xl font-bold text-red-600 mb-1">9,409</p>
-                <p className="text-sm text-red-700">Causas medicas unicas</p>
+                <p className="text-sm text-red-700">Causas médicas únicas</p>
               </div>
               <div className="bg-amber-50 border border-amber-200 rounded-lg p-4 text-center">
                 <p className="text-2xl font-bold text-amber-600 mb-1">Jerga</p>
-                <p className="text-sm text-amber-700">Terminologia medica especializada</p>
+                <p className="text-sm text-amber-700">Terminología médica especializada</p>
               </div>
               <div className="bg-orange-50 border border-orange-200 rounded-lg p-4 text-center">
                 <p className="text-2xl font-bold text-orange-600 mb-1">Errores</p>
@@ -183,23 +183,23 @@ export default function MetodologiaPage() {
               </div>
               <div className="bg-purple-50 border border-purple-200 rounded-lg p-4 text-center">
                 <p className="text-2xl font-bold text-purple-600 mb-1">CIE-10</p>
-                <p className="text-sm text-purple-700">Codigos internacionales</p>
+                <p className="text-sm text-purple-700">Códigos internacionales</p>
               </div>
             </div>
             <div className="bg-slate-50 rounded-lg p-4">
-              <h4 className="font-semibold text-slate-900 mb-2">Ejemplos del desafio:</h4>
+              <h4 className="font-semibold text-slate-900 mb-2">Ejemplos del desafío:</h4>
               <div className="grid grid-cols-1 md:grid-cols-3 gap-3 text-sm">
                 <div className="bg-white rounded p-3 border">
-                  <p className="font-mono text-xs text-slate-500 mb-1">COLECISTECTOMIA LAPAROSCOPICA</p>
-                  <p className="text-slate-700">Que es? Es grave?</p>
+                  <p className="font-mono text-xs text-slate-500 mb-1">COLECISTECTOMÍA LAPAROSCÓPICA</p>
+                  <p className="text-slate-700">Qué es? Es grave?</p>
                 </div>
                 <div className="bg-white rounded p-3 border">
                   <p className="font-mono text-xs text-slate-500 mb-1">TU MALIGNO DE COLON</p>
-                  <p className="text-slate-700">Cancer? Nivel 3?</p>
+                  <p className="text-slate-700">Cáncer? Nivel 3?</p>
                 </div>
                 <div className="bg-white rounded p-3 border">
                   <p className="font-mono text-xs text-slate-500 mb-1">GASTROENT VIRAL NE</p>
-                  <p className="text-slate-700">Que significa &quot;NE&quot;?</p>
+                  <p className="text-slate-700">Qué significa &quot;NE&quot;?</p>
                 </div>
               </div>
             </div>
@@ -207,25 +207,25 @@ export default function MetodologiaPage() {
         </div>
       </section>
 
-      {/* Proceso Tecnico de Clasificacion */}
+      {/* Proceso Técnico de Clasificación */}
       <section className="mb-10">
         <h2 className="text-xl font-bold text-slate-900 mb-4 flex items-center gap-2">
           <Brain className="w-5 h-5 text-purple-600" />
-          Proceso Tecnico de Clasificacion
+          Proceso Técnico de Clasificación
         </h2>
 
-        {/* Fase 1: Clasificacion Manual */}
+        {/* Fase 1: Clasificación Manual */}
         <div className="card mb-6">
           <div className="card-header bg-gradient-to-r from-blue-50 to-indigo-50">
             <h3 className="font-semibold text-slate-900 flex items-center gap-2">
               <Users className="w-5 h-5 text-blue-600" />
-              Fase 1: Clasificacion Manual con Conocimiento Medico
+              Fase 1: Clasificación Manual con Conocimiento Médico
             </h3>
           </div>
           <div className="card-body">
             <p className="text-slate-600 mb-4">
-              La base del modelo es un conjunto de <strong>1,500 causas medicas etiquetadas manualmente</strong>,
-              utilizando criterios CIE-10 y conocimiento medico especializado para asignar niveles de complejidad.
+              La base del modelo es un conjunto de <strong>1,500 causas médicas etiquetadas manualmente</strong>,
+              utilizando criterios CIE-10 y conocimiento médico especializado para asignar niveles de complejidad.
             </p>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-6">
               <div className="bg-blue-50 rounded-lg p-4">
@@ -234,7 +234,7 @@ export default function MetodologiaPage() {
                   <span className="font-semibold text-blue-900">Top 500 por frecuencia</span>
                 </div>
                 <p className="text-sm text-blue-700">
-                  Las 500 causas mas frecuentes, representando ~85% de todos los siniestros.
+                  Las 500 causas más frecuentes, representando ~85% de todos los siniestros.
                 </p>
               </div>
               <div className="bg-indigo-50 rounded-lg p-4">
@@ -249,28 +249,28 @@ export default function MetodologiaPage() {
             </div>
             {/* Criterios CIE-10 */}
             <div className="bg-slate-50 rounded-lg p-4">
-              <h4 className="font-semibold text-slate-900 mb-3">Criterios de Clasificacion (CIE-10)</h4>
+              <h4 className="font-semibold text-slate-900 mb-3">Criterios de Clasificación (CIE-10)</h4>
               <div className="grid grid-cols-1 md:grid-cols-3 gap-3">
                 <div className="bg-green-50 rounded-lg p-3">
                   <div className="flex items-center gap-2 mb-1">
                     <div className="w-3 h-3 rounded-full bg-green-500" />
                     <span className="font-medium text-green-900 text-sm">Nivel 1 - Ambulatorio</span>
                   </div>
-                  <p className="text-xs text-green-700">Z00-Z13 (examenes), R10-R19 (sintomas GI), consultas, laboratorio</p>
+                  <p className="text-xs text-green-700">Z00-Z13 (exámenes), R10-R19 (síntomas GI), consultas, laboratorio</p>
                 </div>
                 <div className="bg-yellow-50 rounded-lg p-3">
                   <div className="flex items-center gap-2 mb-1">
                     <div className="w-3 h-3 rounded-full bg-yellow-500" />
                     <span className="font-medium text-yellow-900 text-sm">Nivel 2 - Hospitalario</span>
                   </div>
-                  <p className="text-xs text-yellow-700">O80-O84 (partos), K80-K87 (vesicula), hospitalizaciones 1-5 dias</p>
+                  <p className="text-xs text-yellow-700">O80-O84 (partos), K80-K87 (vesícula), hospitalizaciones 1-5 días</p>
                 </div>
                 <div className="bg-red-50 rounded-lg p-3">
                   <div className="flex items-center gap-2 mb-1">
                     <div className="w-3 h-3 rounded-full bg-red-500" />
                     <span className="font-medium text-red-900 text-sm">Nivel 3 - Alta Especialidad</span>
                   </div>
-                  <p className="text-xs text-red-700">C00-C97 (oncologia), I20-I25 (cardiovascular), UCI, trasplantes</p>
+                  <p className="text-xs text-red-700">C00-C97 (oncología), I20-I25 (cardiovascular), UCI, trasplantes</p>
                 </div>
               </div>
             </div>
@@ -292,7 +292,7 @@ export default function MetodologiaPage() {
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-4">
               <div className="bg-red-50 border border-red-200 rounded-lg p-4 text-center">
                 <p className="text-3xl font-bold text-red-600">{Math.round(metadata.rf_accuracy)}%</p>
-                <p className="text-sm text-red-700">Precision del modelo</p>
+                <p className="text-sm text-red-700">Precisión del modelo</p>
               </div>
               <div className="bg-red-50 border border-red-200 rounded-lg p-4 text-center">
                 <p className="text-3xl font-bold text-red-600">{Math.round(metadata.rf_low_confidence_pct)}%</p>
@@ -309,8 +309,8 @@ export default function MetodologiaPage() {
                 <div>
                   <p className="text-sm text-red-800 font-medium mb-1">Impacto en primas:</p>
                   <p className="text-sm text-red-700">
-                    Con solo 59% de precision, el 41% de las causas podian estar mal clasificadas.
-                    Esto distorsiona directamente el calculo de primas por nivel, afectando la suficiencia actuarial.
+                    Con solo 59% de precisión, el 41% de las causas podían estar mal clasificadas.
+                    Esto distorsiona directamente el cálculo de primas por nivel, afectando la suficiencia actuarial.
                   </p>
                 </div>
               </div>
@@ -318,12 +318,12 @@ export default function MetodologiaPage() {
           </div>
         </div>
 
-        {/* Fase 2b: La Solucion -- Claude */}
+        {/* Fase 2b: La Solución -- Claude */}
         <div className="card mb-6 border-amber-200">
           <div className="card-header bg-gradient-to-r from-amber-50 to-orange-50">
             <h3 className="font-semibold text-slate-900 flex items-center gap-2">
               <Sparkles className="w-5 h-5 text-amber-600" />
-              La Solucion: Claude AI
+              La Solución: Claude AI
               <ClaudeBadge variante="inline" />
             </h3>
           </div>
@@ -332,29 +332,29 @@ export default function MetodologiaPage() {
               {CLAUDE_CONTENT.solucionClaude.contenido}
             </p>
             <div className="bg-gradient-to-r from-amber-50 to-orange-50 rounded-xl p-6 mb-6">
-              <h4 className="font-semibold text-amber-900 mb-3">Como funciona Claude vs Random Forest?</h4>
+              <h4 className="font-semibold text-amber-900 mb-3">Cómo funciona Claude vs Random Forest?</h4>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <div className="text-center">
                   <div className="w-12 h-12 bg-red-100 rounded-full flex items-center justify-center mx-auto mb-2">
                     <TreeDeciduous className="w-6 h-6 text-red-600" />
                   </div>
                   <p className="font-medium text-red-900 mb-1">Random Forest</p>
-                  <p className="text-xs text-red-700">Aprende patrones estadisticos de texto de 1,500 ejemplos. No entiende medicina.</p>
+                  <p className="text-xs text-red-700">Aprende patrones estadísticos de texto de 1,500 ejemplos. No entiende medicina.</p>
                 </div>
                 <div className="text-center">
                   <div className="w-12 h-12 bg-amber-100 rounded-full flex items-center justify-center mx-auto mb-2">
                     <Brain className="w-6 h-6 text-amber-600" />
                   </div>
                   <p className="font-medium text-amber-900 mb-1">Claude (LLM)</p>
-                  <p className="text-xs text-amber-700">Comprende terminologia medica, codigos CIE-10 y razona sobre severidad clinica.</p>
+                  <p className="text-xs text-amber-700">Comprende terminología médica, códigos CIE-10 y razona sobre severidad clínica.</p>
                 </div>
               </div>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
               <div className="bg-amber-50 border border-amber-200 rounded-lg p-4 text-center">
                 <Brain className="w-8 h-8 text-amber-600 mx-auto mb-2" />
-                <p className="font-semibold text-amber-900">Conocimiento Medico</p>
-                <p className="text-sm text-amber-700">Entiende que &quot;COLECISTECTOMIA&quot; = cirugia de vesicula</p>
+                <p className="font-semibold text-amber-900">Conocimiento Médico</p>
+                <p className="text-sm text-amber-700">Entiende que &quot;COLECISTECTOMÍA&quot; = cirugía de vesícula</p>
               </div>
               <div className="bg-amber-50 border border-amber-200 rounded-lg p-4 text-center">
                 <Zap className="w-8 h-8 text-amber-600 mx-auto mb-2" />
@@ -370,12 +370,12 @@ export default function MetodologiaPage() {
           </div>
         </div>
 
-        {/* Resultados: Antes vs Despues */}
+        {/* Resultados: Antes vs Después */}
         <div className="card mb-6">
           <div className="card-header bg-gradient-to-r from-green-50 to-emerald-50">
             <h3 className="font-semibold text-slate-900 flex items-center gap-2">
               <TrendingUp className="w-5 h-5 text-green-600" />
-              Resultados: Antes vs Despues
+              Resultados: Antes vs Después
             </h3>
           </div>
           <div className="card-body">
@@ -390,7 +390,7 @@ export default function MetodologiaPage() {
                 </div>
                 <div className="space-y-3">
                   <div className="flex justify-between items-center">
-                    <span className="text-sm text-red-700">Precision</span>
+                    <span className="text-sm text-red-700">Precisión</span>
                     <span className="font-bold text-red-600">{Math.round(metadata.rf_accuracy)}%</span>
                   </div>
                   <div className="w-full bg-red-200 rounded-full h-2">
@@ -406,17 +406,17 @@ export default function MetodologiaPage() {
                   </div>
                 </div>
               </div>
-              {/* Despues */}
+              {/* Después */}
               <div className="bg-green-50 rounded-xl p-6 border border-green-200">
                 <div className="flex items-center gap-2 mb-4">
                   <div className="w-8 h-8 bg-green-100 rounded-full flex items-center justify-center">
                     <CheckCircle2 className="w-5 h-5 text-green-600" />
                   </div>
-                  <h4 className="font-semibold text-green-900">Despues (Claude AI)</h4>
+                  <h4 className="font-semibold text-green-900">Después (Claude AI)</h4>
                 </div>
                 <div className="space-y-3">
                   <div className="flex justify-between items-center">
-                    <span className="text-sm text-green-700">Precision</span>
+                    <span className="text-sm text-green-700">Precisión</span>
                     <span className="font-bold text-green-600">{Math.round(metadata.claude_accuracy)}%</span>
                   </div>
                   <div className="w-full bg-green-200 rounded-full h-2">
@@ -466,28 +466,28 @@ export default function MetodologiaPage() {
           </div>
         </div>
 
-        {/* InsightPanel -- Por que un LLM supera al RF */}
+        {/* InsightPanel -- Por qué un LLM supera al RF */}
         <div className="mb-6">
           <InsightPanel titulo={INSIGHT_PANELS_CLAUDE.porqueLLM.titulo}>
             <p>{INSIGHT_PANELS_CLAUDE.porqueLLM.contenido}</p>
           </InsightPanel>
         </div>
 
-        {/* Resultado: Distribucion por Nivel */}
+        {/* Resultado: Distribución por Nivel */}
         <div className="card">
           <div className="card-header">
             <h3 className="font-semibold text-slate-900 flex items-center gap-2">
               <Sparkles className="w-4 h-4 text-amber-500" />
-              Resultado: Distribucion por Nivel
+              Resultado: Distribución por Nivel
             </h3>
           </div>
           <div className="card-body">
             <p className="text-sm text-slate-600 mb-4">
-              La clasificacion con Claude confirma las expectativas actuariales del comportamiento de siniestros:
+              La clasificación con Claude confirma las expectativas actuariales del comportamiento de siniestros:
             </p>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
               {[
-                { label: 'L1', nombre: 'Muchos siniestros pequenos', sub: 'Alta frecuencia, baja severidad', stat: '~60% de siniestros, ~10% del monto', bg: 'bg-green-100', text: 'text-green-700', statColor: 'text-green-600' },
+                { label: 'L1', nombre: 'Muchos siniestros pequeños', sub: 'Alta frecuencia, baja severidad', stat: '~60% de siniestros, ~10% del monto', bg: 'bg-green-100', text: 'text-green-700', statColor: 'text-green-600' },
                 { label: 'L2', nombre: 'Moderados y frecuentes', sub: 'Frecuencia media, costo medio-alto', stat: '~35% de siniestros, ~83.3% del monto', bg: 'bg-yellow-100', text: 'text-yellow-700', statColor: 'text-yellow-600' },
                 { label: 'L3', nombre: 'Pocos siniestros costosos', sub: 'Baja frecuencia, alta severidad', stat: '~5% de siniestros, ~6.7% del monto', bg: 'bg-red-100', text: 'text-red-700', statColor: 'text-red-600' },
               ].map((item) => (
@@ -522,13 +522,13 @@ export default function MetodologiaPage() {
           <div className="card-body">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <div>
-                <h3 className="font-semibold text-slate-900 mb-3">Comision Nacional de Seguros y Fianzas (CNSF)</h3>
+                <h3 className="font-semibold text-slate-900 mb-3">Comisión Nacional de Seguros y Fianzas (CNSF)</h3>
                 <p className="text-sm text-slate-600 mb-4">
                   Los datos provienen de las bases del sector asegurador reportadas a la CNSF,
-                  del ramo de Gastos Medicos Mayores Colectivo.
+                  del ramo de Gastos Médicos Mayores Colectivo.
                 </p>
                 <div className="space-y-2">
-                  {['Periodo: 2020 - 2024', '~1.97 millones de registros de siniestros', '+9,400 causas medicas unicas', '95+ millones de asegurados expuestos'].map((text) => (
+                  {['Periodo: 2020 - 2024', '~1.97 millones de registros de siniestros', '+9,400 causas médicas únicas', '95+ millones de asegurados expuestos'].map((text) => (
                     <div key={text} className="flex items-center gap-2 text-sm">
                       <CheckCircle2 className="w-4 h-4 text-green-500" />
                       <span>{text}</span>
@@ -541,10 +541,10 @@ export default function MetodologiaPage() {
                 <div className="grid grid-cols-2 gap-2 text-sm">
                   {[
                     { var: 'EDAD', desc: 'Edad del asegurado' },
-                    { var: 'SEXO', desc: 'Genero' },
-                    { var: 'CAUSA', desc: 'Diagnostico medico' },
+                    { var: 'SEXO', desc: 'Género' },
+                    { var: 'CAUSA', desc: 'Diagnóstico médico' },
                     { var: 'MONTO', desc: 'Costo del siniestro' },
-                    { var: 'ANO', desc: 'Ano de ocurrencia' },
+                    { var: 'ANO', desc: 'Año de ocurrencia' },
                     { var: 'EXPUESTOS', desc: 'Asegurados en riesgo' },
                   ].map((v) => (
                     <div key={v.var} className="bg-white p-2 rounded border">
@@ -559,27 +559,27 @@ export default function MetodologiaPage() {
         </div>
       </section>
 
-      {/* Niveles de Clasificacion */}
+      {/* Niveles de Clasificación */}
       <section className="mb-10">
         <h2 className="text-xl font-bold text-slate-900 mb-4 flex items-center gap-2">
           <Stethoscope className="w-5 h-5 text-blue-600" />
-          Niveles de Clasificacion
+          Niveles de Clasificación
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           {[
             {
               nivel: 1, titulo: NIVEL_LABELS[1], descripcion: NIVEL_DESCRIPCIONES[1], color: NIVEL_COLORS[1],
-              caracteristicas: ['Alta frecuencia, baja severidad', 'Consultas medicas generales', 'Estudios de laboratorio', 'Procedimientos dentales', 'Gastroenteritis y padecimientos menores'],
+              caracteristicas: ['Alta frecuencia, baja severidad', 'Consultas médicas generales', 'Estudios de laboratorio', 'Procedimientos dentales', 'Gastroenteritis y padecimientos menores'],
               costoPromedio: '$5,000 - $30,000',
             },
             {
               nivel: 2, titulo: NIVEL_LABELS[2], descripcion: NIVEL_DESCRIPCIONES[2], color: NIVEL_COLORS[2],
-              caracteristicas: ['Frecuencia media, severidad media-alta', 'Cesareas y partos', 'Colecistectomia (vesicula)', 'Apendicectomia', 'Hospitalizaciones <=5 dias'],
+              caracteristicas: ['Frecuencia media, severidad media-alta', 'Cesáreas y partos', 'Colecistectomía (vesícula)', 'Apendicectomía', 'Hospitalizaciones <=5 días'],
               costoPromedio: '$50,000 - $150,000',
             },
             {
               nivel: 3, titulo: NIVEL_LABELS[3], descripcion: NIVEL_DESCRIPCIONES[3], color: NIVEL_COLORS[3],
-              caracteristicas: ['Baja frecuencia, muy alta severidad', 'Cancer y tumores', 'UCI / Terapia intensiva', 'Infartos y enfermedades cardiovasculares', 'Trasplantes'],
+              caracteristicas: ['Baja frecuencia, muy alta severidad', 'Cáncer y tumores', 'UCI / Terapia intensiva', 'Infartos y enfermedades cardiovasculares', 'Trasplantes'],
               costoPromedio: '$200,000 - $500,000+',
             },
           ].map((nivel) => (
@@ -611,17 +611,17 @@ export default function MetodologiaPage() {
         </div>
       </section>
 
-      {/* Metodologia Actuarial */}
+      {/* Metodología Actuarial */}
       <section className="mb-10">
         <h2 className="text-xl font-bold text-slate-900 mb-4 flex items-center gap-2">
           <Calculator className="w-5 h-5 text-blue-600" />
-          Metodologia Actuarial
+          Metodología Actuarial
         </h2>
         <div className="card">
           <div className="card-body">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
               <div>
-                <h3 className="font-semibold text-slate-900 mb-4">Formula Fundamental</h3>
+                <h3 className="font-semibold text-slate-900 mb-4">Fórmula Fundamental</h3>
                 <div className="bg-gradient-to-r from-blue-50 to-indigo-50 rounded-xl p-6 text-center mb-4">
                   <p className="text-lg font-mono text-slate-600 mb-2">Prima de Riesgo =</p>
                   <p className="text-2xl font-bold text-blue-700">Frecuencia x Severidad</p>
@@ -634,7 +634,7 @@ export default function MetodologiaPage() {
                       </div>
                       <span className="font-medium text-slate-900">Frecuencia (Morbilidad)</span>
                     </div>
-                    <p className="text-sm text-slate-600 ml-8">Numero de siniestros / Asegurados expuestos</p>
+                    <p className="text-sm text-slate-600 ml-8">Número de siniestros / Asegurados expuestos</p>
                   </div>
                   <div className="bg-slate-50 rounded-lg p-4">
                     <div className="flex items-center gap-2 mb-1">
@@ -643,12 +643,12 @@ export default function MetodologiaPage() {
                       </div>
                       <span className="font-medium text-slate-900">Severidad (Costo Medio)</span>
                     </div>
-                    <p className="text-sm text-slate-600 ml-8">Monto total / Numero de siniestros</p>
+                    <p className="text-sm text-slate-600 ml-8">Monto total / Número de siniestros</p>
                   </div>
                 </div>
               </div>
               <div>
-                <h3 className="font-semibold text-slate-900 mb-4">Calculo por Nivel y Edad</h3>
+                <h3 className="font-semibold text-slate-900 mb-4">Cálculo por Nivel y Edad</h3>
                 <div className="bg-slate-900 rounded-xl p-6 font-mono text-sm">
                   <div className="text-slate-400 mb-3"># Para cada nivel i y edad x:</div>
                   <div className="space-y-2 text-green-400">
@@ -664,7 +664,7 @@ export default function MetodologiaPage() {
                   </div>
                 </div>
                 <p className="text-xs text-slate-500 mt-3">
-                  * Se calcula para cada edad individual de 25 a 70 anos
+                  * Se calcula para cada edad individual de 25 a 70 años
                 </p>
               </div>
             </div>
@@ -675,7 +675,7 @@ export default function MetodologiaPage() {
                 href="/tarificador"
                 className="inline-flex items-center gap-2 text-sm font-medium text-blue-600 hover:text-blue-800 transition-colors"
               >
-                Ver esto en accion en el Tarificador
+                Ver esto en acción en el Tarificador
                 <ArrowRight className="w-4 h-4" />
               </a>
             </div>
@@ -685,8 +685,8 @@ export default function MetodologiaPage() {
 
       {/* InsightPanel #3 */}
       <section className="mb-10">
-        <InsightPanel titulo="Sabias que...? Factor de riesgo por edad">
-          <p>{CALLOUTS.sabiasQue[1]}</p>
+        <InsightPanel titulo="Descubrimientos del proyecto: Factor de riesgo por edad">
+          <p>{CALLOUTS.descubrimientos[1]}</p>
         </InsightPanel>
       </section>
 
@@ -701,14 +701,14 @@ export default function MetodologiaPage() {
             <div className="card-body">
               <h3 className="font-semibold text-slate-900 mb-3">LISF - Ley de Instituciones de Seguros y Fianzas</h3>
               <p className="text-sm text-slate-600 mb-4">
-                Marco legal principal que regula la actividad aseguradora en Mexico.
-                El Articulo 201 establece los requisitos de la Nota Tecnica.
+                Marco legal principal que regula la actividad aseguradora en México.
+                El Artículo 201 establece los requisitos de la Nota Técnica.
               </p>
               <div className="bg-amber-50 border border-amber-200 rounded-lg p-3">
                 <div className="flex gap-2">
                   <AlertTriangle className="w-4 h-4 text-amber-600 flex-shrink-0 mt-0.5" />
                   <p className="text-xs text-amber-800">
-                    Los productos de seguros requieren nota tecnica con justificacion actuarial de la suficiencia de primas.
+                    Los productos de seguros requieren nota técnica con justificación actuarial de la suficiencia de primas.
                   </p>
                 </div>
               </div>
@@ -716,9 +716,9 @@ export default function MetodologiaPage() {
           </div>
           <div className="card">
             <div className="card-body">
-              <h3 className="font-semibold text-slate-900 mb-3">CUSF - Circular Unica de Seguros y Fianzas</h3>
+              <h3 className="font-semibold text-slate-900 mb-3">CUSF - Circular Única de Seguros y Fianzas</h3>
               <p className="text-sm text-slate-600 mb-4">
-                Disposiciones derivadas de la LISF. Regula especificamente los seguros de salud en los Capitulos 15.3 al 15.8.
+                Disposiciones derivadas de la LISF. Regula específicamente los seguros de salud en los Capítulos 15.3 al 15.8.
               </p>
               <div className="bg-blue-50 border border-blue-200 rounded-lg p-3">
                 <div className="flex gap-2">
@@ -744,13 +744,13 @@ export default function MetodologiaPage() {
               <div>
                 <h3 className="font-semibold text-amber-900 mb-2">Nota Importante: Prima de Riesgo vs Prima de Tarifa</h3>
                 <p className="text-sm text-amber-800 mb-3">
-                  Este sistema calcula la <strong>prima pura de riesgo</strong>, que representa unicamente el costo
+                  Este sistema calcula la <strong>prima pura de riesgo</strong>, que representa únicamente el costo
                   esperado de siniestros. La prima de tarifa comercial incluye recargos adicionales:
                 </p>
                 <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
                   {[
-                    { concepto: 'Gastos de administracion', rango: '8% - 15%' },
-                    { concepto: 'Gastos de adquisicion', rango: '15% - 25%' },
+                    { concepto: 'Gastos de administración', rango: '8% - 15%' },
+                    { concepto: 'Gastos de adquisición', rango: '15% - 25%' },
                     { concepto: 'Margen de utilidad', rango: '5% - 10%' },
                     { concepto: 'Recargo de seguridad', rango: '3% - 8%' },
                   ].map((item) => (
@@ -776,10 +776,10 @@ export default function MetodologiaPage() {
           <div className="card-body">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
               {[
-                { titulo: 'CNSF - Circular Unica de Seguros y Fianzas', url: 'https://lisfcusf.cnsf.gob.mx/' },
-                { titulo: 'AMIS - Nota tecnica referencial GMM', url: 'https://www.gob.mx/cms/uploads/attachment/file/81303/Nota_t_cnica_GMM_ind_AMIS.pdf' },
+                { titulo: 'CNSF - Circular Única de Seguros y Fianzas', url: 'https://lisfcusf.cnsf.gob.mx/' },
+                { titulo: 'AMIS - Nota técnica referencial GMM', url: 'https://www.gob.mx/cms/uploads/attachment/file/81303/Nota_t_cnica_GMM_ind_AMIS.pdf' },
                 { titulo: 'CONDUSEF - Simulador de GMM', url: 'https://phpapps.condusef.gob.mx/condusef_gastosmedicosGMM/' },
-                { titulo: 'CNSF - Estadisticas del sector', url: 'https://www.cnsf.gob.mx' },
+                { titulo: 'CNSF - Estadísticas del sector', url: 'https://www.cnsf.gob.mx' },
               ].map((ref) => (
                 <a
                   key={ref.titulo}
@@ -803,8 +803,8 @@ export default function MetodologiaPage() {
 
       {/* Footer */}
       <div className="mt-10 pt-6 border-t border-slate-200 text-center text-sm text-slate-500">
-        <p>Sistema de Clasificacion y Tarificacion GMM - Datos CNSF 2020-2024</p>
-        <p className="mt-1">Proyecto Actuarial - AAR 2026-01 | Clasificacion con Claude AI</p>
+        <p>Sistema de Clasificación y Tarificación GMM - Datos CNSF 2020-2024</p>
+        <p className="mt-1">Proyecto Actuarial - AAR 2026-01 | Clasificación con Claude AI</p>
       </div>
     </div>
   )
@@ -813,7 +813,7 @@ export default function MetodologiaPage() {
 
 /**
  * Componente Explorador de Causas
- * Busqueda y filtrado estatico sobre las top 100 causas con explicaciones
+ * Búsqueda y filtrado estático sobre las top 100 causas con explicaciones
  */
 function ExploradorCausas({ causas }: { causas: ExplicacionCausa[] }) {
   const [busqueda, setBusqueda] = useState('')
@@ -836,7 +836,7 @@ function ExploradorCausas({ causas }: { causas: ExplicacionCausa[] }) {
       <div className="card">
         <div className="card-body">
           <p className="text-sm text-slate-600 mb-4">
-            Explora las causas medicas mas frecuentes con sus clasificaciones y explicaciones generadas por Claude.
+            Explora las causas médicas más frecuentes con sus clasificaciones y explicaciones generadas por Claude.
           </p>
 
           {/* Filtros */}
@@ -845,7 +845,7 @@ function ExploradorCausas({ causas }: { causas: ExplicacionCausa[] }) {
               <Search className="w-4 h-4 absolute left-3 top-1/2 -translate-y-1/2 text-slate-400" />
               <input
                 type="text"
-                placeholder="Buscar causa medica..."
+                placeholder="Buscar causa médica..."
                 value={busqueda}
                 onChange={(e) => setBusqueda(e.target.value)}
                 className="w-full pl-9 pr-4 py-2 text-sm border border-slate-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500/20 focus:border-blue-500"

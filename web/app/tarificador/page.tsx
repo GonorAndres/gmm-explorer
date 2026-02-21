@@ -186,7 +186,7 @@ export default function TarificadorPage() {
                       className="w-20 text-center font-bold text-lg border border-slate-300 rounded-lg px-2 py-1"
                     />
                   </div>
-                  <p className="text-xs text-slate-400 mt-1">Rango: {EDAD_MIN} - {EDAD_MAX} anos</p>
+                  <p className="text-xs text-slate-400 mt-1">Rango: {EDAD_MIN} - {EDAD_MAX} años</p>
                 </div>
 
                 {/* Sexo */}
@@ -284,8 +284,8 @@ export default function TarificadorPage() {
                 </div>
                 <div className="mt-3 pt-3 border-t border-blue-600/30 text-xs text-blue-200 space-y-1">
                   <div className="flex justify-between">
-                    <span>G. Administracion (20%)</span>
-                    <span>+ G. Adquisicion (10%)</span>
+                    <span>G. Administración (20%)</span>
+                    <span>+ G. Adquisición (10%)</span>
                   </div>
                   <div className="flex justify-between">
                     <span>Utilidad (10%)</span>
@@ -429,12 +429,12 @@ export default function TarificadorPage() {
                   <HelpCircle className="w-4 h-4 text-amber-600" />
                 </div>
                 <div className="text-sm text-amber-800">
-                  <p className="font-semibold mb-1">Nota Metodologica</p>
+                  <p className="font-semibold mb-1">Nota Metodológica</p>
                   <ul className="list-disc list-inside space-y-1 text-amber-700 text-xs">
-                    <li>Prima de riesgo = Frecuencia x Severidad (metodologia actuarial estandar)</li>
+                    <li>Prima de riesgo = Frecuencia x Severidad (metodología actuarial estándar)</li>
                     <li>Prima de tarifa = Prima de riesgo / (1 - 0.20 - 0.10 - 0.10)</li>
                     <li>Datos basados en experiencia 2020-2024 del sector GMM Colectivo</li>
-                    <li>Montos ajustados por inflacion medica a valores 2024</li>
+                    <li>Montos ajustados por inflación médica a valores 2024</li>
                   </ul>
                 </div>
               </div>
