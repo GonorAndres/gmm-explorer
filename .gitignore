@@ -156,3 +156,5 @@ CONTEXT_SESSION.pdf
 # Audit 2026-03-21
 # ----------------------------------------------------------------------------
 .claude/settings.local.json
+ss/
+docs/last-context.txt
