@@ -146,6 +146,9 @@ ss/*.tmp
 CONTEXT_SESSION.txt
 CONTEXT_SESSION.pdf
 
+# Documentos PDF grandes (usa Git LFS si necesitas versionar)
+docs/*.pdf
+
 # ----------------------------------------------------------------------------
 # Otros
 # ----------------------------------------------------------------------------
