@@ -1,15 +1,29 @@
 """
 Merges Claude subagent classification outputs with manual labels.
 Produces updated all_causes_classified.csv and validation report.
+
+Usage:
+    python scripts/merge_claude_classifications.py
+    python scripts/merge_claude_classifications.py --batch-dir /ruta/a/outputs/gmm_classification
 """
+import argparse
 import pandas as pd
 import numpy as np
 from pathlib import Path
 import glob
 
+parser = argparse.ArgumentParser(description="Merge Claude batch classifications")
+parser.add_argument(
+    "--batch-dir",
+    type=Path,
+    default=Path(__file__).parent.parent.parent / "subagents_outputs" / "gmm_classification",
+    help="Directorio con archivos batch_output_*.csv de subagentes Claude",
+)
+args = parser.parse_args()
+
 # Rutas
 BASE_DIR = Path(__file__).parent.parent
-BATCH_DIR = Path("/home/andtega349/subagents_outputs/gmm_classification")
+BATCH_DIR = args.batch_dir
 TRAINING_FILE = BASE_DIR / "data/labeled/training_set.csv"
 ORIGINAL_FILE = BASE_DIR / "data/classified/all_causes_classified.csv"
 OUTPUT_FILE = BASE_DIR / "data/classified/all_causes_classified.csv"

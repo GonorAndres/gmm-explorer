@@ -17,12 +17,16 @@ Core formula: `Prima de Riesgo = Frecuencia x Severidad`
 
 ```bash
 # Python data pipeline (run from project root)
-python scripts/consolidate_data.py         # Raw parquet -> consolidated
-python scripts/clean_causes.py             # Optional: normalize cause names
-python scripts/consolidate_training_set.py # Merge classification batches -> training_set.csv
-python scripts/train_model.py              # TF-IDF + Random Forest
-python scripts/classify_all_causes.py      # Apply model to all 9,409 causes
-python scripts/calculate_tarificacion.py   # Actuarial premium calculation
+python scripts/consolidate_data.py              # Raw parquet -> consolidated
+python scripts/clean_causes.py                  # Optional: normalize cause names
+python scripts/consolidate_training_set.py      # Merge classification batches -> training_set.csv
+python scripts/split_causes_for_classification.py  # Split causes into batches for Claude subagents
+python scripts/merge_claude_classifications.py  # Merge Claude batch outputs -> all_causes_classified.csv
+python scripts/calculate_tarificacion.py        # Actuarial premium calculation
+
+# Legacy RF pipeline (superseded by Claude AI -- kept for reference)
+# python scripts/train_model.py               # TF-IDF + Random Forest (59% accuracy)
+# python scripts/classify_all_causes.py       # Apply RF model to all 9,409 causes
 
 # Generate frontend JSON from pipeline outputs
 python web/scripts/prepare-data.py
@@ -43,10 +47,10 @@ data/raw/*.xlsx (not in repo, ~316MB)
   -> data/processed/*.parquet (10 files: {year}_{emision,siniestros})
     -> data/consolidated/{siniestros,polizas}.parquet
       -> data/labeled/training_set.csv (1,500 manually classified causes)
-        -> outputs/model/{clasificador,vectorizer}.joblib
+        -> [Claude subagents via split_causes_for_classification.py]
           -> data/classified/all_causes_classified.csv (9,409 causes)
             -> outputs/tarificacion/primas_por_nivel_edad.csv (3 levels x 46 ages x 2 sexes)
-              -> web/data/*.json (6 files consumed by frontend)
+              -> web/data/*.json (8 files consumed by frontend)
 ```
 
 ### Frontend (Next.js 14 App Router)
@@ -57,7 +61,7 @@ All pages are client components with local state only (useState/useMemo). No API
 - `/siniestros` -- Claims explorer with filters (year, age, sex, level), charts (Recharts), paginated table
 - `/polizas` -- Policy explorer with stacked bar/pie/line charts
 - `/tarificador` -- Interactive premium calculator (age input -> premium by level)
-- `/metodologia` -- Static methodology documentation
+- `/metodologia` -- Static methodology documentation + classification model comparison
 - `/contexto` -- Nota Tecnica summary with team info
 - `/` redirects to `/siniestros`
 
@@ -81,6 +85,8 @@ All pages are client components with local state only (useState/useMemo). No API
 | `polizas-agregadas.json` | /polizas | prepare-data.py |
 | `polizas-resumen-anual.json` | /polizas | prepare-data.py |
 | `polizas-por-banda.json` | /polizas | prepare-data.py |
+| `clasificacion-metadata.json` | /metodologia | static (hand-crafted) |
+| `explicaciones-causas.json` | /metodologia | static (hand-crafted) |
 
 ### Classification Levels
 
@@ -96,7 +102,8 @@ All pages are client components with local state only (useState/useMemo). No API
 - **Previous**: TF-IDF + Random Forest (59% accuracy, replaced)
 - 1,500 causes classified manually (gold standard)
 - 7,909 causes classified by Claude Code subagents (origen='claude')
-- Average confidence: 82.5%, low confidence causes: ~0%
+- Average confidence: 82%, low confidence causes: ~0%
+- Reclassified 3,892 causes from RF model; agreement with manual labels ~95%
 - Claude understands medical terminology, CIE-10 codes, and clinical context
 
 ### Actuarial Calculation
@@ -107,6 +114,10 @@ All pages are client components with local state only (useState/useMemo). No API
 - Credibility threshold: minimum 30 claims per cell
 - Gastos/Utilidad: Prima Tarifa = Prima Riesgo / (1 - 0.20 - 0.10 - 0.10)
 - Reference doc: `docs/tarificacion_colectivo_mexico.md`
+
+### Analytics
+
+PostHog page-view tracking is active. The key is read from `NEXT_PUBLIC_POSTHOG_KEY` (env var). Script only loads if the env var is set -- safe to run locally without analytics. Copy `web/.env.example` -> `web/.env.local` and fill in the key for prod or local tracking.
 
 ## 2020 Data Schema Warning
 
@@ -128,5 +139,5 @@ The 2020 Excel/parquet files have a different schema from 2021-2024. `consolidat
 
 ## Known Issues
 
-- Model accuracy (59%) needs improvement
 - No tests exist for Python scripts or React components
+- `docs/nota_tecnica_final.pdf` is a tracked binary -- run `git rm --cached docs/nota_tecnica_final.pdf` and commit to untrack it (rule already added to .gitignore)
