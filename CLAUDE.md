@@ -117,7 +117,22 @@ All pages are client components with local state only (useState/useMemo). No API
 
 ### Analytics
 
-PostHog page-view tracking is active. The key is read from `NEXT_PUBLIC_POSTHOG_KEY` (env var). Script only loads if the env var is set -- safe to run locally without analytics. Copy `web/.env.example` -> `web/.env.local` and fill in the key for prod or local tracking.
+PostHog tracking is active, inlined in `web/app/layout.tsx`. The key is read from `NEXT_PUBLIC_POSTHOG_KEY`; the script only loads if the env var is set, so running locally without analytics is safe. Copy `web/.env.example` -> `web/.env.local` and fill in the key for prod or local tracking.
+
+Two details that are load-bearing and easy to undo by accident:
+
+- **Events post to `https://gmm.gonor.me/ingest`, not `us.i.posthog.com`.** The same-origin proxy is what keeps adblockers from dropping both the events and the lazily-loaded session-replay recorder. Pointing `api_host` back at PostHog directly silently loses traffic.
+- **`posthog.register()` tags every event with `app_id: 'gmm-explorer'`.** The whole portfolio reports into one PostHog project (`362213`), so `$host` cannot separate sites -- this app answers on its custom domain, its `*.vercel.app` address, and per-deploy preview hosts. `app_id` is the only reliable separator; without it this site's traffic is unattributable.
+
+**Known defect:** the snippet still sets `capture_pageview: true`. This is a client-routed Next.js app, so router navigation goes uncaptured -- a session logs one pageview at the entry route and counts as a bounce. The fix is `capture_pageview: 'history_change'`. Note that adding a `defaults` preset does not override an explicit `capture_pageview`.
+
+### Domain
+
+The canonical host is `https://gmm.gonor.me`. `gmm-explorer.vercel.app` is the URL Vercel created with the project; the custom domain is a CNAME on top, not a replacement, so both kept answering and split the traffic and search ranking.
+
+`web/next.config.mjs` now returns a permanent redirect from the provider host to the canonical one. It matches the **exact** apex host rather than a `*.vercel.app` suffix, deliberately: preview deployments live at `<project>-<hash>-<scope>.vercel.app`, and a suffix match would redirect those too and make previews untestable. Do not "simplify" that condition.
+
+Never delete the Vercel URL to solve a duplicate -- it is the real deployment target the custom domain resolves to, and it is already indexed. Redirect it.
 
 ## 2020 Data Schema Warning
 
